@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>INSARAG 標記模擬</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="stage-view" id="viewport" aria-label="3D 現場">
+        <div class="view-tools">
+          <button data-focus="overview">全景</button>
+          <button data-focus="worksite">工作場址</button>
+          <button data-focus="V1">V1</button>
+          <button data-focus="V2">V2</button>
+          <button data-focus="car">車輛</button>
+          <label class="check"><input type="checkbox" id="ghosts" /> 顯示受困者（教官視角）</label>
+        </div>
+        <div class="toast" id="toast" role="status" aria-live="polite"></div>
+      </section>
+
+      <aside class="panel">
+        <header class="panel-head">
+          <div>
+            <h1>INSARAG 現場標記模擬</h1>
+            <p class="sub">教學情境；隊伍、人數與日期均為範例</p>
+          </div>
+          <div class="seg" role="group" aria-label="指引版本">
+            <button data-edition="2027" class="on">2027</button>
+            <button data-edition="2020">2020</button>
+          </div>
+        </header>
+
+        <nav class="stepper" id="stepper" aria-label="階段"></nav>
+        <div class="controls">
+          <button id="prev">上一步</button>
+          <button id="next" class="primary">下一階段</button>
+          <button id="play">自動播放</button>
+          <button id="reset">重設</button>
+        </div>
+
+        <article class="card stage-card" id="stage-card"></article>
+
+        <section class="card">
+          <div class="tabs" id="tabs" role="tablist">
+            <button data-tab="worksite" class="on">工作場址</button>
+            <button data-tab="V1">V1</button>
+            <button data-tab="V2">V2</button>
+            <button data-tab="car">RCM</button>
+          </div>
+          <div class="closeup" id="closeup"></div>
+          <p class="hint">標記特寫：與 3D 牆面使用同一張畫布，逐筆繪製。</p>
+        </section>
+
+        <section class="card">
+          <h2>受困者人數</h2>
+          <table class="counts" id="counts"></table>
+          <button id="add-v2" class="small">在另一位置畫 V2</button>
+        </section>
+
+        <section class="card">
+          <h2>工作場址操作</h2>
+          <div class="row">
+            <select id="asr-team" aria-label="隊伍"></select>
+            <select id="asr-level" aria-label="ASR 等級">
+              <option value="3">ASR 3</option>
+              <option value="4" selected>ASR 4</option>
+              <option value="5">ASR 5</option>
+            </select>
+            <select id="asr-date" aria-label="日期"></select>
+            <button id="asr-add" class="small">追加紀錄</button>
+          </div>
+          <div class="row">
+            <input id="hazard" placeholder="危害，例如：地下室瓦斯外洩" />
+            <button id="hazard-add" class="small">加註</button>
+          </div>
+          <div class="row">
+            <button id="close-site" class="small">畫完成線</button>
+            <button id="deceased-only" class="small" title="2027 版：確定建物僅有罹難者">情境：僅有罹難者建物</button>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>RCM 快速清查（車輛）</h2>
+          <div class="row">
+            <button id="rcm-enable" class="small">LEMA 啟用 RCM</button>
+            <button id="rcm-d" class="small">標記 D</button>
+            <button id="rcm-c" class="small">標記 C</button>
+          </div>
+          <p class="hint">C／D 皆以相當於 ASR 5 的全面搜索為前提；只代表這輛車。</p>
+        </section>
+
+        <section class="card">
+          <h2>事件紀錄 <span class="muted">（點選可回到該時點）</span></h2>
+          <input type="range" id="timeline" min="0" max="0" value="0" aria-label="時間軸" />
+          <ol class="log" id="log"></ol>
+          <ul class="issues" id="issues"></ul>
+        </section>
+
+        <footer class="foot">
+          依據 <code>docs/insarag</code>：A5 手冊（2027 版）、S5–S8；2020 版依 S1。本工具不是官方教材。
+        </footer>
+      </aside>
+    </main>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>

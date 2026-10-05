@@ -16,6 +16,7 @@
 | 輔助標記 | [區域、方向、樓層與警戒](marking/orientation-and-cordons.md) | 面向 1–4、象限 A–E、樓層與警戒帶 |
 | 號音附錄 | [緊急號音](signalling/emergency-signals.md) | 撤離、停止作業／安靜、恢復作業；來源矛盾另註 |
 | 圖庫 | [SVG 圖庫](figures/README.md)、[圖庫預覽](gallery.html) | 8 張向量圖、出處與教學解讀 |
+| 互動模擬 | [標記模擬器](../../apps/marking-sim/README.md) | three.js 3D 現場；7 階段標記繪製、受困者人數增減與時間軸回放（Bun 執行） |
 | 來源 | [來源與規則對照](sources/README.md) | 官方連結、頁碼、原檔與 SHA-256 |
 | 版本 | [版本核對](sources/version-notes.md) | 新版差異、舊附件差異與原文不一致 |
 | 驗收 | [驗收清單](acceptance.md) | 規則、圖示、來源及檔案完整性 |
