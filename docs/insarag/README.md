@@ -9,6 +9,7 @@
 | 分類 | 檔案 | 內容 |
 | --- | --- | --- |
 | 快速入門 | [標記總覽](marking/overview.md) | 必要／選用、用途、尺寸與容易誤讀的地方 |
+| 隨身手冊 | [A5 圖解手冊](handbook/README.md) | 12 頁 PDF、可編輯 SVG、STE 中文原則、中英對照表及獨立檢查 script |
 | 核心標記 | [工作場址](marking/worksite.md) | 方框欄位、分流 A–D、ASR 更新與完成線 |
 | 核心標記 | [受困者位置](marking/victim.md) | V、L、D、人數刪改與已知受困者移出 |
 | 核心標記 | [快速清查 RCM](marking/rapid-clearance.md) | 菱形 C／D、使用條件、標記範圍與更新 |

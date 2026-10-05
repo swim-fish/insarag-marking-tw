@@ -1,0 +1,16 @@
+{
+  "file_key": "NJHNxTRl5zdtYkATo6ig9N",
+  "page_id": "0:1",
+  "page_mm": [
+    148,
+    210
+  ],
+  "source_sha256": {
+    "manual.json": "065038024a4daeb42bef8a904d818b501cd9c711f2fb7e1fe8c7511c3add576f",
+    "scenes.json": "ab910075fbda928173fb7176405d4a116d1959b584eb7690fe32629130a9232b",
+    "terminology.csv": "93fd9f1a70f42b9d7c748b6e4fb4ff0d6588bc94952041006728687b45a85fc7"
+  },
+  "font": "Noto Sans TC",
+  "editable_text": true,
+  "vector_artwork": true
+}

@@ -1,0 +1,4910 @@
+{
+  "width": 419.53,
+  "height": 595.28,
+  "pages": [
+    [
+      {
+        "kind": "rect",
+        "x": 0,
+        "y": 0,
+        "w": 419.53,
+        "h": 595.28,
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 26,
+        "w": 28,
+        "h": 5,
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 395,
+        "y": 32,
+        "text": "01 / 12",
+        "size": 10,
+        "color": "#52636b",
+        "bold": false,
+        "align": "right"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 64,
+        "text": "INSARAG 標記圖解",
+        "size": 20,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 91,
+        "text": "A5 隨身速查手冊｜先確認，再標記。",
+        "size": 10.5,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 45,
+        "y": 145,
+        "w": 90,
+        "h": 98,
+        "fill": "#fff4e9",
+        "stroke": "#b94612",
+        "width": 2
+      },
+      {
+        "kind": "text",
+        "x": 90,
+        "y": 209,
+        "text": "C-5",
+        "size": 34,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 90,
+        "y": 273,
+        "text": "工作場址",
+        "size": 12,
+        "color": "#183343",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 218,
+        "y": 222,
+        "text": "V",
+        "size": 64,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "line",
+        "x1": 196,
+        "y1": 182,
+        "x2": 172.85994340570036,
+        "y2": 195.8840339565798,
+        "color": "#b94612",
+        "width": 2.5
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            166,
+            200
+          ],
+          [
+            170.59616208181924,
+            192.1110650834446
+          ],
+          [
+            175.12372472958148,
+            199.657002829715
+          ]
+        ],
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 210,
+        "y": 273,
+        "text": "受困者",
+        "size": 12,
+        "color": "#183343",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            330,
+            151
+          ],
+          [
+            373,
+            194
+          ],
+          [
+            330,
+            237
+          ],
+          [
+            287,
+            194
+          ]
+        ],
+        "fill": "#fff4e9",
+        "stroke": "#b94612",
+        "width": 2.5
+      },
+      {
+        "kind": "text",
+        "x": 330,
+        "y": 206,
+        "text": "C",
+        "size": 34,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 330,
+        "y": 273,
+        "text": "RCM（選用）",
+        "size": 12,
+        "color": "#183343",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 210,
+        "y": 313,
+        "text": "2020 版規則｜A5 隨身圖解",
+        "size": 15,
+        "color": "#183343",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 356,
+        "text": "1.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 356,
+        "text": "先確認現場採用的標記制度。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 379,
+        "text": "2.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 379,
+        "text": "再確認工作場址編號與標記位置。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 402,
+        "text": "3.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 402,
+        "text": "每次更新時，保留可辨讀的作業紀錄。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "line",
+        "x1": 25,
+        "y1": 418,
+        "x2": 395,
+        "y2": 418,
+        "color": "#ccd6db",
+        "width": 0.7
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 428,
+        "text": "採用的標記制度由 LEMA 與 UCC 協調；無國家制度時，採用 INSARAG 標記。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 444,
+        "text": "本冊依 2020 版；新版預定於 2027-01-01 生效。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 460,
+        "text": "圖中人數、隊伍與日期均為教學範例。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      }
+    ],
+    [
+      {
+        "kind": "rect",
+        "x": 0,
+        "y": 0,
+        "w": 419.53,
+        "h": 595.28,
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 26,
+        "w": 28,
+        "h": 5,
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 395,
+        "y": 32,
+        "text": "02 / 12",
+        "size": 10,
+        "color": "#52636b",
+        "bold": false,
+        "align": "right"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 64,
+        "text": "工作場址：標記放哪裡",
+        "size": 20,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 91,
+        "text": "在入口外側，選擇清楚可見的位置。",
+        "size": 10.5,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 210,
+        "y": 135,
+        "text": "危害：瓦斯洩漏",
+        "size": 15,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "rect",
+        "x": 95,
+        "y": 150,
+        "w": 230,
+        "h": 139,
+        "fill": "#fff4e9",
+        "stroke": "#b94612",
+        "width": 2.5
+      },
+      {
+        "kind": "text",
+        "x": 210,
+        "y": 206,
+        "text": "C-5",
+        "size": 43,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 210,
+        "y": 258,
+        "text": "AAA-01   ASR 3   05 Oct",
+        "size": 13,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 210,
+        "y": 314,
+        "text": "分流類別：B",
+        "size": 16,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "line",
+        "x1": 86,
+        "y1": 282,
+        "x2": 56.65640235470275,
+        "y2": 301.5623984301982,
+        "color": "#b94612",
+        "width": 2.5
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            50,
+            306
+          ],
+          [
+            54.21572149131174,
+            297.90137713511166
+          ],
+          [
+            59.09708321809376,
+            305.2234197252847
+          ]
+        ],
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 52,
+        "y": 326,
+        "text": "入口方向",
+        "size": 9.5,
+        "color": "#b94612",
+        "bold": false,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 356,
+        "text": "1.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 356,
+        "text": "在方框上方記錄危害。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 379,
+        "text": "2.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 379,
+        "text": "在框內寫工作場址編號。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 402,
+        "text": "3.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 402,
+        "text": "在框內同一列記錄隊伍編號、已完成的 ASR 等級及日期。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 425,
+        "text": "4.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 425,
+        "text": "在方框下方記錄分流類別。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 448,
+        "text": "5.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 448,
+        "text": "需要指出入口或位置時，加上方向箭頭。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 471,
+        "text": "6.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 471,
+        "text": "使用與背景對比清楚的材料。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "line",
+        "x1": 25,
+        "y1": 487,
+        "x2": 395,
+        "y2": 487,
+        "color": "#ccd6db",
+        "width": 0.7
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 497,
+        "text": "場址編號字高約 40 cm；作業資料字高約 10 cm。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      }
+    ],
+    [
+      {
+        "kind": "rect",
+        "x": 0,
+        "y": 0,
+        "w": 419.53,
+        "h": 595.28,
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 26,
+        "w": 28,
+        "h": 5,
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 395,
+        "y": 32,
+        "text": "03 / 12",
+        "size": 10,
+        "color": "#52636b",
+        "bold": false,
+        "align": "right"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 64,
+        "text": "工作場址：更新與結案",
+        "size": 20,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 91,
+        "text": "完成一次作業後，追加紀錄。",
+        "size": 10.5,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 109,
+        "y": 125,
+        "text": "追加紀錄",
+        "size": 13,
+        "color": "#183343",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 109,
+        "y": 151,
+        "text": "危害：瓦斯洩漏",
+        "size": 11,
+        "color": "#b94612",
+        "bold": false,
+        "align": "center"
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 162,
+        "w": 168,
+        "h": 133,
+        "fill": "#fff4e9",
+        "stroke": "#b94612",
+        "width": 2
+      },
+      {
+        "kind": "text",
+        "x": 109,
+        "y": 201,
+        "text": "C-5",
+        "size": 31,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 109,
+        "y": 240,
+        "text": "AAA-01  ASR 3  05 Oct",
+        "size": 11,
+        "color": "#b94612",
+        "bold": false,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 109,
+        "y": 272,
+        "text": "BBB-01  ASR 4  06 Oct",
+        "size": 11,
+        "color": "#b94612",
+        "bold": false,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 109,
+        "y": 315,
+        "text": "B",
+        "size": 17,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 310,
+        "y": 125,
+        "text": "必要工作全部完成",
+        "size": 13,
+        "color": "#183343",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 310,
+        "y": 151,
+        "text": "危害：瓦斯洩漏",
+        "size": 11,
+        "color": "#b94612",
+        "bold": false,
+        "align": "center"
+      },
+      {
+        "kind": "rect",
+        "x": 226,
+        "y": 162,
+        "w": 168,
+        "h": 133,
+        "fill": "#fff4e9",
+        "stroke": "#b94612",
+        "width": 2
+      },
+      {
+        "kind": "text",
+        "x": 310,
+        "y": 201,
+        "text": "C-5",
+        "size": 31,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 310,
+        "y": 240,
+        "text": "AAA-01  ASR 3  05 Oct",
+        "size": 11,
+        "color": "#b94612",
+        "bold": false,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 310,
+        "y": 272,
+        "text": "BBB-01  ASR 4  06 Oct",
+        "size": 11,
+        "color": "#b94612",
+        "bold": false,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 310,
+        "y": 315,
+        "text": "B",
+        "size": 17,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "line",
+        "x1": 218,
+        "y1": 215,
+        "x2": 403,
+        "y2": 215,
+        "color": "#b94612",
+        "width": 3
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 356,
+        "text": "1.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 356,
+        "text": "追加隊伍編號、已完成的 ASR 等級及日期。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 379,
+        "text": "2.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 379,
+        "text": "保留先前的作業紀錄。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 402,
+        "text": "3.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 402,
+        "text": "所有必要工作完成，且確認不需再作業時，畫完成線。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "line",
+        "x1": 25,
+        "y1": 418,
+        "x2": 395,
+        "y2": 418,
+        "color": "#ccd6db",
+        "width": 0.7
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 428,
+        "text": "完成線穿過標記中央，橫越整個標記。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 444,
+        "text": "ASR 3 或 ASR 4 完成，不能單獨作為結案依據。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 460,
+        "text": "完成線不代表危害消失，也不代表結構安全。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      }
+    ],
+    [
+      {
+        "kind": "rect",
+        "x": 0,
+        "y": 0,
+        "w": 419.53,
+        "h": 595.28,
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 26,
+        "w": 28,
+        "h": 5,
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 395,
+        "y": 32,
+        "text": "04 / 12",
+        "size": 10,
+        "color": "#52636b",
+        "bold": false,
+        "align": "right"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 64,
+        "text": "分流類別與 ASR 等級",
+        "size": 20,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 91,
+        "text": "分流類別表示評估結果；ASR 等級表示工作內容。",
+        "size": 10.5,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 116,
+        "w": 370,
+        "h": 37,
+        "fill": "#fff4e9",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 46,
+        "y": 142,
+        "text": "A",
+        "size": 22,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 83,
+        "y": 140,
+        "text": "確認活人；預估作業少於 12 小時",
+        "size": 11.5,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 158,
+        "w": 370,
+        "h": 37,
+        "fill": "#fff4e9",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 46,
+        "y": 184,
+        "text": "B",
+        "size": 22,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 83,
+        "y": 182,
+        "text": "確認活人；預估作業超過 12 小時",
+        "size": 11.5,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 200,
+        "w": 370,
+        "h": 37,
+        "fill": "#fff4e9",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 46,
+        "y": 226,
+        "text": "C",
+        "size": 22,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 83,
+        "y": 224,
+        "text": "可能有活人；作業時間未評估",
+        "size": 11.5,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 242,
+        "w": 370,
+        "h": 37,
+        "fill": "#fff4e9",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 46,
+        "y": 268,
+        "text": "D",
+        "size": 22,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 83,
+        "y": 266,
+        "text": "僅有罹難者；作業時間未評估",
+        "size": 11.5,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 310,
+        "text": "ASR 等級",
+        "size": 14,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 339,
+        "text": "ASR 1",
+        "size": 12,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 101,
+        "y": 339,
+        "text": "廣域評估",
+        "size": 12,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 365,
+        "text": "ASR 2",
+        "size": 12,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 101,
+        "y": 365,
+        "text": "場址分流評估",
+        "size": 12,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 391,
+        "text": "ASR 3",
+        "size": 12,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 101,
+        "y": 391,
+        "text": "快速搜索救援",
+        "size": 12,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 417,
+        "text": "ASR 4",
+        "size": 12,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 101,
+        "y": 417,
+        "text": "完整搜索救援",
+        "size": 12,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 443,
+        "text": "ASR 5",
+        "size": 12,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 101,
+        "y": 443,
+        "text": "全面搜索與遺體移出",
+        "size": 12,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "line",
+        "x1": 25,
+        "y1": 473,
+        "x2": 395,
+        "y2": 473,
+        "color": "#ccd6db",
+        "width": 0.7
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 483,
+        "text": "ASR 等級不是完成百分比，也不是固定的逐級流程。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 499,
+        "text": "ASR 5 作業中發現活人時，依現場指示處置。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      }
+    ],
+    [
+      {
+        "kind": "rect",
+        "x": 0,
+        "y": 0,
+        "w": 419.53,
+        "h": 595.28,
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 26,
+        "w": 28,
+        "h": 5,
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 395,
+        "y": 32,
+        "text": "05 / 12",
+        "size": 10,
+        "color": "#52636b",
+        "bold": false,
+        "align": "right"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 64,
+        "text": "受困者：位置與剩餘人數",
+        "size": 20,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 91,
+        "text": "在受困者位置附近的表面畫 V；需要時加方向箭頭。",
+        "size": 10.5,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 26,
+        "y": 118,
+        "text": "1  可能有受困者",
+        "size": 11,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 121,
+        "y": 160,
+        "text": "V",
+        "size": 36,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "line",
+        "x1": 101,
+        "y1": 142,
+        "x2": 76.15541752799933,
+        "y2": 154.42229123600035,
+        "color": "#b94612",
+        "width": 2
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            69,
+            158
+          ],
+          [
+            74.18767770779952,
+            150.48681159560073
+          ],
+          [
+            78.12315734819914,
+            158.35777087639997
+          ]
+        ],
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 226,
+        "y": 118,
+        "text": "2  確認仍在原位置",
+        "size": 11,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 321,
+        "y": 160,
+        "text": "V",
+        "size": 36,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "line",
+        "x1": 301,
+        "y1": 142,
+        "x2": 276.1554175279993,
+        "y2": 154.42229123600035,
+        "color": "#b94612",
+        "width": 2
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            269,
+            158
+          ],
+          [
+            274.1876777077995,
+            150.48681159560073
+          ],
+          [
+            278.12315734819913,
+            158.35777087639997
+          ]
+        ],
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 321,
+        "y": 179,
+        "text": "L-2",
+        "size": 12,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 321,
+        "y": 195,
+        "text": "D-1",
+        "size": 12,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 26,
+        "y": 216,
+        "text": "3  移出後更新",
+        "size": 11,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 121,
+        "y": 258,
+        "text": "V",
+        "size": 36,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "line",
+        "x1": 101,
+        "y1": 240,
+        "x2": 76.15541752799933,
+        "y2": 252.42229123600035,
+        "color": "#b94612",
+        "width": 2
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            69,
+            256
+          ],
+          [
+            74.18767770779952,
+            248.48681159560073
+          ],
+          [
+            78.12315734819914,
+            256.35777087639997
+          ]
+        ],
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 121,
+        "y": 277,
+        "text": "L-2",
+        "size": 12,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "line",
+        "x1": 108.6806640625,
+        "y1": 270.4,
+        "x2": 133.3193359375,
+        "y2": 277.96,
+        "color": "#b94612",
+        "width": 1.6
+      },
+      {
+        "kind": "text",
+        "x": 121,
+        "y": 293,
+        "text": "D-1",
+        "size": 12,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 121,
+        "y": 309,
+        "text": "L-1",
+        "size": 12,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 226,
+        "y": 216,
+        "text": "4  已知受困者全移出",
+        "size": 11,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 321,
+        "y": 258,
+        "text": "V",
+        "size": 36,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "line",
+        "x1": 301,
+        "y1": 240,
+        "x2": 276.1554175279993,
+        "y2": 252.42229123600035,
+        "color": "#b94612",
+        "width": 2
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            269,
+            256
+          ],
+          [
+            274.1876777077995,
+            248.48681159560073
+          ],
+          [
+            278.12315734819913,
+            256.35777087639997
+          ]
+        ],
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 321,
+        "y": 277,
+        "text": "L-2",
+        "size": 12,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "line",
+        "x1": 308.6806640625,
+        "y1": 270.4,
+        "x2": 333.3193359375,
+        "y2": 277.96,
+        "color": "#b94612",
+        "width": 1.6
+      },
+      {
+        "kind": "text",
+        "x": 321,
+        "y": 293,
+        "text": "D-1",
+        "size": 12,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "line",
+        "x1": 307.1953125,
+        "y1": 286.4,
+        "x2": 334.8046875,
+        "y2": 293.96,
+        "color": "#b94612",
+        "width": 1.6
+      },
+      {
+        "kind": "text",
+        "x": 321,
+        "y": 309,
+        "text": "L-1",
+        "size": 12,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "line",
+        "x1": 308.6806640625,
+        "y1": 302.4,
+        "x2": 333.3193359375,
+        "y2": 309.96,
+        "color": "#b94612",
+        "width": 1.6
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 336,
+        "text": "L：活人　D：罹難者　數字：剩餘人數　箭頭：選用",
+        "size": 11,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 356,
+        "text": "1.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 356,
+        "text": "確認活人時，在 V 下方記錄 L 與仍在原位置的人數。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 379,
+        "text": "2.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 379,
+        "text": "確認罹難者時，在 V 下方記錄 D 與仍在原位置的人數。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 402,
+        "text": "3.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 402,
+        "text": "移出受困者後，劃除舊人數。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 425,
+        "text": "4.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 425,
+        "text": "在下方更新人數。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 448,
+        "text": "5.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 448,
+        "text": "所有已知受困者移出後，劃除有效的 L／D 紀錄。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 471,
+        "text": "6.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 471,
+        "text": "保留 V。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "line",
+        "x1": 25,
+        "y1": 487,
+        "x2": 395,
+        "y2": 487,
+        "color": "#ccd6db",
+        "width": 0.7
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 497,
+        "text": "V 約 50 cm 高。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 513,
+        "text": "受困者不在工作場址方框處時，不在方框旁畫 V。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 529,
+        "text": "已知受困者全移出，不表示整棟建物已完成搜索。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      }
+    ],
+    [
+      {
+        "kind": "rect",
+        "x": 0,
+        "y": 0,
+        "w": 419.53,
+        "h": 595.28,
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 26,
+        "w": 28,
+        "h": 5,
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 395,
+        "y": 32,
+        "text": "06 / 12",
+        "size": 10,
+        "color": "#52636b",
+        "bold": false,
+        "align": "right"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 64,
+        "text": "RCM：快速清查標記",
+        "size": 20,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 91,
+        "text": "由 LEMA 決定是否採用 RCM。",
+        "size": 10.5,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            116,
+            119
+          ],
+          [
+            147,
+            150
+          ],
+          [
+            116,
+            181
+          ],
+          [
+            85,
+            150
+          ]
+        ],
+        "fill": "#fff4e9",
+        "stroke": "#b94612",
+        "width": 2.5
+      },
+      {
+        "kind": "text",
+        "x": 116,
+        "y": 162,
+        "text": "C",
+        "size": 34,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 116,
+        "y": 197,
+        "text": "AAA-01",
+        "size": 10,
+        "color": "#b94612",
+        "bold": false,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 116,
+        "y": 210,
+        "text": "05 Oct",
+        "size": 10,
+        "color": "#b94612",
+        "bold": false,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 116,
+        "y": 230,
+        "text": "無活人或罹難者留在原位置",
+        "size": 10.5,
+        "color": "#183343",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            305,
+            119
+          ],
+          [
+            336,
+            150
+          ],
+          [
+            305,
+            181
+          ],
+          [
+            274,
+            150
+          ]
+        ],
+        "fill": "#fff4e9",
+        "stroke": "#b94612",
+        "width": 2.5
+      },
+      {
+        "kind": "text",
+        "x": 305,
+        "y": 162,
+        "text": "D",
+        "size": 34,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 305,
+        "y": 197,
+        "text": "AAA-01",
+        "size": 10,
+        "color": "#b94612",
+        "bold": false,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 305,
+        "y": 210,
+        "text": "05 Oct",
+        "size": 10,
+        "color": "#b94612",
+        "bold": false,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 305,
+        "y": 230,
+        "text": "僅有罹難者留在原位置",
+        "size": 10.5,
+        "color": "#183343",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 26,
+        "y": 271,
+        "text": "罹難者全移出後",
+        "size": 12,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 26,
+        "y": 291,
+        "text": "原 D 保留；新 C 放旁邊",
+        "size": 10,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            236,
+            249
+          ],
+          [
+            262,
+            275
+          ],
+          [
+            236,
+            301
+          ],
+          [
+            210,
+            275
+          ]
+        ],
+        "fill": "#fff4e9",
+        "stroke": "#b94612",
+        "width": 2.5
+      },
+      {
+        "kind": "text",
+        "x": 236,
+        "y": 287,
+        "text": "D",
+        "size": 34,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            320,
+            249
+          ],
+          [
+            346,
+            275
+          ],
+          [
+            320,
+            301
+          ],
+          [
+            294,
+            275
+          ]
+        ],
+        "fill": "#fff4e9",
+        "stroke": "#b94612",
+        "width": 2.5
+      },
+      {
+        "kind": "text",
+        "x": 320,
+        "y": 287,
+        "text": "C",
+        "size": 34,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 236,
+        "y": 316,
+        "text": "AAA-01",
+        "size": 9,
+        "color": "#b94612",
+        "bold": false,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 236,
+        "y": 328,
+        "text": "05 Oct",
+        "size": 9,
+        "color": "#b94612",
+        "bold": false,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 320,
+        "y": 316,
+        "text": "BBB-01",
+        "size": 9,
+        "color": "#b94612",
+        "bold": false,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 320,
+        "y": 328,
+        "text": "06 Oct",
+        "size": 9,
+        "color": "#b94612",
+        "bold": false,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 356,
+        "text": "1.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 356,
+        "text": "全面搜索後，無活人或罹難者留在原位置時，標記 C。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 379,
+        "text": "2.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 379,
+        "text": "全面搜索後，僅有罹難者留在原位置時，標記 D。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 402,
+        "text": "3.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 402,
+        "text": "所有罹難者移出後，在原 D 旁新增 C。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 425,
+        "text": "4.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 425,
+        "text": "在菱形下方記錄隊伍編號及日期。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "line",
+        "x1": 25,
+        "y1": 441,
+        "x2": 395,
+        "y2": 441,
+        "color": "#ccd6db",
+        "width": 0.7
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 451,
+        "text": "C／D 皆以相當於 ASR 5 的全面搜索為前提。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 467,
+        "text": "菱形約 20 × 20 cm；只代表已清查的物件或範圍。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 483,
+        "text": "C 不表示結構安全。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      }
+    ],
+    [
+      {
+        "kind": "rect",
+        "x": 0,
+        "y": 0,
+        "w": 419.53,
+        "h": 595.28,
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 26,
+        "w": 28,
+        "h": 5,
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 395,
+        "y": 32,
+        "text": "07 / 12",
+        "size": 10,
+        "color": "#52636b",
+        "bold": false,
+        "align": "right"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 64,
+        "text": "先統一建物面向",
+        "size": 20,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 91,
+        "text": "以街道地址所在的正面為第 1 面。",
+        "size": 10.5,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 108,
+        "y": 139,
+        "w": 204,
+        "h": 160,
+        "fill": "#fff4e9",
+        "stroke": "#b94612",
+        "width": 2
+      },
+      {
+        "kind": "line",
+        "x1": 210,
+        "y1": 139,
+        "x2": 210,
+        "y2": 299,
+        "color": "#b94612",
+        "width": 1
+      },
+      {
+        "kind": "line",
+        "x1": 108,
+        "y1": 219,
+        "x2": 312,
+        "y2": 219,
+        "color": "#b94612",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 160,
+        "y": 192,
+        "text": "B",
+        "size": 28,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 262,
+        "y": 192,
+        "text": "C",
+        "size": 28,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 160,
+        "y": 274,
+        "text": "A",
+        "size": 28,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 262,
+        "y": 274,
+        "text": "D",
+        "size": 28,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "rect",
+        "x": 185,
+        "y": 195,
+        "w": 50,
+        "h": 48,
+        "fill": "#ffffff",
+        "stroke": "#b94612",
+        "width": 2
+      },
+      {
+        "kind": "text",
+        "x": 210,
+        "y": 232,
+        "text": "E",
+        "size": 25,
+        "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 210,
+        "y": 127,
+        "text": "第 3 面",
+        "size": 12,
+        "color": "#183343",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 58,
+        "y": 225,
+        "text": "第 2 面",
+        "size": 12,
+        "color": "#183343",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 363,
+        "y": 225,
+        "text": "第 4 面",
+        "size": 12,
+        "color": "#183343",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 210,
+        "y": 324,
+        "text": "第 1 面／街道正面",
+        "size": 12,
+        "color": "#183343",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 356,
+        "text": "1.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 356,
+        "text": "從第 1 面開始，依順時針標示第 2、3、4 面。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 379,
+        "text": "2.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 379,
+        "text": "依圖例標示 A、B、C、D 象限。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 402,
+        "text": "3.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 402,
+        "text": "多樓層建物的中央區域使用 E。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 425,
+        "text": "4.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 425,
+        "text": "通報位置前，先確認全隊使用相同的面向。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "line",
+        "x1": 25,
+        "y1": 441,
+        "x2": 395,
+        "y2": 441,
+        "color": "#ccd6db",
+        "width": 0.7
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 451,
+        "text": "E 可表示中央樓梯、電梯或大廳區域。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 467,
+        "text": "面向與樓層標記屬選用項目。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      }
+    ],
+    [
+      {
+        "kind": "rect",
+        "x": 0,
+        "y": 0,
+        "w": 419.53,
+        "h": 595.28,
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 26,
+        "w": 28,
+        "h": 5,
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 395,
+        "y": 32,
+        "text": "08 / 12",
+        "size": 10,
+        "color": "#52636b",
+        "bold": false,
+        "align": "right"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 64,
+        "text": "樓層：先核對命名",
+        "size": 20,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 91,
+        "text": "Ground Floor 與臺灣常見的 1F 對應。",
+        "size": 10.5,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 80,
+        "y": 124,
+        "text": "INSARAG",
+        "size": 13,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 272,
+        "y": 124,
+        "text": "臺灣常見標示",
+        "size": 13,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 26,
+        "y": 140,
+        "w": 367,
+        "h": 41,
+        "fill": "#f0f4f6",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 45,
+        "y": 167,
+        "text": "Floor 2",
+        "size": 15,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 234,
+        "y": 167,
+        "text": "→",
+        "size": 16,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 323,
+        "y": 167,
+        "text": "3F",
+        "size": 17,
+        "color": "#183343",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "rect",
+        "x": 26,
+        "y": 187,
+        "w": 367,
+        "h": 41,
+        "fill": "#f0f4f6",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 45,
+        "y": 214,
+        "text": "Floor 1",
+        "size": 15,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 234,
+        "y": 214,
+        "text": "→",
+        "size": 16,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 323,
+        "y": 214,
+        "text": "2F",
+        "size": 17,
+        "color": "#183343",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "rect",
+        "x": 26,
+        "y": 234,
+        "w": 367,
+        "h": 41,
+        "fill": "#fff4e9",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 45,
+        "y": 261,
+        "text": "Ground Floor",
+        "size": 15,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 234,
+        "y": 261,
+        "text": "→",
+        "size": 16,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 323,
+        "y": 261,
+        "text": "1F",
+        "size": 17,
+        "color": "#183343",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "rect",
+        "x": 26,
+        "y": 281,
+        "w": 367,
+        "h": 41,
+        "fill": "#f0f4f6",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 45,
+        "y": 308,
+        "text": "Basement 1",
+        "size": 15,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 234,
+        "y": 308,
+        "text": "→",
+        "size": 16,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 323,
+        "y": 308,
+        "text": "B1",
+        "size": 17,
+        "color": "#183343",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 356,
+        "text": "1.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 356,
+        "text": "通報前，核對現場樓層標示。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 379,
+        "text": "2.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 379,
+        "text": "跨隊通報時，同時說明採用的樓層命名。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "line",
+        "x1": 25,
+        "y1": 395,
+        "x2": 395,
+        "y2": 395,
+        "color": "#ccd6db",
+        "width": 0.7
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 405,
+        "text": "不要直接將 Floor 1 當成臺灣常見的 1F。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      }
+    ],
+    [
+      {
+        "kind": "rect",
+        "x": 0,
+        "y": 0,
+        "w": 419.53,
+        "h": 595.28,
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 26,
+        "w": 28,
+        "h": 5,
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 395,
+        "y": 32,
+        "text": "09 / 12",
+        "size": 10,
+        "color": "#52636b",
+        "bold": false,
+        "align": "right"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 64,
+        "text": "警戒帶：辨識區域",
+        "size": 20,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 91,
+        "text": "先確認現場是否採用此警戒帶方式。",
+        "size": 10.5,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 26,
+        "y": 140,
+        "w": 167,
+        "h": 144,
+        "fill": "#f0f4f6",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "rect",
+        "x": 226,
+        "y": 140,
+        "w": 167,
+        "h": 144,
+        "fill": "#f0f4f6",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "line",
+        "x1": 38,
+        "y1": 268,
+        "x2": 181,
+        "y2": 268,
+        "color": "#52636b",
+        "width": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 46,
+        "y": 160,
+        "w": 4,
+        "h": 108,
+        "fill": "#ffffff",
+        "stroke": "#52636b",
+        "width": 0.8
+      },
+      {
+        "kind": "rect",
+        "x": 169,
+        "y": 160,
+        "w": 4,
+        "h": 108,
+        "fill": "#ffffff",
+        "stroke": "#52636b",
+        "width": 0.8
+      },
+      {
+        "kind": "line",
+        "x1": 238,
+        "y1": 268,
+        "x2": 381,
+        "y2": 268,
+        "color": "#52636b",
+        "width": 1.2
+      },
+      {
+        "kind": "rect",
+        "x": 246,
+        "y": 160,
+        "w": 4,
+        "h": 108,
+        "fill": "#ffffff",
+        "stroke": "#52636b",
+        "width": 0.8
+      },
+      {
+        "kind": "rect",
+        "x": 369,
+        "y": 160,
+        "w": 4,
+        "h": 108,
+        "fill": "#ffffff",
+        "stroke": "#52636b",
+        "width": 0.8
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            50.0,
+            177.0
+          ],
+          [
+            58.5,
+            177.0
+          ],
+          [
+            58.5,
+            167.0
+          ],
+          [
+            50.0,
+            167.0
+          ]
+        ],
+        "fill": "#c82b2b",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            58.5,
+            177.0
+          ],
+          [
+            67.0,
+            177.0
+          ],
+          [
+            67.0,
+            167.0
+          ],
+          [
+            58.5,
+            167.0
+          ]
+        ],
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            67.0,
+            177.0
+          ],
+          [
+            75.5,
+            177.0
+          ],
+          [
+            75.5,
+            167.0
+          ],
+          [
+            67.0,
+            167.0
+          ]
+        ],
+        "fill": "#c82b2b",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            75.5,
+            177.0
+          ],
+          [
+            84.0,
+            177.0
+          ],
+          [
+            84.0,
+            167.0
+          ],
+          [
+            75.5,
+            167.0
+          ]
+        ],
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            84.0,
+            177.0
+          ],
+          [
+            92.5,
+            177.0
+          ],
+          [
+            92.5,
+            167.0
+          ],
+          [
+            84.0,
+            167.0
+          ]
+        ],
+        "fill": "#c82b2b",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            92.5,
+            177.0
+          ],
+          [
+            101.0,
+            177.0
+          ],
+          [
+            101.0,
+            167.0
+          ],
+          [
+            92.5,
+            167.0
+          ]
+        ],
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            101.0,
+            177.0
+          ],
+          [
+            109.5,
+            177.0
+          ],
+          [
+            109.5,
+            167.0
+          ],
+          [
+            101.0,
+            167.0
+          ]
+        ],
+        "fill": "#c82b2b",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            109.5,
+            177.0
+          ],
+          [
+            118.0,
+            177.0
+          ],
+          [
+            118.0,
+            167.0
+          ],
+          [
+            109.5,
+            167.0
+          ]
+        ],
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            118.0,
+            177.0
+          ],
+          [
+            126.5,
+            177.0
+          ],
+          [
+            126.5,
+            167.0
+          ],
+          [
+            118.0,
+            167.0
+          ]
+        ],
+        "fill": "#c82b2b",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            126.5,
+            177.0
+          ],
+          [
+            135.0,
+            177.0
+          ],
+          [
+            135.0,
+            167.0
+          ],
+          [
+            126.5,
+            167.0
+          ]
+        ],
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            135.0,
+            177.0
+          ],
+          [
+            143.5,
+            177.0
+          ],
+          [
+            143.5,
+            167.0
+          ],
+          [
+            135.0,
+            167.0
+          ]
+        ],
+        "fill": "#c82b2b",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            143.5,
+            177.0
+          ],
+          [
+            152.0,
+            177.0
+          ],
+          [
+            152.0,
+            167.0
+          ],
+          [
+            143.5,
+            167.0
+          ]
+        ],
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            152.0,
+            177.0
+          ],
+          [
+            160.5,
+            177.0
+          ],
+          [
+            160.5,
+            167.0
+          ],
+          [
+            152.0,
+            167.0
+          ]
+        ],
+        "fill": "#c82b2b",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            160.5,
+            177.0
+          ],
+          [
+            169.0,
+            177.0
+          ],
+          [
+            169.0,
+            167.0
+          ],
+          [
+            160.5,
+            167.0
+          ]
+        ],
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            246.90070964081613,
+            169.92356971003065
+          ],
+          [
+            255.40070964081613,
+            176.63785542431637
+          ],
+          [
+            261.5992903591839,
+            168.79071600425507
+          ],
+          [
+            253.09929035918387,
+            162.07643028996935
+          ]
+        ],
+        "fill": "#c82b2b",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            255.40070964081613,
+            176.63785542431637
+          ],
+          [
+            263.9007096408161,
+            183.35214113860206
+          ],
+          [
+            270.0992903591839,
+            175.50500171854077
+          ],
+          [
+            261.5992903591839,
+            168.79071600425507
+          ]
+        ],
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            263.9007096408161,
+            183.35214113860206
+          ],
+          [
+            272.4007096408161,
+            190.0664268528878
+          ],
+          [
+            278.5992903591839,
+            182.2192874328265
+          ],
+          [
+            270.0992903591839,
+            175.50500171854077
+          ]
+        ],
+        "fill": "#c82b2b",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            272.4007096408161,
+            190.0664268528878
+          ],
+          [
+            280.9007096408161,
+            196.7807125671735
+          ],
+          [
+            287.0992903591839,
+            188.9335731471122
+          ],
+          [
+            278.5992903591839,
+            182.2192874328265
+          ]
+        ],
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            280.9007096408161,
+            196.7807125671735
+          ],
+          [
+            289.4007096408161,
+            203.4949982814592
+          ],
+          [
+            295.5992903591839,
+            195.6478588613979
+          ],
+          [
+            287.0992903591839,
+            188.9335731471122
+          ]
+        ],
+        "fill": "#c82b2b",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            289.4007096408161,
+            203.4949982814592
+          ],
+          [
+            297.9007096408161,
+            210.20928399574493
+          ],
+          [
+            304.0992903591839,
+            202.36214457568363
+          ],
+          [
+            295.5992903591839,
+            195.6478588613979
+          ]
+        ],
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            297.9007096408161,
+            210.20928399574493
+          ],
+          [
+            306.4007096408161,
+            216.92356971003065
+          ],
+          [
+            312.5992903591839,
+            209.07643028996935
+          ],
+          [
+            304.0992903591839,
+            202.36214457568363
+          ]
+        ],
+        "fill": "#c82b2b",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            306.4007096408161,
+            216.92356971003065
+          ],
+          [
+            314.9007096408161,
+            223.63785542431637
+          ],
+          [
+            321.0992903591839,
+            215.79071600425507
+          ],
+          [
+            312.5992903591839,
+            209.07643028996935
+          ]
+        ],
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            314.9007096408161,
+            223.63785542431637
+          ],
+          [
+            323.4007096408161,
+            230.3521411386021
+          ],
+          [
+            329.5992903591839,
+            222.5050017185408
+          ],
+          [
+            321.0992903591839,
+            215.79071600425507
+          ]
+        ],
+        "fill": "#c82b2b",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            323.4007096408161,
+            230.3521411386021
+          ],
+          [
+            331.9007096408161,
+            237.0664268528878
+          ],
+          [
+            338.0992903591839,
+            229.2192874328265
+          ],
+          [
+            329.5992903591839,
+            222.5050017185408
+          ]
+        ],
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            331.9007096408161,
+            237.0664268528878
+          ],
+          [
+            340.4007096408161,
+            243.7807125671735
+          ],
+          [
+            346.5992903591839,
+            235.9335731471122
+          ],
+          [
+            338.0992903591839,
+            229.2192874328265
+          ]
+        ],
+        "fill": "#c82b2b",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            340.4007096408161,
+            243.7807125671735
+          ],
+          [
+            348.9007096408161,
+            250.4949982814592
+          ],
+          [
+            355.0992903591839,
+            242.6478588613979
+          ],
+          [
+            346.5992903591839,
+            235.9335731471122
+          ]
+        ],
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            348.9007096408161,
+            250.4949982814592
+          ],
+          [
+            357.4007096408161,
+            257.2092839957449
+          ],
+          [
+            363.5992903591839,
+            249.36214457568363
+          ],
+          [
+            355.0992903591839,
+            242.6478588613979
+          ]
+        ],
+        "fill": "#c82b2b",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            357.4007096408161,
+            257.2092839957449
+          ],
+          [
+            365.9007096408161,
+            263.9235697100306
+          ],
+          [
+            372.0992903591839,
+            256.0764302899694
+          ],
+          [
+            363.5992903591839,
+            249.36214457568363
+          ]
+        ],
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            253.09929035918387,
+            263.9235697100306
+          ],
+          [
+            261.5992903591839,
+            257.2092839957449
+          ],
+          [
+            255.40070964081613,
+            249.36214457568363
+          ],
+          [
+            246.90070964081613,
+            256.0764302899694
+          ]
+        ],
+        "fill": "#c82b2b",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            261.5992903591839,
+            257.2092839957449
+          ],
+          [
+            270.0992903591839,
+            250.49499828145923
+          ],
+          [
+            263.9007096408161,
+            242.64785886139794
+          ],
+          [
+            255.40070964081613,
+            249.36214457568363
+          ]
+        ],
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            270.0992903591839,
+            250.49499828145923
+          ],
+          [
+            278.5992903591839,
+            243.7807125671735
+          ],
+          [
+            272.4007096408161,
+            235.9335731471122
+          ],
+          [
+            263.9007096408161,
+            242.64785886139794
+          ]
+        ],
+        "fill": "#c82b2b",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            278.5992903591839,
+            243.7807125671735
+          ],
+          [
+            287.0992903591839,
+            237.0664268528878
+          ],
+          [
+            280.9007096408161,
+            229.2192874328265
+          ],
+          [
+            272.4007096408161,
+            235.9335731471122
+          ]
+        ],
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            287.0992903591839,
+            237.0664268528878
+          ],
+          [
+            295.5992903591839,
+            230.3521411386021
+          ],
+          [
+            289.4007096408161,
+            222.5050017185408
+          ],
+          [
+            280.9007096408161,
+            229.2192874328265
+          ]
+        ],
+        "fill": "#c82b2b",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            295.5992903591839,
+            230.3521411386021
+          ],
+          [
+            304.0992903591839,
+            223.63785542431637
+          ],
+          [
+            297.9007096408161,
+            215.79071600425507
+          ],
+          [
+            289.4007096408161,
+            222.5050017185408
+          ]
+        ],
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            304.0992903591839,
+            223.63785542431637
+          ],
+          [
+            312.5992903591839,
+            216.92356971003065
+          ],
+          [
+            306.4007096408161,
+            209.07643028996935
+          ],
+          [
+            297.9007096408161,
+            215.79071600425507
+          ]
+        ],
+        "fill": "#c82b2b",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            312.5992903591839,
+            216.92356971003065
+          ],
+          [
+            321.0992903591839,
+            210.20928399574493
+          ],
+          [
+            314.9007096408161,
+            202.36214457568363
+          ],
+          [
+            306.4007096408161,
+            209.07643028996935
+          ]
+        ],
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            321.0992903591839,
+            210.20928399574493
+          ],
+          [
+            329.5992903591839,
+            203.4949982814592
+          ],
+          [
+            323.4007096408161,
+            195.6478588613979
+          ],
+          [
+            314.9007096408161,
+            202.36214457568363
+          ]
+        ],
+        "fill": "#c82b2b",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            329.5992903591839,
+            203.4949982814592
+          ],
+          [
+            338.0992903591839,
+            196.7807125671735
+          ],
+          [
+            331.9007096408161,
+            188.9335731471122
+          ],
+          [
+            323.4007096408161,
+            195.6478588613979
+          ]
+        ],
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            338.0992903591839,
+            196.7807125671735
+          ],
+          [
+            346.5992903591839,
+            190.0664268528878
+          ],
+          [
+            340.4007096408161,
+            182.2192874328265
+          ],
+          [
+            331.9007096408161,
+            188.9335731471122
+          ]
+        ],
+        "fill": "#c82b2b",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            346.5992903591839,
+            190.0664268528878
+          ],
+          [
+            355.0992903591839,
+            183.3521411386021
+          ],
+          [
+            348.9007096408161,
+            175.5050017185408
+          ],
+          [
+            340.4007096408161,
+            182.2192874328265
+          ]
+        ],
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            355.0992903591839,
+            183.3521411386021
+          ],
+          [
+            363.5992903591839,
+            176.63785542431637
+          ],
+          [
+            357.4007096408161,
+            168.79071600425507
+          ],
+          [
+            348.9007096408161,
+            175.5050017185408
+          ]
+        ],
+        "fill": "#c82b2b",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "polygon",
+        "points": [
+          [
+            363.5992903591839,
+            176.63785542431637
+          ],
+          [
+            372.0992903591839,
+            169.92356971003065
+          ],
+          [
+            365.9007096408161,
+            162.07643028996935
+          ],
+          [
+            357.4007096408161,
+            168.79071600425507
+          ]
+        ],
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 110,
+        "y": 316,
+        "text": "作業工作區",
+        "size": 15,
+        "color": "#183343",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 310,
+        "y": 316,
+        "text": "禁止進入區",
+        "size": 15,
+        "color": "#183343",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 356,
+        "text": "1.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 356,
+        "text": "辨識水平紅白警戒帶表示的作業工作區。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 379,
+        "text": "2.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 379,
+        "text": "辨識交叉紅白警戒帶表示的禁止進入區。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "line",
+        "x1": 25,
+        "y1": 395,
+        "x2": 395,
+        "y2": 395,
+        "color": "#ccd6db",
+        "width": 0.7
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 405,
+        "text": "交叉警戒帶是區域管制，不是 FEMA 搜索標記。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      }
+    ],
+    [
+      {
+        "kind": "rect",
+        "x": 0,
+        "y": 0,
+        "w": 419.53,
+        "h": 595.28,
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 26,
+        "w": 28,
+        "h": 5,
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 395,
+        "y": 32,
+        "text": "10 / 12",
+        "size": 10,
+        "color": "#52636b",
+        "bold": false,
+        "align": "right"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 64,
+        "text": "號音：先聽懂，再作業",
+        "size": 20,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 91,
+        "text": "作業前，向所有隊伍說明採用的號音。",
+        "size": 10.5,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 26,
+        "y": 130,
+        "text": "撤離",
+        "size": 15,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 26,
+        "y": 151,
+        "text": "3 短音；每音約 1 秒；重複",
+        "size": 11.5,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 180,
+        "y": 116,
+        "w": 33,
+        "h": 17,
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "rect",
+        "x": 235,
+        "y": 116,
+        "w": 33,
+        "h": 17,
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "rect",
+        "x": 290,
+        "y": 116,
+        "w": 33,
+        "h": 17,
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "line",
+        "x1": 26,
+        "y1": 168,
+        "x2": 393,
+        "y2": 168,
+        "color": "#ccd6db",
+        "width": 0.7
+      },
+      {
+        "kind": "text",
+        "x": 26,
+        "y": 200,
+        "text": "停止作業",
+        "size": 15,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 26,
+        "y": 221,
+        "text": "1 長音；約 3 秒；保持安靜",
+        "size": 11.5,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 180,
+        "y": 186,
+        "w": 144,
+        "h": 17,
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "line",
+        "x1": 26,
+        "y1": 238,
+        "x2": 393,
+        "y2": 238,
+        "color": "#ccd6db",
+        "width": 0.7
+      },
+      {
+        "kind": "text",
+        "x": 26,
+        "y": 270,
+        "text": "恢復作業",
+        "size": 15,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 26,
+        "y": 291,
+        "text": "1 長音 + 1 短音",
+        "size": 11.5,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 180,
+        "y": 256,
+        "w": 105,
+        "h": 17,
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "rect",
+        "x": 310,
+        "y": 256,
+        "w": 33,
+        "h": 17,
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 393,
+        "y": 326,
+        "text": "橫條只表示長短，非時間比例。",
+        "size": 10,
+        "color": "#52636b",
+        "bold": false,
+        "align": "right"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 356,
+        "text": "1.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 356,
+        "text": "聽到撤離號音時，依現場撤離流程撤離。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 379,
+        "text": "2.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 379,
+        "text": "聽到停止號音時，停止作業。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 402,
+        "text": "3.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 402,
+        "text": "保持安靜。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 425,
+        "text": "4.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 425,
+        "text": "聽到恢復號音時，依現場指示恢復作業。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "line",
+        "x1": 25,
+        "y1": 441,
+        "x2": 395,
+        "y2": 441,
+        "color": "#ccd6db",
+        "width": 0.7
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 451,
+        "text": "撤離號音持續重複，直到撤離完成。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 467,
+        "text": "部分原件寫為 3 長音；現場簡報須統一撤離號音。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      }
+    ],
+    [
+      {
+        "kind": "rect",
+        "x": 0,
+        "y": 0,
+        "w": 419.53,
+        "h": 595.28,
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 26,
+        "w": 28,
+        "h": 5,
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 395,
+        "y": 32,
+        "text": "11 / 12",
+        "size": 10,
+        "color": "#52636b",
+        "bold": false,
+        "align": "right"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 64,
+        "text": "名詞速查：同一概念用同一詞",
+        "size": 20,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 91,
+        "text": "完整中英對照表另見 terminology.csv。",
+        "size": 10.5,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 114,
+        "w": 370,
+        "h": 28,
+        "fill": "#183343",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 35,
+        "y": 133,
+        "text": "英文／縮寫",
+        "size": 11,
+        "color": "#ffffff",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 224,
+        "y": 133,
+        "text": "本冊固定用詞",
+        "size": 11,
+        "color": "#ffffff",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 142,
+        "w": 370,
+        "h": 27,
+        "fill": "#f0f4f6",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 35,
+        "y": 160,
+        "text": "Worksite ID",
+        "size": 10,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 224,
+        "y": 160,
+        "text": "工作場址編號",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 169,
+        "w": 370,
+        "h": 27,
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 35,
+        "y": 187,
+        "text": "Team ID",
+        "size": 10,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 224,
+        "y": 187,
+        "text": "隊伍編號",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 196,
+        "w": 370,
+        "h": 27,
+        "fill": "#f0f4f6",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 35,
+        "y": 214,
+        "text": "Triage Category",
+        "size": 10,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 224,
+        "y": 214,
+        "text": "分流類別",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 223,
+        "w": 370,
+        "h": 27,
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 35,
+        "y": 241,
+        "text": "Victim Marking",
+        "size": 10,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 224,
+        "y": 241,
+        "text": "受困者標記",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 250,
+        "w": 370,
+        "h": 27,
+        "fill": "#f0f4f6",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 35,
+        "y": 268,
+        "text": "Live Victim",
+        "size": 10,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 224,
+        "y": 268,
+        "text": "活人",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 277,
+        "w": 370,
+        "h": 27,
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 35,
+        "y": 295,
+        "text": "Dead Victim",
+        "size": 10,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 224,
+        "y": 295,
+        "text": "罹難者",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 304,
+        "w": 370,
+        "h": 27,
+        "fill": "#f0f4f6",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 35,
+        "y": 322,
+        "text": "RCM",
+        "size": 10,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 224,
+        "y": 322,
+        "text": "快速清查標記",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 331,
+        "w": 370,
+        "h": 27,
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 35,
+        "y": 349,
+        "text": "Operational Work Zone",
+        "size": 10,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 224,
+        "y": 349,
+        "text": "作業工作區",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 358,
+        "w": 370,
+        "h": 27,
+        "fill": "#f0f4f6",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 35,
+        "y": 376,
+        "text": "Exclusion Zone",
+        "size": 10,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 224,
+        "y": 376,
+        "text": "禁止進入區",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 385,
+        "w": 370,
+        "h": 27,
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 35,
+        "y": 403,
+        "text": "Ground Floor",
+        "size": 10,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 224,
+        "y": 403,
+        "text": "地面層",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 412,
+        "w": 370,
+        "h": 27,
+        "fill": "#f0f4f6",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 35,
+        "y": 430,
+        "text": "Evacuate",
+        "size": 10,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 224,
+        "y": 430,
+        "text": "撤離",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 439,
+        "w": 370,
+        "h": 27,
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 35,
+        "y": 457,
+        "text": "Resume Operations",
+        "size": 10,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 224,
+        "y": 457,
+        "text": "恢復作業",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      }
+    ],
+    [
+      {
+        "kind": "rect",
+        "x": 0,
+        "y": 0,
+        "w": 419.53,
+        "h": 595.28,
+        "fill": "#ffffff",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "rect",
+        "x": 25,
+        "y": 26,
+        "w": 28,
+        "h": 5,
+        "fill": "#b94612",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 395,
+        "y": 32,
+        "text": "12 / 12",
+        "size": 10,
+        "color": "#52636b",
+        "bold": false,
+        "align": "right"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 64,
+        "text": "出勤前核對與資料來源",
+        "size": 20,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 91,
+        "text": "依現場簡報完成下列核對。",
+        "size": 10.5,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 126,
+        "text": "S1｜主要規則",
+        "size": 14,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 149,
+        "text": "2020 Volume II, Manual B — Operations",
+        "size": 10.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 186,
+        "text": "S2／S3｜號音交叉核對",
+        "size": 14,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 209,
+        "text": "Annex B26／2020 Volume III",
+        "size": 10.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 246,
+        "text": "S4／STE｜版本與寫作原則",
+        "size": 14,
+        "color": "#183343",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 269,
+        "text": "INSARAG 公告／ASD-STE100 Issue 9",
+        "size": 10.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 318,
+        "text": "1.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 318,
+        "text": "確認採用的制度與版本。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 341,
+        "text": "2.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 341,
+        "text": "確認場址編號、面向與樓層命名。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 364,
+        "text": "3.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 364,
+        "text": "確認 RCM 與警戒帶的採用方式。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 387,
+        "text": "4.",
+        "size": 11,
+        "color": "#b94612",
+        "bold": true,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 44,
+        "y": 387,
+        "text": "確認號音與撤離流程。",
+        "size": 11,
+        "color": "#183343",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "line",
+        "x1": 25,
+        "y1": 403,
+        "x2": 395,
+        "y2": 403,
+        "color": "#ccd6db",
+        "width": 0.7
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 413,
+        "text": "本冊不是官方中文版；圖例為重新繪製。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 429,
+        "text": "核對日：2026-10-05；換版時須重新核對。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      }
+    ]
+  ]
+}

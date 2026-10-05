@@ -1,0 +1,89 @@
+{
+  "mode": "update",
+  "script": "update-05-08.js",
+  "runAt": "2026-10-05",
+  "createdNodeCount": 184,
+  "mutatedNodeIds": [
+    "7:42",
+    "7:43",
+    "7:44",
+    "7:45"
+  ],
+  "removedNodeIds": [
+    "8:183",
+    "8:188",
+    "8:194",
+    "8:198",
+    "8:213",
+    "8:238",
+    "8:245",
+    "8:251",
+    "8:255",
+    "8:269",
+    "8:290",
+    "8:297",
+    "8:303",
+    "8:307",
+    "8:318",
+    "8:335",
+    "8:342",
+    "8:348",
+    "8:352",
+    "8:368"
+  ],
+  "footerRemoved": false,
+  "pages": [
+    {
+      "number": 5,
+      "id": "7:42",
+      "nodeCounts": {
+        "FRAME": 14,
+        "VECTOR": 14,
+        "INSTANCE": 1,
+        "RECTANGLE": 1,
+        "TEXT": 35
+      },
+      "textOverflow": [],
+      "imageFilledNodeIds": []
+    },
+    {
+      "number": 6,
+      "id": "7:43",
+      "nodeCounts": {
+        "FRAME": 12,
+        "VECTOR": 6,
+        "INSTANCE": 1,
+        "RECTANGLE": 1,
+        "TEXT": 30
+      },
+      "textOverflow": [],
+      "imageFilledNodeIds": []
+    },
+    {
+      "number": 7,
+      "id": "7:44",
+      "nodeCounts": {
+        "FRAME": 11,
+        "VECTOR": 6,
+        "INSTANCE": 1,
+        "RECTANGLE": 1,
+        "TEXT": 22
+      },
+      "textOverflow": [],
+      "imageFilledNodeIds": []
+    },
+    {
+      "number": 8,
+      "id": "7:45",
+      "nodeCounts": {
+        "FRAME": 8,
+        "VECTOR": 6,
+        "INSTANCE": 1,
+        "RECTANGLE": 1,
+        "TEXT": 22
+      },
+      "textOverflow": [],
+      "imageFilledNodeIds": []
+    }
+  ]
+}

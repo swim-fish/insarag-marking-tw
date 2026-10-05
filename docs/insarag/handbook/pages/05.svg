@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148mm" height="210mm" viewBox="0 0 419.53 595.28" role="img" aria-labelledby="title">
+<title id="title">INSARAG A5 圖解手冊，第 5 頁</title>
+<desc>依 INSARAG 2020 原件重新繪製。中文採用 STE 原則；不是官方中文版。</desc>
+<metadata>{"version": "INSARAG 2020", "verified_on": "2026-10-05", "illustrative_examples": true, "sources": {"S1": "https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf", "S3": "https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20III.pdf", "S4": "https://insarag.org/methodology/insarag-guidelines/", "STE": "https://www.asd-ste100.org/assets/files/ASD-STE100_ISSUE9.pdf"}}</metadata>
+<rect x="0" y="0" width="419.53" height="595.28" fill="#ffffff" stroke="none" stroke-width="1"/>
+<rect x="25" y="26" width="28" height="5" fill="#b94612" stroke="none" stroke-width="1"/>
+<text x="395" y="32" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#52636b" text-anchor="end">05 / 12</text>
+<text x="25" y="64" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="20" font-weight="700" fill="#183343" text-anchor="start">受困者：位置與剩餘人數</text>
+<text x="25" y="91" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10.5" font-weight="400" fill="#183343" text-anchor="start">在受困者位置附近的表面畫 V；需要時加方向箭頭。</text>
+<text x="26" y="118" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#183343" text-anchor="start">1  可能有受困者</text>
+<text x="121" y="160" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="36" font-weight="700" fill="#b94612" text-anchor="middle">V</text>
+<line x1="101" y1="142" x2="76.15541752799933" y2="154.42229123600035" stroke="#b94612" stroke-width="2"/>
+<polygon points="69,158 74.18767770779952,150.48681159560073 78.12315734819914,158.35777087639997" fill="#b94612" stroke="none" stroke-width="1"/>
+<text x="226" y="118" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#183343" text-anchor="start">2  確認仍在原位置</text>
+<text x="321" y="160" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="36" font-weight="700" fill="#b94612" text-anchor="middle">V</text>
+<line x1="301" y1="142" x2="276.1554175279993" y2="154.42229123600035" stroke="#b94612" stroke-width="2"/>
+<polygon points="269,158 274.1876777077995,150.48681159560073 278.12315734819913,158.35777087639997" fill="#b94612" stroke="none" stroke-width="1"/>
+<text x="321" y="179" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="12" font-weight="700" fill="#b94612" text-anchor="middle">L-2</text>
+<text x="321" y="195" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="12" font-weight="700" fill="#b94612" text-anchor="middle">D-1</text>
+<text x="26" y="216" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#183343" text-anchor="start">3  移出後更新</text>
+<text x="121" y="258" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="36" font-weight="700" fill="#b94612" text-anchor="middle">V</text>
+<line x1="101" y1="240" x2="76.15541752799933" y2="252.42229123600035" stroke="#b94612" stroke-width="2"/>
+<polygon points="69,256 74.18767770779952,248.48681159560073 78.12315734819914,256.35777087639997" fill="#b94612" stroke="none" stroke-width="1"/>
+<text x="121" y="277" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="12" font-weight="700" fill="#b94612" text-anchor="middle">L-2</text>
+<line x1="108.6806640625" y1="270.4" x2="133.3193359375" y2="277.96" stroke="#b94612" stroke-width="1.6"/>
+<text x="121" y="293" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="12" font-weight="700" fill="#b94612" text-anchor="middle">D-1</text>
+<text x="121" y="309" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="12" font-weight="700" fill="#b94612" text-anchor="middle">L-1</text>
+<text x="226" y="216" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#183343" text-anchor="start">4  已知受困者全移出</text>
+<text x="321" y="258" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="36" font-weight="700" fill="#b94612" text-anchor="middle">V</text>
+<line x1="301" y1="240" x2="276.1554175279993" y2="252.42229123600035" stroke="#b94612" stroke-width="2"/>
+<polygon points="269,256 274.1876777077995,248.48681159560073 278.12315734819913,256.35777087639997" fill="#b94612" stroke="none" stroke-width="1"/>
+<text x="321" y="277" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="12" font-weight="700" fill="#b94612" text-anchor="middle">L-2</text>
+<line x1="308.6806640625" y1="270.4" x2="333.3193359375" y2="277.96" stroke="#b94612" stroke-width="1.6"/>
+<text x="321" y="293" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="12" font-weight="700" fill="#b94612" text-anchor="middle">D-1</text>
+<line x1="307.1953125" y1="286.4" x2="334.8046875" y2="293.96" stroke="#b94612" stroke-width="1.6"/>
+<text x="321" y="309" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="12" font-weight="700" fill="#b94612" text-anchor="middle">L-1</text>
+<line x1="308.6806640625" y1="302.4" x2="333.3193359375" y2="309.96" stroke="#b94612" stroke-width="1.6"/>
+<text x="25" y="336" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#183343" text-anchor="start">L：活人　D：罹難者　數字：剩餘人數　箭頭：選用</text>
+<text x="25" y="356" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#b94612" text-anchor="start">1.</text>
+<text x="44" y="356" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">確認活人時，在 V 下方記錄 L 與仍在原位置的人數。</text>
+<text x="25" y="379" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#b94612" text-anchor="start">2.</text>
+<text x="44" y="379" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">確認罹難者時，在 V 下方記錄 D 與仍在原位置的人數。</text>
+<text x="25" y="402" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#b94612" text-anchor="start">3.</text>
+<text x="44" y="402" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">移出受困者後，劃除舊人數。</text>
+<text x="25" y="425" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#b94612" text-anchor="start">4.</text>
+<text x="44" y="425" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">在下方更新人數。</text>
+<text x="25" y="448" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#b94612" text-anchor="start">5.</text>
+<text x="44" y="448" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">所有已知受困者移出後，劃除有效的 L／D 紀錄。</text>
+<text x="25" y="471" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#b94612" text-anchor="start">6.</text>
+<text x="44" y="471" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">保留 V。</text>
+<line x1="25" y1="487" x2="395" y2="487" stroke="#ccd6db" stroke-width="0.7"/>
+<text x="25" y="497" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="9.5" font-weight="400" fill="#52636b" text-anchor="start">V 約 50 cm 高。</text>
+<text x="25" y="513" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="9.5" font-weight="400" fill="#52636b" text-anchor="start">受困者不在工作場址方框處時，不在方框旁畫 V。</text>
+<text x="25" y="529" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="9.5" font-weight="400" fill="#52636b" text-anchor="start">已知受困者全移出，不表示整棟建物已完成搜索。</text>
+</svg>

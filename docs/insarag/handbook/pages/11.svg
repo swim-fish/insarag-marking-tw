@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148mm" height="210mm" viewBox="0 0 419.53 595.28" role="img" aria-labelledby="title">
+<title id="title">INSARAG A5 圖解手冊，第 11 頁</title>
+<desc>依 INSARAG 2020 原件重新繪製。中文採用 STE 原則；不是官方中文版。</desc>
+<metadata>{"version": "INSARAG 2020", "verified_on": "2026-10-05", "illustrative_examples": true, "sources": {"S1": "https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf", "S3": "https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20III.pdf", "S4": "https://insarag.org/methodology/insarag-guidelines/", "STE": "https://www.asd-ste100.org/assets/files/ASD-STE100_ISSUE9.pdf"}}</metadata>
+<rect x="0" y="0" width="419.53" height="595.28" fill="#ffffff" stroke="none" stroke-width="1"/>
+<rect x="25" y="26" width="28" height="5" fill="#b94612" stroke="none" stroke-width="1"/>
+<text x="395" y="32" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#52636b" text-anchor="end">11 / 12</text>
+<text x="25" y="64" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="20" font-weight="700" fill="#183343" text-anchor="start">名詞速查：同一概念用同一詞</text>
+<text x="25" y="91" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10.5" font-weight="400" fill="#183343" text-anchor="start">完整中英對照表另見 terminology.csv。</text>
+<rect x="25" y="114" width="370" height="28" fill="#183343" stroke="none" stroke-width="1"/>
+<text x="35" y="133" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">英文／縮寫</text>
+<text x="224" y="133" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="start">本冊固定用詞</text>
+<rect x="25" y="142" width="370" height="27" fill="#f0f4f6" stroke="none" stroke-width="1"/>
+<text x="35" y="160" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#183343" text-anchor="start">Worksite ID</text>
+<text x="224" y="160" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">工作場址編號</text>
+<rect x="25" y="169" width="370" height="27" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="35" y="187" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#183343" text-anchor="start">Team ID</text>
+<text x="224" y="187" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">隊伍編號</text>
+<rect x="25" y="196" width="370" height="27" fill="#f0f4f6" stroke="none" stroke-width="1"/>
+<text x="35" y="214" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#183343" text-anchor="start">Triage Category</text>
+<text x="224" y="214" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">分流類別</text>
+<rect x="25" y="223" width="370" height="27" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="35" y="241" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#183343" text-anchor="start">Victim Marking</text>
+<text x="224" y="241" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">受困者標記</text>
+<rect x="25" y="250" width="370" height="27" fill="#f0f4f6" stroke="none" stroke-width="1"/>
+<text x="35" y="268" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#183343" text-anchor="start">Live Victim</text>
+<text x="224" y="268" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">活人</text>
+<rect x="25" y="277" width="370" height="27" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="35" y="295" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#183343" text-anchor="start">Dead Victim</text>
+<text x="224" y="295" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">罹難者</text>
+<rect x="25" y="304" width="370" height="27" fill="#f0f4f6" stroke="none" stroke-width="1"/>
+<text x="35" y="322" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#183343" text-anchor="start">RCM</text>
+<text x="224" y="322" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">快速清查標記</text>
+<rect x="25" y="331" width="370" height="27" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="35" y="349" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#183343" text-anchor="start">Operational Work Zone</text>
+<text x="224" y="349" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">作業工作區</text>
+<rect x="25" y="358" width="370" height="27" fill="#f0f4f6" stroke="none" stroke-width="1"/>
+<text x="35" y="376" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#183343" text-anchor="start">Exclusion Zone</text>
+<text x="224" y="376" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">禁止進入區</text>
+<rect x="25" y="385" width="370" height="27" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="35" y="403" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#183343" text-anchor="start">Ground Floor</text>
+<text x="224" y="403" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">地面層</text>
+<rect x="25" y="412" width="370" height="27" fill="#f0f4f6" stroke="none" stroke-width="1"/>
+<text x="35" y="430" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#183343" text-anchor="start">Evacuate</text>
+<text x="224" y="430" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">撤離</text>
+<rect x="25" y="439" width="370" height="27" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="35" y="457" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#183343" text-anchor="start">Resume Operations</text>
+<text x="224" y="457" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">恢復作業</text>
+</svg>

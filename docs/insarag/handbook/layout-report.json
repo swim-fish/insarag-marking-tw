@@ -1,0 +1,135 @@
+{
+  "pdf_sha256": "d72234c1a6e58602d02204209ebad1a675742067004d744a47d5079433f1e269",
+  "inspector_sha256": "f8895ed377f18ed4c0dc122817e6e293787171669dd89daddcc35a6643e6edce",
+  "page_count": 12,
+  "embedded_chinese_fonts": {
+    "AAAAAA+MicrosoftJhengHeiRegular-0": 107884,
+    "AAAAAB+MicrosoftJhengHeiRegular-0": 101228,
+    "AAAAAA+MicrosoftJhengHeiBold-0": 95756
+  },
+  "pages": [
+    {
+      "page": 1,
+      "page_mm": [
+        148.00086068047415,
+        210.00156589084202
+      ],
+      "raster_images": 0,
+      "text_spans": 19,
+      "source_links": 0
+    },
+    {
+      "page": 2,
+      "page_mm": [
+        148.00086068047415,
+        210.00156589084202
+      ],
+      "raster_images": 0,
+      "text_spans": 21,
+      "source_links": 0
+    },
+    {
+      "page": 3,
+      "page_mm": [
+        148.00086068047415,
+        210.00156589084202
+      ],
+      "raster_images": 0,
+      "text_spans": 24,
+      "source_links": 0
+    },
+    {
+      "page": 4,
+      "page_mm": [
+        148.00086068047415,
+        210.00156589084202
+      ],
+      "raster_images": 0,
+      "text_spans": 24,
+      "source_links": 0
+    },
+    {
+      "page": 5,
+      "page_mm": [
+        148.00086068047415,
+        210.00156589084202
+      ],
+      "raster_images": 0,
+      "text_spans": 35,
+      "source_links": 0
+    },
+    {
+      "page": 6,
+      "page_mm": [
+        148.00086068047415,
+        210.00156589084202
+      ],
+      "raster_images": 0,
+      "text_spans": 30,
+      "source_links": 0
+    },
+    {
+      "page": 7,
+      "page_mm": [
+        148.00086068047415,
+        210.00156589084202
+      ],
+      "raster_images": 0,
+      "text_spans": 22,
+      "source_links": 0
+    },
+    {
+      "page": 8,
+      "page_mm": [
+        148.00086068047415,
+        210.00156589084202
+      ],
+      "raster_images": 0,
+      "text_spans": 22,
+      "source_links": 0
+    },
+    {
+      "page": 9,
+      "page_mm": [
+        148.00086068047415,
+        210.00156589084202
+      ],
+      "raster_images": 0,
+      "text_spans": 10,
+      "source_links": 0
+    },
+    {
+      "page": 10,
+      "page_mm": [
+        148.00086068047415,
+        210.00156589084202
+      ],
+      "raster_images": 0,
+      "text_spans": 20,
+      "source_links": 0
+    },
+    {
+      "page": 11,
+      "page_mm": [
+        148.00086068047415,
+        210.00156589084202
+      ],
+      "raster_images": 0,
+      "text_spans": 29,
+      "source_links": 0
+    },
+    {
+      "page": 12,
+      "page_mm": [
+        148.00086068047415,
+        210.00156589084202
+      ],
+      "raster_images": 0,
+      "text_spans": 19,
+      "source_links": 5
+    }
+  ],
+  "findings": [],
+  "passed": true,
+  "visual_review_required": true
+}

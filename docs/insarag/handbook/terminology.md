@@ -1,0 +1,33 @@
+# 中英技術名詞對照表
+
+TN：技術名詞；TV：技術動詞。均為本專案用詞，不表示 ASD 字典已核准中文譯詞。
+
+| ID | 英文 | 臺灣正體中文 | 類型 | 禁用變體 | 依據 |
+| --- | --- | --- | --- | --- | --- |
+| worksite | Worksite | 工作場址 | TN | 工作現場、工作場所 | S1 §5.5; §6.2 |
+| worksite_id | Worksite ID | 工作場址編號 | TN | 場址ID、工作場址ID | S1 §5.5.5 |
+| team_id | Team ID | 隊伍編號 | TN | 隊伍ID、隊伍識別碼 | S1 §6.2 |
+| triage | Worksite Triage | 場址分流 | TN | 場址分類、工作場址分類 | S1 §5.8 |
+| triage_category | Triage Category | 分流類別 | TN | 分流分類、分流等第 | S1 §5.8.1 Table 6 |
+| victim | Victim | 受困者 | TN | 受害者、受難者 | S1 §6.3 |
+| victim_marking | Victim Marking | 受困者標記 | TN | 傷亡標記、受害者標記 | S1 §6.3.1 |
+| live | Live Victim | 活人 | TN | 存活受害者 | S1 §6.3.1 Table 10 |
+| deceased | Dead Victim | 罹難者 | TN | 死亡受害者、死者 | S1 §6.3.1 Table 10 |
+| rcm | Rapid Clearance Marking | 快速清查標記 | TN | 快速清除標記、快速排除標記、快速清空標記 | S1 §6.3.3 |
+| asr | Assessment, Search and Rescue | 評估搜索救援 | TN | 評估搜尋救援 | S1 §5.7 p.29 |
+| asr1 | Wide Area Assessment | 廣域評估 | TN | 廣域勘查 | S1 §5.7.1 p.30 Table 1 |
+| asr2 | Worksite Triage Assessment | 場址分流評估 | TN | 場址初評 | S1 §5.7.1 p.31 Table 2 |
+| asr3 | Rapid Search and Rescue | 快速搜索救援 | TN | 快速搜尋救援 | S1 §5.7.1 p.32 Table 3 |
+| asr4 | Full Search and Rescue | 完整搜索救援 | TN | 全面搜尋救援 | S1 §5.7.1 p.33 Table 4 |
+| asr5 | Total Coverage Search and Recovery | 全面搜索與遺體移出 | TN | 全面覆蓋搜索救援 | S1 §5.7.1 p.34 Table 5 |
+| zone | Operational Work Zone | 作業工作區 | TN | 操作工作區 | S1 §6.1.3 |
+| exclusion | Exclusion Zone | 禁止進入區 | TN | 禁入區、排除區 | S1 §6.1.3 |
+| front | Side 1 | 第 1 面 | TN | 第一面 | S1 §6.1.2 Figure 13 |
+| ground | Ground Floor | 地面層 | TN | 底層 | S1 §6.1.2 Figure 14 |
+| floor | Floor | 地上樓層 | TN | 地上樓層號 | S1 §6.1.2 Figure 14 |
+| basement | Basement | 地下樓層 | TN | 地下樓層號 | S1 §6.1.2 Figure 14 |
+| evacuate | Evacuate | 撤離 | TV | 疏散撤出 | S1 §6.4 |
+| stop | Cease Operations | 停止作業 | TV | 終止操作 | S1 §6.4 |
+| resume | Resume Operations | 恢復作業 | TV | 重新操作 | S1 §6.4 |
+| lema | Local Emergency Management Authority | 當地緊急事務管理機關 | TN | 地方應急管理機構 | S1 §6.1 |
+| ucc | USAR Coordination Cell | 搜救協調中心 | TN | 搜救協調小組 | S1 §6.1 |

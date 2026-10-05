@@ -1,0 +1,11 @@
+{
+  "zhtw_exceptions": [
+    {
+      "term": "恢復",
+      "reason": "本冊的恢復指 Resume Operations（恢復作業）。zhtw 的 restore/recover 規則屬軟體介面語境；換成還原或復原會改變號音指令。",
+      "source": "S1 §6.4，p.52；terminology.csv resume"
+    }
+  ],
+  "sentence_han_warning_threshold": 45,
+  "note": "45 個漢字是本專案複核門檻，不是 ASD-STE100 的英文 20 字規則。"
+}

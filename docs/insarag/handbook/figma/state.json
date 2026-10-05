@@ -1,0 +1,149 @@
+{
+  "createdNodeIds": [
+    "7:2",
+    "7:3",
+    "7:37",
+    "7:38",
+    "7:39",
+    "7:40",
+    "7:41",
+    "7:42",
+    "7:43",
+    "7:44",
+    "7:45",
+    "7:46",
+    "7:47",
+    "7:48",
+    "7:49",
+    "7:50",
+    "7:51",
+    "7:52",
+    "7:53",
+    "7:54",
+    "7:55",
+    "7:56",
+    "7:57",
+    "7:58",
+    "7:59"
+  ],
+  "mutatedNodeIds": [
+    "0:1"
+  ],
+  "removedNodeIds": [
+    "7:2",
+    "7:3",
+    "7:56"
+  ],
+  "sectionId": "7:37",
+  "frameIds": [
+    "7:38",
+    "7:39",
+    "7:40",
+    "7:41",
+    "7:42",
+    "7:43",
+    "7:44",
+    "7:45",
+    "7:46",
+    "7:47",
+    "7:48",
+    "7:49"
+  ],
+  "headerId": "7:50",
+  "properties": {
+    "title": "Title#7:0",
+    "kicker": "Kicker#7:1"
+  },
+  "baseline": {
+    "Regular": 0.8189949999999999,
+    "Bold": 0.8290050000000001
+  },
+  "styles": {
+    "8/Regular": "S:99faeda0501a327fcf6c43992dc1deb4dcdcb3d3,",
+    "8.5/Regular": "S:cdd7705c0a7e6ead6169d5a36313ac73e4d11152,",
+    "9.5/Regular": "S:f135988df684064197dce2c62e42381457947e56,",
+    "10/Regular": "S:60609223a1196173d3ef787a1d4c26e447479717,",
+    "10.5/Regular": "S:6ee657311b5ad1bb1a64f163df7e826a9f172b91,",
+    "10.5/Bold": "S:8ed49424b1238cc72bb1912e859e028060cb9baf,",
+    "11/Regular": "S:1b901ca74f672a50b9611b2f4f09e940e855bb7f,",
+    "11/Bold": "S:d4dc3244fc1b66ef7c5b26e2660f3f44427a7b0b,",
+    "11.5/Regular": "S:a44f3e00f474f368a719be53d05c55d0ffb9161c,",
+    "12/Regular": "S:7b151afca91dc6850cbce0a42a73c09da1b0b048,",
+    "12/Bold": "S:0f954b265b7a7338ea1cea61f1af9b3e4fcc01cc,",
+    "13/Bold": "S:e79a830a20fd7b3a7c4399b4769ec7e5931554d4,",
+    "14/Bold": "S:f2446d0a0e04215681db74467a4e73f72bb9170b,",
+    "15/Regular": "S:c0a4eca151331db440e6a662cfececabda20bdb4,",
+    "15/Bold": "S:5adfc4ecd78f2e556252449adb03032feb5068f0,",
+    "16/Regular": "S:d77b8b0c0c19b4466fb486be8bca1b7ade7c0900,",
+    "16/Bold": "S:ae1aa4e2c9109c8c98fd62eee3c6feabc3fc5d9d,",
+    "17/Bold": "S:c54bdfbc965d3c351e5e953a14a228abdc36e62b,",
+    "20/Bold": "S:fa8b7219d04f5bcf2865191a9c674a92ea603e6d,",
+    "22/Bold": "S:1a2466f428357e54a6eebf426f8dadec9dab1943,",
+    "25/Bold": "S:d01230b3df912e3881326f4421952f18973721c3,",
+    "28/Bold": "S:aeac29b648a1aa792d53664fcccd756a39e16715,",
+    "31/Bold": "S:46b159f45c70787b8598e1ef31f659104261df4f,",
+    "34/Bold": "S:3b4ab4d88327b4a48b71a9c4ea0210157b989903,",
+    "38/Bold": "S:bb84aff67d8562cfc37671455beacd71d0d609d9,",
+    "43/Bold": "S:75a1845716e196507dc6de2c22a2c00105699dfd,",
+    "9/Regular": "S:d79c27733c589e7fff735054e6415ca71a36883b,",
+    "36/Bold": "S:9b946863968de5a8a433ae29d4b146570dc7f55e,",
+    "64/Bold": "S:ea4e070fb80249a14cf122ef0287f0cf5af44140,"
+  },
+  "styleIds": [
+    "S:99faeda0501a327fcf6c43992dc1deb4dcdcb3d3,",
+    "S:cdd7705c0a7e6ead6169d5a36313ac73e4d11152,",
+    "S:f135988df684064197dce2c62e42381457947e56,",
+    "S:60609223a1196173d3ef787a1d4c26e447479717,",
+    "S:6ee657311b5ad1bb1a64f163df7e826a9f172b91,",
+    "S:8ed49424b1238cc72bb1912e859e028060cb9baf,",
+    "S:1b901ca74f672a50b9611b2f4f09e940e855bb7f,",
+    "S:d4dc3244fc1b66ef7c5b26e2660f3f44427a7b0b,",
+    "S:a44f3e00f474f368a719be53d05c55d0ffb9161c,",
+    "S:7b151afca91dc6850cbce0a42a73c09da1b0b048,",
+    "S:0f954b265b7a7338ea1cea61f1af9b3e4fcc01cc,",
+    "S:e79a830a20fd7b3a7c4399b4769ec7e5931554d4,",
+    "S:f2446d0a0e04215681db74467a4e73f72bb9170b,",
+    "S:c0a4eca151331db440e6a662cfececabda20bdb4,",
+    "S:5adfc4ecd78f2e556252449adb03032feb5068f0,",
+    "S:d77b8b0c0c19b4466fb486be8bca1b7ade7c0900,",
+    "S:ae1aa4e2c9109c8c98fd62eee3c6feabc3fc5d9d,",
+    "S:c54bdfbc965d3c351e5e953a14a228abdc36e62b,",
+    "S:fa8b7219d04f5bcf2865191a9c674a92ea603e6d,",
+    "S:1a2466f428357e54a6eebf426f8dadec9dab1943,",
+    "S:d01230b3df912e3881326f4421952f18973721c3,",
+    "S:aeac29b648a1aa792d53664fcccd756a39e16715,",
+    "S:46b159f45c70787b8598e1ef31f659104261df4f,",
+    "S:3b4ab4d88327b4a48b71a9c4ea0210157b989903,",
+    "S:bb84aff67d8562cfc37671455beacd71d0d609d9,",
+    "S:75a1845716e196507dc6de2c22a2c00105699dfd,",
+    "S:d79c27733c589e7fff735054e6415ca71a36883b,",
+    "S:9b946863968de5a8a433ae29d4b146570dc7f55e,",
+    "S:ea4e070fb80249a14cf122ef0287f0cf5af44140,"
+  ],
+  "collectionId": "VariableCollectionId:7:4",
+  "variableIds": [
+    "VariableID:7:5",
+    "VariableID:7:6",
+    "VariableID:7:7",
+    "VariableID:7:8",
+    "VariableID:7:9",
+    "VariableID:7:10"
+  ],
+  "variables": {
+    "#183343": "VariableID:7:6",
+    "#52636b": "VariableID:7:8",
+    "#b94612": "VariableID:7:10"
+  },
+  "dimensions": {
+    "points": [
+      419.52755905511816,
+      595.2755905511812
+    ],
+    "millimetres": [
+      148,
+      210
+    ]
+  },
+  "pageCount": 12,
+  "updatedAt": "2026-10-05"
+}

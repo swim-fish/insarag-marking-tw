@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148mm" height="210mm" viewBox="0 0 419.53 595.28" role="img" aria-labelledby="title">
+<title id="title">INSARAG A5 圖解手冊，第 9 頁</title>
+<desc>依 INSARAG 2020 原件重新繪製。中文採用 STE 原則；不是官方中文版。</desc>
+<metadata>{"version": "INSARAG 2020", "verified_on": "2026-10-05", "illustrative_examples": true, "sources": {"S1": "https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf", "S3": "https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20III.pdf", "S4": "https://insarag.org/methodology/insarag-guidelines/", "STE": "https://www.asd-ste100.org/assets/files/ASD-STE100_ISSUE9.pdf"}}</metadata>
+<rect x="0" y="0" width="419.53" height="595.28" fill="#ffffff" stroke="none" stroke-width="1"/>
+<rect x="25" y="26" width="28" height="5" fill="#b94612" stroke="none" stroke-width="1"/>
+<text x="395" y="32" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#52636b" text-anchor="end">09 / 12</text>
+<text x="25" y="64" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="20" font-weight="700" fill="#183343" text-anchor="start">警戒帶：辨識區域</text>
+<text x="25" y="91" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10.5" font-weight="400" fill="#183343" text-anchor="start">先確認現場是否採用此警戒帶方式。</text>
+<rect x="26" y="140" width="167" height="144" fill="#f0f4f6" stroke="none" stroke-width="1"/>
+<rect x="226" y="140" width="167" height="144" fill="#f0f4f6" stroke="none" stroke-width="1"/>
+<line x1="38" y1="268" x2="181" y2="268" stroke="#52636b" stroke-width="1.2"/>
+<rect x="46" y="160" width="4" height="108" fill="#ffffff" stroke="#52636b" stroke-width="0.8"/>
+<rect x="169" y="160" width="4" height="108" fill="#ffffff" stroke="#52636b" stroke-width="0.8"/>
+<line x1="238" y1="268" x2="381" y2="268" stroke="#52636b" stroke-width="1.2"/>
+<rect x="246" y="160" width="4" height="108" fill="#ffffff" stroke="#52636b" stroke-width="0.8"/>
+<rect x="369" y="160" width="4" height="108" fill="#ffffff" stroke="#52636b" stroke-width="0.8"/>
+<polygon points="50.0,177.0 58.5,177.0 58.5,167.0 50.0,167.0" fill="#c82b2b" stroke="none" stroke-width="1"/>
+<polygon points="58.5,177.0 67.0,177.0 67.0,167.0 58.5,167.0" fill="#ffffff" stroke="none" stroke-width="1"/>
+<polygon points="67.0,177.0 75.5,177.0 75.5,167.0 67.0,167.0" fill="#c82b2b" stroke="none" stroke-width="1"/>
+<polygon points="75.5,177.0 84.0,177.0 84.0,167.0 75.5,167.0" fill="#ffffff" stroke="none" stroke-width="1"/>
+<polygon points="84.0,177.0 92.5,177.0 92.5,167.0 84.0,167.0" fill="#c82b2b" stroke="none" stroke-width="1"/>
+<polygon points="92.5,177.0 101.0,177.0 101.0,167.0 92.5,167.0" fill="#ffffff" stroke="none" stroke-width="1"/>
+<polygon points="101.0,177.0 109.5,177.0 109.5,167.0 101.0,167.0" fill="#c82b2b" stroke="none" stroke-width="1"/>
+<polygon points="109.5,177.0 118.0,177.0 118.0,167.0 109.5,167.0" fill="#ffffff" stroke="none" stroke-width="1"/>
+<polygon points="118.0,177.0 126.5,177.0 126.5,167.0 118.0,167.0" fill="#c82b2b" stroke="none" stroke-width="1"/>
+<polygon points="126.5,177.0 135.0,177.0 135.0,167.0 126.5,167.0" fill="#ffffff" stroke="none" stroke-width="1"/>
+<polygon points="135.0,177.0 143.5,177.0 143.5,167.0 135.0,167.0" fill="#c82b2b" stroke="none" stroke-width="1"/>
+<polygon points="143.5,177.0 152.0,177.0 152.0,167.0 143.5,167.0" fill="#ffffff" stroke="none" stroke-width="1"/>
+<polygon points="152.0,177.0 160.5,177.0 160.5,167.0 152.0,167.0" fill="#c82b2b" stroke="none" stroke-width="1"/>
+<polygon points="160.5,177.0 169.0,177.0 169.0,167.0 160.5,167.0" fill="#ffffff" stroke="none" stroke-width="1"/>
+<polygon points="246.90070964081613,169.92356971003065 255.40070964081613,176.63785542431637 261.5992903591839,168.79071600425507 253.09929035918387,162.07643028996935" fill="#c82b2b" stroke="none" stroke-width="1"/>
+<polygon points="255.40070964081613,176.63785542431637 263.9007096408161,183.35214113860206 270.0992903591839,175.50500171854077 261.5992903591839,168.79071600425507" fill="#ffffff" stroke="none" stroke-width="1"/>
+<polygon points="263.9007096408161,183.35214113860206 272.4007096408161,190.0664268528878 278.5992903591839,182.2192874328265 270.0992903591839,175.50500171854077" fill="#c82b2b" stroke="none" stroke-width="1"/>
+<polygon points="272.4007096408161,190.0664268528878 280.9007096408161,196.7807125671735 287.0992903591839,188.9335731471122 278.5992903591839,182.2192874328265" fill="#ffffff" stroke="none" stroke-width="1"/>
+<polygon points="280.9007096408161,196.7807125671735 289.4007096408161,203.4949982814592 295.5992903591839,195.6478588613979 287.0992903591839,188.9335731471122" fill="#c82b2b" stroke="none" stroke-width="1"/>
+<polygon points="289.4007096408161,203.4949982814592 297.9007096408161,210.20928399574493 304.0992903591839,202.36214457568363 295.5992903591839,195.6478588613979" fill="#ffffff" stroke="none" stroke-width="1"/>
+<polygon points="297.9007096408161,210.20928399574493 306.4007096408161,216.92356971003065 312.5992903591839,209.07643028996935 304.0992903591839,202.36214457568363" fill="#c82b2b" stroke="none" stroke-width="1"/>
+<polygon points="306.4007096408161,216.92356971003065 314.9007096408161,223.63785542431637 321.0992903591839,215.79071600425507 312.5992903591839,209.07643028996935" fill="#ffffff" stroke="none" stroke-width="1"/>
+<polygon points="314.9007096408161,223.63785542431637 323.4007096408161,230.3521411386021 329.5992903591839,222.5050017185408 321.0992903591839,215.79071600425507" fill="#c82b2b" stroke="none" stroke-width="1"/>
+<polygon points="323.4007096408161,230.3521411386021 331.9007096408161,237.0664268528878 338.0992903591839,229.2192874328265 329.5992903591839,222.5050017185408" fill="#ffffff" stroke="none" stroke-width="1"/>
+<polygon points="331.9007096408161,237.0664268528878 340.4007096408161,243.7807125671735 346.5992903591839,235.9335731471122 338.0992903591839,229.2192874328265" fill="#c82b2b" stroke="none" stroke-width="1"/>
+<polygon points="340.4007096408161,243.7807125671735 348.9007096408161,250.4949982814592 355.0992903591839,242.6478588613979 346.5992903591839,235.9335731471122" fill="#ffffff" stroke="none" stroke-width="1"/>
+<polygon points="348.9007096408161,250.4949982814592 357.4007096408161,257.2092839957449 363.5992903591839,249.36214457568363 355.0992903591839,242.6478588613979" fill="#c82b2b" stroke="none" stroke-width="1"/>
+<polygon points="357.4007096408161,257.2092839957449 365.9007096408161,263.9235697100306 372.0992903591839,256.0764302899694 363.5992903591839,249.36214457568363" fill="#ffffff" stroke="none" stroke-width="1"/>
+<polygon points="253.09929035918387,263.9235697100306 261.5992903591839,257.2092839957449 255.40070964081613,249.36214457568363 246.90070964081613,256.0764302899694" fill="#c82b2b" stroke="none" stroke-width="1"/>
+<polygon points="261.5992903591839,257.2092839957449 270.0992903591839,250.49499828145923 263.9007096408161,242.64785886139794 255.40070964081613,249.36214457568363" fill="#ffffff" stroke="none" stroke-width="1"/>
+<polygon points="270.0992903591839,250.49499828145923 278.5992903591839,243.7807125671735 272.4007096408161,235.9335731471122 263.9007096408161,242.64785886139794" fill="#c82b2b" stroke="none" stroke-width="1"/>
+<polygon points="278.5992903591839,243.7807125671735 287.0992903591839,237.0664268528878 280.9007096408161,229.2192874328265 272.4007096408161,235.9335731471122" fill="#ffffff" stroke="none" stroke-width="1"/>
+<polygon points="287.0992903591839,237.0664268528878 295.5992903591839,230.3521411386021 289.4007096408161,222.5050017185408 280.9007096408161,229.2192874328265" fill="#c82b2b" stroke="none" stroke-width="1"/>
+<polygon points="295.5992903591839,230.3521411386021 304.0992903591839,223.63785542431637 297.9007096408161,215.79071600425507 289.4007096408161,222.5050017185408" fill="#ffffff" stroke="none" stroke-width="1"/>
+<polygon points="304.0992903591839,223.63785542431637 312.5992903591839,216.92356971003065 306.4007096408161,209.07643028996935 297.9007096408161,215.79071600425507" fill="#c82b2b" stroke="none" stroke-width="1"/>
+<polygon points="312.5992903591839,216.92356971003065 321.0992903591839,210.20928399574493 314.9007096408161,202.36214457568363 306.4007096408161,209.07643028996935" fill="#ffffff" stroke="none" stroke-width="1"/>
+<polygon points="321.0992903591839,210.20928399574493 329.5992903591839,203.4949982814592 323.4007096408161,195.6478588613979 314.9007096408161,202.36214457568363" fill="#c82b2b" stroke="none" stroke-width="1"/>
+<polygon points="329.5992903591839,203.4949982814592 338.0992903591839,196.7807125671735 331.9007096408161,188.9335731471122 323.4007096408161,195.6478588613979" fill="#ffffff" stroke="none" stroke-width="1"/>
+<polygon points="338.0992903591839,196.7807125671735 346.5992903591839,190.0664268528878 340.4007096408161,182.2192874328265 331.9007096408161,188.9335731471122" fill="#c82b2b" stroke="none" stroke-width="1"/>
+<polygon points="346.5992903591839,190.0664268528878 355.0992903591839,183.3521411386021 348.9007096408161,175.5050017185408 340.4007096408161,182.2192874328265" fill="#ffffff" stroke="none" stroke-width="1"/>
+<polygon points="355.0992903591839,183.3521411386021 363.5992903591839,176.63785542431637 357.4007096408161,168.79071600425507 348.9007096408161,175.5050017185408" fill="#c82b2b" stroke="none" stroke-width="1"/>
+<polygon points="363.5992903591839,176.63785542431637 372.0992903591839,169.92356971003065 365.9007096408161,162.07643028996935 357.4007096408161,168.79071600425507" fill="#ffffff" stroke="none" stroke-width="1"/>
+<text x="110" y="316" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="15" font-weight="700" fill="#183343" text-anchor="middle">作業工作區</text>
+<text x="310" y="316" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="15" font-weight="700" fill="#183343" text-anchor="middle">禁止進入區</text>
+<text x="25" y="356" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#b94612" text-anchor="start">1.</text>
+<text x="44" y="356" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">辨識水平紅白警戒帶表示的作業工作區。</text>
+<text x="25" y="379" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#b94612" text-anchor="start">2.</text>
+<text x="44" y="379" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">辨識交叉紅白警戒帶表示的禁止進入區。</text>
+<line x1="25" y1="395" x2="395" y2="395" stroke="#ccd6db" stroke-width="0.7"/>
+<text x="25" y="405" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="9.5" font-weight="400" fill="#52636b" text-anchor="start">交叉警戒帶是區域管制，不是 FEMA 搜索標記。</text>
+</svg>
