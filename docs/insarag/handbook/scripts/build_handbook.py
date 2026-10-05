@@ -116,6 +116,11 @@ def diagrams(p, kind, terms):
         # Optional arrow outside the box, after S1 Figure 17.
         p.arrow(86, 282, 50, 306)
         p.text(52, 326, '入口方向', 9.5, ORANGE, False, 'center')
+        # S1 p.45: the box is drawn around the painted text, so text comes first.
+        p.text(333, 210, '先寫文字', 9.5, MUTED, True)
+        p.line(331, 206, 300, 206, MUTED, 0.8)
+        p.text(333, 292, '後畫方框', 9.5, MUTED, True)
+        p.line(331, 288, 326, 288, MUTED, 0.8)
     elif kind == 'completion':
         for x, label in [(25, '追加紀錄'), (226, '必要工作全部完成')]:
             p.text(x+84, 125, label, 13, INK, True, 'center')

@@ -40,14 +40,14 @@
     {
       "number": 2,
       "id": "7:39",
-      "name": "02｜工作場址：標記放哪裡｜A5 148 × 210 mm",
+      "name": "02｜工作場址：標記位置與順序｜A5 148 × 210 mm",
       "framePoints": [
         419.5275573730469,
         595.2755737304688
       ],
       "frameA5": true,
-      "editableTextNodes": 21,
-      "vectorNodes": 5,
+      "editableTextNodes": 26,
+      "vectorNodes": 7,
       "fonts": [
         "Noto Sans TC/Bold",
         "Noto Sans TC/Regular"
@@ -359,5 +359,5 @@
     "reviewed": true,
     "pages": 12
   },
-  "note": "Pages rebuilt in place with update-*.js; source footer component 7:56 removed."
+  "note": "Pages rebuilt in place with update-*.js; source footer component 7:56 removed. Page 2 rebuilt again for marking order and glyph height notes."
 }

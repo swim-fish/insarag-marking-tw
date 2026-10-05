@@ -50,11 +50,11 @@
       "number": 2,
       "id": "7:39",
       "nodeCounts": {
-        "FRAME": 12,
-        "VECTOR": 5,
+        "FRAME": 14,
+        "VECTOR": 7,
         "INSTANCE": 1,
         "RECTANGLE": 1,
-        "TEXT": 21
+        "TEXT": 26
       },
       "textOverflow": [],
       "imageFilledNodeIds": []
@@ -84,6 +84,19 @@
       },
       "textOverflow": [],
       "imageFilledNodeIds": []
+    }
+  ],
+  "followUp": [
+    {
+      "page": 2,
+      "runAt": "2026-10-05",
+      "removedNodeIds": [
+        "16:139",
+        "16:145",
+        "16:151",
+        "16:158"
+      ],
+      "createdNodeCount": 50
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "pdf_sha256": "d72234c1a6e58602d02204209ebad1a675742067004d744a47d5079433f1e269",
+  "pdf_sha256": "7397baf84b29f83ed6a9ebfd89180e81cbd404c23ea15421def3ebca55650c30",
   "inspector_sha256": "f8895ed377f18ed4c0dc122817e6e293787171669dd89daddcc35a6643e6edce",
   "page_count": 12,
   "embedded_chinese_fonts": {
-    "AAAAAA+MicrosoftJhengHeiRegular-0": 107884,
-    "AAAAAB+MicrosoftJhengHeiRegular-0": 101228,
-    "AAAAAA+MicrosoftJhengHeiBold-0": 95756
+    "AAAAAA+MicrosoftJhengHeiRegular-0": 105500,
+    "AAAAAB+MicrosoftJhengHeiRegular-0": 105164,
+    "AAAAAA+MicrosoftJhengHeiBold-0": 96528
   },
   "pages": [
     {
@@ -25,7 +25,7 @@
         210.00156589084202
       ],
       "raster_images": 0,
-      "text_spans": 21,
+      "text_spans": 26,
       "source_links": 0
     },
     {

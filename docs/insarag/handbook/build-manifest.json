@@ -6,18 +6,18 @@
     210
   ],
   "inputs": {
-    "manual.json": "065038024a4daeb42bef8a904d818b501cd9c711f2fb7e1fe8c7511c3add576f",
+    "manual.json": "4d2be3e7b0493de642f325664bc09a42ae283feeb9bc64113f9d15988f08c8dd",
     "terminology.csv": "93fd9f1a70f42b9d7c748b6e4fb4ff0d6588bc94952041006728687b45a85fc7",
-    "scripts/build_handbook.py": "3dc6f152f31865af290096aacb035c3c624642f3dd283689d61ba2a2d30bb43c"
+    "scripts/build_handbook.py": "f9397568fbf48698656208aead81bbbd5982833f8d9c99c25d2318f5168a0689"
   },
   "outputs": {
-    "insarag-marking-a5-zh-tw.pdf": "d72234c1a6e58602d02204209ebad1a675742067004d744a47d5079433f1e269",
-    "scenes.json": "ab910075fbda928173fb7176405d4a116d1959b584eb7690fe32629130a9232b",
-    "manual.md": "7fca14e783a9e9723237ac9080849f77fb183e32042c7682bbc865d1fb6a6fd5",
+    "insarag-marking-a5-zh-tw.pdf": "7397baf84b29f83ed6a9ebfd89180e81cbd404c23ea15421def3ebca55650c30",
+    "scenes.json": "1c3f02286d31a0750ded701c288fb7ea27f1880434a688a4e865aabbba16a54f",
+    "manual.md": "0333307637cbf72a3b3471fe1d279fbb39d879b38148729554f1d019f5fb3019",
     "terminology.md": "0cb5690cff4a4fa5b366f4fe1bf6d3465fb21c2350bef3f76cf37bb0f7f9dd85",
-    "preview.html": "50a596885f4b33e446438ac3d037553dc9167c2be67316a43e1625adb4807c39",
+    "preview.html": "644b586842687eac4ed53d1ca5cb85b64168e95b8aa6685355ba85cdc4040b7b",
     "pages/01.svg": "f07810a7039ccbdfb1c6a31544fece82d57826e44d96534b7f32a38f8194916e",
-    "pages/02.svg": "b6cfb852cfc4b481918b9be3ae74cc055c4c5ddb1de3dba3def164c45df109d2",
+    "pages/02.svg": "c6d7bc9bf01310db74e435b1933a9e51e915f558cfff3e7e5e924f10f6583866",
     "pages/03.svg": "154cd04425b2e12d9913e87a0df4eca61ca59e0b7b2fff00c947b565632efcd9",
     "pages/04.svg": "b7a7b131e5b5e05207ddbdbd4905ab4e27cce9c7b93a3e60177bd78d34f1c793",
     "pages/05.svg": "35c81c78828c2eb318f12c59b0433d865b86e7d7daf635e9169728593a3313dd",
