@@ -25,7 +25,7 @@
 | 標記 | 解讀 | 檢視 |
 | --- | --- | --- |
 | 方框＋Worksite ID | 這是哪個工作場址、哪個隊伍完成哪一級 ASR | [工作場址](marking/worksite.md) |
-| V＋L-n／D-n | 這個位置的潛在受困者，以及已確認仍在原位的存活／死亡人數 | [受困者位置](marking/victim.md) |
+| V＋L-n／D-n | 這個位置的潛在受困者，以及已確認仍在原位的生還者／罹難者人數 | [受困者位置](marking/victim.md) |
 | 菱形 C／D | 指定物件或範圍達到全面搜尋標準後的清查狀態 | [RCM](marking/rapid-clearance.md) |
 
 **實際採用的標記系統由 LEMA 與 UCC 協調決定。** LEMA 為當地緊急應變主管機關，UCC 為 USAR 協調中心，USAR 為都市搜索與救援。標記用來共享現場資訊，仍需搭配回報及交接。[2020 作業手冊，第 6.1 節，p.41](https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf#page=42)

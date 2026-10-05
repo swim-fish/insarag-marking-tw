@@ -11,7 +11,7 @@
 <text x="116" y="162" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="34" font-weight="700" fill="#b94612" text-anchor="middle">C</text>
 <text x="116" y="197" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#b94612" text-anchor="middle">AAA-01</text>
 <text x="116" y="210" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#b94612" text-anchor="middle">05 Oct</text>
-<text x="116" y="230" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10.5" font-weight="700" fill="#183343" text-anchor="middle">無活人或罹難者留在原位置</text>
+<text x="116" y="230" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10.5" font-weight="700" fill="#183343" text-anchor="middle">無生還者或罹難者留在原位置</text>
 <polygon points="305,119 336,150 305,181 274,150" fill="#fff4e9" stroke="#b94612" stroke-width="2.5"/>
 <text x="305" y="162" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="34" font-weight="700" fill="#b94612" text-anchor="middle">D</text>
 <text x="305" y="197" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#b94612" text-anchor="middle">AAA-01</text>
@@ -28,7 +28,7 @@
 <text x="320" y="316" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="9" font-weight="400" fill="#b94612" text-anchor="middle">BBB-01</text>
 <text x="320" y="328" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="9" font-weight="400" fill="#b94612" text-anchor="middle">06 Oct</text>
 <text x="25" y="356" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#b94612" text-anchor="start">1.</text>
-<text x="44" y="356" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">全面搜索後，無活人或罹難者留在原位置時，標記 C。</text>
+<text x="44" y="356" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">全面搜索後，無生還者或罹難者留在原位置時，標記 C。</text>
 <text x="25" y="379" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#b94612" text-anchor="start">2.</text>
 <text x="44" y="379" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">全面搜索後，僅有罹難者留在原位置時，標記 D。</text>
 <text x="25" y="402" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#b94612" text-anchor="start">3.</text>

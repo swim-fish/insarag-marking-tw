@@ -24,7 +24,7 @@
 <text x="224" y="241" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">受困者標記</text>
 <rect x="25" y="250" width="370" height="27" fill="#f0f4f6" stroke="none" stroke-width="1"/>
 <text x="35" y="268" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#183343" text-anchor="start">Live Victim</text>
-<text x="224" y="268" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">活人</text>
+<text x="224" y="268" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">生還者</text>
 <rect x="25" y="277" width="370" height="27" fill="#ffffff" stroke="none" stroke-width="1"/>
 <text x="35" y="295" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#183343" text-anchor="start">Dead Victim</text>
 <text x="224" y="295" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">罹難者</text>

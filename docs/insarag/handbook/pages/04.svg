@@ -9,13 +9,13 @@
 <text x="25" y="91" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10.5" font-weight="400" fill="#183343" text-anchor="start">分流類別表示評估結果；ASR 等級表示工作內容。</text>
 <rect x="25" y="116" width="370" height="37" fill="#fff4e9" stroke="none" stroke-width="1"/>
 <text x="46" y="142" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="22" font-weight="700" fill="#b94612" text-anchor="start">A</text>
-<text x="83" y="140" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11.5" font-weight="400" fill="#183343" text-anchor="start">確認活人；預估作業少於 12 小時</text>
+<text x="83" y="140" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11.5" font-weight="400" fill="#183343" text-anchor="start">確認有生還者；預估作業少於 12 小時</text>
 <rect x="25" y="158" width="370" height="37" fill="#fff4e9" stroke="none" stroke-width="1"/>
 <text x="46" y="184" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="22" font-weight="700" fill="#b94612" text-anchor="start">B</text>
-<text x="83" y="182" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11.5" font-weight="400" fill="#183343" text-anchor="start">確認活人；預估作業超過 12 小時</text>
+<text x="83" y="182" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11.5" font-weight="400" fill="#183343" text-anchor="start">確認有生還者；預估作業超過 12 小時</text>
 <rect x="25" y="200" width="370" height="37" fill="#fff4e9" stroke="none" stroke-width="1"/>
 <text x="46" y="226" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="22" font-weight="700" fill="#b94612" text-anchor="start">C</text>
-<text x="83" y="224" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11.5" font-weight="400" fill="#183343" text-anchor="start">可能有活人；作業時間未評估</text>
+<text x="83" y="224" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11.5" font-weight="400" fill="#183343" text-anchor="start">可能有生還者；作業時間未評估</text>
 <rect x="25" y="242" width="370" height="37" fill="#fff4e9" stroke="none" stroke-width="1"/>
 <text x="46" y="268" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="22" font-weight="700" fill="#b94612" text-anchor="start">D</text>
 <text x="83" y="266" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11.5" font-weight="400" fill="#183343" text-anchor="start">僅有罹難者；作業時間未評估</text>
@@ -32,5 +32,5 @@
 <text x="101" y="443" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="12" font-weight="400" fill="#183343" text-anchor="start">全面搜索與遺體移出</text>
 <line x1="25" y1="473" x2="395" y2="473" stroke="#ccd6db" stroke-width="0.7"/>
 <text x="25" y="483" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="9.5" font-weight="400" fill="#52636b" text-anchor="start">ASR 等級不是完成百分比，也不是固定的逐級流程。</text>
-<text x="25" y="499" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="9.5" font-weight="400" fill="#52636b" text-anchor="start">ASR 5 作業中發現活人時，依現場指示處置。</text>
+<text x="25" y="499" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="9.5" font-weight="400" fill="#52636b" text-anchor="start">ASR 5 作業中發現生還者時，依現場指示處置。</text>
 </svg>

@@ -35,9 +35,9 @@
 <line x1="307.1953125" y1="286.4" x2="334.8046875" y2="293.96" stroke="#b94612" stroke-width="1.6"/>
 <text x="321" y="309" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="12" font-weight="700" fill="#b94612" text-anchor="middle">L-1</text>
 <line x1="308.6806640625" y1="302.4" x2="333.3193359375" y2="309.96" stroke="#b94612" stroke-width="1.6"/>
-<text x="25" y="336" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#183343" text-anchor="start">L：活人　D：罹難者　數字：剩餘人數　箭頭：選用</text>
+<text x="25" y="336" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#183343" text-anchor="start">L：生還者　D：罹難者　數字：剩餘人數　箭頭：選用</text>
 <text x="25" y="356" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#b94612" text-anchor="start">1.</text>
-<text x="44" y="356" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">確認活人時，在 V 下方記錄 L 與仍在原位置的人數。</text>
+<text x="44" y="356" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">確認生還者時，在 V 下方記錄 L 與仍在原位置的人數。</text>
 <text x="25" y="379" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#b94612" text-anchor="start">2.</text>
 <text x="44" y="379" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">確認罹難者時，在 V 下方記錄 D 與仍在原位置的人數。</text>
 <text x="25" y="402" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#b94612" text-anchor="start">3.</text>

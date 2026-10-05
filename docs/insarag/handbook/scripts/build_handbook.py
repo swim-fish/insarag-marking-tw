@@ -132,8 +132,8 @@ def diagrams(p, kind, terms):
             p.text(x+84, 315, 'B', 17, ORANGE, True, 'center')
         p.line(218, 215, 403, 215, ORANGE, 3)
     elif kind == 'triage':
-        rows = [('A', '確認活人；預估作業少於 12 小時'), ('B', '確認活人；預估作業超過 12 小時'),
-                ('C', '可能有活人；作業時間未評估'), ('D', '僅有罹難者；作業時間未評估')]
+        rows = [('A', '確認有生還者；預估作業少於 12 小時'), ('B', '確認有生還者；預估作業超過 12 小時'),
+                ('C', '可能有生還者；作業時間未評估'), ('D', '僅有罹難者；作業時間未評估')]
         for i, (letter, body) in enumerate(rows):
             y = 116+i*42
             p.rect(25, y, 370, 37, LIGHT, 'none')
@@ -159,9 +159,9 @@ def diagrams(p, kind, terms):
                     p.struck(cx, y+61+n*16, value, 12)
                 else:
                     p.text(cx, y+61+n*16, value, 12, ORANGE, True, 'center')
-        p.text(25, 336, 'L：活人　D：罹難者　數字：剩餘人數　箭頭：選用', 11, INK, True)
+        p.text(25, 336, 'L：生還者　D：罹難者　數字：剩餘人數　箭頭：選用', 11, INK, True)
     elif kind == 'rcm':
-        for x, letter, label in [(116, 'C', '無活人或罹難者留在原位置'), (305, 'D', '僅有罹難者留在原位置')]:
+        for x, letter, label in [(116, 'C', '無生還者或罹難者留在原位置'), (305, 'D', '僅有罹難者留在原位置')]:
             # Team ID and date go immediately below the diamond (S1 §6.3.4).
             p.diamond(x, 150, letter, 31)
             p.text(x, 197, 'AAA-01', 10, ORANGE, False, 'center')
@@ -367,9 +367,9 @@ def main():
         md.extend(['', *entry['notes'], '', f'來源：{entry["source"]}。', ''])
     (ROOT/'manual.md').write_text('\n'.join(md), encoding='utf-8', newline='\n')
     table = ['# 中英技術名詞對照表', '', 'TN：技術名詞；TV：技術動詞。均為本專案用詞，不表示 ASD 字典已核准中文譯詞。', '',
-             '| ID | 英文 | 臺灣正體中文 | 類型 | 禁用變體 | 依據 |', '| --- | --- | --- | --- | --- | --- |']
+             '| ID | 英文 | 臺灣正體中文 | 類型 | 禁用變體 | 依據 | 備註 |', '| --- | --- | --- | --- | --- | --- | --- |']
     for row in rows:
-        table.append('| '+' | '.join(row[k].replace('|', '、') for k in ['id', 'english', 'zh_tw', 'kind', 'aliases', 'source'])+' |')
+        table.append('| '+' | '.join(row[k].replace('|', '、') for k in ['id', 'english', 'zh_tw', 'kind', 'aliases', 'source', 'note'])+' |')
     (ROOT/'terminology.md').write_text('\n'.join(table)+'\n', encoding='utf-8', newline='\n')
     gallery = '\n'.join(f'<section><h2>{i:02d} {html.escape(e["title"])}</h2><img src="pages/{i:02d}.svg" alt="{html.escape(e["title"])}"></section>' for i, e in enumerate(data['pages'], 1))
     page = '''<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>INSARAG A5 手冊</title><style>body{margin:0;background:#e8eef0;color:#183343;font-family:"Microsoft JhengHei",sans-serif}header{padding:24px;max-width:1000px;margin:auto}main{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;padding:24px;max-width:1200px;margin:auto}section{min-width:0}h2{font-size:15px}img{width:100%;box-shadow:0 3px 14px #18334326}a{color:#b94612}@media print{body{background:white}header,h2{display:none}main{display:block;padding:0}section{break-after:page}img{box-shadow:none;width:148mm;height:210mm}@page{size:A5;margin:0}}</style><header><h1>INSARAG 標記圖解速查手冊</h1><p>2020 版規則｜12 頁 A5｜臺灣正體中文</p><p><a href="insarag-marking-a5-zh-tw.pdf">下載 PDF</a> · <a href="manual.md">可編輯文字</a> · <a href="terminology.md">中英對照表</a> · <a href="../sources/README.md">原件與規則對照</a></p></header><main>'''+gallery+'</main></html>\n'

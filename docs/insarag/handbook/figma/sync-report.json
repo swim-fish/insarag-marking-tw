@@ -359,5 +359,5 @@
     "reviewed": true,
     "pages": 12
   },
-  "note": "Pages rebuilt in place with update-*.js; source footer component 7:56 removed. Page 2 rebuilt again for marking order and glyph height notes."
+  "note": "Pages rebuilt in place with update-*.js; source footer component 7:56 removed. Page 2 rebuilt again for marking order and glyph height notes. Pages 4, 5, 6 and 11: 活人 replaced with 生還者 in place (9 text layers) and audited."
 }

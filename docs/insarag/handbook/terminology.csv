@@ -1,28 +1,28 @@
-id,english,zh_tw,kind,aliases,source,scope
-worksite,Worksite,工作場址,TN,工作現場|工作場所,S1 §5.5; §6.2,project
-worksite_id,Worksite ID,工作場址編號,TN,場址ID|工作場址ID,S1 §5.5.5,project
-team_id,Team ID,隊伍編號,TN,隊伍ID|隊伍識別碼,S1 §6.2,project
-triage,Worksite Triage,場址分流,TN,場址分類|工作場址分類,S1 §5.8,project
-triage_category,Triage Category,分流類別,TN,分流分類|分流等第,S1 §5.8.1 Table 6,project
-victim,Victim,受困者,TN,受害者|受難者,S1 §6.3,project
-victim_marking,Victim Marking,受困者標記,TN,傷亡標記|受害者標記,S1 §6.3.1,project
-live,Live Victim,活人,TN,存活受害者,S1 §6.3.1 Table 10,project
-deceased,Dead Victim,罹難者,TN,死亡受害者|死者,S1 §6.3.1 Table 10,project
-rcm,Rapid Clearance Marking,快速清查標記,TN,快速清除標記|快速排除標記|快速清空標記,S1 §6.3.3,project
-asr,"Assessment, Search and Rescue",評估搜索救援,TN,評估搜尋救援,S1 §5.7 p.29,project
-asr1,Wide Area Assessment,廣域評估,TN,廣域勘查,S1 §5.7.1 p.30 Table 1,project
-asr2,Worksite Triage Assessment,場址分流評估,TN,場址初評,S1 §5.7.1 p.31 Table 2,project
-asr3,Rapid Search and Rescue,快速搜索救援,TN,快速搜尋救援,S1 §5.7.1 p.32 Table 3,project
-asr4,Full Search and Rescue,完整搜索救援,TN,全面搜尋救援,S1 §5.7.1 p.33 Table 4,project
-asr5,Total Coverage Search and Recovery,全面搜索與遺體移出,TN,全面覆蓋搜索救援,S1 §5.7.1 p.34 Table 5,project
-zone,Operational Work Zone,作業工作區,TN,操作工作區,S1 §6.1.3,project
-exclusion,Exclusion Zone,禁止進入區,TN,禁入區|排除區,S1 §6.1.3,project
-front,Side 1,第 1 面,TN,第一面,S1 §6.1.2 Figure 13,project
-ground,Ground Floor,地面層,TN,底層,S1 §6.1.2 Figure 14,project
-floor,Floor,地上樓層,TN,地上樓層號,S1 §6.1.2 Figure 14,project
-basement,Basement,地下樓層,TN,地下樓層號,S1 §6.1.2 Figure 14,project
-evacuate,Evacuate,撤離,TV,疏散撤出,S1 §6.4,project
-stop,Cease Operations,停止作業,TV,終止操作,S1 §6.4,project
-resume,Resume Operations,恢復作業,TV,重新操作,S1 §6.4,project
-lema,Local Emergency Management Authority,當地緊急事務管理機關,TN,地方應急管理機構,S1 §6.1,project
-ucc,USAR Coordination Cell,搜救協調中心,TN,搜救協調小組,S1 §6.1,project
+id,english,zh_tw,kind,aliases,source,scope,note
+worksite,Worksite,工作場址,TN,工作現場|工作場所,S1 §5.5; §6.2,project,
+worksite_id,Worksite ID,工作場址編號,TN,場址ID|工作場址ID,S1 §5.5.5,project,
+team_id,Team ID,隊伍編號,TN,隊伍ID|隊伍識別碼,S1 §6.2,project,
+triage,Worksite Triage,場址分流,TN,場址分類|工作場址分類,S1 §5.8,project,
+triage_category,Triage Category,分流類別,TN,分流分類|分流等第,S1 §5.8.1 Table 6,project,
+victim,Victim,受困者,TN,受害者|受難者,S1 §6.3,project,
+victim_marking,Victim Marking,受困者標記,TN,傷亡標記|受害者標記,S1 §6.3.1,project,
+live,Live Victim,生還者,TN,存活受害者|活人,S1 §6.3.1 Table 10,project,用詞參考台灣急診醫學通訊 6(3)，2023
+deceased,Dead Victim,罹難者,TN,死亡受害者|死者,S1 §6.3.1 Table 10,project,
+rcm,Rapid Clearance Marking,快速清查標記,TN,快速清除標記|快速排除標記|快速清空標記,S1 §6.3.3,project,
+asr,"Assessment, Search and Rescue",評估搜索救援,TN,評估搜尋救援,S1 §5.7 p.29,project,
+asr1,Wide Area Assessment,廣域評估,TN,廣域勘查,S1 §5.7.1 p.30 Table 1,project,
+asr2,Worksite Triage Assessment,場址分流評估,TN,場址初評,S1 §5.7.1 p.31 Table 2,project,台灣常稱分區評估；S1 Figure 18 圖說亦寫 Sector Assessment
+asr3,Rapid Search and Rescue,快速搜索救援,TN,快速搜尋救援,S1 §5.7.1 p.32 Table 3,project,
+asr4,Full Search and Rescue,完整搜索救援,TN,全面搜尋救援,S1 §5.7.1 p.33 Table 4,project,
+asr5,Total Coverage Search and Recovery,全面搜索與遺體移出,TN,全面覆蓋搜索救援,S1 §5.7.1 p.34 Table 5,project,
+zone,Operational Work Zone,作業工作區,TN,操作工作區,S1 §6.1.3,project,
+exclusion,Exclusion Zone,禁止進入區,TN,禁入區|排除區,S1 §6.1.3,project,
+front,Side 1,第 1 面,TN,第一面,S1 §6.1.2 Figure 13,project,
+ground,Ground Floor,地面層,TN,底層,S1 §6.1.2 Figure 14,project,
+floor,Floor,地上樓層,TN,地上樓層號,S1 §6.1.2 Figure 14,project,
+basement,Basement,地下樓層,TN,地下樓層號,S1 §6.1.2 Figure 14,project,
+evacuate,Evacuate,撤離,TV,疏散撤出,S1 §6.4,project,
+stop,Cease Operations,停止作業,TV,終止操作,S1 §6.4,project,
+resume,Resume Operations,恢復作業,TV,重新操作,S1 §6.4,project,
+lema,Local Emergency Management Authority,當地緊急管理機構,TN,地方應急管理機構|當地緊急事務管理機關,S1 §6.1,project,用詞參考台灣急診醫學通訊 6(3)，2023
+ucc,USAR Coordination Cell,搜救隊協調中心,TN,搜救協調小組|搜救協調中心,S1 §6.1,project,用詞參考台灣急診醫學通訊 6(3)，2023；避免與海空難 RCC 混淆
