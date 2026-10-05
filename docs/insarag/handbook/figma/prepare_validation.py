@@ -37,7 +37,7 @@ for(const p of EXPECTED) {
     editableTextNodes:texts.length,vectorNodes:nodes.filter(n=>n.type==='VECTOR').length,
     fonts:[...new Set(texts.map(n=>n.fontName.family+'/'+n.fontName.style))],missingText:missing,extraText:extra,textOverflow:overflow,
     imageFilledNodeIds:imageFills,pdf:{bytes:pdf.length,mediaBoxes,a5:pdfA5,imageObjects},svg:{characters:svg.length,imageElements:svgImages},
-    dateOnSingleRow:p.number===2?texts.filter(n=>n.characters==='AAA-01   ASR 3   05 Oct').map(n=>({id:n.id,characters:n.characters,bounds:n.absoluteBoundingBox})):undefined,
+    dateOnSingleRow:p.number===2?texts.filter(n=>n.characters==='AAA01   ASR 3   05 Oct').map(n=>({id:n.id,characters:n.characters,bounds:n.absoluteBoundingBox})):undefined,
     pass:dimsOk&&pdfA5&&!missing.length&&!extra.length&&!overflow.length&&!imageFills.length&&!imageObjects&&!svgImages});
 }
 return {createdNodeIds:[],mutatedNodeIds:[],fileKey:'NJHNxTRl5zdtYkATo6ig9N',pageId:'0:1',sectionId:'7:37',

@@ -4,6 +4,11 @@
       "term": "恢復",
       "reason": "本冊的恢復指 Resume Operations（恢復作業）。zhtw 的 restore/recover 規則屬軟體介面語境；換成還原或復原會改變號音指令。",
       "source": "S1 §6.4，p.52；terminology.csv resume"
+    },
+    {
+      "term": "分區",
+      "reason": "本冊的分區指 INSARAG 的 Sector（搜救分區），例如分區代碼由 ICMS 附加。zhtw 的「分割區」規則屬作業系統 partition 語境；改寫會改變搜救協調用語。",
+      "source": "S6 Sectorisation, Zones & Worksite；S1 §5.5"
     }
   ],
   "sentence_han_warning_threshold": 45,

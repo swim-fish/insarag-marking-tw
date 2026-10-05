@@ -2,18 +2,18 @@
   "format": 1,
   "assurance": "Chinese STE principles adaptation; not English STE certification",
   "inputs": {
-    "manual.json": "8c1f262381752d4e696be1c01886659a5df1664acd3db55940d8f93921ebe55e",
-    "terminology.csv": "58f51bb6fa93ca849d626316a6d10cd1b9b293590819f50221bcb62734625f3c",
-    "scenes.json": "9c2989e872e0e47c05c0abf5e0f80fae34a1ff1a05a866531f094fc6d3038886",
-    "build-manifest.json": "c65a57e5a859a1b368b164df5552b6bb86dc8e730ce6e4d89d316349c655a650",
-    "language-policy.json": "de599a1f90c7896e238f9ebc2fec5c3f5b282f65e05b3762ed2fec1449b461fd",
-    "README.md": "8d50d05601552cd6313ecaf4609f96903ad2a77e2a5f54131cb4ac9877c928df",
-    "ste-method.md": "2c3396bb2e0986e7df61d35cea878f9282ed0de224ffa11ce758bf2ca40c4c14",
-    "sources.md": "605dd6b9693212c0ad7b7706903dad43c24c52f31e720633a79a7b95e2a64f3d",
-    "verification.md": "56048f158e3dc4c9a7e1ceaa3d95256d19510a5944b9bfbf6bbd5bac9a1b6870",
-    "figma/README.md": "250797dae6f4982d941c195c5c1829e09c931fdd7326a2a3ec18de52661cd8d3"
+    "manual.json": "3ae3727b5e511ca14c83ea9de3a3ce50b3673c2efb82b269c42b06d474b69c7e",
+    "terminology.csv": "efdac5d6368a007b25108f908865073f4d9418cb4847e065b5555d5b8f7f6800",
+    "scenes.json": "64363cda5276f4d519c8a1679d7610f1687aec1fdd7e8758f3a97118020a4da8",
+    "build-manifest.json": "8ce1ab160b6bc58330de4a59eb53dbce483cdf8ea501f15b753d1ae90dee5bc2",
+    "language-policy.json": "28ca3a5ee6632809eade72c6bb1523c4a466d83df04fa52bb744c2dcd724da65",
+    "README.md": "9e1abca815e75f9477ba9e858aea5662ab6530081850286551e53dde0d54a02b",
+    "ste-method.md": "881ffadf36e37d896dee42827d9e26513447d5e515e217713eed028add2c5948",
+    "sources.md": "02fdb9dd4e5cf615666d5cb1e15118cabbb248db1b62b9fdbfefb779cfd6def4",
+    "verification.md": "e397e449e0ac67f6dc62ee09b879c80a156fe59e951af11cc9f222d532151f99",
+    "figma/README.md": "7398a790c1722643bec10eb65215f4f64dee50f497fa6ff101b6bf96865d6bd1"
   },
-  "checker_sha256": "2a342808c7fdf3df9315a247e0658de249882098d4505a467960896578fada5e",
+  "checker_sha256": "f1325d621b2211a6c59f20c9b01f9402b3a63afb22fdfa108b33066f12d01a26",
   "term_count": 27,
   "findings": [],
   "zhtw": {
@@ -36,7 +36,8 @@
       "max_errors": 0,
       "max_warnings": 0,
       "ignore_terms": [
-        "恢復"
+        "恢復",
+        "分區"
       ],
       "glossary": {
         "preferred": [
@@ -143,15 +144,44 @@
         ]
       }
     },
-    "input_sha256": "f927f454e410347d1a642ebbb320f58b4e32b90bb414339977de7f95250ea58c",
+    "input_sha256": "0ca08efedf9287a84b54e40685907f6db4355d5d2cd0f636e8afbbced53699be",
     "result": {
       "accepted": true,
-      "text": "INSARAG 標記圖解速查手冊\n2020 版規則｜A5 演習用｜2026-10-05 核對\nINSARAG 標記圖解\nA5 隨身速查手冊｜先確認，再標記。\nS1 §6.1，p.41；S4 版本公告\n先確認現場採用的標記制度。\n再確認工作場址編號與標記位置。\n每次更新時，保留可辨讀的作業紀錄。\n採用的標記制度由 LEMA 與 UCC 協調；無國家制度時，採用 INSARAG 標記。\n本冊依 2020 版；新版預定於 2027-01-01 生效。\n圖中人數、隊伍與日期均為教學範例。\n工作場址：標記位置與順序\n在入口外側，選擇清楚可見的位置。\nS1 §5.5.5，pp.26–27；§6.2，pp.44–45\n先寫工作場址編號。\n在編號下方同一列，記錄隊伍編號、已完成的 ASR 等級及日期。\n文字完成後，沿文字外圍畫方框。\n在方框上方記錄危害。\n在方框下方記錄分流類別。\n需要指出入口或位置時，加上方向箭頭。\n使用與背景對比清楚的材料。\n場址編號（如 C-5）每字高約 40 cm；隊伍編號與 ASR 等級每字高約 10 cm。\n方框圍住已完成的文字；原文未明定方框寬高。\n工作場址：更新與結案\n完成一次作業後，追加紀錄。\nS1 §6.2.1，pp.45–46；Figures 18–20\n追加隊伍編號、已完成的 ASR 等級及日期。\n保留先前的作業紀錄。\n所有必要工作完成，且確認不需再作業時，畫完成線。\n完成線穿過標記中央，橫越整個標記。\nASR 3 或 ASR 4 完成，不能單獨作為結案依據。\n完成線不代表危害消失，也不代表結構安全。\n分流類別與 ASR 等級\n分流類別表示評估結果；ASR 等級表示工作內容。\nS1 §5.7，pp.29–34；§5.8.1，p.35，Table 6\nASR 等級不是完成百分比，也不是固定的逐級流程。\nASR 5 作業中發現生還者時，依現場指示處置。\n受困者：位置與剩餘人數\n在受困者位置附近的表面畫 V；需要時加方向箭頭。\nS1 §6.3.1–6.3.2，pp.48–49，Table 10\n確認生還者時，在 V 下方記錄 L 與仍在原位置的人數。\n確認罹難者時，在 V 下方記錄 D 與仍在原位置的人數。\n移出受困者後，劃除舊人數。\n在下方更新人數。\n所有已知受困者移出後，劃除有效的 L／D 紀錄。\n保留 V。\nV 約 50 cm 高。\n受困者不在工作場址方框處時，不在方框旁畫 V。\n已知受困者全移出，不表示整棟建物已完成搜索。\nRCM：快速清查標記\n由 LEMA 決定是否採用 RCM。\nS1 §6.3.3–6.3.5，pp.49–51，Table 11\n全面搜索後，無生還者或罹難者留在原位置時，標記 C。\n全面搜索後，僅有罹難者留在原位置時，標記 D。\n所有罹難者移出後，在原 D 旁新增 C。\n在菱形下方記錄隊伍編號及日期。\nC／D 皆以相當於 ASR 5 的全面搜索為前提。\n菱形約 20 × 20 cm；只代表已清查的物件或範圍。\nC 不表示結構安全。\n先統一建物面向\n以街道地址所在的正面為第 1 面。\nS1 §6.1.2，p.42，Figure 13\n從第 1 面開始，依順時針標示第 2、3、4 面。\n依圖例標示 A、B、C、D 象限。\n多樓層建物的中央區域使用 E。\n通報位置前，先確認全隊使用相同的面向。\nE 可表示中央樓梯、電梯或大廳區域。\n面向與樓層標記屬選用項目。\n樓層：先核對命名\nGround Floor 與臺灣常見的 1F 對應。\nS1 §6.1.2，pp.42–43，Figure 14\n通報前，核對現場樓層標示。\n跨隊通報時，同時說明採用的樓層命名。\n不要直接將 Floor 1 當成臺灣常見的 1F。\n警戒帶：辨識區域\n先確認現場是否採用此警戒帶方式。\nS1 §6.1.3，p.43，Figures 15–16\n辨識水平紅白警戒帶表示的作業工作區。\n辨識交叉紅白警戒帶表示的禁止進入區。\n交叉警戒帶是區域管制，不是 FEMA 搜索標記。\n號音：先聽懂，再作業\n作業前，向所有隊伍說明採用的號音。\nS1 §6.4，p.52；S2 Signalling；S3 p.22\n聽到撤離號音時，依現場撤離流程撤離。\n聽到停止號音時，停止作業。\n保持安靜。\n聽到恢復號音時，依現場指示恢復作業。\n撤離號音持續重複，直到撤離完成。\n部分原件寫為 3 長音；現場簡報須統一撤離號音。\n名詞速查：同一概念用同一詞\n完整中英對照表另見 terminology.csv。\nS1 §5.5、5.7、6；STE Issue 9 §1、§5\n出勤前核對與資料來源\n依現場簡報完成下列核對。\n核對日：2026-10-05｜來源與術語檢查紀錄隨冊附存\n確認採用的制度與版本。\n確認場址編號、面向與樓層命名。\n確認 RCM 與警戒帶的採用方式。\n確認號音與撤離流程。\n本冊不是官方中文版；圖例為重新繪製。\n核對日：2026-10-05；換版時須重新核對。\n01 / 12\nC-5\n工作場址\nV\n受困者\nC\nRCM（選用）\n2020 版規則｜A5 隨身圖解\n1.\n2.\n3.\n02 / 12\n危害：瓦斯洩漏\nAAA-01   ASR 3   05 Oct\n分流類別：B\n入口方向\n先寫文字\n後畫方框\n4.\n5.\n6.\n7.\n03 / 12\n追加紀錄\nAAA-01  ASR 3  05 Oct\nBBB-01  ASR 4  06 Oct\nB\n必要工作全部完成\n04 / 12\nA\n確認有生還者；預估作業少於 12 小時\n確認有生還者；預估作業超過 12 小時\n可能有生還者；作業時間未評估\nD\n僅有罹難者；作業時間未評估\nASR 等級\nASR 1\n廣域評估\nASR 2\n場址分流評估\nASR 3\n快速搜索救援\nASR 4\n完整搜索救援\nASR 5\n全面搜索與遺體移出\n05 / 12\n1  可能有受困者\n2  確認仍在原位置\nL-2\nD-1\n3  移出後更新\nL-1\n4  已知受困者全移出\nL：生還者　D：罹難者　數字：剩餘人數　箭頭：選用\n06 / 12\nAAA-01\n05 Oct\n無生還者或罹難者留在原位置\n僅有罹難者留在原位置\n罹難者全移出後\n原 D 保留；新 C 放旁邊\nBBB-01\n06 Oct\n07 / 12\nE\n第 3 面\n第 2 面\n第 4 面\n第 1 面／街道正面\n08 / 12\nINSARAG\n臺灣常見標示\nFloor 2\n→\n3F\nFloor 1\n2F\nGround Floor\n1F\nBasement 1\nB1\n09 / 12\n作業工作區\n禁止進入區\n10 / 12\n撤離\n3 短音；每音約 1 秒；重複\n停止作業\n1 長音；約 3 秒；保持安靜\n恢復作業\n1 長音 + 1 短音\n橫條只表示長短，非時間比例。\n11 / 12\n英文／縮寫\n本冊固定用詞\nWorksite ID\n工作場址編號\nTeam ID\n隊伍編號\nTriage Category\n分流類別\nVictim Marking\n受困者標記\nLive Victim\n生還者\nDead Victim\n罹難者\nRCM\n快速清查標記\nOperational Work Zone\nExclusion Zone\n地面層\nEvacuate\nResume Operations\n12 / 12\nS1｜主要規則\n2020 Volume II, Manual B — Operations\nS2／S3｜號音交叉核對\nAnnex B26／2020 Volume III\nS4／STE｜版本與寫作原則\nINSARAG 公告／ASD-STE100 Issue 9",
+      "text": "INSARAG 標記圖解速查手冊\n2027 版規則（2027-01-01 生效）｜A5 演習用｜2026-10-05 核對\nINSARAG 標記圖解\nA5 隨身速查手冊｜先確認，再標記。\nS5 標記系統；S4 版本公告\n先確認現場採用的標記制度。\n再確認工作場址編號與標記位置。\n每次更新時，保留可辨讀的作業紀錄。\n採用的標記制度由 LEMA 與 UCC 協調；無國家制度時，採用 INSARAG 標記。\n本冊依 2027 版指引，2027-01-01 起生效；此前仍適用 2020 版。\n淺藍底與藍色「2027」標籤，標示 2027 版的異動。\n圖中人數、隊伍與日期均為教學範例。\n工作場址：標記位置與順序\n在入口外側，選擇清楚可見的位置。\nS5 工作場址分流標記；S6 工作場址編號\n先寫工作場址編號。\n在編號下方同一列，記錄隊伍編號、已完成的 ASR 等級及日期。\n文字完成後，沿文字外圍畫方框。\n在方框上方記錄危害。\n在方框下方記錄分流類別。\n需要指出入口或位置時，加上方向箭頭。\n使用與背景對比清楚的材料。\n場址編號每字高約 40 cm；隊伍編號與 ASR 等級每字高約 10 cm。\n場址編號＝建立場址的隊伍編號＋4 位數；分區代碼由 ICMS 附加，不寫在標記上。\n方框圍住已完成的文字；原文未明定方框寬高。\n工作場址：更新與結案\n完成一次作業後，追加紀錄。\nS5 工作場址分流標記與漸進範例；S6 隊伍編號格式\n追加隊伍編號、已完成的 ASR 等級及日期。\n保留先前的作業紀錄。\n所有必要工作完成，且確認不需再作業時，畫完成線。\n完成線畫在場址編號下方、ASR 紀錄上方，橫越整個標記。\n確定建物僅有罹難者時，標記只記錄 ASR 5 與完成線。\n隊伍編號為國碼 3 字母＋2 位數，例如 AAA01，不加連字號。\nASR 3 或 ASR 4 完成，不能單獨作為結案依據。\n完成線不代表危害消失，也不代表結構安全。\n分流類別與 ASR 等級\n分流類別表示評估結果；ASR 等級表示工作內容。\nS7 分流類別；S8 ASR 等級\nASR 等級不是完成百分比，也不是固定的逐級流程。\nASR 5 作業中發現生還者時，依現場指示處置。\n受困者：位置與剩餘人數\n在受困者位置附近的表面畫 V；需要時加方向箭頭。\nS5 受困者標記\n確認生還者時，在 V 下方記錄 L 與仍在原位置的人數。\n確認罹難者時，在 V 下方記錄 D 與仍在原位置的人數。\n移出受困者後，劃除舊人數。\n在下方更新人數。\n所有已知受困者移出後，劃除有效的 L／D 紀錄。\n保留 V。\nV 約 50 cm 高。\n受困者不在工作場址方框處時，不在方框旁畫 V。\n已知受困者全移出，不表示整棟建物已完成搜索。\nRCM：快速清查標記\n由 LEMA 決定是否採用 RCM。\nS5 快速清查標記\n全面搜索後，無生還者或罹難者留在原位置時，標記 C。\n全面搜索後，僅有罹難者留在原位置時，標記 D。\n所有罹難者移出後，在原 D 旁新增 C。\n在菱形下方記錄隊伍編號及日期。\nC／D 皆以相當於 ASR 5 的全面搜索為前提。\n菱形約 20 × 20 cm；只代表已清查的物件或範圍。\nC 不表示結構安全。\n先統一建物面向\n以街道地址所在的正面為第 1 面。\nS5 建物面向\n從第 1 面開始，依順時針標示第 2、3、4 面。\n依圖例標示 A、B、C、D 象限。\n多樓層建物的中央區域使用 E。\n通報位置前，先確認全隊使用相同的面向。\nE 可表示中央樓梯、電梯或大廳區域。\n面向與樓層標記屬選用項目。\n樓層：先核對命名\nGround Floor 與臺灣常見的 1F 對應。\nS5 建物面向（樓層）\n通報前，核對現場樓層標示。\n跨隊通報時，同時說明採用的樓層命名。\n不要直接將 Floor 1 當成臺灣常見的 1F。\n警戒帶：辨識區域\n先確認現場是否採用此警戒帶方式。\nS5 警戒標記\n辨識水平紅白警戒帶表示的作業工作區。\n辨識交叉紅白警戒帶表示的禁止進入區。\n交叉警戒帶是區域管制，不是 FEMA 搜索標記。\n2027 版英文名稱改為 Operational Work Space／Exclusion Space。\n號音：先聽懂，再作業\n作業前，向所有隊伍說明採用的號音。\nS5 號音系統；S9 救援檢核表；S3 p.22\n聽到撤離號音時，依現場撤離流程撤離。\n聽到停止號音時，停止作業。\n保持安靜。\n聽到恢復號音時，依現場指示恢復作業。\n撤離號音持續重複，直到撤離完成。\n部分原件（含 2027 版救援檢核表）寫為 3 長音；現場簡報須統一撤離號音。\n名詞速查：同一概念用同一詞\n完整中英對照表另見 terminology.csv。\nS5–S8；STE Issue 9 §1、§5\n出勤前核對與資料來源\n依現場簡報完成下列核對。\n核對日：2026-10-05｜來源與術語檢查紀錄隨冊附存\n確認採用的制度與版本。\n確認場址編號、面向與樓層命名。\n確認 RCM 與警戒帶的採用方式。\n確認號音與撤離流程。\n本冊不是官方中文版；圖例為重新繪製。\n核對日：2026-10-05；換版時須重新核對。\n01 / 12\n2027 異動\nAAA01-0005\n2027\n工作場址\nV\n受困者\nC\nRCM（選用）\n2027 版規則｜A5 隨身圖解\n1.\n2.\n3.\n02 / 12\n危害：瓦斯洩漏\nAAA01   ASR 3   05 Oct\n分流類別：B\n入口方向\n先寫文字\n後畫方框\n4.\n5.\n6.\n7.\n03 / 12\n追加紀錄\nAAA01  ASR 3  05 Oct\nBBB01  ASR 4  06 Oct\nB\n必要工作全部完成\n04 / 12\nA\n確認有生還者；預估作業少於 12 小時\n確認有生還者；預估作業超過 12 小時\n可能有生還者；作業時間未評估\nD\n僅有罹難者；作業時間未評估\nASR 等級\nASR 1\n廣域評估\nASR 2\n場址分流評估\nASR 3\n快速搜索救援\nASR 4\n完整搜索救援\nASR 5\n全面搜索與遺體移出\n05 / 12\n1  可能有受困者\n2  確認仍在原位置\nL-2\nD-1\n3  移出後更新\nL-1\n4  已知受困者全移出\nL：生還者　D：罹難者　數字：剩餘人數　箭頭：選用\n06 / 12\nAAA01\n05 Oct\n無生還者或罹難者留在原位置\n僅有罹難者留在原位置\n罹難者全移出後\n原 D 保留；新 C 放旁邊\nBBB01\n06 Oct\n07 / 12\nE\n第 3 面\n第 2 面\n第 4 面\n第 1 面／街道正面\n08 / 12\nINSARAG\n臺灣常見標示\nFloor 2\n→\n3F\nFloor 1\n2F\nGround Floor\n1F\nBasement 1\nB1\n09 / 12\n作業工作區\n禁止進入區\n10 / 12\n撤離\n3 短音；每音約 1 秒；重複\n停止作業\n1 長音；約 3 秒；保持安靜\n恢復作業\n1 長音 + 1 短音\n橫條只表示長短，非時間比例。\n11 / 12\n英文／縮寫\n本冊固定用詞\nWorksite ID\n工作場址編號\nTeam ID\n隊伍編號\nTriage Category\n分流類別\nVictim Marking\n受困者標記\nLive Victim\n生還者\nDead Victim\n罹難者\nRCM\n快速清查標記\nOperational Work Space\nExclusion Space\n地面層\nEvacuate\nResume Operations\n12 / 12\nS5–S9｜2027 版主要規則\nINSARAG 指引線上平台（2027-01-01 生效）\nS1｜2020 版對照\n2020 Volume II, Manual B — Operations\nS4／STE｜版本與寫作原則\nINSARAG 公告／ASD-STE100 Issue 9",
       "issues": [
         {
-          "offset": 6491,
+          "offset": 1232,
+          "length": 6,
+          "line": 24,
+          "col": 21,
+          "found": "分區",
+          "suggestions": [
+            "分割區"
+          ],
+          "rule_type": "cross_strait",
+          "severity": "info",
+          "context": "@domain 作業系統",
+          "english": "partition"
+        },
+        {
+          "offset": 1238,
+          "length": 6,
+          "line": 24,
+          "col": 23,
+          "found": "代碼",
+          "suggestions": [
+            "程式碼",
+            "認證碼",
+            "原始碼"
+          ],
+          "rule_type": "cross_strait",
+          "severity": "info",
+          "context": "「代碼」應依語境改用「程式碼」、「認證碼」或「原始碼」，需由人工判斷。 [tier2: suppressed (score=0.00)]"
+        },
+        {
+          "offset": 6998,
           "length": 1,
-          "line": 219,
+          "line": 228,
           "col": 25,
           "found": " ",
           "suggestions": [
@@ -162,9 +192,9 @@
           "context": "全形標點與其他字元之間不加空格"
         },
         {
-          "offset": 6495,
+          "offset": 7002,
           "length": 1,
-          "line": 219,
+          "line": 228,
           "col": 27,
           "found": " ",
           "suggestions": [
@@ -179,7 +209,7 @@
       "summary": {
         "errors": 0,
         "warnings": 0,
-        "info": 2
+        "info": 4
       },
       "gate": {
         "enabled": true,
@@ -193,44 +223,44 @@
       "detected_script": "traditional",
       "s2t_applied": false,
       "trace": {
-        "trace_id": "48737f68861638966a0f985e5d0fba4e",
+        "trace_id": "b1b8a9ee50a1cbea2baa1478f59d1edd",
         "ruleset_hash": "b76e6e0ff5f9b5767de46a7c7f8ad7a56e6146aef4ba48797700a1af54ed55d4",
-        "input_hash": "d5fbe0e098ed6ca7db4777ad848ce226c7d44ae5d839fe84575d8bc0953f143b",
-        "timestamp": "2026-10-05T07:09:45.115Z",
+        "input_hash": "46f40eb39489c81ec62387bc851da5a284fa47b3d1173de1e055aedcf731fbf2",
+        "timestamp": "2026-10-05T07:38:53.022Z",
         "tool": "zhtw",
-        "issue_count": 2
+        "issue_count": 4
       },
       "coverage": {
         "rules_checked": 1807,
-        "rules_matched": 0
+        "rules_matched": 2
       },
       "oral_density": 0.0,
       "ai_signature": {
         "score": 0.0,
         "markers": [],
         "top_signals": [],
-        "sentence_variability": 82.884995,
+        "sentence_variability": 81.807175,
         "zero_width_count": 0,
         "punctuation_profile": {
           "comma": {
-            "count": 56,
-            "density": 17.811705,
-            "cv": 2.660835
+            "count": 44,
+            "density": 13.576057,
+            "cv": 2.3147435
           },
           "period": {
-            "count": 76,
-            "density": 24.173027,
-            "cv": 2.295145
+            "count": 81,
+            "density": 24.992287,
+            "cv": 2.353065
           },
           "semicolon": {
-            "count": 26,
-            "density": 8.26972,
-            "cv": 1.1161116
+            "count": 27,
+            "density": 8.330762,
+            "cv": 1.0907005
           },
           "dunhao": {
-            "count": 13,
-            "density": 4.13486,
-            "cv": 1.5954704
+            "count": 12,
+            "density": 3.702561,
+            "cv": 1.3994125
           },
           "dash": {
             "count": 0,
@@ -280,12 +310,29 @@
         "style_scores": {
           "ai": 0.0,
           "translationese": 0.0,
-          "consistency": 0.0
+          "consistency": 0.6170935
         },
         "top_issues_per_axis": {
           "ai": [],
           "translationese": [],
-          "consistency": []
+          "consistency": [
+            {
+              "line": 24,
+              "col": 21,
+              "found": "分區",
+              "severity": "info",
+              "rule_type": "cross_strait",
+              "context": "@domain 作業系統"
+            },
+            {
+              "line": 24,
+              "col": 23,
+              "found": "代碼",
+              "severity": "info",
+              "rule_type": "cross_strait",
+              "context": "「代碼」應依語境改用「程式碼」、「認證碼」或「原始碼」，需由人工判斷。 [tier2: suppressed (score=0.00)]"
+            }
+          ]
         }
       }
     }
@@ -311,7 +358,8 @@
       "max_errors": 0,
       "max_warnings": 0,
       "ignore_terms": [
-        "恢復"
+        "恢復",
+        "分區"
       ],
       "glossary": {
         "preferred": [
@@ -418,13 +466,13 @@
         ]
       }
     },
-    "input_sha256": "c1e144bd21085a363b64c1360744d86eded4cd6744b59d2864dc5a4fcbb29c0b",
+    "input_sha256": "07e7919e9b0dcdcbfc23103c7ed0108ac52ca0ec0b8cae087c641720c23ad45d",
     "result": {
       "accepted": true,
-      "text": "# INSARAG A5 隨身圖解手冊\n\n供演習人員攜帶閱讀。採用 2020 版規則，語言為臺灣正體中文，共 12 頁；每頁為 A5（148 × 210 mm）。圖文依官方原件重繪，圖片與 PDF 圖形皆為向量。\n\n\n 用途 \n 檔案 \n\n\n --- \n --- \n\n\n 閱讀、列印 \n [A5 PDF] \n\n\n 瀏覽全部頁面 \n [HTML 預覽] \n\n\n 編輯內容 \n [文字來源]、[閱讀用 Markdown] \n\n\n 編輯圖形 \n [12 頁 SVG]、[圖形資料]、[產生 script] \n\n\n Figma 編輯與匯出 \n [12 頁 A5 手冊]、[同步與驗收紀錄] \n\n\n 核對名詞 \n [中英對照表]、[機器可讀 CSV] \n\n\n 核對寫作方法 \n [STE 原則應用與檢查範圍] \n\n\n 回查原件 \n [手冊頁碼與來源對照]、[完整來源索引] \n\n\n 驗收 \n [驗收紀錄]、[檢查結果]、[產出雜湊] \n\n\n## 列印\n\n以 A5、實際大小列印。雙面列印時，選擇長邊翻頁。若使用 A4 紙裝訂成小冊，啟用 PDF 閱讀器的「小冊子」功能。依印表機設定翻頁方式。先試印一張核對頁序。本 PDF 保留正常閱讀頁序，沒有預先拼版。圖中公分數是現場標記參考，印出的圖例不是實際施工比例。\n\n## 印刷輸出\n\n交付印刷廠時，產生 300 dpi 的 RGB 與 CMYK PDF。輸出檔放在 print/，不列入 git；每次重新產生手冊後，重新輸出。\n\n\n\n\n需要 PyMuPDF 與 Pillow。每頁以 300 dpi 點陣化，使用無失真壓縮。CMYK 由 sRGB 經 ICC 描述檔轉換，預設使用 Windows 內建的 RSWOP.icm（SWOP），並把該描述檔嵌入 PDF。若印刷廠指定其他描述檔，用 --cmyk-profile 指定。print/print-report.json 記錄頁數、解析度、嵌入描述檔與最大總墨量。\n\n## 獨立檢查\n\n本機 Windows 可直接執行 PowerShell 入口；它會尋找 Python 與 zhtw-mcp：\n\n\n\n\n檢查 script 只需 Python 3.10 以上，使用標準函式庫。本機 zhtw-mcp 須已安裝並可從 PATH 啟動；可用參數指定執行檔。從儲存庫根目錄執行：\n\n\n\n\n若執行檔不在 PATH：\n\n\n\n\n只執行本機對照表、結構與雜湊檢查，以及檢查器的自我測試：\n\n\n\n\n--offline 報告會明確記錄未呼叫 MCP，不可視為完整的臺灣用語檢查。完整檢查經由 MCP stdio 協定呼叫本機 zhtw 工具，不需要 Codex 對話環境；設定 verify=false，不呼叫 Google Translate 校準。檢查不自動改寫手冊。結束代碼：0 符合全部門檻；1 有錯誤、警告、MCP 不符合門檻或產出過期；2 執行環境或檔案格式錯誤。\n\n手冊文字與圖中文字共同檢查。README、STE 方法、來源對照、驗收紀錄與 Figma 同步說明另行檢查；略過指令區塊，保留檔名等原始字串，表格各欄分開檢查。兩份 MCP 結果與輸入雜湊均寫入報告。\n\n## 修改與重新產生\n\n1. 修改 manual.json 的文字。\n2. 若修改名詞，先核對原件，再更新 terminology.csv。\n3. 若修改圖示，修改 scripts/build_handbook.py 的向量圖形。\n4. 重新產生全部檔案。\n5. 執行完整檢查。\n6. 逐頁檢視 PDF 與 SVG。\n\n\n\n\n產生 script 需要 reportlab。預設讀取 Windows 的 Microsoft JhengHei 正常體與粗體；可用 --font-dir 指向含 msjh.ttc、msjhbd.ttc 的資料夾。PDF 嵌入字型；SVG 以文字與圖形保留可編輯性，檢視裝置需有對應中文字型。不要直接修改產出的 PDF、SVG、Markdown 或 scenes.json；這些檔案會於重新產生時覆寫。\n\n專有名詞、單句動作及中文短句檢查是本專案規則。中文不能直接套用英文 STE 的字數門檻；符合檢查門檻不等於 ASD-STE100 認證，也不取代 INSARAG 技術內容驗收。\n\n\n# ASD-STE100 原則在中文手冊的應用\n\n採用 ASD-STE100 Issue 9（2025-01-15）的受控語言概念，依使用者指定的 asd-ste100-skill:asd-ste100 進行中文改寫。ASD-STE100 的字典及英文文法規則以英文為對象；本冊是中文原則應用，不宣稱符合全部英文規則或取得認證。\n\n## 原則、改寫與檢查對照\n\n\n 原則／依據 \n 本冊應用 \n 獨立 script 能檢查的範圍 \n 人工複核 \n\n\n --- \n --- \n --- \n --- \n\n\n §1：專案技術名詞與技術動詞 \n terminology.csv 指定英文、中文、TN／TV、來源及不採用變體 \n 必填欄位、重複詞條、不採用變體、未列管英文單字、大小寫 \n 英文來源是否正確、中文譯詞是否適用 \n\n\n §5，Rule 5.1：指令句子保持簡短 \n 中文指令句超過 45 個漢字時提出複核 \n 計算漢字並提出警告 \n 可讀性、條件與限制有無遺漏 \n\n\n §5，Rule 5.2：每句一個指令；原則上一次一個動作 \n 「移出受困者後，劃除舊人數。」「在下方更新人數。」 \n 每個步驟一個句號、禁止分號、多動作提示詞 \n 語意是否真的是一個動作；提示詞不能完整解析中文 \n\n\n §5，Rule 5.3：直接下達指令 \n 「保留先前的作業紀錄。」 \n 無完整語法判定 \n 主詞、執行者與動作是否清楚 \n\n\n §5，Rule 5.4：條件先於動作 \n 「所有罹難者移出後，在原 D 旁新增 C。」 \n 偵測部分可能置於句尾的條件提示 \n 條件順序、同時成立的條件與否定限制 \n\n\n §5，Rule 5.5：註記提供資訊，指令列在步驟中 \n 步驟與技術說明分開編排；更新人數列入步驟 \n 文字區分為 bullets 與 notes \n 註記是否藏有必要動作；原文條件是否完整保留 \n\n\n 一個概念使用同一用詞 \n Worksite ID 固定用「工作場址編號」 \n CSV 對照與不採用變體檢查 \n 同形字、跨情境詞義 \n\n\n45 個漢字是本案自訂的複核門檻，**不是**把 Rule 5.1 的英文 20 words 直接換成中文字數。短句檢查只處理指令步驟；描述文字、表格與來源註記另行人工檢視。原件中的日期、人數、尺寸、時間、否定語意與使用條件優先保留，不為降低字數而刪除。\n\n## 中英技術名詞如何核對\n\nterminology.csv 是本冊的名詞來源。TN 表示 technical noun；TV 表示 technical verb。英文名詞依 INSARAG 2020 原件建立，中文是本專案固定譯詞。英文技術名詞不等於 ASD 通用字典詞；本冊未宣稱這 27 個中文詞由 ASD 字典核准。\n\n檢查器依 CSV 英文單字建立允許清單。縮寫、單位與書目用字另行列管。檢查涵蓋手冊文字與所有 SVG／PDF 共用的圖中文字。通用英文單字的全文字典合規判定未納入；機器可辨認詞形，不能保證每個詞的語意或搭配都正確。來源編號、圖表編號、教學場址編號、隊伍編號、L／D 人數與檔案路徑視為受保護字串。\n\nbuild-manifest.json 記錄內容來源、產生 script 與所有圖文產出的 SHA-256。修改內容但未重新產生，或直接修改產出時，檢查會失敗。check-report.json 另記錄檢查器、語言設定與輸入雜湊，可辨識報告是否對應本次檔案。\n\n## zhtw-mcp 與人工判讀\n\n完整檢查呼叫本機 zhtw-mcp 的 zhtw 工具，傳入 CSV 固定用詞與不採用變體，開啟用詞一致性及技術語境的翻譯腔檢查。錯誤與警告門檻均為 0；資訊提示保留於原始報告。\n\nlanguage-policy.json 記錄「恢復」的語境例外：本冊指 Resume Operations，不能換成軟體介面 restore/recover 的「還原／復原」。例外有原件依據；工具仍會將提示留在報告中。不得為了符合門檻而增加沒有來源或理由的例外。\n\n## 方法來源與取得限制\n\n- [ASD-STE100 官方網站]：Issue 9、發布日期及標準定位。\n- [Issue 9 官方 PDF]：§1、§5。此次搜尋可讀取官方索引的 §5 規則摘要；直接讀取 PDF 回應 403，沒有宣稱已取得完整字典。\n- [ASD 技術名詞與 STE 說明]、[官方 FAQ]：專案技術名詞與技術動詞的使用概念。\n- 本次已讀取使用者指定 skill 的 SKILL.md、references/writing-rules.md、references/structural-lint.md、references/manual-examples.md；實作採用標準函式庫的中文檢查器，沒有把 skill 的英文 linter 結果當作中文合規證明。\n\nINSARAG 技術規則仍以 [本冊來源對照] 與 [原件索引] 為準。\n\n\n# 手冊頁碼與資料來源\n\n核對日期：2026-10-05。S1–S4 的原檔、SHA-256 與取得方式見 [完整來源索引]。手冊是依原件重繪及改寫的演習教材，不是官方中文版。\n\n\n 手冊頁 \n 主題 \n 原件位置 \n 核對重點 \n\n\n --- \n --- \n --- \n --- \n\n\n 1 \n 制度與版本 \n S1 §6.1，p.41；S4 \n 國家制度優先；LEMA／UCC 協調；2020／2027 版本分開 \n\n\n 2 \n 工作場址標記 \n S1 §5.5.5，pp.26–27；§6.2，pp.44–45，Figures 17–18 \n 先寫文字、後畫方框；40 cm／10 cm 為字高；隊伍、ASR 與日期依圖例同列；入口外側；不虛構方框長寬 \n\n\n 3 \n 更新與結案 \n S1 §6.2.1，pp.45–46，Figures 18–20 \n 追加紀錄；所有必要工作完成且不需再作業，才畫完成線 \n\n\n 4 \n 分流與 ASR \n S1 §5.7，pp.29–34，Tables 1–5；§5.8.1，p.35，Table 6 \n A／B 的作業時間；C／D 的時間未評估；12 小時邊界未明定 \n\n\n 5 \n 受困者 \n S1 §6.3.1–6.3.2，pp.48–49，Table 10 \n 位置、約 50 cm、剩餘人數、劃除舊數、新數置於下方、保留 V \n\n\n 6 \n RCM \n S1 §6.3.3–6.3.5，pp.49–51，Table 11 \n LEMA 啟用；全面搜索；指定範圍；D 旁新增 C 並附新隊伍及日期 \n\n\n 7 \n 面向與象限 \n S1 §6.1.2，p.42，Figure 13 \n 正面為第 1 面、順時針、A–E 位置 \n\n\n 8 \n 樓層 \n S1 §6.1.2，pp.42–43，Figure 14 \n Ground Floor、Floor 1、Basement 1；臺灣標示為教學對照 \n\n\n 9 \n 警戒帶 \n S1 §6.1.3，p.43，Figures 15–16 \n 水平／交叉；選用項目；不套用 FEMA 搜索符號 \n\n\n 10 \n 號音 \n S1 §6.4，p.52，Figures 24–26；S2 Signalling；S3 p.22 \n 3 短音每音 1 秒、1 長音 3 秒、1 長＋1 短；揭露 S3 矛盾 \n\n\n 11 \n 術語 \n S1 §5.5、5.7、6；STE §1、§5 \n 中英固定詞；中文 STE 原則應用與檢查限制 \n\n\n 12 \n 使用前核對 \n 上述來源；S4；STE 官方網站 \n 來源入口；不另創現場指揮規則 \n\n\n## 官方原件\n\n- **S1**：[INSARAG Guidelines 2020, Volume II, Manual B – Operations]。本冊主要依據。\n- **S2**：[Annex B26 – USAR Team Marking System and Signalling]。DOCX 沒有固定 PDF 頁碼；使用 Signalling 小節核對。\n- **S3**：[INSARAG Guidelines 2020, Volume III – Operational Field Guide]。p.22 的撤離號音為 3 長音，與 S1／S2 的 3 短音不一致。本冊依 S1 製圖，保留差異並要求現場簡報統一。\n- **S4**：[INSARAG Guidelines 官方版本公告]。核對時公告新版於 2027-01-01 生效。換版時需重新驗證，不直接延用本冊的 2020 場址編碼。\n- **STE**：[ASD-STE100 官方網站]、[Issue 9]。取得範圍與方法另見 [STE 應用說明]。\n\nS1／S3 的 PDF 閱讀器頁碼＝印刷頁碼＋1。例如印刷 p.52 位於閱讀器第 53 頁。\n\n## 重繪與教學解讀\n\n隊伍編號 AAA-01／BBB-01、日期、人數與危害均為本案教學範例。RCM 的新 C 日期與隊伍刻意不同於原 D，以示保留紀錄。號音橫條只表達長短，不代表未規定的時間比例、間隔或音高。完成線位置依 S1 Figure 20，原文「中心」及圖版差異詳見 [版本與來源差異]。\n\n本冊的面向與樓層對照、C／完成線不表示結構安全等說明是教學解讀；實際現場制度須先統一。更多原文矛盾及使用者參考文字核對，見 [版本差異] 與 [使用者文字核對]。\n\n\n# 手冊驗收紀錄\n\n核對日：2026-10-05。驗收對象為本資料夾的 A5 手冊，不延伸認定 FEMA 規則或英文 ASD-STE100 字典合規。\n\n\n 項目 \n 結果與證據 \n\n\n --- \n --- \n\n\n 形式 \n 12 頁，148 × 210 mm，正常閱讀頁序；可由閱讀器另行小冊拼版 \n\n\n 圖形 \n 12 頁 SVG；PDF 每頁點陣圖片數為 0；SVG 無 image 元素 \n\n\n Figma \n 改版後重新同步：12 頁原生 PDF MediaBox 為 A5；文字比對無缺漏；PDF 與 SVG 均無點陣圖片；[同步驗收報告] \n\n\n 字型 \n Microsoft JhengHei 正常體、粗體均已嵌入 PDF \n\n\n 範圍與可讀性 \n 程式檢查無文字超出安全邊界；已檢視 12 頁縮圖及各頁文字配置，重要標記頁另行放大核對 \n\n\n 工作場址 \n 第 2 頁依 S1 p.45 先寫文字、後畫方框；40 cm／10 cm 為字高，方框不設固定寬高；隊伍編號、ASR 等級與日期依官方圖例放在同一列；框外方向箭頭依 Figure 17；日期依原件「日 月」寫法（05 Oct）；完成紀錄與結案分開；完成線保留危害文字；結案條件完整 \n\n\n 分流 \n A／B 的 12 小時門檻照原件；C／D 明確表示作業時間未評估；不虛構恰好 12 小時的判定 \n\n\n 受困者 \n L／D 依 Table 10 在 V 下方上下排列；選用方向箭頭；舊人數劃除，新人數在下方；D-1 保留至該罹難者移出；所有紀錄劃除後保留 V；封面的 V 不加方框 \n\n\n RCM \n C／D 的全面搜索前提；原 D 旁新增 C；菱形正下方記錄隊伍編號及日期（05 Oct）；範圍及結構安全限制 \n\n\n 面向與樓層 \n A–E、第 1–4 面、Ground Floor 與臺灣標示一致；標示選用及現場核對條件 \n\n\n 號音 \n S1 的短音／長音與秒數；說明文字緊接各自標題；S3 的 3 長音矛盾揭露；恢復號音不加自訂秒數 \n\n\n 中英名詞 \n 27 個詞條；CSV 為來源；LEMA、UCC、Live Victim 依台灣急診醫學通訊 6(3)（2023）的台灣用詞調整，ASR 2 加註台灣慣稱；固定中文、英文及 TN／TV 分類；術語與圖中文字同步檢查 \n\n\n STE 原則 \n 步驟一句一個指令，條件先寫；短句與多動作提示檢查無警告；語意與規則逐項人工核對 \n\n\n zhtw-mcp \n 本機 stdio 呼叫完成；伺服器版本 0.1.0；錯誤 0、警告 0；原始資訊提示與語境例外保留 \n\n\n 檢查器 \n 10 個正／負案例符合預期，包含錯誤變體、大小寫、簡體字、多句、多動作、檔案過期及重複詞條 \n\n\n 完整性 \n 來源／產出 SHA-256 及報告輸入雜湊已記錄；原先封存的 INSARAG 原件未修改 \n\n\n## 可重跑的證據\n\n- [check-report.json]：完整語言檢查、MCP 原始結果、輸入與檢查器雜湊。\n- [layout-report.json]：每頁尺寸、點陣圖片數、中文字型、文字範圍及 PDF 雜湊。\n- [build-manifest.json]：內容來源及產出雜湊。\n- [中英對照表]：供人工核對；機器檢查使用 [CSV]。\n- [逐頁來源]：章節、印刷頁、圖表與差異說明。\n\n\n\n\nPDF 檢查與重繪需要 PyMuPDF／Pillow；主要名詞與 STE 原則檢查不需要這些套件。重繪檢視圖片預設放在儲存庫的 work/handbook-review/，不列為手冊正文。\n\n## 人工判讀與未驗證項目\n\nzhtw-mcp 的「恢復」提示屬軟體介面 restore/recover 語境，與 Resume Operations 不同，已記錄來源與保留理由。部分全形標點旁的空白提示屬資訊層級，用於並列標記與來源欄位；不改寫識別碼或英文原名。語言報告中的 0 錯誤／0 警告不代表沒有資訊提示。\n\n尚未執行實體印表機試印或正式現場演練驗收。一般名詞一致性、字數及提示詞檢查不能證明全部技術語意正確，也不屬 ASD-STE100 認證。本冊採用 2020 版；正式換版須重新核對。\n\n\n# Figma 手冊同步與驗收\n\n[開啟 12 頁手冊]。首次同步與改版同步日：2026-10-05。目標頁面為 0:1，手冊區段為 7:37；頁序由左至右、由上至下，共 12 頁。\n\n每頁為 A5（148 × 210 mm），頁框尺寸為 419.52756 × 595.27559 Figma 單位。已逐頁核對 Figma 原生 PDF 匯出的 MediaBox，確認實際尺寸為 A5。匯出時使用 PDF 或 SVG；列印時選擇「實際大小」。圖例中的公分數為現場標記參考，手冊圖示不是施工比例。\n\n圖示保留為向量路徑；文字保留為可編輯的文字圖層。Figma 使用 Noto Sans TC 正常體與粗體，既有本機 PDF 使用 Microsoft JhengHei，因此兩版字型外觀略有不同。12 頁 PDF 的點陣圖片物件數均為 0，SVG 每頁均有 0 個 image 元素。共用頁首採用元件；頁面不設來源欄位，來源見 [逐頁來源]。色彩及字級使用本檔案的共用變數與樣式。\n\n**改版同步：** 第 1、2、3、5、6、9、10 頁的圖示、日期格式與版面修正，各頁補充說明精簡，以及移除頁尾來源欄位，已以 update-*.js 原地重建 12 個頁框（頁框識別碼不變），並移除不再使用的來源欄位元件。改版後驗收結果見 [sync-report.json]。\n\n第 2 頁的隊伍編號、ASR 等級與日期為同一個文字圖層，維持官方圖例的同列配置。全部文字逐項核對 [手冊文字來源] 與 [圖形資料]，沒有缺漏或多出的文字；名詞檢查依 [中英對照表]。原件、章節與圖表位置見 [逐頁來源]。\n\n## 可重跑的證據\n\n- [sync-report.json]：12 頁的頁框尺寸、PDF MediaBox、文字比對、字型、邊界及向量檢查。\n- [source-manifest.json]：文字、圖形及名詞來源的 SHA-256。\n- [state.json]：頁框、共用元件、變數及樣式的識別碼。\n- compose-report-*.json：分批建立的圖層識別碼與檢查結果。\n- [prepare_sync.py]：從已驗證的來源準備 Figma 同步 script。\n- [prepare_validation.py]：從來源文字與已存頁框識別碼準備唯讀驗收 script。\n\n從儲存庫根目錄執行：\n\n\n\n\n產出的 JavaScript 需經 Figma use_figma 工具執行。準備 script 不會自行修改雲端檔案。setup.js 及 compose-*.js 為首次建立用途；已有頁面時會停止，避免重複建立。update-*.js 用於改版：依已存頁框識別碼清除並重建頁面內容，執行前先以唯讀方式核對既有圖層。validate.js 為唯讀檢查。來源變更後，應重新執行本機語言檢查及 Figma 驗收，並更新兩份報告。\n\n本機手冊來源是編輯基準。Figma 編輯不會自動回寫本機來源。已檢視完整 12 頁畫面，未執行實體印表機試印。\n",
+      "text": "# INSARAG A5 隨身圖解手冊\n\n供演習人員攜帶閱讀。採用 2027 版規則（2027-01-01 生效），並以淺藍底、左側藍色條與藍色「2027」標籤標示相對 2020 版的異動；2026 年底前的演習仍適用 2020 版，2020 版手冊保留在 git 歷史（commit c8362d1）。語言為臺灣正體中文，共 12 頁；每頁為 A5（148 × 210 mm）。圖文依官方原件重繪，圖片與 PDF 圖形皆為向量。\n\n\n 用途 \n 檔案 \n\n\n --- \n --- \n\n\n 閱讀、列印 \n [A5 PDF] \n\n\n 瀏覽全部頁面 \n [HTML 預覽] \n\n\n 編輯內容 \n [文字來源]、[閱讀用 Markdown] \n\n\n 編輯圖形 \n [12 頁 SVG]、[圖形資料]、[產生 script] \n\n\n Figma 編輯與匯出 \n [12 頁 A5 手冊]、[同步與驗收紀錄] \n\n\n 核對名詞 \n [中英對照表]、[機器可讀 CSV] \n\n\n 核對寫作方法 \n [STE 原則應用與檢查範圍] \n\n\n 回查原件 \n [手冊頁碼與來源對照]、[完整來源索引] \n\n\n 驗收 \n [驗收紀錄]、[檢查結果]、[產出雜湊] \n\n\n## 列印\n\n以 A5、實際大小列印。雙面列印時，選擇長邊翻頁。若使用 A4 紙裝訂成小冊，啟用 PDF 閱讀器的「小冊子」功能。依印表機設定翻頁方式。先試印一張核對頁序。本 PDF 保留正常閱讀頁序，沒有預先拼版。圖中公分數是現場標記參考，印出的圖例不是實際施工比例。\n\n## 印刷輸出\n\n交付印刷廠時，產生 300 dpi 的 RGB 與 CMYK PDF。輸出檔放在 print/，不列入 git；每次重新產生手冊後，重新輸出。\n\n\n\n\n需要 PyMuPDF 與 Pillow。每頁以 300 dpi 點陣化，使用無失真壓縮。CMYK 由 sRGB 經 ICC 描述檔轉換，預設使用 Windows 內建的 RSWOP.icm（SWOP），並把該描述檔嵌入 PDF。若印刷廠指定其他描述檔，用 --cmyk-profile 指定。print/print-report.json 記錄頁數、解析度、嵌入描述檔與最大總墨量。\n\n## 獨立檢查\n\n本機 Windows 可直接執行 PowerShell 入口；它會尋找 Python 與 zhtw-mcp：\n\n\n\n\n檢查 script 只需 Python 3.10 以上，使用標準函式庫。本機 zhtw-mcp 須已安裝並可從 PATH 啟動；可用參數指定執行檔。從儲存庫根目錄執行：\n\n\n\n\n若執行檔不在 PATH：\n\n\n\n\n只執行本機對照表、結構與雜湊檢查，以及檢查器的自我測試：\n\n\n\n\n--offline 報告會明確記錄未呼叫 MCP，不可視為完整的臺灣用語檢查。完整檢查經由 MCP stdio 協定呼叫本機 zhtw 工具，不需要 Codex 對話環境；設定 verify=false，不呼叫 Google Translate 校準。檢查不自動改寫手冊。結束代碼：0 符合全部門檻；1 有錯誤、警告、MCP 不符合門檻或產出過期；2 執行環境或檔案格式錯誤。\n\n手冊文字與圖中文字共同檢查。README、STE 方法、來源對照、驗收紀錄與 Figma 同步說明另行檢查；略過指令區塊，保留檔名等原始字串，表格各欄分開檢查。兩份 MCP 結果與輸入雜湊均寫入報告。\n\n## 修改與重新產生\n\n1. 修改 manual.json 的文字。\n2. 若修改名詞，先核對原件，再更新 terminology.csv。\n3. 若修改圖示，修改 scripts/build_handbook.py 的向量圖形。\n4. 重新產生全部檔案。\n5. 執行完整檢查。\n6. 逐頁檢視 PDF 與 SVG。\n\n\n\n\n產生 script 需要 reportlab。預設讀取 Windows 的 Microsoft JhengHei 正常體與粗體；可用 --font-dir 指向含 msjh.ttc、msjhbd.ttc 的資料夾。PDF 嵌入字型；SVG 以文字與圖形保留可編輯性，檢視裝置需有對應中文字型。不要直接修改產出的 PDF、SVG、Markdown 或 scenes.json；這些檔案會於重新產生時覆寫。\n\n專有名詞、單句動作及中文短句檢查是本專案規則。中文不能直接套用英文 STE 的字數門檻；符合檢查門檻不等於 ASD-STE100 認證，也不取代 INSARAG 技術內容驗收。\n\n\n# ASD-STE100 原則在中文手冊的應用\n\n採用 ASD-STE100 Issue 9（2025-01-15）的受控語言概念，依使用者指定的 asd-ste100-skill:asd-ste100 進行中文改寫。ASD-STE100 的字典及英文文法規則以英文為對象；本冊是中文原則應用，不宣稱符合全部英文規則或取得認證。\n\n## 原則、改寫與檢查對照\n\n\n 原則／依據 \n 本冊應用 \n 獨立 script 能檢查的範圍 \n 人工複核 \n\n\n --- \n --- \n --- \n --- \n\n\n §1：專案技術名詞與技術動詞 \n terminology.csv 指定英文、中文、TN／TV、來源及不採用變體 \n 必填欄位、重複詞條、不採用變體、未列管英文單字、大小寫 \n 英文來源是否正確、中文譯詞是否適用 \n\n\n §5，Rule 5.1：指令句子保持簡短 \n 中文指令句超過 45 個漢字時提出複核 \n 計算漢字並提出警告 \n 可讀性、條件與限制有無遺漏 \n\n\n §5，Rule 5.2：每句一個指令；原則上一次一個動作 \n 「移出受困者後，劃除舊人數。」「在下方更新人數。」 \n 每個步驟一個句號、禁止分號、多動作提示詞 \n 語意是否真的是一個動作；提示詞不能完整解析中文 \n\n\n §5，Rule 5.3：直接下達指令 \n 「保留先前的作業紀錄。」 \n 無完整語法判定 \n 主詞、執行者與動作是否清楚 \n\n\n §5，Rule 5.4：條件先於動作 \n 「所有罹難者移出後，在原 D 旁新增 C。」 \n 偵測部分可能置於句尾的條件提示 \n 條件順序、同時成立的條件與否定限制 \n\n\n §5，Rule 5.5：註記提供資訊，指令列在步驟中 \n 步驟與技術說明分開編排；更新人數列入步驟 \n 文字區分為 bullets 與 notes \n 註記是否藏有必要動作；原文條件是否完整保留 \n\n\n 一個概念使用同一用詞 \n Worksite ID 固定用「工作場址編號」 \n CSV 對照與不採用變體檢查 \n 同形字、跨情境詞義 \n\n\n45 個漢字是本案自訂的複核門檻，**不是**把 Rule 5.1 的英文 20 words 直接換成中文字數。短句檢查只處理指令步驟；描述文字、表格與來源註記另行人工檢視。原件中的日期、人數、尺寸、時間、否定語意與使用條件優先保留，不為降低字數而刪除。\n\n## 中英技術名詞如何核對\n\nterminology.csv 是本冊的名詞來源。TN 表示 technical noun；TV 表示 technical verb。英文名詞依 INSARAG 2027 版指引（S5–S8）核對，並保留 2020 版原件對照，中文是本專案固定譯詞。英文技術名詞不等於 ASD 通用字典詞；本冊未宣稱這 27 個中文詞由 ASD 字典核准。\n\n檢查器依 CSV 英文單字建立允許清單。縮寫、單位與書目用字另行列管。檢查涵蓋手冊文字與所有 SVG／PDF 共用的圖中文字。通用英文單字的全文字典合規判定未納入；機器可辨認詞形，不能保證每個詞的語意或搭配都正確。來源編號、圖表編號、教學場址編號、隊伍編號、L／D 人數與檔案路徑視為受保護字串。\n\nbuild-manifest.json 記錄內容來源、產生 script 與所有圖文產出的 SHA-256。修改內容但未重新產生，或直接修改產出時，檢查會失敗。check-report.json 另記錄檢查器、語言設定與輸入雜湊，可辨識報告是否對應本次檔案。\n\n## zhtw-mcp 與人工判讀\n\n完整檢查呼叫本機 zhtw-mcp 的 zhtw 工具，傳入 CSV 固定用詞與不採用變體，開啟用詞一致性及技術語境的翻譯腔檢查。錯誤與警告門檻均為 0；資訊提示保留於原始報告。\n\nlanguage-policy.json 記錄「恢復」的語境例外：本冊指 Resume Operations，不能換成軟體介面 restore/recover 的「還原／復原」。例外有原件依據；工具仍會將提示留在報告中。不得為了符合門檻而增加沒有來源或理由的例外。\n\n## 方法來源與取得限制\n\n- [ASD-STE100 官方網站]：Issue 9、發布日期及標準定位。\n- [Issue 9 官方 PDF]：§1、§5。此次搜尋可讀取官方索引的 §5 規則摘要；直接讀取 PDF 回應 403，沒有宣稱已取得完整字典。\n- [ASD 技術名詞與 STE 說明]、[官方 FAQ]：專案技術名詞與技術動詞的使用概念。\n- 本次已讀取使用者指定 skill 的 SKILL.md、references/writing-rules.md、references/structural-lint.md、references/manual-examples.md；實作採用標準函式庫的中文檢查器，沒有把 skill 的英文 linter 結果當作中文合規證明。\n\nINSARAG 技術規則仍以 [本冊來源對照] 與 [原件索引] 為準。\n\n\n# 手冊頁碼與資料來源\n\n核對日期：2026-10-05。S1–S9 的原檔、SHA-256 與取得方式見 [完整來源索引]。手冊是依原件重繪及改寫的演習教材，不是官方中文版。自 2027 版起，本冊以新版平台（S5–S9）為主要依據，S1 為 2020 版對照。\n\n\n 手冊頁 \n 主題 \n 2027 版依據 \n 2020 版對照 \n 2027 異動 \n\n\n --- \n --- \n --- \n --- \n --- \n\n\n 1 \n 制度與版本 \n S5 Marking System；S4 \n S1 §6.1，p.41 \n 版本改為 2027；新增異動標示說明 \n\n\n 2 \n 工作場址標記 \n S5 Worksite Triage Marking；S6 Worksite Identification \n S1 §5.5.5；§6.2，pp.44–45 \n 場址編號改為隊伍編號＋4 位數；隊伍編號不加短橫線；先寫文字、後畫方框與字高規定未變 \n\n\n 3 \n 更新與結案 \n S5 Worksite Triage Marking／Progressive Examples；S6 USAR Team Identification Code \n S1 §6.2.1，pp.45–46 \n 完成線位置明文化；新增僅有罹難者時的標記規則；隊伍編號格式 \n\n\n 4 \n 分流與 ASR \n S7 Triage Categories；S8 ASR Levels \n S1 §5.7；§5.8.1，Table 6 \n 無異動 \n\n\n 5 \n 受困者 \n S5 Victim Marking \n S1 §6.3.1–6.3.2，Table 10 \n 無異動 \n\n\n 6 \n RCM \n S5 Rapid Clearance Marking System \n S1 §6.3.3–6.3.5，Table 11 \n 隊伍編號格式（AAA01） \n\n\n 7 \n 面向與象限 \n S5 Structure Orientation \n S1 §6.1.2，Figure 13 \n 無異動 \n\n\n 8 \n 樓層 \n S5 Structure Orientation \n S1 §6.1.2，Figure 14 \n 無異動 \n\n\n 9 \n 警戒帶 \n S5 Cordon Markings \n S1 §6.1.3，Figures 15–16 \n 英文名稱改為 Operational Work Space／Exclusion Space \n\n\n 10 \n 號音 \n S5 INSARAG Signalling System；S9 Rescue Checklist \n S1 §6.4，p.52；S2；S3 p.22 \n 規則無異動；新版檢核表仍寫 3 長音，矛盾持續揭露 \n\n\n 11 \n 術語 \n S5–S8；STE §1、§5 \n S1 §5.5、5.7、6 \n 警戒帶兩個英文名詞 \n\n\n 12 \n 使用前核對 \n S4–S9；STE 官方網站 \n S1 \n 來源改為 2027 版平台，S1 列為對照 \n\n\n## 官方原件\n\n- **S1**：[INSARAG Guidelines 2020, Volume II, Manual B – Operations]。2020 版對照；2026 年底前的演習依據。\n- **S2**：[Annex B26 – USAR Team Marking System and Signalling]。DOCX 沒有固定 PDF 頁碼；使用 Signalling 小節核對。\n- **S3**：[INSARAG Guidelines 2020, Volume III – Operational Field Guide]。p.22 的撤離號音為 3 長音，與 S1／S2 的 3 短音不一致。本冊依 S1 製圖，保留差異並要求現場簡報統一。\n- **S4**：[INSARAG Guidelines 官方版本公告]。核對時公告新版於 2027-01-01 生效。新版平台於全球會議發布，2027-01-01 起生效。\n- **S5–S9**：新版指引平台的 Marking and Signalling、Sectorisation, Zones & Worksite、Worksite Triage、ASR Levels 與 Rescue Checklist；連結與快照見 [完整來源索引]。\n- **STE**：[ASD-STE100 官方網站]、[Issue 9]。取得範圍與方法另見 [STE 應用說明]。\n\nS1／S3 的 PDF 閱讀器頁碼＝印刷頁碼＋1。例如印刷 p.52 位於閱讀器第 53 頁。\n\n## 重繪與教學解讀\n\n隊伍編號 AAA-01／BBB-01、日期、人數與危害均為本案教學範例。RCM 的新 C 日期與隊伍刻意不同於原 D，以示保留紀錄。號音橫條只表達長短，不代表未規定的時間比例、間隔或音高。完成線位置依 S1 Figure 20，原文「中心」及圖版差異詳見 [版本與來源差異]。\n\n本冊的面向與樓層對照、C／完成線不表示結構安全等說明是教學解讀；實際現場制度須先統一。更多原文矛盾及使用者參考文字核對，見 [版本差異] 與 [使用者文字核對]。\n\n\n# 手冊驗收紀錄\n\n核對日：2026-10-05。驗收對象為本資料夾的 A5 手冊，不延伸認定 FEMA 規則或英文 ASD-STE100 字典合規。\n\n\n 項目 \n 結果與證據 \n\n\n --- \n --- \n\n\n 形式 \n 12 頁，148 × 210 mm，正常閱讀頁序；可由閱讀器另行小冊拼版 \n\n\n 圖形 \n 12 頁 SVG；PDF 每頁點陣圖片數為 0；SVG 無 image 元素 \n\n\n Figma \n 改版後重新同步：12 頁原生 PDF MediaBox 為 A5；文字比對無缺漏；PDF 與 SVG 均無點陣圖片；[同步驗收報告] \n\n\n 字型 \n Microsoft JhengHei 正常體、粗體均已嵌入 PDF \n\n\n 範圍與可讀性 \n 程式檢查無文字超出安全邊界；已檢視 12 頁縮圖及各頁文字配置，重要標記頁另行放大核對 \n\n\n 2027 版異動 \n 依 S5–S9 更新並以藍色標示：場址編號改為隊伍編號＋4 位數（AAA01-0005）、隊伍編號不加短橫線（AAA01）、完成線明訂在場址編號下方與 ASR 紀錄上方、僅有罹難者時只記錄 ASR 5 與完成線、警戒帶英文改為 Space；有異動的頁面在頁首加「2027 異動」標籤 \n\n\n 工作場址 \n 第 2 頁依 S5（與 S1 p.45 相同）先寫文字、後畫方框；40 cm／10 cm 為字高，方框不設固定寬高；隊伍編號、ASR 等級與日期依官方圖例放在同一列；框外方向箭頭依 Figure 17；日期依原件「日 月」寫法（05 Oct）；完成紀錄與結案分開；完成線保留危害文字；結案條件完整 \n\n\n 分流 \n A／B 的 12 小時門檻照原件；C／D 明確表示作業時間未評估；不虛構恰好 12 小時的判定 \n\n\n 受困者 \n L／D 依 Table 10 在 V 下方上下排列；選用方向箭頭；舊人數劃除，新人數在下方；D-1 保留至該罹難者移出；所有紀錄劃除後保留 V；封面的 V 不加方框 \n\n\n RCM \n C／D 的全面搜索前提；原 D 旁新增 C；菱形正下方記錄隊伍編號及日期（05 Oct）；範圍及結構安全限制 \n\n\n 面向與樓層 \n A–E、第 1–4 面、Ground Floor 與臺灣標示一致；標示選用及現場核對條件 \n\n\n 號音 \n S5（與 S1 相同）的短音／長音與秒數；說明文字緊接各自標題；S3 與 2027 版救援檢核表（S9）的 3 長音矛盾揭露；恢復號音不加自訂秒數 \n\n\n 中英名詞 \n 27 個詞條；CSV 為來源；LEMA、UCC、Live Victim 依台灣急診醫學通訊 6(3)（2023）的台灣用詞調整，ASR 2 加註台灣慣稱；固定中文、英文及 TN／TV 分類；術語與圖中文字同步檢查 \n\n\n STE 原則 \n 步驟一句一個指令，條件先寫；短句與多動作提示檢查無警告；語意與規則逐項人工核對 \n\n\n zhtw-mcp \n 本機 stdio 呼叫完成；伺服器版本 0.1.0；錯誤 0、警告 0；原始資訊提示與語境例外保留 \n\n\n 檢查器 \n 10 個正／負案例符合預期，包含錯誤變體、大小寫、簡體字、多句、多動作、檔案過期及重複詞條 \n\n\n 完整性 \n 來源／產出 SHA-256 及報告輸入雜湊已記錄；原先封存的 INSARAG 原件未修改 \n\n\n## 可重跑的證據\n\n- [check-report.json]：完整語言檢查、MCP 原始結果、輸入與檢查器雜湊。\n- [layout-report.json]：每頁尺寸、點陣圖片數、中文字型、文字範圍及 PDF 雜湊。\n- [build-manifest.json]：內容來源及產出雜湊。\n- [中英對照表]：供人工核對；機器檢查使用 [CSV]。\n- [逐頁來源]：章節、印刷頁、圖表與差異說明。\n\n\n\n\nPDF 檢查與重繪需要 PyMuPDF／Pillow；主要名詞與 STE 原則檢查不需要這些套件。重繪檢視圖片預設放在儲存庫的 work/handbook-review/，不列為手冊正文。\n\n## 人工判讀與未驗證項目\n\nzhtw-mcp 的「恢復」提示屬軟體介面 restore/recover 語境，與 Resume Operations 不同，已記錄來源與保留理由。「分區」提示屬作業系統 partition 語境，本冊指 INSARAG 的 Sector，同樣列為語境例外。部分全形標點旁的空白提示屬資訊層級，用於並列標記與來源欄位；不改寫識別碼或英文原名。語言報告中的 0 錯誤／0 警告不代表沒有資訊提示。\n\n尚未執行實體印表機試印或正式現場演練驗收。一般名詞一致性、字數及提示詞檢查不能證明全部技術語意正確，也不屬 ASD-STE100 認證。本冊採用 2027 版（2027-01-01 生效）；新版平台內容以核對日所見為準，生效前後須再核對。\n\n\n# Figma 手冊同步與驗收\n\n[開啟 12 頁手冊]。首次同步與改版同步日：2026-10-05。目標頁面為 0:1，手冊區段為 7:37；頁序由左至右、由上至下，共 12 頁。\n\n每頁為 A5（148 × 210 mm），頁框尺寸為 419.52756 × 595.27559 Figma 單位。已逐頁核對 Figma 原生 PDF 匯出的 MediaBox，確認實際尺寸為 A5。匯出時使用 PDF 或 SVG；列印時選擇「實際大小」。圖例中的公分數為現場標記參考，手冊圖示不是施工比例。\n\n圖示保留為向量路徑；文字保留為可編輯的文字圖層。Figma 使用 Noto Sans TC 正常體與粗體，既有本機 PDF 使用 Microsoft JhengHei，因此兩版字型外觀略有不同。12 頁 PDF 的點陣圖片物件數均為 0，SVG 每頁均有 0 個 image 元素。共用頁首採用元件；頁面不設來源欄位，來源見 [逐頁來源]。色彩及字級使用本檔案的共用變數與樣式。\n\n**改版同步：** 第 1、2、3、5、6、9、10 頁的圖示、日期格式與版面修正，各頁補充說明精簡，以及移除頁尾來源欄位，已以 update-*.js 原地重建 12 個頁框（頁框識別碼不變），並移除不再使用的來源欄位元件。改版後驗收結果見 [sync-report.json]。\n\n**2027 版：** 第 1、2、3、6、9、10、11、12 頁已依 2027 版指引原地重建，異動以淺藍底、藍色條與「2027」標籤標示；12 頁驗收全部合格。\n\n第 2 頁的隊伍編號、ASR 等級與日期為同一個文字圖層，維持官方圖例的同列配置。全部文字逐項核對 [手冊文字來源] 與 [圖形資料]，沒有缺漏或多出的文字；名詞檢查依 [中英對照表]。原件、章節與圖表位置見 [逐頁來源]。\n\n## 可重跑的證據\n\n- [sync-report.json]：12 頁的頁框尺寸、PDF MediaBox、文字比對、字型、邊界及向量檢查。\n- [source-manifest.json]：文字、圖形及名詞來源的 SHA-256。\n- [state.json]：頁框、共用元件、變數及樣式的識別碼。\n- compose-report-*.json：分批建立的圖層識別碼與檢查結果。\n- [prepare_sync.py]：從已驗證的來源準備 Figma 同步 script。\n- [prepare_validation.py]：從來源文字與已存頁框識別碼準備唯讀驗收 script。\n\n從儲存庫根目錄執行：\n\n\n\n\n產出的 JavaScript 需經 Figma use_figma 工具執行。準備 script 不會自行修改雲端檔案。setup.js 及 compose-*.js 為首次建立用途；已有頁面時會停止，避免重複建立。update-*.js 用於改版：依已存頁框識別碼清除並重建頁面內容，執行前先以唯讀方式核對既有圖層。validate.js 為唯讀檢查。來源變更後，應重新執行本機語言檢查及 Figma 驗收，並更新兩份報告。\n\n本機手冊來源是編輯基準。Figma 編輯不會自動回寫本機來源。已檢視完整 12 頁畫面，未執行實體印表機試印。\n",
       "issues": [
         {
-          "offset": 651,
+          "offset": 866,
           "length": 6,
           "line": 42,
           "col": 2,
@@ -439,7 +487,7 @@
           "context": "「回查」語意過度簡化；台灣用語應依情境使用「查詢」、「檢索」或「搜尋」，由人工判斷。 [tier2: suppressed (score=0.00)]"
         },
         {
-          "offset": 2360,
+          "offset": 2575,
           "length": 6,
           "line": 85,
           "col": 139,
@@ -454,7 +502,7 @@
           "context": "「代碼」應依語境改用「程式碼」、「認證碼」或「原始碼」，需由人工判斷。 [tier2: suppressed (score=0.00)]"
         },
         {
-          "offset": 2793,
+          "offset": 3008,
           "length": 4,
           "line": 91,
           "col": 14,
@@ -466,7 +514,7 @@
           "severity": "info"
         },
         {
-          "offset": 3367,
+          "offset": 3582,
           "length": 4,
           "line": 101,
           "col": 183,
@@ -478,7 +526,7 @@
           "severity": "info"
         },
         {
-          "offset": 5771,
+          "offset": 5986,
           "length": 24,
           "line": 167,
           "col": 95,
@@ -489,7 +537,7 @@
           "context": "AI structural: 三連排比（tricolon）— 三個等長的、分隔片段，常見於 AI 生成文本"
         },
         {
-          "offset": 6619,
+          "offset": 6883,
           "length": 4,
           "line": 175,
           "col": 16,
@@ -501,7 +549,7 @@
           "severity": "info"
         },
         {
-          "offset": 6785,
+          "offset": 7049,
           "length": 4,
           "line": 175,
           "col": 94,
@@ -513,7 +561,7 @@
           "severity": "info"
         },
         {
-          "offset": 7153,
+          "offset": 7417,
           "length": 4,
           "line": 181,
           "col": 17,
@@ -525,20 +573,20 @@
           "severity": "info"
         },
         {
-          "offset": 10096,
+          "offset": 10374,
           "length": 1,
-          "line": 284,
+          "line": 298,
           "col": 1,
           "found": "-",
           "suggestions": [],
           "rule_type": "ai_style",
           "severity": "info",
-          "context": "AI structural: 機械式列表 — 5 項全部以粗體關鍵字開頭"
+          "context": "AI structural: 機械式列表 — 6 項全部以粗體關鍵字開頭"
         },
         {
-          "offset": 14148,
+          "offset": 15057,
           "length": 4,
-          "line": 378,
+          "line": 397,
           "col": 17,
           "found": "json",
           "suggestions": [
@@ -548,9 +596,9 @@
           "severity": "info"
         },
         {
-          "offset": 14241,
+          "offset": 15150,
           "length": 4,
-          "line": 379,
+          "line": 398,
           "col": 18,
           "found": "json",
           "suggestions": [
@@ -560,9 +608,9 @@
           "severity": "info"
         },
         {
-          "offset": 14345,
+          "offset": 15254,
           "length": 4,
-          "line": 380,
+          "line": 399,
           "col": 19,
           "found": "json",
           "suggestions": [
@@ -572,9 +620,23 @@
           "severity": "info"
         },
         {
-          "offset": 16285,
+          "offset": 15797,
+          "length": 6,
+          "line": 410,
+          "col": 77,
+          "found": "分區",
+          "suggestions": [
+            "分割區"
+          ],
+          "rule_type": "cross_strait",
+          "severity": "info",
+          "context": "@domain 作業系統",
+          "english": "partition"
+        },
+        {
+          "offset": 17370,
           "length": 9,
-          "line": 404,
+          "line": 423,
           "col": 15,
           "found": "2、3、5",
           "suggestions": [],
@@ -583,9 +645,9 @@
           "context": "AI structural: 三連排比（tricolon）— 三個等長的、分隔片段，常見於 AI 生成文本"
         },
         {
-          "offset": 16570,
+          "offset": 17655,
           "length": 4,
-          "line": 404,
+          "line": 423,
           "col": 136,
           "found": "json",
           "suggestions": [
@@ -595,9 +657,20 @@
           "severity": "info"
         },
         {
-          "offset": 16916,
+          "offset": 17689,
+          "length": 9,
+          "line": 425,
+          "col": 17,
+          "found": "2、3、6",
+          "suggestions": [],
+          "rule_type": "ai_style",
+          "severity": "info",
+          "context": "AI structural: 三連排比（tricolon）— 三個等長的、分隔片段，常見於 AI 生成文本"
+        },
+        {
+          "offset": 18180,
           "length": 4,
-          "line": 410,
+          "line": 431,
           "col": 16,
           "found": "json",
           "suggestions": [
@@ -607,9 +680,9 @@
           "severity": "info"
         },
         {
-          "offset": 17031,
+          "offset": 18295,
           "length": 4,
-          "line": 411,
+          "line": 432,
           "col": 20,
           "found": "json",
           "suggestions": [
@@ -619,9 +692,9 @@
           "severity": "info"
         },
         {
-          "offset": 17093,
+          "offset": 18357,
           "length": 4,
-          "line": 412,
+          "line": 433,
           "col": 10,
           "found": "json",
           "suggestions": [
@@ -631,9 +704,9 @@
           "severity": "info"
         },
         {
-          "offset": 17175,
+          "offset": 18439,
           "length": 4,
-          "line": 413,
+          "line": 434,
           "col": 20,
           "found": "json",
           "suggestions": [
@@ -647,7 +720,7 @@
       "summary": {
         "errors": 0,
         "warnings": 0,
-        "info": 18
+        "info": 20
       },
       "gate": {
         "enabled": true,
@@ -661,46 +734,46 @@
       "detected_script": "traditional",
       "s2t_applied": false,
       "trace": {
-        "trace_id": "823bda094520a36493fbc29fa324d6c6",
+        "trace_id": "c55def23901f99be666bb878ef9c5adb",
         "ruleset_hash": "b76e6e0ff5f9b5767de46a7c7f8ad7a56e6146aef4ba48797700a1af54ed55d4",
-        "input_hash": "48e5c45684c98b4a1d39e84c4ebb98f59c1f2c7cff6135885e5b5926dba684a9",
-        "timestamp": "2026-10-05T07:09:45.222Z",
+        "input_hash": "f060c6474000eb5d4ecb8f012ec5559561fd74f8aa944b20a6b00fc1669d02bc",
+        "timestamp": "2026-10-05T07:38:53.145Z",
         "tool": "zhtw",
-        "issue_count": 18
+        "issue_count": 20
       },
       "coverage": {
         "rules_checked": 1807,
-        "rules_matched": 2
+        "rules_matched": 3
       },
       "oral_density": 0.0,
       "ai_signature": {
-        "score": 0.3,
+        "score": 0.4,
         "markers": [],
         "top_signals": [
-          "3 個結構性 AI 特徵"
+          "4 個結構性 AI 特徵"
         ],
-        "sentence_variability": 135.59805,
+        "sentence_variability": 151.47699,
         "zero_width_count": 0,
         "punctuation_profile": {
           "comma": {
-            "count": 110,
-            "density": 12.8130455,
-            "cv": 1.1401887
+            "count": 107,
+            "density": 11.369674,
+            "cv": 0.9933019
           },
           "period": {
-            "count": 139,
-            "density": 16.19103,
-            "cv": 2.2442617
+            "count": 144,
+            "density": 15.301243,
+            "cv": 2.3671656
           },
           "semicolon": {
-            "count": 100,
-            "density": 11.648224,
-            "cv": 1.265877
+            "count": 96,
+            "density": 10.200829,
+            "cv": 1.158341
           },
           "dunhao": {
-            "count": 114,
-            "density": 13.278975,
-            "cv": 1.4040617
+            "count": 118,
+            "density": 12.538518,
+            "cv": 1.5986574
           },
           "dash": {
             "count": 0,
@@ -732,7 +805,7 @@
           {
             "signal": "代詞密度",
             "count": 2,
-            "density": 0.23296447,
+            "density": 0.21251726,
             "threshold": 6.0
           },
           {
@@ -748,9 +821,9 @@
       },
       "style_scorecard": {
         "style_scores": {
-          "ai": 0.3,
+          "ai": 0.4,
           "translationese": 0.0,
-          "consistency": 0.22818026
+          "consistency": 0.31279325
         },
         "top_issues_per_axis": {
           "ai": [
@@ -763,17 +836,25 @@
               "context": "AI structural: 三連排比（tricolon）— 三個等長的、分隔片段，常見於 AI 生成文本"
             },
             {
-              "line": 284,
+              "line": 298,
               "col": 1,
               "found": "-",
               "severity": "info",
               "rule_type": "ai_style",
-              "context": "AI structural: 機械式列表 — 5 項全部以粗體關鍵字開頭"
+              "context": "AI structural: 機械式列表 — 6 項全部以粗體關鍵字開頭"
             },
             {
-              "line": 404,
+              "line": 423,
               "col": 15,
               "found": "2、3、5",
+              "severity": "info",
+              "rule_type": "ai_style",
+              "context": "AI structural: 三連排比（tricolon）— 三個等長的、分隔片段，常見於 AI 生成文本"
+            },
+            {
+              "line": 425,
+              "col": 17,
+              "found": "2、3、6",
               "severity": "info",
               "rule_type": "ai_style",
               "context": "AI structural: 三連排比（tricolon）— 三個等長的、分隔片段，常見於 AI 生成文本"
@@ -796,6 +877,14 @@
               "severity": "info",
               "rule_type": "cross_strait",
               "context": "「代碼」應依語境改用「程式碼」、「認證碼」或「原始碼」，需由人工判斷。 [tier2: suppressed (score=0.00)]"
+            },
+            {
+              "line": 410,
+              "col": 77,
+              "found": "分區",
+              "severity": "info",
+              "rule_type": "cross_strait",
+              "context": "@domain 作業系統"
             }
           ]
         }

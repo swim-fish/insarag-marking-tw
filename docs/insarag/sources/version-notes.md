@@ -4,15 +4,25 @@
 
 ## 現行版與待生效新版
 
-S4 公告新版於 2027-01-01 生效，因此本資料主要圖例仍以 2020 版編製。
+S4 公告新版已於 INSARAG 全球會議發布，2027-01-01 生效。本資料的參考說明與 SVG 圖例仍以 2020 版編製；[A5 隨身手冊](../handbook/README.md) 已改為 2027 版，並以藍色標示異動。
 
 | 項目 | 2020 版（S1） | 新版平台核對結果 | 本資料處理 |
 | --- | --- | --- | --- |
 | Worksite ID | §5.5.5：分區字母＋場址數字，例如 C-5；細分如 C-12b | S6／Worksite Identification：Team ID＋四位數流水號，例如 NED01-0056；ICMS 另附分區資訊 | SVG 使用 2020 範例；2027 換版時須修改編碼範本 |
 | 完成線位置文字 | §6.2，p.45：穿越整個標記中央；Figure 20 在 ID 與 ASR 紀錄之間 | S5／Worksite Triage Marking：明文指定 ID 下方、已完成 ASR 上方 | 圖依 2020 Figure 20，並保留文字／圖版差異說明 |
 | 分流類別 | §5.8.1，Table 6：A–D | S7：仍為 A–D，同樣使用 12 小時界線 | 不增列舊式 E／F 等分類 |
+| Team ID | §6.2 範例 AUS-01（有連字號） | S6／USAR Team Identification Code：奧運三字母國碼＋兩位數，例如 NZL01；01–09 為 IEC/R 分級隊伍，10–99 為未分級隊伍；跨國隊伍用 SAR11 | 手冊 2027 版改為 AAA01 |
+| 僅有罹難者的建物 | 未規定 | S5／Marking Method：確定建物只有罹難者時，標記只寫 ASR 5 與完成線 | 手冊 2027 版第 3 頁新增 |
+| 警戒帶英文名稱 | §6.1.3：Operational Work Zone、Exclusion Zone | S5／Cordon Markings：Operational Work Space、Exclusion Space；Zone 另指分區內指派給單一隊伍的範圍（例如 USA01-1Z），僅用於表單與 ICMS，沒有對應標記 | 名詞表英文改為 Space；中文暫維持「作業工作區／禁止進入區」 |
+| ASR 1–5、受困者、RCM、面向、樓層、號音 | S1 各節 | S5、S8：規則與名稱相同 | 不需修改 |
 
 本表是本次可確認的**標記相關差異**，不是整套新指引的完整修訂清單。
+
+新版平台內部的不一致與推算：
+
+- S5 完成線範例的圖說寫 AUS01-0102，圖上卻是 SGP01-2011。
+- S9 Rescue Checklist 的 evacuation signalling 條目仍寫 three longs horn blasts，與 S5 的三短聲矛盾；2020 版 S3 p.22 的矛盾在新版持續存在。
+- 推算（非原文）：新格式場址編號約 10 個字元，以 40 cm 字高噴寫時，寬度約 3 m，超出原文方框「約 1.2 to 1.0 metres」的寫法；舊格式 C-5 沒有這個問題。現場須依實際文字寬度畫框，並由採用單位確認。
 
 ## 官方舊附件與 2020 作業手冊不同
 

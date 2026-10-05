@@ -6,9 +6,9 @@
     210
   ],
   "source_sha256": {
-    "manual.json": "8c1f262381752d4e696be1c01886659a5df1664acd3db55940d8f93921ebe55e",
-    "scenes.json": "9c2989e872e0e47c05c0abf5e0f80fae34a1ff1a05a866531f094fc6d3038886",
-    "terminology.csv": "58f51bb6fa93ca849d626316a6d10cd1b9b293590819f50221bcb62734625f3c"
+    "manual.json": "3ae3727b5e511ca14c83ea9de3a3ce50b3673c2efb82b269c42b06d474b69c7e",
+    "scenes.json": "64363cda5276f4d519c8a1679d7610f1687aec1fdd7e8758f3a97118020a4da8",
+    "terminology.csv": "efdac5d6368a007b25108f908865073f4d9418cb4847e065b5555d5b8f7f6800"
   },
   "font": "Noto Sans TC",
   "editable_text": true,

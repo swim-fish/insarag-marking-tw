@@ -18,8 +18,8 @@
         595.2755737304688
       ],
       "frameA5": true,
-      "editableTextNodes": 19,
-      "vectorNodes": 6,
+      "editableTextNodes": 22,
+      "vectorNodes": 10,
       "fonts": [
         "Noto Sans TC/Bold",
         "Noto Sans TC/Regular"
@@ -46,8 +46,8 @@
         595.2755737304688
       ],
       "frameA5": true,
-      "editableTextNodes": 26,
-      "vectorNodes": 7,
+      "editableTextNodes": 29,
+      "vectorNodes": 11,
       "fonts": [
         "Noto Sans TC/Bold",
         "Noto Sans TC/Regular"
@@ -66,7 +66,7 @@
       "dateOnSingleRow": [
         {
           "id": "16:155",
-          "characters": "AAA-01   ASR 3   05 Oct"
+          "characters": "AAA01   ASR 3   05 Oct"
         }
       ],
       "pass": true
@@ -80,8 +80,8 @@
         595.2755737304688
       ],
       "frameA5": true,
-      "editableTextNodes": 24,
-      "vectorNodes": 5,
+      "editableTextNodes": 29,
+      "vectorNodes": 14,
       "fonts": [
         "Noto Sans TC/Bold",
         "Noto Sans TC/Regular"
@@ -164,8 +164,8 @@
         595.2755737304688
       ],
       "frameA5": true,
-      "editableTextNodes": 30,
-      "vectorNodes": 6,
+      "editableTextNodes": 32,
+      "vectorNodes": 8,
       "fonts": [
         "Noto Sans TC/Bold",
         "Noto Sans TC/Regular"
@@ -248,8 +248,8 @@
         595.2755737304688
       ],
       "frameA5": true,
-      "editableTextNodes": 10,
-      "vectorNodes": 52,
+      "editableTextNodes": 12,
+      "vectorNodes": 55,
       "fonts": [
         "Noto Sans TC/Bold",
         "Noto Sans TC/Regular"
@@ -304,8 +304,8 @@
         595.2755737304688
       ],
       "frameA5": true,
-      "editableTextNodes": 29,
-      "vectorNodes": 14,
+      "editableTextNodes": 32,
+      "vectorNodes": 19,
       "fonts": [
         "Noto Sans TC/Bold",
         "Noto Sans TC/Regular"
@@ -359,5 +359,6 @@
     "reviewed": true,
     "pages": 12
   },
-  "note": "Pages rebuilt in place with update-*.js; source footer component 7:56 removed. Page 2 rebuilt again for marking order and glyph height notes. Pages 4, 5, 6 and 11: 活人 replaced with 生還者 in place (9 text layers) and audited."
+  "note": "Pages rebuilt in place with update-*.js; source footer component 7:56 removed. Page 2 rebuilt again for marking order and glyph height notes. Pages 4, 5, 6 and 11: 活人 replaced with 生還者 in place (9 text layers) and audited. 2027 edition: pages 1, 2, 3, 6, 9, 10, 11 and 12 rebuilt in place with change highlights; all 12 pages audited.",
+  "edition": "INSARAG Guidelines 2027 (effective 2027-01-01)"
 }

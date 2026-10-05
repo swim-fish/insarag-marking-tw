@@ -34,6 +34,26 @@
         "align": "right"
       },
       {
+        "kind": "rect",
+        "x": 310,
+        "y": 23,
+        "w": 40.4296875,
+        "h": 11,
+        "fill": "#0b6e99",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 330.21484375,
+        "y": 31.3,
+        "text": "2027 異動",
+        "size": 7,
+        "color": "#ffffff",
+        "bold": true,
+        "align": "center"
+      },
+      {
         "kind": "text",
         "x": 25,
         "y": 64,
@@ -55,9 +75,9 @@
       },
       {
         "kind": "rect",
-        "x": 45,
+        "x": 35,
         "y": 145,
-        "w": 90,
+        "w": 110,
         "h": 98,
         "fill": "#fff4e9",
         "stroke": "#b94612",
@@ -66,10 +86,30 @@
       {
         "kind": "text",
         "x": 90,
-        "y": 209,
-        "text": "C-5",
-        "size": 34,
+        "y": 200,
+        "text": "AAA01-0005",
+        "size": 15,
         "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "rect",
+        "x": 112,
+        "y": 132,
+        "w": 24.6796875,
+        "h": 11,
+        "fill": "#0b6e99",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 124.33984375,
+        "y": 140.3,
+        "text": "2027",
+        "size": 7,
+        "color": "#ffffff",
         "bold": true,
         "align": "center"
       },
@@ -180,7 +220,7 @@
         "kind": "text",
         "x": 210,
         "y": 313,
-        "text": "2020 版規則｜A5 隨身圖解",
+        "text": "2027 版規則｜A5 隨身圖解",
         "size": 15,
         "color": "#183343",
         "bold": true,
@@ -266,10 +306,30 @@
         "align": "left"
       },
       {
+        "kind": "rect",
+        "x": 21,
+        "y": 434.975,
+        "w": 376,
+        "h": 12.349999999999966,
+        "fill": "#e3f1f8",
+        "stroke": "none",
+        "width": 0
+      },
+      {
+        "kind": "rect",
+        "x": 19,
+        "y": 434.975,
+        "w": 2.5,
+        "h": 12.349999999999966,
+        "fill": "#0b6e99",
+        "stroke": "none",
+        "width": 0
+      },
+      {
         "kind": "text",
         "x": 25,
         "y": 444,
-        "text": "本冊依 2020 版；新版預定於 2027-01-01 生效。",
+        "text": "本冊依 2027 版指引，2027-01-01 起生效；此前仍適用 2020 版。",
         "size": 9.5,
         "color": "#52636b",
         "bold": false,
@@ -279,6 +339,16 @@
         "kind": "text",
         "x": 25,
         "y": 460,
+        "text": "淺藍底與藍色「2027」標籤，標示 2027 版的異動。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 476,
         "text": "圖中人數、隊伍與日期均為教學範例。",
         "size": 9.5,
         "color": "#52636b",
@@ -316,6 +386,26 @@
         "color": "#52636b",
         "bold": false,
         "align": "right"
+      },
+      {
+        "kind": "rect",
+        "x": 310,
+        "y": 23,
+        "w": 40.4296875,
+        "h": 11,
+        "fill": "#0b6e99",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 330.21484375,
+        "y": 31.3,
+        "text": "2027 異動",
+        "size": 7,
+        "color": "#ffffff",
+        "bold": true,
+        "align": "center"
       },
       {
         "kind": "text",
@@ -360,10 +450,30 @@
       {
         "kind": "text",
         "x": 210,
-        "y": 206,
-        "text": "C-5",
-        "size": 43,
+        "y": 204,
+        "text": "AAA01-0005",
+        "size": 30,
         "color": "#b94612",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "rect",
+        "x": 296,
+        "y": 136,
+        "w": 24.6796875,
+        "h": 11,
+        "fill": "#0b6e99",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 308.33984375,
+        "y": 144.3,
+        "text": "2027",
+        "size": 7,
+        "color": "#ffffff",
         "bold": true,
         "align": "center"
       },
@@ -371,7 +481,7 @@
         "kind": "text",
         "x": 210,
         "y": 258,
-        "text": "AAA-01   ASR 3   05 Oct",
+        "text": "AAA01   ASR 3   05 Oct",
         "size": 13,
         "color": "#b94612",
         "bold": true,
@@ -440,7 +550,7 @@
         "kind": "line",
         "x1": 331,
         "y1": 206,
-        "x2": 300,
+        "x2": 313,
         "y2": 206,
         "color": "#52636b",
         "width": 0.8
@@ -467,7 +577,7 @@
       {
         "kind": "text",
         "x": 25,
-        "y": 356,
+        "y": 344,
         "text": "1.",
         "size": 11,
         "color": "#b94612",
@@ -477,7 +587,7 @@
       {
         "kind": "text",
         "x": 44,
-        "y": 356,
+        "y": 344,
         "text": "先寫工作場址編號。",
         "size": 11,
         "color": "#183343",
@@ -487,7 +597,7 @@
       {
         "kind": "text",
         "x": 25,
-        "y": 379,
+        "y": 367,
         "text": "2.",
         "size": 11,
         "color": "#b94612",
@@ -497,7 +607,7 @@
       {
         "kind": "text",
         "x": 44,
-        "y": 379,
+        "y": 367,
         "text": "在編號下方同一列，記錄隊伍編號、已完成的 ASR 等級及日期。",
         "size": 11,
         "color": "#183343",
@@ -507,7 +617,7 @@
       {
         "kind": "text",
         "x": 25,
-        "y": 402,
+        "y": 390,
         "text": "3.",
         "size": 11,
         "color": "#b94612",
@@ -517,7 +627,7 @@
       {
         "kind": "text",
         "x": 44,
-        "y": 402,
+        "y": 390,
         "text": "文字完成後，沿文字外圍畫方框。",
         "size": 11,
         "color": "#183343",
@@ -527,7 +637,7 @@
       {
         "kind": "text",
         "x": 25,
-        "y": 425,
+        "y": 413,
         "text": "4.",
         "size": 11,
         "color": "#b94612",
@@ -537,7 +647,7 @@
       {
         "kind": "text",
         "x": 44,
-        "y": 425,
+        "y": 413,
         "text": "在方框上方記錄危害。",
         "size": 11,
         "color": "#183343",
@@ -547,7 +657,7 @@
       {
         "kind": "text",
         "x": 25,
-        "y": 448,
+        "y": 436,
         "text": "5.",
         "size": 11,
         "color": "#b94612",
@@ -557,7 +667,7 @@
       {
         "kind": "text",
         "x": 44,
-        "y": 448,
+        "y": 436,
         "text": "在方框下方記錄分流類別。",
         "size": 11,
         "color": "#183343",
@@ -567,7 +677,7 @@
       {
         "kind": "text",
         "x": 25,
-        "y": 471,
+        "y": 459,
         "text": "6.",
         "size": 11,
         "color": "#b94612",
@@ -577,7 +687,7 @@
       {
         "kind": "text",
         "x": 44,
-        "y": 471,
+        "y": 459,
         "text": "需要指出入口或位置時，加上方向箭頭。",
         "size": 11,
         "color": "#183343",
@@ -587,7 +697,7 @@
       {
         "kind": "text",
         "x": 25,
-        "y": 494,
+        "y": 482,
         "text": "7.",
         "size": 11,
         "color": "#b94612",
@@ -597,7 +707,7 @@
       {
         "kind": "text",
         "x": 44,
-        "y": 494,
+        "y": 482,
         "text": "使用與背景對比清楚的材料。",
         "size": 11,
         "color": "#183343",
@@ -607,17 +717,47 @@
       {
         "kind": "line",
         "x1": 25,
-        "y1": 510,
+        "y1": 498,
         "x2": 395,
-        "y2": 510,
+        "y2": 498,
         "color": "#ccd6db",
         "width": 0.7
       },
       {
         "kind": "text",
         "x": 25,
-        "y": 520,
-        "text": "場址編號（如 C-5）每字高約 40 cm；隊伍編號與 ASR 等級每字高約 10 cm。",
+        "y": 508,
+        "text": "場址編號每字高約 40 cm；隊伍編號與 ASR 等級每字高約 10 cm。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 21,
+        "y": 514.975,
+        "w": 376,
+        "h": 12.350000000000023,
+        "fill": "#e3f1f8",
+        "stroke": "none",
+        "width": 0
+      },
+      {
+        "kind": "rect",
+        "x": 19,
+        "y": 514.975,
+        "w": 2.5,
+        "h": 12.350000000000023,
+        "fill": "#0b6e99",
+        "stroke": "none",
+        "width": 0
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 524,
+        "text": "場址編號＝建立場址的隊伍編號＋4 位數；分區代碼由 ICMS 附加，不寫在標記上。",
         "size": 9.5,
         "color": "#52636b",
         "bold": false,
@@ -626,7 +766,7 @@
       {
         "kind": "text",
         "x": 25,
-        "y": 536,
+        "y": 540,
         "text": "方框圍住已完成的文字；原文未明定方框寬高。",
         "size": 9.5,
         "color": "#52636b",
@@ -664,6 +804,26 @@
         "color": "#52636b",
         "bold": false,
         "align": "right"
+      },
+      {
+        "kind": "rect",
+        "x": 310,
+        "y": 23,
+        "w": 40.4296875,
+        "h": 11,
+        "fill": "#0b6e99",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 330.21484375,
+        "y": 31.3,
+        "text": "2027 異動",
+        "size": 7,
+        "color": "#ffffff",
+        "bold": true,
+        "align": "center"
       },
       {
         "kind": "text",
@@ -718,9 +878,9 @@
       {
         "kind": "text",
         "x": 109,
-        "y": 201,
-        "text": "C-5",
-        "size": 31,
+        "y": 199,
+        "text": "AAA01-0005",
+        "size": 20,
         "color": "#b94612",
         "bold": true,
         "align": "center"
@@ -729,7 +889,7 @@
         "kind": "text",
         "x": 109,
         "y": 240,
-        "text": "AAA-01  ASR 3  05 Oct",
+        "text": "AAA01  ASR 3  05 Oct",
         "size": 11,
         "color": "#b94612",
         "bold": false,
@@ -739,10 +899,30 @@
         "kind": "text",
         "x": 109,
         "y": 272,
-        "text": "BBB-01  ASR 4  06 Oct",
+        "text": "BBB01  ASR 4  06 Oct",
         "size": 11,
         "color": "#b94612",
         "bold": false,
+        "align": "center"
+      },
+      {
+        "kind": "rect",
+        "x": 161,
+        "y": 145,
+        "w": 24.6796875,
+        "h": 11,
+        "fill": "#0b6e99",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 173.33984375,
+        "y": 153.3,
+        "text": "2027",
+        "size": 7,
+        "color": "#ffffff",
+        "bold": true,
         "align": "center"
       },
       {
@@ -788,9 +968,9 @@
       {
         "kind": "text",
         "x": 310,
-        "y": 201,
-        "text": "C-5",
-        "size": 31,
+        "y": 199,
+        "text": "AAA01-0005",
+        "size": 20,
         "color": "#b94612",
         "bold": true,
         "align": "center"
@@ -799,7 +979,7 @@
         "kind": "text",
         "x": 310,
         "y": 240,
-        "text": "AAA-01  ASR 3  05 Oct",
+        "text": "AAA01  ASR 3  05 Oct",
         "size": 11,
         "color": "#b94612",
         "bold": false,
@@ -809,10 +989,30 @@
         "kind": "text",
         "x": 310,
         "y": 272,
-        "text": "BBB-01  ASR 4  06 Oct",
+        "text": "BBB01  ASR 4  06 Oct",
         "size": 11,
         "color": "#b94612",
         "bold": false,
+        "align": "center"
+      },
+      {
+        "kind": "rect",
+        "x": 362,
+        "y": 145,
+        "w": 24.6796875,
+        "h": 11,
+        "fill": "#0b6e99",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 374.33984375,
+        "y": 153.3,
+        "text": "2027",
+        "size": 7,
+        "color": "#ffffff",
+        "bold": true,
         "align": "center"
       },
       {
@@ -904,10 +1104,90 @@
         "width": 0.7
       },
       {
+        "kind": "rect",
+        "x": 21,
+        "y": 418.975,
+        "w": 376,
+        "h": 12.349999999999966,
+        "fill": "#e3f1f8",
+        "stroke": "none",
+        "width": 0
+      },
+      {
+        "kind": "rect",
+        "x": 19,
+        "y": 418.975,
+        "w": 2.5,
+        "h": 12.349999999999966,
+        "fill": "#0b6e99",
+        "stroke": "none",
+        "width": 0
+      },
+      {
         "kind": "text",
         "x": 25,
         "y": 428,
-        "text": "完成線穿過標記中央，橫越整個標記。",
+        "text": "完成線畫在場址編號下方、ASR 紀錄上方，橫越整個標記。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 21,
+        "y": 434.975,
+        "w": 376,
+        "h": 12.349999999999966,
+        "fill": "#e3f1f8",
+        "stroke": "none",
+        "width": 0
+      },
+      {
+        "kind": "rect",
+        "x": 19,
+        "y": 434.975,
+        "w": 2.5,
+        "h": 12.349999999999966,
+        "fill": "#0b6e99",
+        "stroke": "none",
+        "width": 0
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 444,
+        "text": "確定建物僅有罹難者時，標記只記錄 ASR 5 與完成線。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 21,
+        "y": 450.975,
+        "w": 376,
+        "h": 12.349999999999966,
+        "fill": "#e3f1f8",
+        "stroke": "none",
+        "width": 0
+      },
+      {
+        "kind": "rect",
+        "x": 19,
+        "y": 450.975,
+        "w": 2.5,
+        "h": 12.349999999999966,
+        "fill": "#0b6e99",
+        "stroke": "none",
+        "width": 0
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 460,
+        "text": "隊伍編號為國碼 3 字母＋2 位數，例如 AAA01，不加連字號。",
         "size": 9.5,
         "color": "#52636b",
         "bold": false,
@@ -916,7 +1196,7 @@
       {
         "kind": "text",
         "x": 25,
-        "y": 444,
+        "y": 476,
         "text": "ASR 3 或 ASR 4 完成，不能單獨作為結案依據。",
         "size": 9.5,
         "color": "#52636b",
@@ -926,7 +1206,7 @@
       {
         "kind": "text",
         "x": 25,
-        "y": 460,
+        "y": 492,
         "text": "完成線不代表危害消失，也不代表結構安全。",
         "size": 9.5,
         "color": "#52636b",
@@ -1810,6 +2090,26 @@
         "align": "right"
       },
       {
+        "kind": "rect",
+        "x": 310,
+        "y": 23,
+        "w": 40.4296875,
+        "h": 11,
+        "fill": "#0b6e99",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 330.21484375,
+        "y": 31.3,
+        "text": "2027 異動",
+        "size": 7,
+        "color": "#ffffff",
+        "bold": true,
+        "align": "center"
+      },
+      {
         "kind": "text",
         "x": 25,
         "y": 64,
@@ -1867,7 +2167,7 @@
         "kind": "text",
         "x": 116,
         "y": 197,
-        "text": "AAA-01",
+        "text": "AAA01",
         "size": 10,
         "color": "#b94612",
         "bold": false,
@@ -1931,7 +2231,7 @@
         "kind": "text",
         "x": 305,
         "y": 197,
-        "text": "AAA-01",
+        "text": "AAA01",
         "size": 10,
         "color": "#b94612",
         "bold": false,
@@ -1954,6 +2254,26 @@
         "text": "僅有罹難者留在原位置",
         "size": 10.5,
         "color": "#183343",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "rect",
+        "x": 138,
+        "y": 188,
+        "w": 24.6796875,
+        "h": 11,
+        "fill": "#0b6e99",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 150.33984375,
+        "y": 196.3,
+        "text": "2027",
+        "size": 7,
+        "color": "#ffffff",
         "bold": true,
         "align": "center"
       },
@@ -2049,7 +2369,7 @@
         "kind": "text",
         "x": 236,
         "y": 316,
-        "text": "AAA-01",
+        "text": "AAA01",
         "size": 9,
         "color": "#b94612",
         "bold": false,
@@ -2069,7 +2389,7 @@
         "kind": "text",
         "x": 320,
         "y": 316,
-        "text": "BBB-01",
+        "text": "BBB01",
         "size": 9,
         "color": "#b94612",
         "bold": false,
@@ -2815,6 +3135,26 @@
         "color": "#52636b",
         "bold": false,
         "align": "right"
+      },
+      {
+        "kind": "rect",
+        "x": 310,
+        "y": 23,
+        "w": 40.4296875,
+        "h": 11,
+        "fill": "#0b6e99",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 330.21484375,
+        "y": 31.3,
+        "text": "2027 異動",
+        "size": 7,
+        "color": "#ffffff",
+        "bold": true,
+        "align": "center"
       },
       {
         "kind": "text",
@@ -4000,6 +4340,36 @@
         "color": "#52636b",
         "bold": false,
         "align": "left"
+      },
+      {
+        "kind": "rect",
+        "x": 21,
+        "y": 411.975,
+        "w": 376,
+        "h": 12.349999999999966,
+        "fill": "#e3f1f8",
+        "stroke": "none",
+        "width": 0
+      },
+      {
+        "kind": "rect",
+        "x": 19,
+        "y": 411.975,
+        "w": 2.5,
+        "h": 12.349999999999966,
+        "fill": "#0b6e99",
+        "stroke": "none",
+        "width": 0
+      },
+      {
+        "kind": "text",
+        "x": 25,
+        "y": 421,
+        "text": "2027 版英文名稱改為 Operational Work Space／Exclusion Space。",
+        "size": 9.5,
+        "color": "#52636b",
+        "bold": false,
+        "align": "left"
       }
     ],
     [
@@ -4304,7 +4674,7 @@
         "kind": "text",
         "x": 25,
         "y": 467,
-        "text": "部分原件寫為 3 長音；現場簡報須統一撤離號音。",
+        "text": "部分原件（含 2027 版救援檢核表）寫為 3 長音；現場簡報須統一撤離號音。",
         "size": 9.5,
         "color": "#52636b",
         "bold": false,
@@ -4341,6 +4711,26 @@
         "color": "#52636b",
         "bold": false,
         "align": "right"
+      },
+      {
+        "kind": "rect",
+        "x": 310,
+        "y": 23,
+        "w": 40.4296875,
+        "h": 11,
+        "fill": "#0b6e99",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "text",
+        "x": 330.21484375,
+        "y": 31.3,
+        "text": "2027 異動",
+        "size": 7,
+        "color": "#ffffff",
+        "bold": true,
+        "align": "center"
       },
       {
         "kind": "text",
@@ -4608,15 +4998,45 @@
         "y": 331,
         "w": 370,
         "h": 27,
-        "fill": "#ffffff",
+        "fill": "#e3f1f8",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "rect",
+        "x": 19,
+        "y": 331,
+        "w": 2.5,
+        "h": 27,
+        "fill": "#0b6e99",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "rect",
+        "x": 352,
+        "y": 339,
+        "w": 24.6796875,
+        "h": 11,
+        "fill": "#0b6e99",
         "stroke": "none",
         "width": 1
       },
       {
         "kind": "text",
+        "x": 364.33984375,
+        "y": 347.3,
+        "text": "2027",
+        "size": 7,
+        "color": "#ffffff",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
         "x": 35,
         "y": 349,
-        "text": "Operational Work Zone",
+        "text": "Operational Work Space",
         "size": 10,
         "color": "#183343",
         "bold": false,
@@ -4638,15 +5058,45 @@
         "y": 358,
         "w": 370,
         "h": 27,
-        "fill": "#f0f4f6",
+        "fill": "#e3f1f8",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "rect",
+        "x": 19,
+        "y": 358,
+        "w": 2.5,
+        "h": 27,
+        "fill": "#0b6e99",
+        "stroke": "none",
+        "width": 1
+      },
+      {
+        "kind": "rect",
+        "x": 352,
+        "y": 366,
+        "w": 24.6796875,
+        "h": 11,
+        "fill": "#0b6e99",
         "stroke": "none",
         "width": 1
       },
       {
         "kind": "text",
+        "x": 364.33984375,
+        "y": 374.3,
+        "text": "2027",
+        "size": 7,
+        "color": "#ffffff",
+        "bold": true,
+        "align": "center"
+      },
+      {
+        "kind": "text",
         "x": 35,
         "y": 376,
-        "text": "Exclusion Zone",
+        "text": "Exclusion Space",
         "size": 10,
         "color": "#183343",
         "bold": false,
@@ -4808,7 +5258,7 @@
         "kind": "text",
         "x": 25,
         "y": 126,
-        "text": "S1｜主要規則",
+        "text": "S5–S9｜2027 版主要規則",
         "size": 14,
         "color": "#183343",
         "bold": true,
@@ -4818,7 +5268,7 @@
         "kind": "text",
         "x": 25,
         "y": 149,
-        "text": "2020 Volume II, Manual B — Operations",
+        "text": "INSARAG 指引線上平台（2027-01-01 生效）",
         "size": 10.5,
         "color": "#52636b",
         "bold": false,
@@ -4828,7 +5278,7 @@
         "kind": "text",
         "x": 25,
         "y": 186,
-        "text": "S2／S3｜號音交叉核對",
+        "text": "S1｜2020 版對照",
         "size": 14,
         "color": "#183343",
         "bold": true,
@@ -4838,7 +5288,7 @@
         "kind": "text",
         "x": 25,
         "y": 209,
-        "text": "Annex B26／2020 Volume III",
+        "text": "2020 Volume II, Manual B — Operations",
         "size": 10.5,
         "color": "#52636b",
         "bold": false,

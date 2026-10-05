@@ -1,14 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="148mm" height="210mm" viewBox="0 0 419.53 595.28" role="img" aria-labelledby="title">
 <title id="title">INSARAG A5 圖解手冊，第 1 頁</title>
-<desc>依 INSARAG 2020 原件重新繪製。中文採用 STE 原則；不是官方中文版。</desc>
-<metadata>{"version": "INSARAG 2020", "verified_on": "2026-10-05", "illustrative_examples": true, "sources": {"S1": "https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf", "S3": "https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20III.pdf", "S4": "https://insarag.org/methodology/insarag-guidelines/", "STE": "https://www.asd-ste100.org/assets/files/ASD-STE100_ISSUE9.pdf"}}</metadata>
+<desc>依 INSARAG 2027 版指引重新繪製；藍色標示 2027 版異動。中文採用 STE 原則；不是官方中文版。</desc>
+<metadata>{"version": "INSARAG 2027 (effective 2027-01-01)", "verified_on": "2026-10-05", "illustrative_examples": true, "sources": {"S5": "https://insarag-guidelines.netlify.app/operations/operational-procedures/marking-and-signalling", "S1": "https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf", "S3": "https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20III.pdf", "S4": "https://insarag.org/methodology/insarag-guidelines/", "STE": "https://www.asd-ste100.org/assets/files/ASD-STE100_ISSUE9.pdf"}}</metadata>
 <rect x="0" y="0" width="419.53" height="595.28" fill="#ffffff" stroke="none" stroke-width="1"/>
 <rect x="25" y="26" width="28" height="5" fill="#b94612" stroke="none" stroke-width="1"/>
 <text x="395" y="32" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#52636b" text-anchor="end">01 / 12</text>
+<rect x="310" y="23" width="40.4296875" height="11" fill="#0b6e99" stroke="none" stroke-width="1"/>
+<text x="330.21484375" y="31.3" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="7" font-weight="700" fill="#ffffff" text-anchor="middle">2027 異動</text>
 <text x="25" y="64" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="20" font-weight="700" fill="#183343" text-anchor="start">INSARAG 標記圖解</text>
 <text x="25" y="91" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10.5" font-weight="400" fill="#183343" text-anchor="start">A5 隨身速查手冊｜先確認，再標記。</text>
-<rect x="45" y="145" width="90" height="98" fill="#fff4e9" stroke="#b94612" stroke-width="2"/>
-<text x="90" y="209" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="34" font-weight="700" fill="#b94612" text-anchor="middle">C-5</text>
+<rect x="35" y="145" width="110" height="98" fill="#fff4e9" stroke="#b94612" stroke-width="2"/>
+<text x="90" y="200" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="15" font-weight="700" fill="#b94612" text-anchor="middle">AAA01-0005</text>
+<rect x="112" y="132" width="24.6796875" height="11" fill="#0b6e99" stroke="none" stroke-width="1"/>
+<text x="124.33984375" y="140.3" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="7" font-weight="700" fill="#ffffff" text-anchor="middle">2027</text>
 <text x="90" y="273" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="12" font-weight="700" fill="#183343" text-anchor="middle">工作場址</text>
 <text x="218" y="222" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="64" font-weight="700" fill="#b94612" text-anchor="middle">V</text>
 <line x1="196" y1="182" x2="172.85994340570036" y2="195.8840339565798" stroke="#b94612" stroke-width="2.5"/>
@@ -17,7 +21,7 @@
 <polygon points="330,151 373,194 330,237 287,194" fill="#fff4e9" stroke="#b94612" stroke-width="2.5"/>
 <text x="330" y="206" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="34" font-weight="700" fill="#b94612" text-anchor="middle">C</text>
 <text x="330" y="273" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="12" font-weight="700" fill="#183343" text-anchor="middle">RCM（選用）</text>
-<text x="210" y="313" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="15" font-weight="700" fill="#183343" text-anchor="middle">2020 版規則｜A5 隨身圖解</text>
+<text x="210" y="313" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="15" font-weight="700" fill="#183343" text-anchor="middle">2027 版規則｜A5 隨身圖解</text>
 <text x="25" y="356" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#b94612" text-anchor="start">1.</text>
 <text x="44" y="356" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">先確認現場採用的標記制度。</text>
 <text x="25" y="379" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="700" fill="#b94612" text-anchor="start">2.</text>
@@ -26,6 +30,9 @@
 <text x="44" y="402" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">每次更新時，保留可辨讀的作業紀錄。</text>
 <line x1="25" y1="418" x2="395" y2="418" stroke="#ccd6db" stroke-width="0.7"/>
 <text x="25" y="428" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="9.5" font-weight="400" fill="#52636b" text-anchor="start">採用的標記制度由 LEMA 與 UCC 協調；無國家制度時，採用 INSARAG 標記。</text>
-<text x="25" y="444" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="9.5" font-weight="400" fill="#52636b" text-anchor="start">本冊依 2020 版；新版預定於 2027-01-01 生效。</text>
-<text x="25" y="460" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="9.5" font-weight="400" fill="#52636b" text-anchor="start">圖中人數、隊伍與日期均為教學範例。</text>
+<rect x="21" y="434.975" width="376" height="12.349999999999966" fill="#e3f1f8" stroke="none" stroke-width="0"/>
+<rect x="19" y="434.975" width="2.5" height="12.349999999999966" fill="#0b6e99" stroke="none" stroke-width="0"/>
+<text x="25" y="444" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="9.5" font-weight="400" fill="#52636b" text-anchor="start">本冊依 2027 版指引，2027-01-01 起生效；此前仍適用 2020 版。</text>
+<text x="25" y="460" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="9.5" font-weight="400" fill="#52636b" text-anchor="start">淺藍底與藍色「2027」標籤，標示 2027 版的異動。</text>
+<text x="25" y="476" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="9.5" font-weight="400" fill="#52636b" text-anchor="start">圖中人數、隊伍與日期均為教學範例。</text>
 </svg>

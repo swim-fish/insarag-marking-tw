@@ -1,6 +1,6 @@
 # 資料來源與規則對照
 
-核對日期：**2026-10-05（Asia/Taipei）**。本整理以 S1 的 2020 版為主要依據，S2 供相符條文交叉核對；S4–S7 用於版本公告與新版差異，U1 為使用者提供的參考原文。
+核對日期：**2026-10-05（Asia/Taipei）**。本整理以 S1 的 2020 版為主要依據，S2 供相符條文交叉核對；S4–S9 用於版本公告與新版差異；A5 隨身手冊自 2027 版起以 S5–S9 為主要依據，U1 為使用者提供的參考原文。
 
 ## 來源目錄
 
@@ -13,11 +13,13 @@
 | S5 | [新版平台：INSARAG Marking and Signalling System](https://insarag-guidelines.netlify.app/operations/operational-procedures/marking-and-signalling) | Worksite Triage Marking／Marking Method，完成線位置文字更明確；用於版本核對 | [HTML 文字快照](originals/new-marking-and-signalling.html.txt) |
 | S6 | [新版平台：Sectorisation, Zones & Worksite](https://insarag-guidelines.netlify.app/coordination/international-usar-coordination/sectorisation-and-zones) | Worksite Identification，編碼改為 Team ID＋四位數編號；用於版本核對 | [HTML 文字快照](originals/new-sectorisation-and-zones.html.txt) |
 | S7 | [新版平台：Worksite Triage](https://insarag-guidelines.netlify.app/operations/operational-procedures/worksite-triage) | First order of priority，四類分流仍為 A–D；用於版本核對 | [HTML 文字快照](originals/new-worksite-triage.html.txt) |
+| S8 | [新版平台：Assessment, Search and Rescue (ASR) Levels](https://insarag-guidelines.netlify.app/operations/operational-procedures/asr-levels) | ASR 1–5 名稱與 2020 版相同；用於確認 2027 版手冊的 ASR 名稱 | [HTML 文字快照](originals/new-asr-levels.html.txt) |
+| S9 | [新版平台：Rescue Checklist](https://insarag-guidelines.netlify.app/operations/operational-field-guide/rescue) | Operations／evacuation signalling 條目仍寫 three longs horn blasts，與 S5 的三短聲矛盾；頁面內容由 JS 載入，存檔為載入該檢核表的資料檔 | [JS 資料快照](originals/new-rescue-checklist.js.txt) |
 | U1 | 使用者提供：INSARAG 與 FEMA ICS／US&R 現場架構、流程及標記核對 | 原文宣稱基準日期為 2026-08-17；本次已讀取並核對 INSARAG 標記相關內容 | [文字原檔](user-provided/insarag-fema-reference.txt) |
 
 S2 由 [官方 Volume III 附件索引](https://insarag.org/guidance-notes/guidelines-annex/volume-3/) 的 Annex B26 連結取得。它是 **DOCX**，沒有固定 PDF 印刷頁碼；回查請使用上述英文小節名稱。不得將解析器產生的分頁當成固定官方頁碼。URL 的上傳年月也不等於內容已更新為該年的規則。
 
-S5–S7 是由 S4 官方公告連出的新版專用平台，記錄的是核對日所見內容；正式換版時須再核對生效版本，不能只依本次摘要。
+S5–S9 是由 S4 官方公告連出的新版專用平台，記錄的是核對日所見內容；正式換版時須再核對生效版本，不能只依本次摘要。
 
 ## 頁碼如何讀
 

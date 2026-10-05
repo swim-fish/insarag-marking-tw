@@ -1,10 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="148mm" height="210mm" viewBox="0 0 419.53 595.28" role="img" aria-labelledby="title">
 <title id="title">INSARAG A5 圖解手冊，第 11 頁</title>
-<desc>依 INSARAG 2020 原件重新繪製。中文採用 STE 原則；不是官方中文版。</desc>
-<metadata>{"version": "INSARAG 2020", "verified_on": "2026-10-05", "illustrative_examples": true, "sources": {"S1": "https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf", "S3": "https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20III.pdf", "S4": "https://insarag.org/methodology/insarag-guidelines/", "STE": "https://www.asd-ste100.org/assets/files/ASD-STE100_ISSUE9.pdf"}}</metadata>
+<desc>依 INSARAG 2027 版指引重新繪製；藍色標示 2027 版異動。中文採用 STE 原則；不是官方中文版。</desc>
+<metadata>{"version": "INSARAG 2027 (effective 2027-01-01)", "verified_on": "2026-10-05", "illustrative_examples": true, "sources": {"S5": "https://insarag-guidelines.netlify.app/operations/operational-procedures/marking-and-signalling", "S1": "https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf", "S3": "https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20III.pdf", "S4": "https://insarag.org/methodology/insarag-guidelines/", "STE": "https://www.asd-ste100.org/assets/files/ASD-STE100_ISSUE9.pdf"}}</metadata>
 <rect x="0" y="0" width="419.53" height="595.28" fill="#ffffff" stroke="none" stroke-width="1"/>
 <rect x="25" y="26" width="28" height="5" fill="#b94612" stroke="none" stroke-width="1"/>
 <text x="395" y="32" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#52636b" text-anchor="end">11 / 12</text>
+<rect x="310" y="23" width="40.4296875" height="11" fill="#0b6e99" stroke="none" stroke-width="1"/>
+<text x="330.21484375" y="31.3" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="7" font-weight="700" fill="#ffffff" text-anchor="middle">2027 異動</text>
 <text x="25" y="64" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="20" font-weight="700" fill="#183343" text-anchor="start">名詞速查：同一概念用同一詞</text>
 <text x="25" y="91" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10.5" font-weight="400" fill="#183343" text-anchor="start">完整中英對照表另見 terminology.csv。</text>
 <rect x="25" y="114" width="370" height="28" fill="#183343" stroke="none" stroke-width="1"/>
@@ -31,11 +33,17 @@
 <rect x="25" y="304" width="370" height="27" fill="#f0f4f6" stroke="none" stroke-width="1"/>
 <text x="35" y="322" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#183343" text-anchor="start">RCM</text>
 <text x="224" y="322" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">快速清查標記</text>
-<rect x="25" y="331" width="370" height="27" fill="#ffffff" stroke="none" stroke-width="1"/>
-<text x="35" y="349" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#183343" text-anchor="start">Operational Work Zone</text>
+<rect x="25" y="331" width="370" height="27" fill="#e3f1f8" stroke="none" stroke-width="1"/>
+<rect x="19" y="331" width="2.5" height="27" fill="#0b6e99" stroke="none" stroke-width="1"/>
+<rect x="352" y="339" width="24.6796875" height="11" fill="#0b6e99" stroke="none" stroke-width="1"/>
+<text x="364.33984375" y="347.3" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="7" font-weight="700" fill="#ffffff" text-anchor="middle">2027</text>
+<text x="35" y="349" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#183343" text-anchor="start">Operational Work Space</text>
 <text x="224" y="349" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">作業工作區</text>
-<rect x="25" y="358" width="370" height="27" fill="#f0f4f6" stroke="none" stroke-width="1"/>
-<text x="35" y="376" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#183343" text-anchor="start">Exclusion Zone</text>
+<rect x="25" y="358" width="370" height="27" fill="#e3f1f8" stroke="none" stroke-width="1"/>
+<rect x="19" y="358" width="2.5" height="27" fill="#0b6e99" stroke="none" stroke-width="1"/>
+<rect x="352" y="366" width="24.6796875" height="11" fill="#0b6e99" stroke="none" stroke-width="1"/>
+<text x="364.33984375" y="374.3" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="7" font-weight="700" fill="#ffffff" text-anchor="middle">2027</text>
+<text x="35" y="376" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#183343" text-anchor="start">Exclusion Space</text>
 <text x="224" y="376" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="11" font-weight="400" fill="#183343" text-anchor="start">禁止進入區</text>
 <rect x="25" y="385" width="370" height="27" fill="#ffffff" stroke="none" stroke-width="1"/>
 <text x="35" y="403" font-family="Microsoft JhengHei, Noto Sans CJK TC, sans-serif" font-size="10" font-weight="400" fill="#183343" text-anchor="start">Ground Floor</text>

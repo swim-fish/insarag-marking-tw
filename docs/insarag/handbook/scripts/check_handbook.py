@@ -24,7 +24,9 @@ PROTECTED = {'INSARAG', 'ASR', 'RCM', 'LEMA', 'UCC', 'STE', 'ASD', 'FEMA',
              'AAA', 'BBB', 'II', 'III', 'Volume', 'Manual', 'Operations', 'Annex',
              'Signalling', 'Issue', 'Figure', 'Figures', 'Table', 'TN', 'TV',
              # S1 marking dates are day + month abbreviation, e.g. "19 Oct".
-             'Oct'}
+             'Oct',
+             # 2027 Guidelines: worksite IDs are allocated through the ICMS tool.
+             'ICMS'}
 # This is an explicit orthographic gate, not a complete Chinese conversion table.
 SIMPLIFIED = set('标记图纸队员场处难层灾体遗续认号声线类区协时间数进复楼读检验术语词汇档网软务资设过录对龙风门车边东广')
 

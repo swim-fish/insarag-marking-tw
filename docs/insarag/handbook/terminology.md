@@ -5,8 +5,8 @@ TN：技術名詞；TV：技術動詞。均為本專案用詞，不表示 ASD �
 | ID | 英文 | 臺灣正體中文 | 類型 | 禁用變體 | 依據 | 備註 |
 | --- | --- | --- | --- | --- | --- | --- |
 | worksite | Worksite | 工作場址 | TN | 工作現場、工作場所 | S1 §5.5; §6.2 |  |
-| worksite_id | Worksite ID | 工作場址編號 | TN | 場址ID、工作場址ID | S1 §5.5.5 |  |
-| team_id | Team ID | 隊伍編號 | TN | 隊伍ID、隊伍識別碼 | S1 §6.2 |  |
+| worksite_id | Worksite ID | 工作場址編號 | TN | 場址ID、工作場址ID | S6 Worksite Identification；S1 §5.5.5 | 2027 版格式：隊伍編號＋4 位數，例如 AAA01-0005 |
+| team_id | Team ID | 隊伍編號 | TN | 隊伍ID、隊伍識別碼 | S6 USAR Team Identification Code；S1 §6.2 | 2027 版格式：國碼 3 字母＋2 位數，例如 AAA01 |
 | triage | Worksite Triage | 場址分流 | TN | 場址分類、工作場址分類 | S1 §5.8 |  |
 | triage_category | Triage Category | 分流類別 | TN | 分流分類、分流等第 | S1 §5.8.1 Table 6 |  |
 | victim | Victim | 受困者 | TN | 受害者、受難者 | S1 §6.3 |  |
@@ -20,8 +20,8 @@ TN：技術名詞；TV：技術動詞。均為本專案用詞，不表示 ASD �
 | asr3 | Rapid Search and Rescue | 快速搜索救援 | TN | 快速搜尋救援 | S1 §5.7.1 p.32 Table 3 |  |
 | asr4 | Full Search and Rescue | 完整搜索救援 | TN | 全面搜尋救援 | S1 §5.7.1 p.33 Table 4 |  |
 | asr5 | Total Coverage Search and Recovery | 全面搜索與遺體移出 | TN | 全面覆蓋搜索救援 | S1 §5.7.1 p.34 Table 5 |  |
-| zone | Operational Work Zone | 作業工作區 | TN | 操作工作區 | S1 §6.1.3 |  |
-| exclusion | Exclusion Zone | 禁止進入區 | TN | 禁入區、排除區 | S1 §6.1.3 |  |
+| zone | Operational Work Space | 作業工作區 | TN | 操作工作區 | S5 Cordon Markings；S1 §6.1.3 | 2027 版英文由 Operational Work Zone 改為 Operational Work Space |
+| exclusion | Exclusion Space | 禁止進入區 | TN | 禁入區、排除區 | S5 Cordon Markings；S1 §6.1.3 | 2027 版英文由 Exclusion Zone 改為 Exclusion Space |
 | front | Side 1 | 第 1 面 | TN | 第一面 | S1 §6.1.2 Figure 13 |  |
 | ground | Ground Floor | 地面層 | TN | 底層 | S1 §6.1.2 Figure 14 |  |
 | floor | Floor | 地上樓層 | TN | 地上樓層號 | S1 §6.1.2 Figure 14 |  |

@@ -44,6 +44,18 @@
       "sha256": "60cf674e96cd1e59b0683685053c73df6e9f90fd523db4bccbeff8e00a43ea21"
     },
     {
+      "source_id": "S8",
+      "file": "originals/new-asr-levels.html.txt",
+      "size_bytes": 64936,
+      "sha256": "d64748e9de7cd0f1a0dee7b01ed379879663556f723743035d58cb7e6adec946"
+    },
+    {
+      "source_id": "S9",
+      "file": "originals/new-rescue-checklist.js.txt",
+      "size_bytes": 13297,
+      "sha256": "abc6dce7b969018e78b865a154824bbe2837fbabf11a734b33714b8fe15254d1"
+    },
+    {
       "source_id": "U1",
       "file": "user-provided/insarag-fema-reference.txt",
       "size_bytes": 28246,

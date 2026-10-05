@@ -16,9 +16,12 @@ from reportlab.pdfgen import canvas
 ROOT = Path(__file__).resolve().parents[1]
 W, H = 419.53, 595.28
 INK, MUTED, ORANGE, LIGHT = '#183343', '#52636b', '#b94612', '#fff4e9'
+# 2027 changes are marked in blue so they never read as marking-paint orange.
+CHANGE, CHANGE_BG = '#0b6e99', '#e3f1f8'
 S1 = 'https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf'
 S3 = 'https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20III.pdf'
 S4 = 'https://insarag.org/methodology/insarag-guidelines/'
+S5 = 'https://insarag-guidelines.netlify.app/operations/operational-procedures/marking-and-signalling'
 STE = 'https://www.asd-ste100.org/assets/files/ASD-STE100_ISSUE9.pdf'
 
 
@@ -76,6 +79,12 @@ class Page:
         # Slant the line so the hyphen in "L-2" stays readable.
         self.line(x-half-3, y-size*0.55, x+half+3, y+size*0.08, color, 1.6)
 
+    def badge(self, x, y, label='2027'):
+        # Small blue tag; (x, y) is its top-left corner.
+        width = pdfmetrics.stringWidth(label, 'JHB', 7) + 8
+        self.rect(x, y, width, 11, CHANGE, 'none')
+        self.text(x + width/2, y + 8.3, label, 7, '#ffffff', True, 'center')
+
     def diamond(self, x, y, letter, radius=32):
         self.polygon([(x, y-radius), (x+radius, y), (x, y+radius), (x-radius, y)],
                      fill=LIGHT, stroke=ORANGE, width=2.5)
@@ -95,7 +104,7 @@ class Page:
 
 def diagrams(p, kind, terms):
     if kind == 'cover':
-        for x, symbol, label in [(90, 'C-5', '工作場址'), (210, 'V', '受困者'), (330, 'C', 'RCM（選用）')]:
+        for x, symbol, label in [(90, 'AAA01-0005', '工作場址'), (210, 'V', '受困者'), (330, 'C', 'RCM（選用）')]:
             if symbol == 'C':
                 p.diamond(x, 194, symbol, 43)
             elif symbol == 'V':
@@ -103,22 +112,24 @@ def diagrams(p, kind, terms):
                 p.text(x+8, 222, symbol, 64, ORANGE, True, 'center')
                 p.arrow(x-14, 182, x-44, 200)
             else:
-                p.rect(x-45, 145, 90, 98, LIGHT, ORANGE, 2)
-                p.text(x, 209, symbol, 34, ORANGE, True, 'center')
+                p.rect(x-55, 145, 110, 98, LIGHT, ORANGE, 2)
+                p.text(x, 200, symbol, 15, ORANGE, True, 'center')
+                p.badge(x+22, 132)
             p.text(x, 273, label, 12, INK, True, 'center')
-        p.text(210, 313, '2020 版規則｜A5 隨身圖解', 15, INK, True, 'center')
+        p.text(210, 313, '2027 版規則｜A5 隨身圖解', 15, INK, True, 'center')
     elif kind == 'worksite':
         p.text(210, 135, '危害：瓦斯洩漏', 15, ORANGE, True, 'center')
         p.rect(95, 150, 230, 139, LIGHT, ORANGE, 2.5)
-        p.text(210, 206, 'C-5', 43, ORANGE, True, 'center')
-        p.text(210, 258, 'AAA-01   ASR 3   05 Oct', 13, ORANGE, True, 'center')
+        p.text(210, 204, 'AAA01-0005', 30, ORANGE, True, 'center')
+        p.badge(296, 136)
+        p.text(210, 258, 'AAA01   ASR 3   05 Oct', 13, ORANGE, True, 'center')
         p.text(210, 314, '分流類別：B', 16, ORANGE, True, 'center')
         # Optional arrow outside the box, after S1 Figure 17.
         p.arrow(86, 282, 50, 306)
         p.text(52, 326, '入口方向', 9.5, ORANGE, False, 'center')
         # S1 p.45: the box is drawn around the painted text, so text comes first.
         p.text(333, 210, '先寫文字', 9.5, MUTED, True)
-        p.line(331, 206, 300, 206, MUTED, 0.8)
+        p.line(331, 206, 313, 206, MUTED, 0.8)
         p.text(333, 292, '後畫方框', 9.5, MUTED, True)
         p.line(331, 288, 326, 288, MUTED, 0.8)
     elif kind == 'completion':
@@ -126,9 +137,10 @@ def diagrams(p, kind, terms):
             p.text(x+84, 125, label, 13, INK, True, 'center')
             p.text(x+84, 151, '危害：瓦斯洩漏', 11, ORANGE, False, 'center')
             p.rect(x, 162, 168, 133, LIGHT, ORANGE, 2)
-            p.text(x+84, 201, 'C-5', 31, ORANGE, True, 'center')
-            p.text(x+84, 240, 'AAA-01  ASR 3  05 Oct', 11, ORANGE, False, 'center')
-            p.text(x+84, 272, 'BBB-01  ASR 4  06 Oct', 11, ORANGE, False, 'center')
+            p.text(x+84, 199, 'AAA01-0005', 20, ORANGE, True, 'center')
+            p.text(x+84, 240, 'AAA01  ASR 3  05 Oct', 11, ORANGE, False, 'center')
+            p.text(x+84, 272, 'BBB01  ASR 4  06 Oct', 11, ORANGE, False, 'center')
+            p.badge(x+136, 145)
             p.text(x+84, 315, 'B', 17, ORANGE, True, 'center')
         p.line(218, 215, 403, 215, ORANGE, 3)
     elif kind == 'triage':
@@ -164,14 +176,15 @@ def diagrams(p, kind, terms):
         for x, letter, label in [(116, 'C', '無生還者或罹難者留在原位置'), (305, 'D', '僅有罹難者留在原位置')]:
             # Team ID and date go immediately below the diamond (S1 §6.3.4).
             p.diamond(x, 150, letter, 31)
-            p.text(x, 197, 'AAA-01', 10, ORANGE, False, 'center')
+            p.text(x, 197, 'AAA01', 10, ORANGE, False, 'center')
             p.text(x, 210, '05 Oct', 10, ORANGE, False, 'center')
             p.text(x, 230, label, 10.5, INK, True, 'center')
+        p.badge(138, 188)
         p.text(26, 271, '罹難者全移出後', 12, INK, True)
         p.text(26, 291, '原 D 保留；新 C 放旁邊', 10, INK)
         p.diamond(236, 275, 'D', 26)
         p.diamond(320, 275, 'C', 26)
-        for x, team, day in [(236, 'AAA-01', '05 Oct'), (320, 'BBB-01', '06 Oct')]:
+        for x, team, day in [(236, 'AAA01', '05 Oct'), (320, 'BBB01', '06 Oct')]:
             p.text(x, 316, team, 9, ORANGE, False, 'center')
             p.text(x, 328, day, 9, ORANGE, False, 'center')
     elif kind == 'orientation':
@@ -227,18 +240,30 @@ def diagrams(p, kind, terms):
         for i, key in enumerate(ids):
             row = terms[key]
             y = 142+i*27
-            p.rect(25, y, 370, 27, '#f0f4f6' if i % 2 == 0 else '#ffffff', 'none')
-            label = {'rcm': 'RCM', 'zone': 'Operational Work Zone'}.get(key, row['english'])
+            changed = key in ('zone', 'exclusion')
+            p.rect(25, y, 370, 27, CHANGE_BG if changed else '#f0f4f6' if i % 2 == 0 else '#ffffff', 'none')
+            if changed:
+                p.rect(19, y, 2.5, 27, CHANGE, 'none')
+                p.badge(352, y + 8)
+            label = {'rcm': 'RCM'}.get(key, row['english'])
             p.text(35, y+18, label, 10)
             p.text(224, y+18, row['zh_tw'], 11)
     elif kind == 'sources':
-        for y, heading, detail in [(126, 'S1｜主要規則', '2020 Volume II, Manual B — Operations'),
-                                   (186, 'S2／S3｜號音交叉核對', 'Annex B26／2020 Volume III'),
+        for y, heading, detail in [(126, 'S5–S9｜2027 版主要規則', 'INSARAG 指引線上平台（2027-01-01 生效）'),
+                                   (186, 'S1｜2020 版對照', '2020 Volume II, Manual B — Operations'),
                                    (246, 'S4／STE｜版本與寫作原則', 'INSARAG 公告／ASD-STE100 Issue 9')]:
             p.text(25, y, heading, 14, INK, True)
             p.text(25, y+23, detail, 10.5, MUTED)
     else:
         raise ValueError(f'Unknown diagram: {kind}')
+
+
+def highlight(p, start, top, end, size, leading):
+    # Light band plus a left bar behind lines drawn since ops[start]; inserted first so text stays on top.
+    lines = round((end - top) / leading)
+    y0, y1 = top - size * 0.95, top + (lines - 1) * leading + size * 0.35
+    p.ops[start:start] = [dict(kind='rect', x=21, y=y0, w=376, h=y1 - y0, fill=CHANGE_BG, stroke='none', width=0),
+                          dict(kind='rect', x=19, y=y0, w=2.5, h=y1 - y0, fill=CHANGE, stroke='none', width=0)]
 
 
 def compose(data, terms):
@@ -248,18 +273,27 @@ def compose(data, terms):
         p.rect(0, 0, W, H, '#ffffff', 'none')
         p.rect(25, 26, 28, 5, ORANGE, 'none')
         p.text(395, 32, f'{i:02d} / 12', 10, MUTED, False, 'right')
+        changed = set(entry.get('changes', []))
+        if changed or entry.get('figure_changes'):
+            p.badge(310, 23, '2027 異動')
         p.text(25, 64, entry['title'], 20, INK, True)
         p.paragraph(25, 91, entry['kicker'], size=10.5, leading=15)
         diagrams(p, entry['diagram'], terms)
-        y = {'triage': 480, 'terminology': 486, 'sources': 318}.get(entry['diagram'], 356)
+        y = {'triage': 480, 'terminology': 486, 'sources': 318, 'worksite': 344}.get(entry['diagram'], 356)
         for n, text in enumerate(entry['bullets'], 1):
+            start, top = len(p.ops), y
             p.text(25, y, f'{n}.', 11, ORANGE, True)
             y = p.paragraph(44, y, text, max_width=350, size=11, leading=17) + 6
+            if text in changed:
+                highlight(p, start, top, y - 6, 11, 17)
         if entry['notes']:
             y += 3
             p.line(25, y-10, 395, y-10, '#ccd6db', 0.7)
         for text in entry['notes']:
+            start, top = len(p.ops), y
             y = p.paragraph(25, y, text, size=9.5, leading=14, color=MUTED) + 2
+            if text in changed:
+                highlight(p, start, top, y - 2, 9.5, 14)
         # Sources stay in manual.md and sources.md; the printed page carries no footer.
         if y > 565:
             raise ValueError(f'Page {i} body overflow: {y}')
@@ -270,9 +304,9 @@ def compose(data, terms):
 def svg_page(page, number):
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="148mm" height="210mm" viewBox="0 0 {W} {H}" role="img" aria-labelledby="title">',
            f'<title id="title">INSARAG A5 圖解手冊，第 {number} 頁</title>',
-           '<desc>依 INSARAG 2020 原件重新繪製。中文採用 STE 原則；不是官方中文版。</desc>']
-    metadata = {'version': 'INSARAG 2020', 'verified_on': '2026-10-05',
-                'illustrative_examples': True, 'sources': {'S1': S1, 'S3': S3, 'S4': S4, 'STE': STE}}
+           '<desc>依 INSARAG 2027 版指引重新繪製；藍色標示 2027 版異動。中文採用 STE 原則；不是官方中文版。</desc>']
+    metadata = {'version': 'INSARAG 2027 (effective 2027-01-01)', 'verified_on': '2026-10-05',
+                'illustrative_examples': True, 'sources': {'S5': S5, 'S1': S1, 'S3': S3, 'S4': S4, 'STE': STE}}
     out.append('<metadata>'+escape(json.dumps(metadata, ensure_ascii=False))+'</metadata>')
     for op in page.ops:
         k = op['kind']
@@ -342,7 +376,7 @@ def main():
     c = canvas.Canvas(str(pdf), pagesize=(W, H), invariant=1, pageCompression=1)
     c.setTitle(data['title'])
     c.setAuthor('INSARAG reference documentation project')
-    c.setSubject('Illustrated training handbook based on INSARAG 2020; Chinese STE principles adaptation')
+    c.setSubject('Illustrated training handbook based on INSARAG Guidelines 2027 (effective 2027-01-01); 2027 changes highlighted in blue; Chinese STE principles adaptation')
     for i, page in enumerate(pages, 1):
         (ROOT/'pages'/f'{i:02d}.svg').write_text(svg_page(page, i), encoding='utf-8', newline='\n')
         pdf_page(c, page)
@@ -350,9 +384,8 @@ def main():
         c.addOutlineEntry(data['pages'][i-1]['title'], f'p{i}', level=0)
         # Last-page source headings are clickable.
         if i == 12:
-            c.linkURL(S1, (25, H-154, 395, H-110), relative=0)
-            c.linkURL('https://insarag.org/wp-content/uploads/2022/05/INSARAG-Guidelines_Vol-III_Annex-B26_USAR-Team-Marking-System-and-Signalling_200403.docx', (25, H-214, 207, H-170), relative=0)
-            c.linkURL(S3, (211, H-214, 395, H-170), relative=0)
+            c.linkURL(S5, (25, H-154, 395, H-110), relative=0)
+            c.linkURL(S1, (25, H-214, 395, H-170), relative=0)
             c.linkURL(S4, (25, H-274, 207, H-230), relative=0)
             c.linkURL(STE, (211, H-274, 395, H-230), relative=0)
         c.showPage()
@@ -360,11 +393,13 @@ def main():
     scene = {'width': W, 'height': H, 'pages': [p.ops for p in pages]}
     (ROOT/'scenes.json').write_text(json.dumps(scene, ensure_ascii=False, indent=2)+'\n', encoding='utf-8', newline='\n')
     md = [f'# {data["title"]}', '', data['edition'], '',
-          '中文採用 ASD-STE100 寫作原則；本冊不是官方中文版，也不宣稱英文 STE 合規或認證。', '']
+          '中文採用 ASD-STE100 寫作原則；本冊不是官方中文版，也不宣稱英文 STE 合規或認證。', '',
+          '標有【2027 異動】的條目為 2027 版的變更；PDF 與 SVG 以淺藍底與藍色標籤標示。', '']
     for i, entry in enumerate(data['pages'], 1):
         md.extend([f'## {i:02d}｜{entry["title"]}', '', entry['kicker'], '', f'![第 {i} 頁向量圖](pages/{i:02d}.svg)', ''])
-        md.extend(f'{n}. {s}' for n, s in enumerate(entry['bullets'], 1))
-        md.extend(['', *entry['notes'], '', f'來源：{entry["source"]}。', ''])
+        mark = lambda s: f'【2027 異動】{s}' if s in entry.get('changes', []) else s
+        md.extend(f'{n}. {mark(s)}' for n, s in enumerate(entry['bullets'], 1))
+        md.extend(['', *map(mark, entry['notes']), '', f'來源：{entry["source"]}。', ''])
     (ROOT/'manual.md').write_text('\n'.join(md), encoding='utf-8', newline='\n')
     table = ['# 中英技術名詞對照表', '', 'TN：技術名詞；TV：技術動詞。均為本專案用詞，不表示 ASD 字典已核准中文譯詞。', '',
              '| ID | 英文 | 臺灣正體中文 | 類型 | 禁用變體 | 依據 | 備註 |', '| --- | --- | --- | --- | --- | --- | --- |']

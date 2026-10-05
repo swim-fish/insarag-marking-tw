@@ -222,7 +222,7 @@ def main():
             elif tag=='rect' and child.attrib.get('x')=='25' and child.attrib.get('y')=='26':
                 xml.remove(child)
         pages.append(dict(number=i,title=entry['title'],kicker=entry['kicker'],source=entry['source'],
-                          bodyStart={'triage':480,'terminology':486,'sources':318}.get(entry['diagram'],356),
+                          bodyStart={'triage':480,'terminology':486,'sources':318,'worksite':344}.get(entry['diagram'],356),
                           svg=ET.tostring(xml,encoding='unicode'),text=[op for op in ops if op['kind']=='text']))
     fonts=sorted({(op['size'],op['bold']) for pg in pages for op in pg['text']})
     data=dict(pages=pages,fonts=[dict(size=size,bold=bold) for size,bold in fonts],

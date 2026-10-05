@@ -1,11 +1,11 @@
 {
-  "pdf_sha256": "e7d406741187a8d91f46c5c49b37208ac608a1115c564656cf1f8fd8dba18af2",
+  "pdf_sha256": "30f98d28acf8eb5bb2b6f83f7ed0586d8aa2784f793698277738c07ee47582db",
   "inspector_sha256": "f8895ed377f18ed4c0dc122817e6e293787171669dd89daddcc35a6643e6edce",
   "page_count": 12,
   "embedded_chinese_fonts": {
-    "AAAAAA+MicrosoftJhengHeiRegular-0": 105500,
-    "AAAAAB+MicrosoftJhengHeiRegular-0": 105756,
-    "AAAAAA+MicrosoftJhengHeiBold-0": 96780
+    "AAAAAA+MicrosoftJhengHeiRegular-0": 103216,
+    "AAAAAB+MicrosoftJhengHeiRegular-0": 120020,
+    "AAAAAA+MicrosoftJhengHeiBold-0": 97884
   },
   "pages": [
     {
@@ -15,7 +15,7 @@
         210.00156589084202
       ],
       "raster_images": 0,
-      "text_spans": 19,
+      "text_spans": 22,
       "source_links": 0
     },
     {
@@ -25,7 +25,7 @@
         210.00156589084202
       ],
       "raster_images": 0,
-      "text_spans": 26,
+      "text_spans": 29,
       "source_links": 0
     },
     {
@@ -35,7 +35,7 @@
         210.00156589084202
       ],
       "raster_images": 0,
-      "text_spans": 24,
+      "text_spans": 29,
       "source_links": 0
     },
     {
@@ -65,7 +65,7 @@
         210.00156589084202
       ],
       "raster_images": 0,
-      "text_spans": 30,
+      "text_spans": 32,
       "source_links": 0
     },
     {
@@ -95,7 +95,7 @@
         210.00156589084202
       ],
       "raster_images": 0,
-      "text_spans": 10,
+      "text_spans": 12,
       "source_links": 0
     },
     {
@@ -115,7 +115,7 @@
         210.00156589084202
       ],
       "raster_images": 0,
-      "text_spans": 29,
+      "text_spans": 32,
       "source_links": 0
     },
     {
@@ -126,7 +126,7 @@
       ],
       "raster_images": 0,
       "text_spans": 19,
-      "source_links": 5
+      "source_links": 4
     }
   ],
   "findings": [],
