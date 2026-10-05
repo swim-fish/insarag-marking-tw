@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <link rel="profile" href="https://gmpg.org/xfn/11">
+  <title>INSARAG GUIDELINES &#8211; INSARAG</title>
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel="alternate" hreflang="en" href="https://insarag.org/methodology/insarag-guidelines/" />
+<link rel="alternate" hreflang="x-default" href="https://insarag.org/methodology/insarag-guidelines/" />
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel="alternate" type="application/rss+xml" title="INSARAG &raquo; Feed" href="https://insarag.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="INSARAG &raquo; Comments Feed" href="https://insarag.org/comments/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/insarag.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.10"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link rel='stylesheet' id='dashicons-css' href='https://insarag.org/wp-includes/css/dashicons.min.css?ver=6.8.10' media='all' />
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='wpml-blocks-css' href='https://insarag.org/wp-content/plugins/sitepress-multilingual-cms/dist/css/blocks/styles.css?ver=4.6.3' media='all' />
+<link rel='stylesheet' id='insarag-style-framework-css' href='https://insarag.org/wp-content/themes/insarag/assets/css/framework-2020.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='insarag-style-css' href='https://insarag.org/wp-content/themes/insarag/style.css?ver=1.0' media='all' />
+<link rel='stylesheet' id='insarag-print-style-css' href='https://insarag.org/wp-content/themes/insarag/print.css?ver=1.0' media='print' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://insarag.org/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.3.3' media='all' />
+<link rel='stylesheet' id='elementor-post-14326-css' href='https://insarag.org/wp-content/uploads/elementor/css/post-14326.css?ver=1790972474' media='all' />
+<link rel='stylesheet' id='wpdt-elementor-widget-font-css' href='https://insarag.org/wp-content/plugins/wpdatatables/integrations/page_builders/elementor/css/style.css?ver=6.5.1.7' media='all' />
+<link rel='stylesheet' id='elementor-post-13-css' href='https://insarag.org/wp-content/uploads/elementor/css/post-13.css?ver=1790972474' media='all' />
+<link rel='stylesheet' id='apexnb-font-awesome-css' href='https://insarag.org/wp-content/plugins/apex-notification-bar-lite/css/font-awesome/font-awesome.css?ver=6.8.10' media='all' />
+<link rel='stylesheet' id='apexnb-frontend-style-css' href='https://insarag.org/wp-content/plugins/apex-notification-bar-lite/css/frontend/frontend.css?ver=6.8.10' media='all' />
+<link rel='stylesheet' id='apexnb-responsive-stylesheet-css' href='https://insarag.org/wp-content/plugins/apex-notification-bar-lite/css/frontend/responsive.css?ver=6.8.10' media='all' />
+<link rel='stylesheet' id='apexnb-frontend-bxslider-style-css' href='https://insarag.org/wp-content/plugins/apex-notification-bar-lite/css/frontend/jquery.bxslider.css?ver=6.8.10' media='all' />
+<link rel='stylesheet' id='apexnb-lightbox-style-css' href='https://insarag.org/wp-content/plugins/apex-notification-bar-lite/css/frontend/prettyPhoto.css?ver=2.0.6' media='all' />
+<link rel='stylesheet' id='apexnb-frontend-scroller-style-css' href='https://insarag.org/wp-content/plugins/apex-notification-bar-lite/css/frontend/scroll-style.css?ver=6.8.10' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-roboto-css' href='https://insarag.org/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1737483194' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-robotoslab-css' href='https://insarag.org/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1737483195' media='all' />
+<script id="jquery-core-js-extra">
+var aagb_local_object = {"ajax_url":"https:\/\/insarag.org\/wp-admin\/admin-ajax.php","nonce":"861b2b7c6a","licensing":"","assets":"https:\/\/insarag.org\/wp-content\/plugins\/advanced-accordion-block\/assets\/"};
+</script>
+<script src="https://insarag.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://insarag.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script src="https://insarag.org/wp-content/plugins/apex-notification-bar-lite/js/frontend/jquery.bxSlider.js?ver=4.1.2" id="apexnb-frontend-bxslider-js-js"></script>
+<script src="https://insarag.org/wp-content/plugins/apex-notification-bar-lite/js/frontend/jquery.prettyPhoto.js?ver=2.0.6" id="apexnb-lightbox-script-js"></script>
+<script src="https://insarag.org/wp-content/plugins/apex-notification-bar-lite/js/frontend/jquery.scroller.js?ver=2" id="apexnb-frontend-scroller-js-js"></script>
+<script src="https://insarag.org/wp-content/plugins/apex-notification-bar-lite/js/frontend/jquery.actual.js?ver=2.0.6" id="apexnb-actual_scripts-js"></script>
+<script id="apexnb-frontend-js-js-extra">
+var apexnblite_script_variable = {"success_note":"Thank you for subscribing us.","but_email_error_msg":"Please enter a valid email address.","already_subs":"You have already subscribed.","sending_fail":"Confirmation sending fail.","check_to_conform":"Please check your mail to confirm.","ajax_url":"https:\/\/insarag.org\/wp-admin\/admin-ajax.php","ajax_nonce":"47cff042fb"};
+</script>
+<script src="https://insarag.org/wp-content/plugins/apex-notification-bar-lite/js/frontend/frontend.js?ver=2.0.6" id="apexnb-frontend-js-js"></script>
+<link rel="https://api.w.org/" href="https://insarag.org/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://insarag.org/wp-json/wp/v2/posts/13" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://insarag.org/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.10" />
+<link rel="canonical" href="https://insarag.org/methodology/insarag-guidelines/" />
+<link rel='shortlink' href='https://insarag.org/?p=13' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://insarag.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Finsarag.org%2Fmethodology%2Finsarag-guidelines%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://insarag.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Finsarag.org%2Fmethodology%2Finsarag-guidelines%2F&#038;format=xml" />
+<meta name="generator" content="WPML ver:4.6.3 stt:1,45,2;" />
+<meta name="generator" content="Site Kit by Google 1.188.0" /><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5HXZ8JL');</script>
+<!-- End Google Tag Manager -->	<script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script>
+	<meta name="generator" content="Elementor 4.3.3; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<link rel="icon" href="https://insarag.org/wp-content/uploads/2021/02/INSARAG_favicon.ico" sizes="32x32" />
+<link rel="icon" href="https://insarag.org/wp-content/uploads/2021/02/INSARAG_favicon.ico" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://insarag.org/wp-content/uploads/2021/02/INSARAG_favicon.ico" />
+<meta name="msapplication-TileImage" content="https://insarag.org/wp-content/uploads/2021/02/INSARAG_favicon.ico" />
+		<style id="wp-custom-css">
+			/* Remove "IMWG / as of" text from banner – IMWG page only */
+.postid-506 .item-texte > p:first-of-type,
+.postid-506 .item-texte > span,
+.postid-506 .item-texte .post-meta,
+.postid-506 .page-header .post-meta {
+  display: none !important;
+}
+		</style>
+		  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+<meta name="traceparent" content="00-a458896baf88d4e10000001791162523-a458896baf88d4e1-01"></head>
+<body class="wp-singular post-template-default single single-post postid-13 single-format-standard wp-theme-insarag eio-default singular enable-search-modal missing-post-thumbnail has-single-pagination showing-comments show-avatars footer-top-hidden view-article no-layout no-task elementor-default elementor-kit-14326 elementor-page elementor-page-13"><a href="https://insarag.org/cdn-cgi/content?id=g3F3zfh7Dq3zXtuyZ2IZXsL_zoVeqXHAddU9LUhh9mI-1791162523.4683099-1.2.1.1-cik8JNVFI1tolj8YepVH_OxSsbyvj8KPvQgb2994oJuASQAFrGqTkuGetmIOsjwD" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5HXZ8JL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><a class="skip-link screen-reader-text" href="#site-content">Skip to the content</a>
+  <div id="global">
+    <header id="header">
+      <div class="fluid flex-between columnonmob">
+        <div id="logo">
+          <a id="logo" href="/" title="INSARAG">
+            <img src="/wp-content/uploads/2024/03/Insarag-Logo-White.png" alt="INSARAG" />
+          </a>
+        </div><!-- #logo -->
+        <div id="header-right">
+          <div class="menu-top">
+            <div class="flex-between">
+              <a class="flex-center-y" href="/">
+                <img class="txt-icons" src="/wp-content/themes/insarag/assets/images/home-alt-regular.svg" />
+                Home              </a>
+              <a class="flex-center-y" href="about/contacts">
+                <img class="txt-icons" src="/wp-content/themes/insarag/assets/images/paper-plane-regular.svg" />
+                Contact              </a>
+              <div id="menu-lang">
+                <div class="langSelected"><!-- JS fills this in --></div>
+                <ul class="nav menu mod-list">
+                  <li class="item-105"><a href="/" class="en-US">English</a></li>
+                  <li class="item-106"><a href="/es/" class="es-ES">Spanish</a></li>
+                  <li class="item-108"><a href="/ru/" class="ru-RU">Russian</a></li>
+                </ul>
+              </div><!-- #menu-lang -->
+              <div class="search">
+                <form role="search"  method="get" class="search-form" action="https://insarag.org/">
+  <label for="search-form-1" class="element-invisible">
+    <span class="screen-reader-text">Search for:</span>
+    <input type="search" id="search-form-1" class="inputbox search-query input-medium" placeholder="Search &hellip;" value="" name="s" />
+  </label>
+  <button type="submit" class="button btn btn-primary" value="Search"> </button>
+</form>
+              </div><!-- .search -->
+            </div><!-- .flex-between -->
+          </div><!-- .menu-top -->
+          
+        </div><!-- #header-right -->
+      </div><!-- .fluid -->
+
+      <nav id="nav" role="navigation">
+        <div class="fluid-x">
+          <a id="mobile-menu-btn">
+            <div id="nav-hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </a>
+          <a class="pos-absolute mobonly" id="mobile-search" href="/?s=">
+            <img src="/wp-content/themes/insarag/assets/images/search-regular.svg" />
+          </a>
+          <div id="mobile-menu-links" class=" "><ul id="main-menu-id" class="nav menu mod-list"><li id="menu-item-12745" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-12745"><a href="https://insarag.org/about/background/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-12563" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12563"><a href="https://insarag.org/about/background/">Background</a></li>
+	<li id="menu-item-12564" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12564"><a href="https://insarag.org/about/mandate/">Mandate</a></li>
+	<li id="menu-item-12565" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12565"><a href="https://insarag.org/about/ga-resolution/">GA Resolution</a></li>
+	<li id="menu-item-12566" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12566"><a href="https://insarag.org/about/structure/">Structure of INSARAG</a></li>
+	<li id="menu-item-12567" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12567"><a href="https://insarag.org/about/membership/">Membership</a></li>
+	<li id="menu-item-12569" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12569"><a href="https://insarag.org/about/strategy/">Strategy</a></li>
+	<li id="menu-item-12570" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12570"><a href="https://insarag.org/about/contacts/">Contacts</a></li>
+</ul>
+</li>
+<li id="menu-item-12761" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-12761"><a href="https://insarag.org/global-structures/insarag-at-the-global-level/">Global Structures</a>
+<ul class="sub-menu">
+	<li id="menu-item-12762" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12762"><a href="https://insarag.org/global-structures/insarag-at-the-global-level/">Global Structures</a></li>
+	<li id="menu-item-12571" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12571"><a href="https://insarag.org/global-structures/steering-group/insarag-steering-group/">Steering Group</a></li>
+	<li id="menu-item-12574" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12574"><a href="https://insarag.org/global-structures/mid-year-calls-global-structures/mid-year-calls/">Chairman’s Summary INSARAG Teleconference</a></li>
+	<li id="menu-item-12573" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12573"><a href="https://insarag.org/global-structures/team-leaders/usar-team-leaders/">Team Leaders</a></li>
+	<li id="menu-item-12748" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-12748"><a href="https://insarag.org/global-structures/working-group/">Working Groups</a>
+	<ul class="sub-menu">
+		<li id="menu-item-12772" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12772"><a href="https://insarag.org/global-structures/working-groups/transitional-guideline-reviewgroup/">Guidelines Review Group</a></li>
+		<li id="menu-item-12752" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12752"><a href="https://insarag.org/global-structures/working-groups/training-working-group/">Training Working Group</a></li>
+		<li id="menu-item-12753" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12753"><a href="https://insarag.org/global-structures/working-groups/medical-working-group/">Medical Working Group</a></li>
+		<li id="menu-item-12580" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12580"><a href="https://insarag.org/uncategorized/national-accreditation-working-group-nawg/">National Capacity Building Working Group</a></li>
+		<li id="menu-item-12768" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12768"><a href="https://insarag.org/global-structures/working-groups/working-group-2/">Information Management Working Group</a></li>
+		<li id="menu-item-12581" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12581"><a href="https://insarag.org/global-structures/working-groups/iec-r-working-group/">Quality Assurance IEC &#038; IER Working Group</a></li>
+		<li id="menu-item-12583" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12583"><a href="https://insarag.org/search-and-rescue-in-flood-response-wg/">Search and Rescue in Flood Response WG</a></li>
+	</ul>
+</li>
+	<li id="menu-item-12593" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-12593"><a href="https://insarag.org/global-structures/completed-working-groups/">Completed Working Groups</a>
+	<ul class="sub-menu">
+		<li id="menu-item-12592" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12592"><a href="https://insarag.org/uncategorized/flexible-response-working-group-2/">Flexible Response Working Group</a></li>
+		<li id="menu-item-12594" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12594"><a href="https://insarag.org/global-structures/working-groups/national-accreditation-working-group-2/">National Accreditation Working Group</a></li>
+		<li id="menu-item-12588" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12588"><a href="https://insarag.org/global-structures/working-groups/sub-wg-a-global-position/">Sub-WG A: Global Position</a></li>
+		<li id="menu-item-12589" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12589"><a href="https://insarag.org/global-structures/working-groups/sub-wg-b-dacc/">Sub-WG B: DACC</a></li>
+		<li id="menu-item-12590" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12590"><a href="https://insarag.org/global-structures/working-groups/sub-wg-c-cultural-heritage/">Sub-WG C: Urban Search &#038; Rescue at Heritage Sites</a></li>
+		<li id="menu-item-12587" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12587"><a href="https://insarag.org/global-structures/working-groups/light-team-working-group-2/">Light Team Quality Assurance Working Group</a></li>
+		<li id="menu-item-12595" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12595"><a href="https://insarag.org/global-structures/working-groups/guidelines-review-group-grg-2018-2020/">Guidelines Review Group 2018 – 2020</a></li>
+		<li id="menu-item-12586" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12586"><a href="https://insarag.org/global-structures/completed-working-groups/guidelines-review-group/">Guidelines Review Group (Transition Team, Completed)</a></li>
+		<li id="menu-item-12585" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12585"><a href="https://insarag.org/global-structures/completed-working-groups/operations-working-group/">Operations Working Group (Completed)</a></li>
+	</ul>
+</li>
+	<li id="menu-item-12763" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-12763"><a href="https://insarag.org/global-structures/global-meeting/global-meeting/">Global Meetings</a>
+	<ul class="sub-menu">
+		<li id="menu-item-12766" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12766"><a href="https://insarag.org/global-structures/global-meeting/global-meeting-2010/">Global Meeting 2010</a></li>
+		<li id="menu-item-12765" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12765"><a href="https://insarag.org/global-structures/global-meeting/insarag-global-meeting-2015/">Global Meeting 2015</a></li>
+		<li id="menu-item-12764" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12764"><a href="https://insarag.org/global-structures/global-meeting/global-meeting-2021/">Global Meeting 2021</a></li>
+		<li id="menu-item-18484" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-18484"><a href="https://insarag.org/uncategorized/4th-insarag-global-meeting-brazil/">Global Meeting 2026</a></li>
+	</ul>
+</li>
+	<li id="menu-item-12757" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12757"><a href="https://insarag.org/global-structures/ad-hoc-events/ad-hoc-events/">Ad Hoc Events and AARs</a></li>
+</ul>
+</li>
+<li id="menu-item-12543" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-12543"><a href="https://insarag.org/regional-groups/insarag-regional-groups/">REGIONAL GROUPS</a>
+<ul class="sub-menu">
+	<li id="menu-item-12600" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-12600"><a href="https://insarag.org/regional-groups/america/americas/">Americas</a>
+	<ul class="sub-menu">
+		<li id="menu-item-12604" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12604"><a href="https://insarag.org/americas-contacts/">Troika for the Americas Region</a></li>
+		<li id="menu-item-12610" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12610"><a href="https://insarag.org/regional-groups/america/americas-news/">Americas News</a></li>
+		<li id="menu-item-12605" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12605"><a href="https://insarag.org/regional-groups/america/americas-regional-meetings/">Americas Regional Meetings</a></li>
+		<li id="menu-item-12606" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12606"><a href="https://insarag.org/regional-groups/america/americas-exercices/">Americas Exercices</a></li>
+		<li id="menu-item-12608" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12608"><a href="https://insarag.org/regional-groups/america/americas-good-practices/good-practices/">Americas Good Practices</a></li>
+	</ul>
+</li>
+	<li id="menu-item-12609" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-12609"><a href="https://insarag.org/regional-groups/asia-pacific/asia-pacific/">Asia-Pacific</a>
+	<ul class="sub-menu">
+		<li id="menu-item-12619" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12619"><a href="https://insarag.org/regional-groups/asia-pacific/asia-pacific-contacts/asia-pacific-contacts/">Asia-Pacific Contacts</a></li>
+		<li id="menu-item-12611" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12611"><a href="https://insarag.org/regional-groups/asia-pacific/asia-pacific-news/">Asia-Pacific News</a></li>
+		<li id="menu-item-12615" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12615"><a href="https://insarag.org/regional-groups/asia-pacific/asia-pacific-meetings/">Asia-Pacific Meetings</a></li>
+		<li id="menu-item-12616" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12616"><a href="https://insarag.org/regional-groups/asia-pacific/asia-pacific-exercices/">Asia-Pacific Exercices</a></li>
+		<li id="menu-item-12618" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12618"><a href="https://insarag.org/regional-groups/asia-pacific/training/">Asia-Pacific Training</a></li>
+	</ul>
+</li>
+	<li id="menu-item-12623" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-12623"><a href="https://insarag.org/regional-groups/africa-europe-middle-east/insarag-africa-europe-middle-east-region/">Africa/Europe/Middle East</a>
+	<ul class="sub-menu">
+		<li id="menu-item-12626" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12626"><a href="https://insarag.org/regional-groups/africa-europe-middle-east/africa-europe-middle-east-contacts/contacts-2/">AEME Contacts</a></li>
+		<li id="menu-item-12622" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12622"><a href="https://insarag.org/regional-groups/africa-europe-middle-east/africa-europe-middle-east-news/">AEME News</a></li>
+		<li id="menu-item-12624" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12624"><a href="https://insarag.org/regional-groups/africa-europe-middle-east/africa-europe-middle-east-meetings/">AEME Meetings</a></li>
+		<li id="menu-item-12625" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12625"><a href="https://insarag.org/regional-groups/africa-europe-middle-east/africa-europe-middle-east-exercices/">AEME Exercises</a></li>
+		<li id="menu-item-12620" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12620"><a href="https://insarag.org/regional-groups/africa-europe-middle-east/aeme-training/">AEME Training</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-12544" class="menu-item menu-item-type-post_type menu-item-object-post current-menu-item menu-item-12544"><a href="https://insarag.org/methodology/insarag-guidelines/" aria-current="page">GUIDELINES</a></li>
+<li id="menu-item-12545" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-12545"><a href="https://insarag.org/guidance-notes/guidance-notes/">Guidance Notes</a>
+<ul class="sub-menu">
+	<li id="menu-item-12627" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12627"><a href="https://insarag.org/guidance-notes/guidance-notes/">Guidance Notes</a></li>
+	<li id="menu-item-12628" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-12628"><a href="https://insarag.org/guidance-notes/checklists/">Checklists</a>
+	<ul class="sub-menu">
+		<li id="menu-item-12629" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12629"><a href="https://insarag.org/guidance-notes/checklists/">Checklists</a></li>
+		<li id="menu-item-12633" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12633"><a href="https://insarag.org/guidance-notes/checklists/iec-2/">IEC/R</a></li>
+		<li id="menu-item-12632" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12632"><a href="https://insarag.org/guidance-notes/checklists/others/">Others</a></li>
+	</ul>
+</li>
+	<li id="menu-item-12634" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-12634"><a href="https://insarag.org/guidance-notes/guidelines-annex/">Guidelines Annex</a>
+	<ul class="sub-menu">
+		<li id="menu-item-12640" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12640"><a href="https://insarag.org/guidance-notes/guidelines-annex/">Guidelines Annex</a></li>
+		<li id="menu-item-12639" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12639"><a href="https://insarag.org/guidance-notes/guidelines-annex/volume-1/">Volume I</a></li>
+		<li id="menu-item-12638" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12638"><a href="https://insarag.org/guidance-notes/guidelines-annex/volume-2-man-a/">Volume II, Man A</a></li>
+		<li id="menu-item-12637" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12637"><a href="https://insarag.org/guidance-notes/guidelines-annex/volume-2-man-b/">Volume II, Man B</a></li>
+		<li id="menu-item-12636" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12636"><a href="https://insarag.org/guidance-notes/guidelines-annex/volume-2-man-c/">Volume II, Man C</a></li>
+		<li id="menu-item-12635" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12635"><a href="https://insarag.org/guidance-notes/guidelines-annex/volume-3/">Volume III</a></li>
+	</ul>
+</li>
+	<li id="menu-item-12651" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-12651"><a href="https://insarag.org/guidance-notes/forms/">Forms</a>
+	<ul class="sub-menu">
+		<li id="menu-item-12650" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12650"><a href="https://insarag.org/undac/">UNDAC</a></li>
+		<li id="menu-item-12652" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12652"><a href="https://insarag.org/guidance-notes/forms/forms/">INSARAG</a></li>
+	</ul>
+</li>
+	<li id="menu-item-12647" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-12647"><a href="https://insarag.org/guidance-notes/manuals/">Manuals</a>
+	<ul class="sub-menu">
+		<li id="menu-item-12648" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12648"><a href="https://insarag.org/guidance-notes/manuals/undac/">UNDAC</a></li>
+		<li id="menu-item-12643" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12643"><a href="https://insarag.org/guidance-notes/manuals/v-osocc/">OSOCC</a></li>
+		<li id="menu-item-12645" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12645"><a href="https://insarag.org/vosocc/">VOSOCC</a></li>
+		<li id="menu-item-12646" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12646"><a href="https://insarag.org/guidance-notes/manuals/uc-manual/">UC Handbook</a></li>
+		<li id="menu-item-12644" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12644"><a href="https://insarag.org/guidance-notes/manuals/information-management/">ICMS Handbooks</a></li>
+		<li id="menu-item-12641" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12641"><a href="https://insarag.org/guidance-notes/manuals/irnap/">IRNAP</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-12546" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-12546"><a href="https://insarag.org/technical-reference-library/index/">Technical Reference Library</a>
+<ul class="sub-menu">
+	<li id="menu-item-12540" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-12540"><a href="https://insarag.org/aar-turkiye/">AAR Türkiye &#038; Syria</a>
+	<ul class="sub-menu">
+		<li id="menu-item-13374" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-13374"><a href="https://insarag.org/uncategorized/13365/">INSARAG AAR Türkiye Syria Comprehensive Report</a></li>
+		<li id="menu-item-13364" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-13364"><a target="_blank" href="https://insarag.org/uncategorized/recommendations-for-insarag-turkiye-2023-pdf/">Recommendations for INSARAG Turkiye 2023</a></li>
+		<li id="menu-item-12559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12559"><a href="https://insarag.org/qatar-docs-ppt/">Qatar Documents &#8211; PowerPoint</a></li>
+	</ul>
+</li>
+	<li id="menu-item-12654" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-12654"><a href="https://insarag.org/technical-reference-library/index/">Technical Reference</a>
+	<ul class="sub-menu">
+		<li id="menu-item-12655" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12655"><a href="https://insarag.org/technical-reference-library/preparedness/">Preparedness</a></li>
+		<li id="menu-item-12665" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12665"><a href="https://insarag.org/technical-reference-library/mobilisation/">Mobilisation</a></li>
+		<li id="menu-item-12673" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12673"><a href="https://insarag.org/technical-reference-library/operations/">Operations</a></li>
+		<li id="menu-item-12682" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12682"><a href="https://insarag.org/technical-reference-library/demobilisation/">Demobilisation</a></li>
+		<li id="menu-item-12691" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12691"><a href="https://insarag.org/technical-reference-library/post-mission/">Post-Mission</a></li>
+	</ul>
+</li>
+	<li id="menu-item-12653" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12653"><a href="https://insarag.org/uncategorized/medical-technical-reference-library/">Medical Technical Reference Library</a></li>
+	<li id="menu-item-12704" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12704"><a href="https://insarag.org/technical-reference-library/iec-r-aar/">IEC/R</a></li>
+	<li id="menu-item-15547" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15547"><a href="https://insarag.org/technical-reference-library/flood-response/">Flood Response</a></li>
+</ul>
+</li>
+<li id="menu-item-12547" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-12547"><a href="https://insarag.org/iec/iec-r/">IEC/R</a>
+<ul class="sub-menu">
+	<li id="menu-item-14977" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-14977"><a href="https://insarag.org/uncategorized/iec-rs-since-2005/">IEC/Rs since 2005</a></li>
+	<li id="menu-item-12733" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12733"><a href="https://insarag.org/iec/background-of-insarag-external-classification-iec/">Background</a></li>
+	<li id="menu-item-15052" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-15052"><a href="https://insarag.org/uncategorized/iec-r-20th-anniversary/">IEC/R 20th Anniversary Publication</a></li>
+	<li id="menu-item-12732" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12732"><a href="https://insarag.org/iec/insarag-guidelines-volume-ii-manual-c-iec-r/">Process &#038; IEC/IER Handbook</a></li>
+	<li id="menu-item-12735" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12735"><a href="https://insarag.org/iec/iec-application/">Application</a></li>
+	<li id="menu-item-12734" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12734"><a href="https://insarag.org/iec/iec-news/">IEC/R News</a></li>
+	<li id="menu-item-16800" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-16800"><a href="https://insarag.org/iec/dashboard/">Dashboard</a></li>
+</ul>
+</li>
+<li id="menu-item-12548" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-12548"><a href="https://insarag.org/capacity-building/capacity-intro/">Capacity Building</a>
+<ul class="sub-menu">
+	<li id="menu-item-12738" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12738"><a href="https://insarag.org/capacity-building/capacity-intro/">Capacity Building</a></li>
+	<li id="menu-item-12740" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-12740"><a href="https://insarag.org/capacity-building/national-guidelines/">National Accreditation Process</a>
+	<ul class="sub-menu">
+		<li id="menu-item-12741" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12741"><a href="https://insarag.org/uncategorized/irnap-since-2017/">IRNAP Since 2017</a></li>
+		<li id="menu-item-12739" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12739"><a href="https://insarag.org/non-categorise/insarag-external-support-and-recognition-process/">INSARAG External Support and Recognition Process</a></li>
+	</ul>
+</li>
+	<li id="menu-item-12742" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12742"><a href="https://insarag.org/capacity-building/insarag-first-responder-training/">First Responder Training</a></li>
+	<li id="menu-item-16117" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-16117"><a href="https://insarag.org/capacity-building/insarag-community-responder-training/">INSARAG Community Responder Training</a></li>
+	<li id="menu-item-12737" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12737"><a href="https://insarag.org/capacity-building/insarag-capacity-building-assessment-missions/">Assessment Missions</a></li>
+	<li id="menu-item-12736" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12736"><a href="https://insarag.org/capacity-building/capacity-building-directory-of-insarag/">Capacity Building Directory</a></li>
+	<li id="menu-item-12743" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12743"><a href="https://insarag.org/capacity-building/insarag-earthquake-response-exercise-guide/">Earthquake Exercise Package</a></li>
+	<li id="menu-item-12744" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12744"><a href="https://insarag.org/capacity-building/national-training-administrative-example/">Reference/Document</a></li>
+</ul>
+</li>
+<li id="menu-item-12549" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-has-children menu-item-12549"><a href="https://insarag.org/directory/directory/">DIRECTORY</a>
+<ul class="sub-menu">
+	<li id="menu-item-12597" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-12597"><a href="https://insarag.org/directory/directory/">USAR Directory</a></li>
+	<li id="menu-item-14982" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-14982"><a href="https://insarag.org/uncategorized/flood-response-directory/">Flood Response Directory</a></li>
+	<li id="menu-item-16851" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-16851"><a href="https://insarag.org/uncategorized/exercise-site-directory/">Exercise Site Directory</a></li>
+</ul>
+</li>
+<li id="menu-item-17797" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-17797"><a href="https://insarag.org/calendar/c/">Calendar</a></li>
+</ul></div>          <div id="mobile-menu-overlay"></div>
+        </div>
+      </nav>
+    </header>
+<div id="site-content">
+  <div class="fluid-x">
+    <ul class="breadcrumb">
+      <li class="active">You are here:</li>
+      <li><a href="/">Home</a></li>
+      <li>
+        <a href="https://insarag.org/methodology/" rel="category tag">Methodology</a>      </li>
+    </ul><!-- .breadcrumb -->
+  </div><!-- .fluid-x -->
+
+  <div class="fluid-x">
+    
+<article class="c4 post-13 post type-post status-publish format-standard hentry category-methodology" id="post-13">
+  <div id="left-column" class="c nomob">
+    <ul id="menu-clone"><!-- filled in with JS --></ul>
+  </div>
+  <div id="right-column" class="ccc w100onmob">
+    <main role="main">
+      <div class="item-page">
+        <div class="item-texte">
+          
+<header class="page-header  header-footer-group">
+  <div class="entry-header-inner section-inner medium">
+        <div class="btn-group pull-right page-actions">
+      <a class="btn dropdown-toggle" data-toggle="dropdown" href="#"> <span class="icon-cog"></span> <span class="caret"></span> </a>
+      <ul class="dropdown-menu actions">
+        <li class="print-icon">
+          <a title="Print article: INSARAG GUIDELINES" onclick="window.print();">
+            <span class="screen-reader-text">Print this page</span>
+          </a>
+        </li>
+        <li class="email-icon">
+          <a href="mailto:?subject=INSARAG.org:%20INSARAG GUIDELINES&body=https://insarag.org/methodology/insarag-guidelines?page&name=insarag-guidelines&category_name=methodology" title="Email this link to a friend" target="_blank" rel="noopener noreferrer">
+            <span class="screen-reader-text">Email this page</span>
+          </a>
+        </li>
+        <li style="width:auto; color:#666"><!-- number of hits --></li>
+      </ul>
+    </div><!-- .page-actions -->
+    <h1 class="entry-title">INSARAG GUIDELINES</h1>  </div><!-- .entry-header-inner -->
+</header><!-- .entry-header -->
+
+          <div class="post-inner thin ">
+            <div class="entry-content">
+              		<div data-elementor-type="wp-post" data-elementor-id="13" class="elementor elementor-13" data-elementor-post-type="post">
+				<div class="elementor-element elementor-element-88e2f5d e-flex e-con-boxed e-con e-parent" data-id="88e2f5d" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-084e356 elementor-widget elementor-widget-text-editor" data-id="084e356" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>We are pleased to announce that the new INSARAG Guidelines were officially launched during the INSARAG Global Meeting in Foz do Iguaçu on 9<sup>th</sup> July and are now available online.</p><p>Access the guidelines:</p><ul><li>INSARAG website</li><li>Dedicated guidelines platform: <a href="https://insarag-guidelines.netlify.app" target="_blank" rel="noopener">https://insarag-guidelines.netlify.app</a></li></ul><div><b> </b></div><div><b>The guidelines will be effective as of 1st January 2027. (For reference the current  version &#8211; Guidelines 2020 &#8211; is available below).</b></div><div><b> </b></div><p>This milestone would not have been possible without the dedication, expertise, and collaboration of the many individuals who contributed to the review and development process. We extend our sincere thanks to everyone involved, and especially to the members of the <strong>Guidelines Review Group</strong>, whose hard work and commitment were instrumental in delivering this new version.</p><p>We encourage all INSARAG stakeholders and partners to explore the updated guidelines and support their implementation across the global USAR community.</p>								</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-8b4ef8c e-flex e-con-boxed e-con e-parent" data-id="8b4ef8c" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-9e8a666 elementor-widget elementor-widget-text-editor" data-id="9e8a666" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<h3><a href="https://drive.google.com/drive/folders/1c3Sp5UZ_lxg5vWVe3oXRpNsPntvUll0b?usp=drive_link" target="_blank" rel="noopener">Volume 1 &#8211; Policy</a></h3><h3><a href="https://drive.google.com/drive/folders/1jP_jDRcehDrI8AQKEonx5M8z7Zron4mA?usp=drive_link" target="_blank" rel="noopener">Volume 2 &#8211; National Capacity Building</a></h3><h3><a href="https://drive.google.com/drive/folders/1DDQQa7h-wwr82dW9CFqRszN7W3Rk8W8X?usp=drive_link" target="_blank" rel="noopener">Volume 3 &#8211; Operations</a></h3><h3><a href="https://drive.google.com/drive/folders/1TKq41XCr4C9QFavBOT9KxWAFJF4sP9_W?usp=drive_link" target="_blank" rel="noopener">Volume 4 &#8211; IEC-R</a></h3><h3><a href="https://drive.google.com/drive/folders/1SiZmN9US2vL323wZ18Xmkw3nY-TBf56A?usp=drive_link" target="_blank" rel="noopener">Volume 5 &#8211; Operational Field Guide</a></h3><p> </p>								</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-6d14780e e-flex e-con-boxed e-con e-parent" data-id="6d14780e" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-104a45fd elementor-widget elementor-widget-text-editor" data-id="104a45fd" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><b>For your reference &#8211;Guidelines 2020</b></p><p>The INSARAG Guidelines provides a methodology to guide countries affected by a sudden-onset disaster causing large-scale structural collapse, as well as international USAR Teams responding in the affected country. The Guidelines also outlines the role of the UN in assisting affected countries in on-site coordination.</p><p>Reviewed and updated between 2018 to 2020, the INSARAG Guidelines 2020 incorporates six new areas from the 2015 version that were endorsed by the ISG; (i) IER Pre-Greening Process, (ii) INSARAG Recognised National Accreditation Process (IRNAP), (iii) USAR Coordination Cell (UCC), (iv) Information Management, (v) Classified Light Teams and (vi) Beyond the Rubble.</p><p><b>2020 &#8211; Volume I –</b><b> Policy </b><a href="https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20I.pdf" target="_blank" rel="noopener noreferrer"><b>Link</b></a></p><p><b>2020 &#8211; Volume</b><b> II, Manual A – Capacity </b><b>Building</b><a href="https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20A.pdf" target="_blank" rel="noopener noreferrer"><b>Link</b></a></p><p><b>2020 &#8211; Volume</b><b> II, Manual B – Operations </b><a href="https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf" target="_blank" rel="noopener noreferrer"><b>Link</b></a></p><p><b>2020 &#8211; Volume</b><b> II, Manual C – INSARAG External Classification &amp; Reclassification </b><a href="https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20C.pdf" target="_blank" rel="noopener noreferrer"><b>Link</b></a></p><p><b>2020 &#8211; Volume</b><b> III – Operational Field Guide <a href="https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20III.pdf" target="_blank" rel="noopener noreferrer">Link</a></b></p><p><span style="text-decoration: underline;">Note</span>: INSARAG endorsed manuals, selected annexes and checklists have been reorganized and can now be found in the <a href="https://www.insarag.org/guidance-notes/guidance-notes/">Guidance Notes section</a>. <b></b></p><p>Other reference notes can be found in the <a href="https://www.insarag.org/technical-reference-library/index/">Technical Reference Library</a>.</p><p>You can find the current Guidelines 2020 with their annexes at the following link: <a href="https://drive.google.com/drive/folders/1Wp38Kfhy7pG8mBYNYxlOWLgl2tnw1zRM?usp=sharing">Link</a></p><p><img fetchpriority="high" decoding="async" class="wp-image-1047 alignnone" src="https://insarag.org/wp-content/uploads/2016/04/Diagram-300x138.jpg" alt="Diagram describing the Guidelines" width="580" height="267" srcset="https://insarag.org/wp-content/uploads/2016/04/Diagram-300x138.jpg 300w, https://insarag.org/wp-content/uploads/2016/04/Diagram-768x353.jpg 768w, https://insarag.org/wp-content/uploads/2016/04/Diagram.JPG 783w" sizes="(max-width: 580px) 100vw, 580px" /></p><p>The INSARAG Secretariat welcomes the Members States and donors to translate the Guidelines into other languages for greater outreach.</p><p>Please find below the Guidelines in other languages:</p><p><a href="https://drive.google.com/drive/folders/1m-6t3_SbgKvDp8JKTx2WU08rXZ249RAH?usp=sharing">Guidelines 2020 Japanese Version</a></p><p><a href="https://insarag.org/wp-content/uploads/2024/05/INSARAG-Guidelines-2020-Chinese.pdf">Guidelines 2020 Chinese Version</a></p><p><a href="https://drive.google.com/drive/folders/117CzwMSZh9aYpCdeJWIXno2YQTWPhtZ6">Guidelines 2020 Hungarian Version </a></p><p><a href="https://drive.google.com/drive/folders/1zwjth9vDBVlP5I4zuOKAjsYochzqRGWx?usp=sharing">Guidelines 2020 Spanish Version </a></p><p><a href="https://insarag.org/wp-content/uploads/2022/12/INSARAG-Guideline-French.pdf">Guidelines 2020 French Version </a></p><p><a href="https://insarag.org/wp-content/uploads/2024/02/INSARAG-04th-Edition_-Farsi-Version-Guidelines.pdf">Guidelines 2020 Farsi Version </a></p><p><a href="https://insarag.org/wp-content/uploads/2024/09/Guidelines-2020-WORD-20240904T150037Z-001.zip">Guidelines 2020 Arabic Version</a></p><p><a href="https://insarag.org/wp-content/uploads/2026/08/Korean-Version-of-the-2020-INSARAG-Guidelines.pdf" target="_blank" rel="noopener">Guidelines 2020 Korean Version</a></p><p> </p>								</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		            </div><!-- .entry-content -->
+          </div><!-- .post-inner -->
+
+          <div class="section-inner">
+                      </div><!-- .section-inner -->
+        </div><!-- .item-texte -->
+      </div><!-- .item-page -->
+    </main>
+  </div><!-- #right-column -->
+</article><!-- .post -->
+  </div><!-- .fluid-x -->
+</div><!-- #site-content -->
+
+      <footer id="footer" class="bg-dark-grey">
+        <div id="icons-social" class="color-grey flex-center-y bg-white">
+          <div class="w100 fluid flex-center-y flex-end font-size-l">
+            Follow us ! &nbsp;
+            <a target="_blank" rel="noopener" title="Follow us on Facebook" class="btn-white" href="https://www.facebook.com/groups/758248567689855/">
+              <img class="icon-social" src="/wp-content/themes/insarag/assets/images/icons/logo-facebook-black.svg" alt="social">
+            </a> &nbsp;
+            <a target="_blank" rel="noopener" title="Follow us on Twitter" class="btn-white" href="https://twitter.com/Insarag?lang=de">
+              <img class="icon-social " src="/wp-content/themes/insarag/assets/images/icons/logo-twitter-black.svg" alt="social">
+            </a> &nbsp;
+            <a target="_blank" rel="noopener" title="Follow us on Youtube" class="btn-white" href="https://www.youtube.com/channel/UCSjyCJPblXgYRc3HGUd4bBA">
+              <img class="icon-social " src="/wp-content/themes/insarag/assets/images/icons/logo-youtube-black.svg" alt="social">
+            </a> &nbsp;
+         </div>
+        </div>
+        <hr>
+        <div class="fluid c3">
+          <div class="cc">
+            <p class="color-white font-size-m">
+              <img id="logo-un" class="float-left margin-right-l " src="/wp-content/themes/insarag/assets/images/logo-un-white.svg" alt="United Nations">
+              The information provided does not necessarily reflect the views of the United Nations, OCHA or the organisations and entities referred to in the publication. The designations employed and the presentation of the material in this publication do not imply the expression of any opinion whatsoever on the part of OCHA or the United Nations in general concerning the legal status of any country, territory, city or area, or of its authorities, or concerning the delimitation of its frontiers or boundaries.
+            </p>
+          </div>
+          <div class="c">
+            <p>
+              <a href="https://www.unocha.org/" target="_blank"><img id="logo-ocha" class="w100 d-block" src="/wp-content/themes/insarag/assets/images/logo-ocha-white.png" alt="United Nations OCHA"></a>
+            </p>
+            <ul class="nav menu mod-list">
+              <li class="item-101 default current active"><a href="/">Home</a></li>
+              <li class="item-172"><a href="/about/contacts">Contact-us</a></li>
+              <li class="item-173"><a href="/legal-notice">Legal Notice</a></li>
+              <li class="item-414"><a href="/team">©</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div><!-- #global -->
+    <script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/insarag\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<div class="ednpro_main_wrapper ednpro_section">
+<link rel='stylesheet' id='edn-google-fonts-style-css' href='//fonts.googleapis.com/css?family=Roboto' type='text/css' media='all' /> 
+
+<div class="edn-close-section" id="apex_cookie_0" > 
+  <div class="edn-notify-bar edn-position-top edn-visibility-sticky edn-custom-template edn_no_close_button" id="edn_custom_template" data-barid="apexbar-0" data-postid="13">
+    <input type="hidden" id='effect_type0' value="scroller"/>
+	<input type="hidden" class='edn_social_optons' value="0"/>
+	<input type="hidden" class='edn_right_optons' value="1"/>
+  
+      <div class="edn-container apexnb-bartypescroller">
+
+		<style type="text/css">
+
+.edn-notify-bar .edn-custom-design-wrapper .ticker-wrapper .ticker, .edn-notify-bar .ticker-wrapper .ticker{
+        font-family: Roboto;
+                         font-size: 14px;
+                        color: #007cba;
+                          background-color: #ffffff;
+            }
+    /*added custom css*/
+    .edn-custom-template[data-barid=apexbar-0] .edn-custom-design-wrapper,
+     .edn-custom-template[data-barid=apexbar-0],
+    .edn-custom-template[data-barid=apexbar-0] .edn-contact-lightbox .edn-contact-lightbox-inner-wrap,
+    .edn-custom-template[data-barid=apexbar-0] .edn-contact-close,
+    .edn-custom-template[data-barid=apexbar-0] .edn-contact-lightbox-inner-wrap{
+                font-family: Roboto;
+                         font-size: 14px;
+                        color: #007cba;
+                          background-color: #ffffff;
+        
+    }
+    .edn-custom-template[data-barid=apexbar-0] .edn-contact-lightbox-inner-wrap label{
+                 color: #007cba;
+            }
+    .edn-custom-template[data-barid=apexbar-0] .edn-mulitple-text-content,
+    .edn-custom-template[data-barid=apexbar-0] .edn_static_text, 
+    .slider_template_wrapper .edn-tweet-content, .edn-post-title-wrap .edn-post-title li,
+    .edn-custom-template[data-barid=apexbar-0] .edn_static_text, 
+    .slider_template_wrapper .edn-tweet-content, .edn-post-title-wrap .edn-post-title li,
+    .edn-custom-template[data-barid=apexbar-0] .edn-tweet-content,
+    .edn-custom-template[data-barid=apexbar-0] .edn-tweet-content a,
+    .edn-custom-template[data-barid=apexbar-0] .ticker-content,
+    .edn-custom-template[data-barid=apexbar-0] a,
+     .edn-custom-template[data-barid=apexbar-0] .ticker-wrapper .ticker-content a, 
+    .edn-custom-template[data-barid=apexbar-0] .ticker-wrapper .ticker-content .edn-tweet-content, 
+    .edn-custom-template[data-barid=apexbar-0] .ticker-wrapper .edn-mulitple-text-content{
+                 font-family: Roboto;
+                        font-size: 14px;
+                         color: #007cba;
+            }
+    .edn-custom-template[data-barid=apexbar-0] .edn-contact-form-wrap .edn-contact-close{
+                color: #007cba;
+                            background-color: #ffffff;
+            }
+    /*tweets*/
+
+    .edn-custom-template[data-barid=apexbar-0] .ticker-wrapper .edn-post-title-readmore{
+                font-family: Roboto;
+                          font-size: 14px;
+                               }
+    /*ticker custom design start*/
+
+    .edn-custom-template[data-barid=apexbar-0] .ticker-wrapper .ticker-content a{
+        margin-left: 8px;
+    }
+    .edn-custom-template[data-barid=apexbar-0] .ticker_pattern .edn-ticker-wrapper  .ticker-wrapper  .ticker-swipe{
+                  background-color: #ffffff;
+            }
+
+    /*ticker custom design end*/
+    .edn-custom-template[data-barid=apexbar-0] .edn-contact-close,input[type="button"].edn-contact-submit{
+                   background-color: #ffffff;
+            }
+    .edn-custom-template[data-barid=apexbar-0] a.edn-controls-close,input[type="button"].edn-contact-submit{
+               color: #007cba;
+             }
+
+    .edn-custom-template[data-barid=apexbar-0] .edn-social-heading-title{
+                   font-size: 14px;
+            }
+    /*Custom Subscribe Form CSS ADDED*/
+    .edn-custom-template[data-barid=apexbar-0] h1,
+    .edn-custom-template[data-barid=apexbar-0] h2,
+    .edn-custom-template[data-barid=apexbar-0] h3,
+    .edn-custom-template[data-barid=apexbar-0] h4,
+    .edn-custom-template[data-barid=apexbar-0] h5,
+    .edn-custom-template[data-barid=apexbar-0] h6,
+    .edn-custom-template[data-barid=apexbar-0] .edn-subscribe-form .edn-front-title h3{
+                color: #007cba;
+                       font-size: 14px;
+            }
+    .edn-custom-template[data-barid=apexbar-0] .edn-subscribe-form .edn-front-title h3 span{
+                    color: #007cba;
+            }
+    .edn-custom-template[data-barid=apexbar-0] .edn-subscribe-form .edn-front-title .show_icon i{
+                   color: #007cba;
+            }
+    
+
+    /*Constant Contact Subscribe Form CSS END*/
+    /* For all  CUstom buttons start */
+    .edn-custom-template[data-barid=apexbar-0] .edn-form-field .constant_subscribe, 
+    .edn-custom-template[data-barid=apexbar-0] .edn-subscribe-form .edn-form-field .edn_subs_submit_ajax,   
+    .edn-custom-template[data-barid=apexbar-0] .edn-custom-contact-link, 
+    .edn-custom-template[data-barid=apexbar-0] .edn-temp1-static-button,
+    .edn-custom-template[data-barid=apexbar-0] .apexnb-search-layout1 .apex-search-right-section .btn-search-now,
+    .edn-custom-template[data-barid=apexbar-0] .edn_static_text .edn-call-action-button a, 
+    .edn-custom-template[data-barid=apexbar-0] .edn-call-action-button a,
+    .edn-custom-template[data-barid=apexbar-0] .edn-contact-lightbox .edn-form-field .edn-field input.edn-contact-submit{
+               background: #efefef;
+                 color: #007cba;
+                 font-family: Roboto;
+            }
+   
+ 
+        .edn-custom-template[data-barid=apexbar-0] .edn_static_text .edn-text-link a, 
+        .edn-custom-template[data-barid=apexbar-0] .edn_multiple_text .edn-mulitple-text-content a,
+        edn-custom-template[data-barid=apexbar-0] .edn-multiple-content .edn-mulitple-text-content a,
+        .edn-custom-template[data-barid=apexbar-0] .edn-post-title-wrap .edn-post-title li a{
+            color: ;
+            background: #efefef;
+        }
+        
+    /* close button custom css */
+       .edn-custom-template[data-barid=apexbar-0]  .edn-top-up-arrow.open,
+    .edn-custom-template[data-barid=apexbar-0]  .edn-bottom-down-arrow.open,
+    .edn-custom-template[data-barid=apexbar-0]  .edn-bottom-down-arrow.open,
+    .edn-custom-template[data-barid=apexbar-0] .edn-left-arrow,
+    .edn-custom-template[data-barid=apexbar-0] .edn-right-arrow,
+    .edn-custom-template[data-barid=apexbar-0] .edn-cntrol-wrap.ednpro_user-can-close {
+               background-color: #1e73be; 
+               background-image:  url("../../images/showhidetoggledown.png") no-repeat scroll 0 0;
+
+    }
+    .edn-custom-template[data-barid=apexbar-0] .edn-cntrol-wrap.ednpro_user-can-close .fa-close{
+               color: #1e73be;      
+             }
+
+    .edn-custom-template[data-barid=apexbar-0] .edn-top-up-arrow {
+                background-color: #1e73be; 
+               background-image: url("../../images/showhidetoggletop.png") no-repeat scroll 0 0;
+        border-radius: 14px;
+    }
+    .edn-custom-template[data-barid=apexbar-0] .edn-bottom-down-arrow{
+                  background-color: #1e73be; 
+               border-radius: 14px;
+        background-image: url("../../images/showhidetoggledown.png") no-repeat scroll 0 0;
+    }
+    /* close button custom css */
+
+
+    .edn-custom-template[data-barid=apexbar-0] .edn_error,.edn-error,
+    .edn-constant-error
+    .edn-custom-template[data-barid=apexbar-0] .edn-success,
+    .edn-constant-success{
+               font-family: Roboto;
+                       color: #007cba;
+            }
+
+
+    /*social icons custom design start*/
+                    .edn-custom-template[data-barid=apexbar-0] .edn-multiple-btn-0{
+                    background: #efefef;
+                    color: #007cba;
+                    padding: 5px 10px 5px 10px;
+                }
+                .edn-custom-template[data-barid=apexbar-0] .edn-multiple-btn-0:hover
+                {                 
+                    background-color: ;
+                    color: ;                 
+                }      
+                
+    .edn-custom-template[data-barid=apexbar-0].edn-visibility-show-time{
+        display: none;
+    }
+    .edn-custom-template[data-barid=apexbar-0] .visibility_show-time{
+        display: none;
+    }
+               .edn-notify-bar .edn-custom-design-wrapper .edn-post-title-readmore{
+            color: #007cba !important;
+            background: #efefef !important;
+            padding: 2px 8px;
+            font-size: 14px !important;             font-weight: bold !important;         }
+    </style><div class="edn-temp-design-wrapper edn-custom-design-wrapper">
+    <div class="edn_middle_content scroller_pattern">
+        
+            <div class="edn-multiple-content-wrap">
+                                                            <ul class="edn-multiple-content" id="edn-effect-scroller-0" data-barid="0">
+                                                            <li >
+
+                                                                            <div class="apexnb_tickercontent_cta">
+                                            <div class="edn-mulitple-text-content">
+                                                <a href="../uncategorized/earthquake-response-exercise-ere-el-salvador/">Earthquake Response Exercise (ERE) - El Salvador</a>                                            </div>
+                                                                                    </div>
+                                                                    </li>
+                                                    </ul>
+                                                        </div>
+            </div>
+</div>
+    </div><!-- edn-container end -->
+ <!---------- Notification Controls ---------->
+       <!-- close if no any components found-->
+
+   <input type="hidden" class="edn-ticker-option" id="apexnb-ticker-0"
+    data-ticker-speed="0.20"
+    data-ticker-direction="horizontal"
+    data-ticker-title="Latest"
+    data-ticker-hover=""
+    data-slider-controls="1"
+    data-slider-animation="horizontal"
+    data-slider-duration=""
+    data-slider-auto="false"
+    data-slider-transition=""
+    data-slider-adaptive-height="true"
+    data-scroll-controls=""
+    data-scroll-direction="ltr"
+    data-scroll-animation="reveal"
+    data-scroll-speed=".10"
+    data-scroll-title="Latest News "
+/>
+<input type="hidden" class="edn-visibility-bar-options edn-visibility-option-0" id="apexnb-0"
+    data-show-time-duration=""
+    data-hide-time-duration=""
+    data-visibility-type = "sticky"
+    data-close-type = "disable"
+    data-close-once = ""
+    data-duration-close = ""  
+    data-show_once_hideshow = ""
+    data-notification_bar_id = "0"
+/>
+<div class="apexnb-ccform edn-template-4 ednpro-contact-template ednpro-edn-custom-template" id="custom_template" data-formtype="apexnb-multiple-custom" data-barid="0">
+</div>
+    </div><!-- edn-notify-bar end -->
+       
+  </div> <!-- edn close section end -->
+</div><script>
+document.addEventListener('DOMContentLoaded', function () {
+  const youtube = document.querySelector('a[title="Follow us on Youtube"]');
+
+  if (youtube && !document.querySelector('a[title="Follow us on LinkedIn"]')) {
+    youtube.insertAdjacentHTML('afterend', `
+      &nbsp;
+      <a target="_blank" rel="noopener" title="Follow us on LinkedIn" class="btn-white"
+         href="https://www.linkedin.com/company/international-search-and-rescue-advisory-group-insarag/">
+        <img class="icon-social"
+             src="https://insarag.org/wp-content/uploads/2026/06/OIP.webp"
+             alt="LinkedIn">
+      </a>
+    `);
+  }
+});
+</script>			<script>
+				( () => {
+					const lazyloadRunObserver = () => {
+						const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+						const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+							entries.forEach( ( entry ) => {
+								if ( entry.isIntersecting ) {
+									let lazyloadBackground = entry.target;
+									if( lazyloadBackground ) {
+										lazyloadBackground.classList.add( 'e-lazyloaded' );
+									}
+									lazyloadBackgroundObserver.unobserve( entry.target );
+								}
+							});
+						}, { rootMargin: '200px 0px 200px 0px' } );
+						lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+							lazyloadBackgroundObserver.observe( lazyloadBackground );
+						} );
+					};
+					const events = [
+						'DOMContentLoaded',
+						'elementor/lazyload/observe',
+					];
+					events.forEach( ( event ) => {
+						document.addEventListener( event, lazyloadRunObserver );
+					} );
+				} )();
+			</script>
+			<script src="https://insarag.org/.cloud/module/mcp-to-angie-connector/assets/dist/angie-mcp-init.js?ver=1.0.10" id="mcp-to-angie-connector-js" defer data-wp-strategy="defer"></script>
+<script src="https://insarag.org/wp-content/themes/insarag/assets/js/jquery.insarag-global.js?ver=1.0" id="insarag-js-global-js"></script>
+<script src="https://insarag.org/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.3.3" id="elementor-webpack-runtime-js"></script>
+<script src="https://insarag.org/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.3.3" id="elementor-frontend-modules-js"></script>
+<script src="https://insarag.org/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnX":"Share on X","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"4.3.3","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"theme_builder_v2":true,"nested-elements":true,"import-export-customization":true,"e_pro_atomic_form":true,"e_pro_collection_loop":true},"urls":{"assets":"https:\/\/insarag.org\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/insarag.org\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/insarag.org\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"f8fa062315","atomicFormsSendForm":"217483be2f"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":13,"title":"INSARAG%20GUIDELINES%20%E2%80%93%20INSARAG","excerpt":"","featuredImage":false}};
+</script>
+<script src="https://insarag.org/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.3.3" id="elementor-frontend-js"></script>
+<script src="https://insarag.org/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script src="https://insarag.org/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/insarag.org\/wp-admin\/admin-ajax.php","nonce":"c1b1cbd7c4","urls":{"assets":"https:\/\/insarag.org\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/insarag.org\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":false},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/insarag.org\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script src="https://insarag.org/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.3.1" id="elementor-pro-frontend-js"></script>
+<script src="https://insarag.org/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=4.3.1" id="pro-elements-handlers-js"></script>
+		<script type="text/javascript">
+			var visualizerUserInteractionEvents = [
+				"scroll",
+				"mouseover",
+				"keydown",
+				"touchmove",
+				"touchstart"
+			];
+
+			visualizerUserInteractionEvents.forEach(function(event) {
+				window.addEventListener(event, visualizerTriggerScriptLoader, { passive: true });
+			});
+
+			function visualizerTriggerScriptLoader() {
+				visualizerLoadScripts();
+				visualizerUserInteractionEvents.forEach(function(event) {
+					window.removeEventListener(event, visualizerTriggerScriptLoader, { passive: true });
+				});
+			}
+
+			function visualizerLoadScripts() {
+				document.querySelectorAll("script[data-visualizer-script]").forEach(function(elem) {
+					// Replace the placeholder with a real script tag using async=false:
+					// scripts download in parallel but execute in insertion order, which
+					// preserves the WordPress dependency order. Parallel jQuery.getScript
+					// calls could execute render-facade.js before the chart renderer had
+					// registered its render event listener, leaving charts blank.
+					var script = document.createElement("script");
+					script.src = elem.getAttribute("data-visualizer-script");
+					script.async = false;
+					script.onload = function() {
+						setTimeout( function() {
+							visualizerRefreshChart();
+						} );
+					};
+					elem.parentNode.replaceChild(script, elem);
+				});
+			}
+
+			function visualizerRefreshChart() {
+				jQuery( '.visualizer-front:not(.visualizer-chart-loaded)' ).resize();
+				if ( jQuery( 'div.viz-facade-loaded:not(.visualizer-lazy):empty' ).length > 0 ) {
+					visualizerUserInteractionEvents.forEach( function( event ) {
+						window.addEventListener( event, function() {
+							jQuery( '.visualizer-front:not(.visualizer-chart-loaded)' ).resize();
+						}, { passive: true } );
+					} );
+				}
+			}
+		</script>
+			  <script>
+  /(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+  </script>
+    <script defer src="/.cloud/rum/otel-rum-exporter.js?v=1.0.1"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"df67842450844fa185a3a8a88950c8ba","spa":2}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a458896baf88d4e1',t:'MTc5MTE2MjUyMw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

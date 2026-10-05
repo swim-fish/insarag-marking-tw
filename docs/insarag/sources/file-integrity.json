@@ -1,0 +1,53 @@
+{
+  "downloaded_date": "2026-10-05",
+  "files": [
+    {
+      "source_id": "S1",
+      "file": "originals/operations-2020.pdf",
+      "size_bytes": 2855211,
+      "sha256": "21956d2b9557f678e796085370198315e111389cdc3dfb1cb95eb17fa8b87de0"
+    },
+    {
+      "source_id": "S2",
+      "file": "originals/annex-b26.docx",
+      "size_bytes": 2756961,
+      "sha256": "c60f6741654dc23e9b3a7b68a8645888b6eec1f99e6d5a857d9fc4669797fe84"
+    },
+    {
+      "source_id": "S3",
+      "file": "originals/field-guide-2020.pdf",
+      "size_bytes": 1151595,
+      "sha256": "e37e157cf7473dff17376d6e7357d40bd238c903a392db693b3fc258e052db66"
+    },
+    {
+      "source_id": "S4",
+      "file": "originals/guidelines-announcement.html.txt",
+      "size_bytes": 87318,
+      "sha256": "1b1e8bda5a49057e98c80fc2a2d51cbba991da510151c927e745aa0b76a4eab7"
+    },
+    {
+      "source_id": "S5",
+      "file": "originals/new-marking-and-signalling.html.txt",
+      "size_bytes": 63742,
+      "sha256": "04f1021b94f60649cda871965bc462cf986a68ece678584950a7897ed660b790"
+    },
+    {
+      "source_id": "S6",
+      "file": "originals/new-sectorisation-and-zones.html.txt",
+      "size_bytes": 41699,
+      "sha256": "502de84f8ceb7c58cf221ab9aff6ebe7a144d29c5c8475680fd7ec75906e9163"
+    },
+    {
+      "source_id": "S7",
+      "file": "originals/new-worksite-triage.html.txt",
+      "size_bytes": 48325,
+      "sha256": "60cf674e96cd1e59b0683685053c73df6e9f90fd523db4bccbeff8e00a43ea21"
+    },
+    {
+      "source_id": "U1",
+      "file": "user-provided/insarag-fema-reference.txt",
+      "size_bytes": 28246,
+      "sha256": "c39a1aed741c5ba0fa8d9d2dd021dab5dff6465c704f255837fe7cacc695e3b6"
+    }
+  ]
+}

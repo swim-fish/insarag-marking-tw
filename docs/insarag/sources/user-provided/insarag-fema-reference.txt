@@ -1,0 +1,728 @@
+# INSARAG 與 FEMA ICS／US&R 現場架構、流程及標記核對
+
+## 一、適用版本與最重要結論
+
+以下以 **2026 年 8 月 17 日仍有效的制度**為準：
+
+- INSARAG 新版指南已於 **2026 年 7 月 9 日**發布，但要到 **2027 年 1 月 1 日**才正式生效；因此 2026 年底以前，現場作業仍應以 **INSARAG Guidelines 2020** 為基準。[INSARAG](https://insarag.org/methodology/insarag-guidelines/?utm_source=chatgpt.com)
+- FEMA 的 **ICS 是事故管理與組織架構**，本身並不規定建物噴漆符號。方框、斜線、搜尋 X、受困者 V 等標記，屬於 **FEMA National Urban Search & Rescue Response System（National US&R）** 的技術規範，在 ICS 管理架構下使用。FEMA 現行文件目錄仍分列 US&R Field Operations Guide 與 Marking Standards Handbook；目前可公開完整核對的整合版標記手冊為 2013 年的 Program Directive 2013-014。[responsesystem_v2](https://www.responsesystem.org/doctrine)
+
+### 幾何方向先行核對
+
+這裡的「方向」指斜線的**幾何傾斜方向**，不是規定人員一定要由哪一端開始下筆。
+
+| 系統／標記 | 正確圖形 | 正確意義 |
+|---|---:|---|
+| INSARAG 工作場地標記 | 長方形方框 | 工作場地識別、ASR 作業紀錄 |
+| INSARAG 工作全部完成 | `─` | **水平線穿過整個方框中央** |
+| INSARAG 箭頭 | `→ ↙ ↑` 等 | 指向實際工作場地、入口或受困者位置，沒有固定方向 |
+| INSARAG RCM | `◇` | 菱形，不是普通正方形 |
+| FEMA 結構中度風險 | 方框內 `/` | `/` 為左下至右上傾斜 |
+| FEMA 搜尋開始 | `\` | `\` 為左上至右下傾斜 |
+| FEMA 搜尋完成 | `X` | 退出時再加 `/`，形成 X |
+| FEMA 搜尋未完成 | `\•` | 第一條斜線中央加實心點，**不得加第二條斜線** |
+| FEMA 結構高風險 | 方框內 `X` | 結構危害等級，不代表搜尋完成 |
+
+INSARAG 的完成水平線、FEMA 的搜尋斜線及結構危害方框，是三種不同語意，不能混用。[INSARAG](https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf)
+
+---
+
+# 二、INSARAG 現場組織架構
+
+## 2.1 指揮權與協調權
+
+INSARAG 不是另一套取代受災國指揮體系的 ICS。受災國的 **LEMA（Local Emergency Management Authority，當地緊急管理主管機關）**仍對整體應變負最終指揮、協調及管理責任；所有國際 USAR 隊伍均應向 LEMA 報到並接受受災國政策與任務優先順序。
+
+**UCC（USAR Coordination Cell）負責隊伍協調、任務配置、資訊彙整及 ICMS 管理，但不直接取代 LEMA 指揮，也不介入各 USAR 隊伍內部的指揮鏈。**[INSARAG](https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf)
+
+```text
+受災國政府／國家災害管理機關
+                 │
+                 │ 法定權責、政策、總體指揮
+                 ▼
+       LEMA 當地緊急管理主管機關
+                 │
+                 │ 任務優先順序與協調授權
+                 ▼
+       OSOCC／UCC 現地 USAR 協調
+       ├─ ICMS 任務與資訊管理
+       ├─ 工作區、工作場地及優先順序
+       ├─ 隊伍能力與任務配對
+       └─ 與 RDC、各隊伍持續協調
+                 ↕
+       RDC 接待／離境中心
+                 ↕
+          國際 USAR 隊伍
+          └─ USAR 隊長
+             ├─ 管理 Management
+             ├─ 搜索 Search
+             ├─ 救援 Rescue
+             ├─ 醫療 Medical
+             └─ 後勤 Logistics
+                    └─ BoO 作業基地
+```
+
+圖中的垂直實線代表法定權責或任務授權；雙向箭頭代表協調與資訊交換，不代表 UCC 對隊伍實施戰術指揮。
+
+INSARAG USAR 隊伍由管理、搜索、救援、醫療及後勤五個主要功能組成，隊長負隊伍整體責任。BoO（Base of Operations，作業基地）則兼具隊部、通訊、裝備維護、休息、飲食、健康管理及緊急避難功能。[INSARAG](https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf)
+
+---
+
+## 2.2 INSARAG 應變週期
+
+INSARAG 的完整應變週期為：
+
+```text
+整備 Preparedness
+       ↓
+動員 Mobilisation
+       ↓
+作業 Operations
+       ↓
+撤離／復員 Demobilisation
+       ↓
+任務後作業 Post-Mission
+```
+
+現地作業通常可進一步整理為：
+
+```text
+抵達受災國
+   ↓
+RDC 報到、通關、能力登錄
+   ↓
+LEMA／OSOCC／UCC 任務簡報
+   ↓
+建立 BoO、通訊與聯絡機制
+   ↓
+ASR 1 廣域評估
+   ↓
+ASR 2 工作場地檢傷分類
+   ↓
+UCC 配發工作場地
+   ↓
+ASR 3 快速搜索救援
+及／或
+ASR 4 完整搜索救援
+   ↓
+ASR 5 全面搜索與遺體尋回
+   ↓
+ICMS／紙本表單更新、交接
+   ↓
+撤離、離境、任務後檢討
+```
+
+撤離規劃不是作業結束時才開始，而應從進入任務初期即納入規劃，包括工作場地交接、未完成風險、裝備、人員、文件及 UCC／LEMA 結案程序。[INSARAG](https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf)
+
+---
+
+## 2.3 ASR Level 1～5
+
+ASR 是 **Assessment, Search and Rescue Level**，代表工作內容深度，不是組織階層，也不等同 ICS 的 Branch、Division 或 Group。
+
+| ASR | 名稱 | 主要目的 | 一般作法 |
+|---|---|---|---|
+| ASR 1 | Wide Area Assessment | 廣域評估 | 評估災害規模、受損區域、危害、道路、資源、可能工作區及 BoO 地點；隊伍保持機動，原則上不投入長時間救援 |
+| ASR 2 | Worksite Triage Assessment | 工作場地檢傷分類 | 找出可能有可救生還者的工作場地，建立工作場地識別與優先順序 |
+| ASR 3 | Rapid Search and Rescue | 快速搜索救援 | 以較短時間及較有限資源取得快速進展，通常避免大規模穿透、支撐或長時間破拆 |
+| ASR 4 | Full Search and Rescue | 完整搜索救援 | 處理深層受困、掩埋或複雜存活空間，可能需要大規模支撐、破拆、穿透及長時間作業 |
+| ASR 5 | Total Coverage Search and Recovery | 全面搜索及尋回 | 完整覆蓋搜尋及遺體尋回，通常在主要救生階段後進行 |
+
+ASR 通常循序進行，但 UCC／LEMA 可依已知資訊、現地資源與時間直接指派較高層級，不必機械式地逐級執行。[INSARAG](https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf)
+
+### ASR 2 工作場地檢傷分類
+
+| 類別 | 意義 |
+|---|---|
+| A | 已確認有生還者，預估救援時間少於 12 小時 |
+| B | 已確認有生還者，預估救援時間超過 12 小時 |
+| C | 可能有生還者，但尚未確認 |
+| D | 僅有罹難者，沒有生還者跡象 |
+
+這個 A～D 是**工作場地優先分類**，不是建物面向或內部象限代號。[INSARAG](https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf)
+
+---
+
+# 三、INSARAG 現場標記
+
+INSARAG 2020 將標記分成數個功能：
+
+| 標記 | 必要性 |
+|---|---|
+| 工作場地檢傷標記 Worksite Triage Marking | 必要 |
+| 受困者標記 Victim Marking | 必要 |
+| 一般區域識別 | 選用 |
+| 建物方向識別 | 選用 |
+| 警戒區／管制區 | 選用 |
+| Rapid Clearance Marking，RCM | 選用 |
+
+若受災國已有國家標記制度，應優先採用受災國制度；INSARAG 標記是在沒有既定國家制度時，由 LEMA／UCC 決定採用的共同預設方式。[INSARAG](https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf)
+
+---
+
+## 3.1 建物面向與內部象限
+
+### 外部面向
+
+- 第 1 面：門牌、主要道路或建物正面。
+- 第 2、3、4 面：由第 1 面開始，依序**順時針**編號。
+- 樓層以地面層為基準，向上為 Floor 1、Floor 2；向下為 Basement 1、Basement 2。
+
+### 內部象限
+
+- A 象限從 **第 1 面與第 2 面交界角落**開始。
+- A、B、C、D 依序順時針。
+- E 表示中央核心區，常用於大型或多層建物。
+
+```text
+                     第 3 面／後側
+            ┌─────────────────────┐
+            │          │          │
+第 2 面     │    B     │    C     │     第 4 面
+／左側      │          E          │     ／右側
+            │    A     │    D     │
+            │          │          │
+            └─────────────────────┘
+                第 1 面／正面／門牌側
+```
+
+因此，在圖面以建物正面朝下表示時：
+
+- A：左前。
+- B：左後。
+- C：右後。
+- D：右前。
+- E：中央。
+
+這是順時針編號；把 A 放在左後、或把第 2 面放在右側，都是常見錯誤。[INSARAG](https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf)
+
+---
+
+## 3.2 作業區與排除區
+
+INSARAG 警戒帶的基本意義為：
+
+```text
+單一警戒帶：Operational Work Zone
+            作業區邊界
+
+交叉警戒帶：Exclusion Zone
+       ＼  ／
+         X
+       ／  ＼
+            排除區／禁止進入區
+```
+
+警戒帶形成的 X 是**排除區管制**，不是建物搜尋完成標記。[INSARAG](https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf)
+
+---
+
+## 3.3 工作場地檢傷標記
+
+### 正確結構
+
+INSARAG 工作場地標記是一個約 **1.2 公尺寬 × 1.0 公尺高**的方框，應畫在建物正面、主要入口附近或最容易看見的位置。
+
+```text
+             危害資訊
+       例如：ASBESTOS、GAS
+                    ↓
+          ┌───────────────────┐
+          │       C-1c        │  ← 工作場地 ID
+          │                   │
+──────────┼───────────────────┼──────────
+          │ AUS-01 ASR2 5OCT │  ← 隊伍、ASR、日期
+          │ GER-01 ASR3 5OCT │
+          │ TUR-01 ASR4 6OCT │
+          └───────────────────┘
+                    B              ← 檢傷類別
+                   ↙
+          實際入口／工作場地方向
+```
+
+方框資訊配置原則：
+
+| 位置 | 資訊 |
+|---|---|
+| 方框內主要位置 | Worksite ID |
+| 方框內後續列 | 隊伍識別、完成的 ASR 層級、日期 |
+| 方框上方 | 危害資訊 |
+| 方框下方 | 工作場地檢傷類別 A～D |
+| 方框旁 | 必要時加箭頭，指向實際工作場地或入口 |
+
+不同隊伍接手時，不應擦除前一隊伍資料，而是在方框內增加新的隊伍、ASR 層級及日期紀錄。[INSARAG](https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf)
+
+### 工作完成線
+
+當該工作場地：
+
+- 已完成所需搜索與救援；
+- 已知受困者均已處置；
+- 不再需要其他隊伍繼續作業；
+
+應畫一條：
+
+> **水平線穿過整個工作場地標記中央，並延伸超出方框左右兩側。**
+
+正確：
+
+```text
+──────────┼───────────────────┼──────────
+```
+
+錯誤：
+
+```text
+方框內畫 /
+方框內畫 \
+在方框上畫 X
+將整個方框圈起來
+```
+
+INSARAG 2020 的工作場地完成標記不是 FEMA 搜尋 X，也不是斜線。[INSARAG](https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf)
+
+---
+
+## 3.4 INSARAG 箭頭
+
+INSARAG 箭頭沒有固定必須朝左下、右上或北方的規定。箭頭的功能是：
+
+- 指向實際工作場地。
+- 指向真正可進入的入口。
+- 指向受困者位於牆後、樓板下或瓦礫內的實際方向。
+
+```text
+標記在道路側，但入口在後方：   ↑
+入口在建物右側：               →
+受困者在左下方瓦礫內：         ↙
+```
+
+因此，箭頭方向必須依現地空間關係決定，不能為了圖面整齊固定畫成某一方向。[INSARAG](https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf)
+
+---
+
+## 3.5 INSARAG 受困者標記
+
+### 基本方式
+
+在受困者實際位置上方或最接近的表面畫大型 `V`，約 50 公分；若位置不在標記正下方，加入箭頭。
+
+```text
+        ↙
+        V
+      L-2
+      D-1
+```
+
+| 標記 | 意義 |
+|---|---|
+| `V` | 已知或可能有受困者 |
+| `L-#` | 已確認生還者數量 |
+| `D-#` | 已確認罹難者數量 |
+| 箭頭 | 受困者實際方向 |
+
+### 移出受困者
+
+受困者移出後，應劃除相對應的 `L-#` 或 `D-#` 項目，必要時更新數量。當所有 L、D 紀錄均被劃除，即表示該位置所有已知受困者均已移出。
+
+不應把 FEMA 的「V 外畫圓圈」、「V 中間畫水平線」直接套進 INSARAG 標記。[INSARAG](https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf)
+
+---
+
+## 3.6 Rapid Clearance Marking，RCM
+
+RCM 用於快速表示已經完成全面清查的地點，是否採用由 LEMA 決定。
+
+正確外形是**菱形**：
+
+```text
+          ／＼
+         ／ C ＼
+         ＼   ／
+          ＼／
+       AUS-01
+        6 OCT
+```
+
+| 菱形內文字 | 意義 |
+|---|---|
+| `C`－Clear | 已完成相當於 ASR 5 的全面搜索，現場沒有生還者或罹難者留置 |
+| `D`－Deceased Only | 已完成全面搜索，現場僅剩罹難者尚未移出 |
+
+隊伍識別及日期寫在菱形下方。
+
+RCM 是 `◇`，不能畫成 INSARAG 工作場地的長方框，也不能畫成 FEMA 結構危害方框。[INSARAG](https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf)
+
+---
+
+## 3.7 INSARAG 現場聲音訊號
+
+| 訊號 | 聲音 | 意義 |
+|---|---|---|
+| 緊急撤離 | 3 次短音，每次約 1 秒，持續重複 | 所有人員撤離 |
+| 停止作業／安靜 | 1 次長音，約 3 秒 | 停止作業、保持安靜，以利搜索或接收指令 |
+| 恢復作業 | 1 次長音後接 1 次短音 | 可以恢復作業 |
+
+聲音訊號應在每次任務簡報中重新確認，避免不同國家隊伍採用不同習慣。[INSARAG](https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf)
+
+---
+
+# 四、FEMA ICS 現場組織架構
+
+## 4.1 ICS 基本架構
+
+```text
+事故指揮官 Incident Commander
+或聯合指揮 Unified Command
+│
+├─ 指揮幕僚 Command Staff
+│  ├─ 公共資訊官 Public Information Officer
+│  ├─ 安全官 Safety Officer
+│  └─ 聯絡官 Liaison Officer
+│
+└─ 一般幕僚 General Staff
+   ├─ 作業處 Operations Section
+   │  ├─ Branch 分支
+   │  ├─ Division 地理分區
+   │  ├─ Group 功能群組
+   │  └─ Task Force／Strike Team／Single Resource
+   │
+   ├─ 規劃處 Planning Section
+   │  ├─ 資源單元
+   │  ├─ 情勢單元
+   │  ├─ 文件單元
+   │  └─ 復員單元
+   │
+   ├─ 後勤處 Logistics Section
+   │  ├─ 服務分支：通訊、醫療、飲食
+   │  └─ 支援分支：補給、設施、地面支援
+   │
+   ├─ 財務／行政處 Finance/Administration Section
+   │  ├─ 時間
+   │  ├─ 採購
+   │  ├─ 補償／索賠
+   │  └─ 成本
+   │
+   └─ 情報／調查功能
+      Intelligence/Investigations
+      依事故需求設置於指揮、一個處或獨立功能
+```
+
+ICS 強調：
+
+- 每個人只向一名直接主管報告，即 Unity of Command。
+- 任務指派與資源申請沿正式指揮鏈進行。
+- 聯合指揮由具有管轄權或功能責任的機關共同訂定目標與策略，各機關仍保有原有法定權限。
+- 組織只建立事故實際需要的職位，不必一開始全部啟用。[FEMA EMILMS](https://emilms.fema.gov/_is_0200c/groups/242.html)
+
+---
+
+## 4.2 FEMA ICS 與 US&R 現場流程
+
+```text
+建立 Incident Command／Unified Command
+                 ↓
+初始情勢評估與 ICS 201 簡報
+                 ↓
+訂定事故目標、策略及組織架構
+                 ↓
+規劃會議與 Incident Action Plan
+                 ↓
+ICS 203 組織
+ICS 204 任務分派
+ICS 205 通訊
+ICS 206 醫療
+ICS 208／215A 安全
+                 ↓
+人員與資源 ICS 211 報到
+                 ↓
+Operations 配發 US&R 工作區域
+                 ↓
+結構危害評估
+                 ↓
+畫結構危害方框
+                 ↓
+進入建物時畫搜尋第一斜線
+                 ↓
+執行 Primary／Secondary Search
+                 ↓
+完成：補第二斜線成 X
+未完成：第一斜線中央加實心點
+                 ↓
+更新受困者標記及工作紀錄
+                 ↓
+ICS 214 活動紀錄、回報 Planning／Operations
+                 ↓
+下一作業期重新規劃
+                 ↓
+ICS 221 復員離場
+```
+
+FEMA 官方 ICS 表單中心目前列有 ICS 201、202、203、204、205、205A、206、207、208、211、214、215、215A、221 等表單。[FEMA Training](https://training.fema.gov/emiweb/is/icsresource/icsforms/?utm_source=chatgpt.com)
+
+---
+
+# 五、FEMA US&R 現場標記
+
+## 5.1 FEMA 建物面向
+
+FEMA US&R 傳統標示使用英文字母作為建物外部面向：
+
+```text
+                    Side C／後側
+             ┌─────────────────┐
+Side B／左側 │                 │ Side D／右側
+             │      建物       │
+             └─────────────────┘
+                    Side A／正面
+```
+
+- Side A：正面／門牌面。
+- Side B：從正面看建物左側。
+- Side C：後側。
+- Side D：從正面看建物右側。
+
+內部象限則仍使用 A、B、C、D、E：
+
+```text
+             ┌───────────────┐
+             │   B   │   C   │
+             │       E       │
+             │   A   │   D   │
+             └───────────────┘
+                   Side A
+```
+
+必須區分：
+
+- **Side A** 是建物正面。
+- **Quadrant A** 是內部左前象限。
+
+兩者名稱相同但代表不同層級。[PowerDMS](https://public.powerdms.com/CSPPD/documents/1010972)
+
+---
+
+## 5.2 結構／危害評估方框
+
+FEMA 結構危害評估是約 **2 英尺 × 2 英尺，約 60 × 60 公分**的正方形，通常畫在可進入的入口旁。
+
+```text
+低風險：        中度風險：       高風險：
+
+┌─────┐         ┌─────┐         ┌─────┐
+│     │         │   / │         │ \ / │
+│     │         │  /  │         │  X  │
+│     │         │ /   │         │ / \ │
+└─────┘         └─────┘         └─────┘
+```
+
+| 方框內符號 | 結構判定 |
+|---|---|
+| 空白方框 | 對 US&R 作業屬較低風險，後續倒塌機率較低 |
+| 方框內 `/` | 中度風險，建物明顯受損，可能需要支撐、監測或其他危害控制 |
+| 方框內 `X` | 高度風險，可能突然倒塌；正常進入前需要重大風險降低措施 |
+
+### 中度風險斜線方向
+
+結構危害方框內的單斜線依正式圖例採：
+
+```text
+/
+左下 → 右上
+```
+
+這是斜線的傾斜方向；標準文字未另行要求一定由左下開始下筆。
+
+### 方框外資訊
+
+- 危害、日期、時間、Task Force ID 寫在方框右側。
+- 如果方框無法畫在最低風險入口旁，可以在方框旁加箭頭指向最低風險入口。
+- 箭頭依實際入口位置決定方向，沒有固定朝向。[Scribd](https://www.scribd.com/document/654524542/USR-PD-2013-014-USR-Marking-System?utm_source=chatgpt.com)
+
+---
+
+## 5.3 FEMA 搜尋評估標記
+
+搜尋標記是**獨立斜線或 X**，不畫在結構危害方框內。
+
+### 搜尋開始
+
+隊伍進入建物時畫：
+
+```text
+\
+左上 → 右下
+```
+
+並在斜線左側記錄：
+
+- Task Force／搜尋隊識別。
+- 進入日期。
+- 進入時間。
+
+### 搜尋完成
+
+完成 IAP／TAP 所要求的搜尋層級並退出時，再補上相反方向斜線：
+
+```text
+第一條：\  左上 → 右下
+第二條：/  左下 → 右上
+結果：  X
+```
+
+完成後的資訊位置：
+
+```text
+                   退出日期／時間
+                          ↑
+進入隊伍、日期、時間  ←   X   →  危害
+                          ↓
+               建物內仍留置的 L／D 數量
+
+                 ┌─────────────┐
+                 │ 已搜尋樓層／象限 │
+                 └─────────────┘
+```
+
+- 上方：退出日期與時間。
+- 左側：隊伍、進入日期與時間。
+- 右側：危害資訊。
+- 下方：仍在建物內的生還者與罹難者數量；沒有則填 0。
+- 多樓層或多象限時，可在 X 下方加方框，記錄已完成的樓層或象限。
+
+### 搜尋未完成
+
+若未達到 IAP／TAP 指定的搜尋層級就必須退出：
+
+```text
+\•
+```
+
+應在第一條斜線中央加上大型實心點，並填入已知資訊。
+
+**禁止補上第二條斜線。**
+
+```text
+正確： \•
+錯誤： X 再加一個點
+錯誤： 先畫 X，旁邊註記 Incomplete
+```
+
+FEMA 明確規定，不完整搜尋不得加 crossing slash，因為 X 本身代表指定搜尋層級已完成。[Scribd](https://www.scribd.com/document/654524542/USR-PD-2013-014-USR-Marking-System?utm_source=chatgpt.com)
+
+---
+
+## 5.4 FEMA 斜線方向為何經常被畫反
+
+這個問題確實存在歷史版本差異：
+
+- 2003 年 FEMA Field Operations Guide 的部分圖版，曾將第一條搜尋斜線畫成 `/`。
+- 後續 FEMA 訓練教材及 2013 年整合版 Marking Standards Handbook，將內部搜尋進入斜線明確規定為 **左上至右下的 `\`**。
+- Program Directive 2013-014 明定取代先前 2005、2006 年數份標記指令，並將標記內容整合成單一手冊。[FEMA](https://www.fema.gov/pdf/emergency/usr/usr_fog_sept_25_2003_color_final.pdf?utm_source=chatgpt.com)
+
+因此建議採用：
+
+```text
+FEMA 搜尋進入：    \
+FEMA 搜尋完成：    X（退出時再加 /）
+FEMA 搜尋未完成：  \•
+```
+
+但實際美國境內事故仍以 **AHJ、IAP、Task Force SOP 及當次任務簡報**明定的制度為最高依據。若現地主管機關採用不同方向，應在進場前統一，不能由個別隊伍自行選擇。
+
+---
+
+## 5.5 FEMA 受困者標記
+
+FEMA Victim Marking 與 INSARAG 的 L／D 標記邏輯不同。
+
+| 標記 | FEMA 意義 |
+|---|---|
+| 大型 `V` | 可能有受困者 |
+| `V` 旁箭頭 | 指向實際位置 |
+| `V` 外加圓圈 | 已確認為生還者 |
+| 水平線穿過 `V` | 已確認罹難 |
+| 在已確認標記上畫 `X` | 受困者已移出 |
+| `V` 上方 | US&R Task Force 識別 |
+| `V` 內或附近數字 | 同一位置的受困者數量 |
+
+示意：
+
+```text
+可能受困者：       V
+
+已確認生還者：    ( V )
+
+已確認罹難者：     ─V─
+
+已移出：          在已確認標記上加 X
+```
+
+受困者不在標記正下方時，箭頭依實際方向繪製。[Scribd](https://www.scribd.com/document/654524542/USR-PD-2013-014-USR-Marking-System?utm_source=chatgpt.com)
+
+---
+
+# 六、INSARAG 與 FEMA ICS／US&R 功能對照
+
+以下是**功能上的對照**，不是正式一對一等同關係。
+
+| INSARAG | FEMA ICS／US&R | 說明 |
+|---|---|---|
+| 受災國政府／NDMA、LEMA | AHJ、Incident Commander／Unified Command | 法定權責、事故目標、優先順序及總體指揮 |
+| OSOCC／UCC | 多機關 US&R 協調功能、IST 支援 | 任務協調及資訊管理；UCC 不是事故指揮官 |
+| RDC | Check-in、Reception、Staging、Mobilization 支援 | 隊伍抵達、能力登錄、進出與後勤協調，沒有完全相同的單一 ICS 單元 |
+| Sector／Worksite | Branch、Division、Group、Assignment | 地理或功能任務切分 |
+| USAR Team Leader | Task Force Leader／資源主管 | 管理單一隊伍或資源 |
+| Management | 隊伍內部指揮、規劃、聯絡、安全 | 橫跨多個 ICS 功能 |
+| Search／Rescue | Operations Section | 戰術搜索與救援 |
+| Medical | Operations 戰術醫療；Logistics Medical Unit 人員照護 | 受困者醫療與應變人員健康管理的 ICS 歸屬可能不同 |
+| Logistics | Logistics Section | 補給、設施、通訊、運輸及生活支援 |
+| BoO | Base／Camp | 隊伍作業基地 |
+| ICMS | Planning 資源／情勢追蹤、IAP、ICS 表單 | 任務狀態與資訊管理 |
+| ASR 1～5 | 無直接對應 | ASR 是技術作業深度，不是 ICS 組織層級 |
+
+INSARAG 的 UCC 與 FEMA 的 IC／UC 不應直接畫成同一個方框；正確關係是 UCC 在 LEMA 授權下協調 USAR 資源，而 ICS 的 IC／UC 對整體事故目標及資源負指揮責任。[INSARAG](https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf)
+
+---
+
+# 七、方框、箭頭、水平線與斜線最終核對表
+
+| 項目 | 正確作法 | 常見錯誤 |
+|---|---|---|
+| INSARAG 外部建物面向 | 第 1 面為正面，2→3→4 順時針 | 把第 2 面放到正面右側 |
+| INSARAG 內部象限 | A 位於第 1、2 面交界；A→B→C→D 順時針 | A 從左後或右前開始 |
+| INSARAG 工作場地 | 約 1.2 × 1.0 公尺長方框 | 畫成 FEMA 搜尋 X |
+| INSARAG 完成線 | 水平線穿過整個方框中央 | 單斜線、X、圈住方框 |
+| INSARAG 箭頭 | 指向實際入口、工作場地或受困者 | 固定畫成左下或右上 |
+| INSARAG RCM | 菱形 `◇` | 畫成普通正方形 |
+| FEMA 結構評估 | 約 60 × 60 公分方框 | 與搜尋斜線共用同一方框 |
+| FEMA 中度結構風險 | 方框內 `/`，左下至右上 | 畫成 `\` |
+| FEMA 高度結構風險 | 方框內 `X` | 誤認為搜尋完成 |
+| FEMA 搜尋開始 | 獨立 `\`，左上至右下 | 依 2003 舊圖畫 `/`，卻未在簡報中統一 |
+| FEMA 搜尋完成 | 退出時補 `/`，形成 `X` | 進入前就直接畫完整 X |
+| FEMA 搜尋未完成 | 第一條斜線中央加實心點 `\•` | 補第二線形成 X |
+| FEMA 安全入口箭頭 | 指向最低風險入口 | 固定方向或指向建物正面 |
+| FEMA 受困者已確認生還 | V 外加圓圈 | 使用 INSARAG `L-#` |
+| FEMA 已確認罹難 | 水平線穿過 V | 使用 INSARAG `D-#` |
+| INSARAG 受困者移出 | 劃除相應 L／D 紀錄 | 套用 FEMA 的整個受困者標記 X |
+
+---
+
+# 八、現場 SOP 建議
+
+每個作業期的 LEMA／IC／UCC 任務簡報，至少應明確宣布：
+
+1. **本次事故採哪套標記制度**：受災國制度、INSARAG 或 FEMA US&R。
+2. FEMA 搜尋第一斜線採 `\` 還是現地 AHJ 的其他既定規則。
+3. 結構危害方框、搜尋 X、工作場地方框三者不得混畫。
+4. Worksite ID、建物 ID、Sector／Division 編號由誰核發。
+5. 日期時間使用當地時間或 UTC，以及格式，例如 `17AUG 1430L`。
+6. 誰有權將工作場地標示為完成、Clear 或停止作業。
+7. 標記更新後必須拍照、記錄座標並同步至 ICMS、ICS 214 或現地資訊系統。
+8. 舊標記如何劃除，以及新資訊應畫在何處。
+9. 每一個入口、樓層及象限是否需要獨立搜尋標記。
+10. 夜間、煙塵、雨勢或建物表面不適合噴漆時，採用標籤、標牌或其他替代方式。
+
+最重要的現場原則是：
+
+> **同一事故、同一作業區及同一作業期只能有一套被正式宣布的標記語法。不要製作 INSARAG 方框加 FEMA 搜尋 X，再混入 FEMA 圓圈 V 的「混合標記」。**

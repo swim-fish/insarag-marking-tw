@@ -1,0 +1,128 @@
+{
+  "basis": "INSARAG Guidelines 2020",
+  "verified_date": "2026-10-05",
+  "figures": [
+    {
+      "file": "01-worksite-layout.svg",
+      "title": "工作場址標記：欄位與位置",
+      "description": "入口外部的方框標記，框上寫危害，框內有 C-5 與隊伍、ASR、日期，框下寫 B。箭頭用於指示場址入口。",
+      "source_id": "S1",
+      "printed_pages": [
+        44,
+        45
+      ],
+      "pdf_pages_1_based": [
+        45,
+        46
+      ],
+      "source_url": "https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf#page=45",
+      "guide": "marking/worksite.md"
+    },
+    {
+      "file": "02-worksite-progression.svg",
+      "title": "工作場址標記：更新與完成線",
+      "description": "三個連續方框顯示 ASR 2、加入 ASR 3，以及必要作業全部完成後的橫線。線位於 Worksite ID 下方與 ASR 紀錄上方。",
+      "source_id": "S1",
+      "printed_pages": [
+        45,
+        46
+      ],
+      "pdf_pages_1_based": [
+        46,
+        47
+      ],
+      "source_url": "https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf#page=46",
+      "guide": "marking/worksite.md"
+    },
+    {
+      "file": "03-victim-progression.svg",
+      "title": "受困者位置標記：V、L、D 與人數更新",
+      "description": "四階段示例：V；L-2 與 D-1；劃掉 L-2 後補 L-1；最後所有有效人數都劃掉，V 保留。",
+      "source_id": "S1",
+      "printed_pages": [
+        48,
+        49
+      ],
+      "pdf_pages_1_based": [
+        49,
+        50
+      ],
+      "source_url": "https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf#page=49",
+      "guide": "marking/victim.md"
+    },
+    {
+      "file": "04-rapid-clearance.svg",
+      "title": "快速清查標記：菱形 C／D",
+      "description": "菱形 C 表示全面搜尋完成且無受困者留在原位；菱形 D 表示僅有死亡受困者。死亡受困者全部移出後在旁新增 C。",
+      "source_id": "S1",
+      "printed_pages": [
+        50,
+        51
+      ],
+      "pdf_pages_1_based": [
+        51,
+        52
+      ],
+      "source_url": "https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf#page=51",
+      "guide": "marking/rapid-clearance.md"
+    },
+    {
+      "file": "05-structure-orientation.svg",
+      "title": "建物方向標記：外部面向與內部象限",
+      "description": "正面 Side 1 在下方，Side 2 在左、Side 3 在上、Side 4 在右。室內 A 左下、B 左上、C 右上、D 右下，E 在中央。",
+      "source_id": "S1",
+      "printed_pages": [
+        42
+      ],
+      "pdf_pages_1_based": [
+        43
+      ],
+      "source_url": "https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf#page=43",
+      "guide": "marking/orientation-and-cordons.md"
+    },
+    {
+      "file": "06-floor-identification.svg",
+      "title": "樓層標記：Ground Floor 與地下層",
+      "description": "由上至下為 Floor 3、Floor 2、Floor 1、Ground Floor、Basement 1、Basement 2，右側是一般臺灣慣用樓層的教學對照。",
+      "source_id": "S1",
+      "printed_pages": [
+        42,
+        43
+      ],
+      "pdf_pages_1_based": [
+        43,
+        44
+      ],
+      "source_url": "https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf#page=43",
+      "guide": "marking/orientation-and-cordons.md"
+    },
+    {
+      "file": "07-cordon-markings.svg",
+      "title": "警戒標記：作業區與禁入區",
+      "description": "左圖兩支柱上方是一條水平紅白警戒帶；右圖兩支柱間的紅白警戒帶交叉成 X，表示禁入區。",
+      "source_id": "S1",
+      "printed_pages": [
+        43
+      ],
+      "pdf_pages_1_based": [
+        44
+      ],
+      "source_url": "https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf#page=44",
+      "guide": "marking/orientation-and-cordons.md"
+    },
+    {
+      "file": "08-emergency-signals.svg",
+      "title": "緊急號音：撤離、停止與恢復作業",
+      "description": "三行號音圖：撤離三短聲並重複；停止作業一長聲；恢復作業一長聲加一短聲。來源中撤離號音有矛盾，請見版本核對。",
+      "source_id": "S1",
+      "printed_pages": [
+        52
+      ],
+      "pdf_pages_1_based": [
+        53
+      ],
+      "source_url": "https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf#page=53",
+      "guide": "signalling/emergency-signals.md"
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-operations docs-version-current docs-doc-page docs-doc-id-operational-procedures/worksite-triage" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">Worksite Triage | INSARAG Guidelines</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://insarag-guidelines.netlify.app/img/homepage-final.JPG"><meta data-rh="true" name="twitter:image" content="https://insarag-guidelines.netlify.app/img/homepage-final.JPG"><meta data-rh="true" property="og:url" content="https://insarag-guidelines.netlify.app/operations/operational-procedures/worksite-triage"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-operations-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-operations-current"><meta data-rh="true" property="og:title" content="Worksite Triage | INSARAG Guidelines"><meta data-rh="true" name="description" content="The objective of ASR2 is to assess collapsed structures and identify viable"><meta data-rh="true" property="og:description" content="The objective of ASR2 is to assess collapsed structures and identify viable"><link data-rh="true" rel="icon" href="/img/insarag-logo-2.svg"><link data-rh="true" rel="canonical" href="https://insarag-guidelines.netlify.app/operations/operational-procedures/worksite-triage"><link data-rh="true" rel="alternate" href="https://insarag-guidelines.netlify.app/operations/operational-procedures/worksite-triage" hreflang="en"><link data-rh="true" rel="alternate" href="https://insarag-guidelines.netlify.app/operations/operational-procedures/worksite-triage" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Worksite Triage","item":"https://insarag-guidelines.netlify.app/operations/operational-procedures/worksite-triage"}]}</script><link rel="icon" href="/img/insarag-logo-2.svg">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#508adb"><link rel="stylesheet" href="/assets/css/styles.a30a8220.css">
+<script src="/assets/js/runtime~main.80890770.js" defer="defer"></script>
+<script src="/assets/js/main.cbd477de.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/img/insarag-logo-2.svg"><link rel="preload" as="image" href="/img/img-operations/Triage-flowchart.png"><link rel="preload" as="image" href="/img/ocha-logo-footer.svg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/insarag-logo-2.svg" alt="INSARAG Preparedness Response logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/insarag-logo-2.svg" alt="INSARAG Preparedness Response logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate"></b></a><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Policy</a><ul class="dropdown__menu"><li class="">
+                <div class="megaMenu">
+                  <div class="megaTop">
+                    <div class="dropdownHeading">Policy</div>
+                    <a href="/fundamentals/intro">Policy overview</a>
+                  </div>
+
+                  <div class="megaColumns">
+                    <div class="megaColumn">
+                      <div class="dropdownHeading">INSARAG</div>
+                      <a href="/fundamentals/intro">What is INSARAG</a>
+                      <a href="/fundamentals/insarag-principles">INSARAG Principles</a>
+                      <a href="/fundamentals/insarag-guidelines">INSARAG Guidelines</a>
+                    </div>
+
+                    <div class="megaColumn">
+                      <div class="dropdownHeading">Governance & Structure</div>
+                      <a href="/fundamentals/governance">INSARAG Governance</a>
+                      <a href="/fundamentals/governance/organisational-structure">INSARAG Organisational Structure</a>
+                      <a href="/fundamentals/governance/insarag-meetings">INSARAG Meetings</a>
+                    </div>
+
+                    <div class="megaColumn">
+                      <div class="dropdownHeading">Members & Partners</div>
+                      <a href="/fundamentals/membership">INSARAG Member</a>
+                      <a href="/fundamentals/membership/partnerships">INSARAG Partnerships</a>
+                    </div>
+                  </div>
+                </div>
+              </li></ul></div><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Capacity</a><ul class="dropdown__menu"><li class="">
+                <div class="megaMenu">
+                  <div class="megaTop">
+                    <div class="dropdownHeading">Capacity</div>
+                    <a href="/capacity/intro">Capacity overview</a>
+                  </div>
+
+                  <div class="megaColumns">
+                    <div class="megaColumn">
+                      <div class="dropdownHeading">Response Capacity</div>
+                      <a href="/capacity/response-capacity/responders">Community & First Responders</a>
+                      <a href="/capacity/response-capacity/framework">National USAR Framework</a>
+                    </div>
+
+                    <div class="megaColumn">
+                      <div class="dropdownHeading">USAR Capacity</div>
+                      <a href="/capacity/usar-team-capacity/usar-teams">USAR Team Capacity</a>
+                      <a href="/capacity/usar-team-capacity/considerations-before-team">Considerations Before Forming a Team</a>
+                      <a href="/capacity/usar-team-capacity/team-roles-and-responsibilities">USAR Team Training and Roles</a>
+                      <a href="/capacity/usar-team-capacity/usar-teams">See all...</a>
+                    </div>
+
+                    <div class="megaColumn">
+                      <div class="dropdownHeading">National Quality Assurance</div>
+                      <a href="/capacity/national-quality-assurance/nap">National Accreditation Process</a>
+                      <a href="/capacity/national-quality-assurance/irnap">INSARAG Recognised National Accreditation Process</a>
+                    </div>
+                  </div>
+                </div>
+              </li></ul></div><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Operations</a><ul class="dropdown__menu"><li class="">
+                <div class="megaMenu">
+                  <div class="megaTop">
+                    <div class="dropdownHeading">Operations</div>
+                    <a href="/operations/intro">Operations overview</a>
+                  </div>
+
+                  <div class="megaColumns">
+                    <div class="megaColumn">
+                      <div class="dropdownHeading">International USAR Response</div>
+                      <a href="/operations/international-usar/usar-response-cycle">USAR Response Cycle</a>
+                      <a href="/operations/international-usar/roles-and-responsibilities">Response Roles and Responsibilities</a>
+                      <a href="/operations/international-usar/information-unclassified-teams">Information Package Non-Classified Teams</a>
+                      <a href="/operations/international-usar/usar-response-cycle">See all...</a>
+                    </div>
+
+                    <div class="megaColumn">
+                      <div class="dropdownHeading">Operational Procedures</div>
+                      <a href="/operations/operational-procedures/asr-levels">Assessment, Search and Rescue</a>
+                      <a href="/operations/operational-procedures/worksite-triage">Worksite Triage</a>
+                      <a href="/operations/operational-procedures/marking-and-signalling">INSARAG Marking and Signalling</a>
+                      <a href="/operations/operational-procedures/worksite-report">See all...</a>
+                    </div>
+
+                    <div class="megaColumn">
+                      <div class="dropdownHeading">After USAR Operations</div>
+                      <a href="/operations/after-operations/end-of-international-usar">End of International USAR Operations</a>
+                      <a href="/operations/after-operations/post-mission-review">Post Mission Review</a>
+                      <a href="/operations/after-operations/donations">Donations</a>
+                      <a href="/operations/after-operations/mission-summary">See all...</a>
+                    </div>
+                  </div>
+                </div>
+              </li></ul></div><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">IEC/R</a><ul class="dropdown__menu"><li class="">
+                <div class="megaMenu">
+                  <div class="megaTop">
+                    <div class="dropdownHeading">IEC/R</div>
+                    <a href="/iecr/iecr-overview/what-is-iecr">IEC/R overview</a>
+                  </div>
+
+                  <div class="megaColumns">
+                    <div class="megaColumn">
+                      <div class="dropdownHeading">IEC/R Stakeholders & Roles</div>
+                      <a href="/iecr/iecr-stakeholders/iecr-secretariat">IEC/R INSARAG Secretariat</a>
+                      <a href="/iecr/iecr-stakeholders/mentor">IEC/R Mentor</a>
+                      <a href="/iecr/iecr-stakeholders/iecr-classifiers">IEC/R Classifiers</a>
+                      <a href="/iecr/iecr-stakeholders/insarag-iecr-stakeholders">See all...</a>
+                    </div>
+
+                    <div class="megaColumn">
+                      <div class="dropdownHeading">IEC/R Planning and Preparations</div>
+                      <a href="/iecr/iecr-planning-preparation/application-process">Application Process & A-PoE</a>
+                      <a href="/iecr/iecr-planning-preparation/exercise-control">Exercise Control</a>
+                      <a href="/iecr/iecr-planning-preparation/two-year-planning">Two Year Planning Timeline</a>
+                      <a href="/iecr/iecr-planning-preparation/mentor-assessment">See all...</a>
+                    </div>
+
+                    <div class="megaColumn">
+                      <div class="dropdownHeading">IEC/R Programme & Reporting</div>
+                      <a href="/iecr/iecr-programme-reporting/iecr-programme">IEC/R Programme</a>
+                      <a href="/iecr/iecr-programme-reporting/iecr-checklist">IEC/R Checklist</a>
+                      <a href="/iecr/iecr-programme-reporting/iecr-reporting">IEC/R Reporting</a>
+                    </div>
+                  </div>
+                </div>
+              </li></ul></div><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">Coordination</a><ul class="dropdown__menu"><li class="">
+                <div class="megaMenu">
+                  <div class="megaTop">
+                    <div class="dropdownHeading">Coordination</div>
+                    <a href="/coordination/national-coordination/national-usar-coordination">Coordination overview</a>
+                  </div>
+
+                  <div class="megaColumns">
+                    <div class="megaColumn">
+                      <div class="dropdownHeading">National USAR Coordination</div>
+                      <a href="/coordination/national-coordination/national-usar-coordination">National USAR Coordination Structure</a>
+                      <a href="/coordination/national-coordination/coordination-response-cycle">USAR Coordination at National Response Cycle</a>
+                      <a href="/coordination/national-coordination/integration-international-response">Integration of International Response to National Structures</a>
+                    </div>
+
+                    <div class="megaColumn">
+                      <div class="dropdownHeading">Receiving International Assistance</div>
+                      <a href="/coordination/international-assistance/host-nation-support">Host Nation Support</a>
+                      <a href="/coordination/international-assistance">Requesting International Assistance </a>
+                      <a href="/coordination/international-assistance/international-response">Integration of International Response</a>
+                    </div>
+
+                    <div class="megaColumn">
+                      <div class="dropdownHeading">International USAR Coordination</div>
+                      <a href="/coordination/international-usar-coordination/rdc">Reception & Departure Centre</a>
+                      <a href="/coordination/international-usar-coordination/ucc">USAR Coordination Cell</a>
+                      <a href="/coordination/international-usar-coordination/icms">INSARAG Coordination and Management System</a>
+                      <a href="/coordination/international-usar-coordination/coordination-elements">See all...</a>
+                    </div>
+                  </div>
+                </div>
+              </li></ul></div><div class="navbar__item dropdown dropdown--hoverable"><a href="#" aria-haspopup="true" aria-expanded="false" role="button" class="navbar__link">References</a><ul class="dropdown__menu"><li class=""><div class="dropdownHeading">References</div></li><li><a class="dropdown__link" href="/guides/volume-1-policy">Volume 1 - Policy</a></li><li><a class="dropdown__link" href="/guides/volume-2-capacity">Volume 2 - National Capacity Building</a></li><li><a class="dropdown__link" href="/guides/volume-3-operations">Volume 3 - Operations</a></li><li><a class="dropdown__link" href="/guides/volume-4-iecr">Volume 4 - IEC/R</a></li><li><a class="dropdown__link" href="/guides/volume-5-operational-field-guide">Volume 5 - Operational Field Guide</a></li></ul></div></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/operations/intro"><span title="Ethical Considerations" class="linkLabel_WmDU">Ethical Considerations</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/operations/international-usar/usar-response-cycle"><span title="International USAR Response" class="categoryLinkLabel_W154">International USAR Response</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/international-usar/usar-response-cycle"><span title="International USAR Response Cycle" class="linkLabel_WmDU">International USAR Response Cycle</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/international-usar/roles-and-responsibilities"><span title="Roles and Responsibilities" class="linkLabel_WmDU">Roles and Responsibilities</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/international-usar/responsibilities-mission-cycle"><span title="Responsibilities by Mission Cycle" class="linkLabel_WmDU">Responsibilities by Mission Cycle</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/international-usar/information-unclassified-teams"><span title="Information Package for Unclassified Teams" class="linkLabel_WmDU">Information Package for Unclassified Teams</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/operations/mobilisation-references/country-information"><span title="Mobilisation Procedures" class="categoryLinkLabel_W154">Mobilisation Procedures</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/mobilisation-references/country-information"><span title="Country Information - Affected Area Template" class="linkLabel_WmDU">Country Information - Affected Area Template</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/mobilisation-references/team-fact-sheet"><span title="Team Fact Sheet" class="linkLabel_WmDU">Team Fact Sheet</span></a></li></ul></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/operations/boo"><span title="Base of Operations" class="linkLabel_WmDU">Base of Operations</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret menu__link--active" role="button" aria-expanded="true" href="/operations/operational-procedures/asr-levels"><span title="Operational Procedures" class="categoryLinkLabel_W154">Operational Procedures</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/operational-procedures/asr-levels"><span title="Assessment, Search and Rescue (ASR) Levels" class="linkLabel_WmDU">Assessment, Search and Rescue (ASR) Levels</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/operations/operational-procedures/worksite-triage"><span title="Worksite Triage" class="linkLabel_WmDU">Worksite Triage</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/operational-procedures/worksite-report"><span title="Worksite Report" class="linkLabel_WmDU">Worksite Report</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/operational-procedures/zone-report"><span title="Zone Report" class="linkLabel_WmDU">Zone Report</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/operational-procedures/marking-and-signalling"><span title="INSARAG Marking and Signalling System" class="linkLabel_WmDU">INSARAG Marking and Signalling System</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/operational-procedures/incident-sector-report"><span title="Incident/Sector Situation Report" class="linkLabel_WmDU">Incident/Sector Situation Report</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/operational-procedures/victim-extrication"><span title="Victim Extrication Form" class="linkLabel_WmDU">Victim Extrication Form</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/operational-procedures/patient-treatment"><span title="Patient Treatment Form" class="linkLabel_WmDU">Patient Treatment Form</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/operational-procedures/humanitarian-needs-form"><span title="Humanitarian Needs Identification Form" class="linkLabel_WmDU">Humanitarian Needs Identification Form</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/operations/safety-and-security/security-briefing"><span title="Safety and Security" class="categoryLinkLabel_W154">Safety and Security</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/safety-and-security/security-briefing"><span title="Security Briefing" class="linkLabel_WmDU">Security Briefing</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/safety-and-security/safety-security-plan"><span title="Safety and Security Plan" class="linkLabel_WmDU">Safety and Security Plan</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/safety-and-security/safety-security-checklist"><span title="Safety and Security Checklist" class="linkLabel_WmDU">Safety and Security Checklist</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/operations/specialist-operations/hazardous-materials"><span title="Specialist Operations" class="categoryLinkLabel_W154">Specialist Operations</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/specialist-operations/hazardous-materials"><span title="Hazardous Materials Operations" class="linkLabel_WmDU">Hazardous Materials Operations</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/specialist-operations/beyond-the-rubble"><span title="Beyond the Rubble" class="linkLabel_WmDU">Beyond the Rubble</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/specialist-operations/flex-r"><span title="Flexible Response" class="linkLabel_WmDU">Flexible Response</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/operations/operational-field-guide/management"><span title="Operational Field Guide" class="categoryLinkLabel_W154">Operational Field Guide</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/operational-field-guide/management"><span title="Management Checklist" class="linkLabel_WmDU">Management Checklist</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/operational-field-guide/search"><span title="Search Checklist" class="linkLabel_WmDU">Search Checklist</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/operational-field-guide/rescue"><span title="Rescue Checklist" class="linkLabel_WmDU">Rescue Checklist</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/operational-field-guide/medical"><span title="Medical Checklist" class="linkLabel_WmDU">Medical Checklist</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/operational-field-guide/logistics"><span title="Logistics Checklist" class="linkLabel_WmDU">Logistics Checklist</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/operational-field-guide/media"><span title="Media Management Guide" class="linkLabel_WmDU">Media Management Guide</span></a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist menu__link--sublist-caret" role="button" aria-expanded="true" href="/operations/after-operations/end-of-international-usar"><span title="After USAR Operations" class="categoryLinkLabel_W154">After USAR Operations</span></a></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/after-operations/end-of-international-usar"><span title="End of International USAR operations" class="linkLabel_WmDU">End of International USAR operations</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/after-operations/donations"><span title="Donations" class="linkLabel_WmDU">Donations</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/after-operations/mission-summary"><span title="Mission Summary Form" class="linkLabel_WmDU">Mission Summary Form</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/after-operations/post-mission-review"><span title="Post Mission Review" class="linkLabel_WmDU">Post Mission Review</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/operations/after-operations/post-mission-report"><span title="Post Mission Report Form" class="linkLabel_WmDU">Post Mission Report Form</span></a></li></ul></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/glossary"><span title="Glossary" class="linkLabel_WmDU">Glossary</span></a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><span class="breadcrumbs__link">Operational Procedures</span></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Worksite Triage</span></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Worksite Triage</h1></header><p>The objective of <a class="term" data-tooltip="Assessment, Search and Rescue Level 2" href="/operations/operational-procedures/asr-levels#asr-level-2-worksite-triage-assessment">ASR2</a> is to assess collapsed structures and identify viable
+sites for live rescues. The <a class="term" data-tooltip="USAR Coordination Cell" href="/coordination/international-usar-coordination/ucc">UCC</a> will use this information to list sites in order of priority
+and decide which teams to assign to which sites. One of the considerations for the prioritisation
+of worksites is the triage category.</p>
+<p>The objective of a triage process is to evaluate triage factors to compare collapsed structures
+and decide the order of priority. The key to triage is consistency in the comparison of triage factors.</p>
+<blockquote>
+<p>Note: For Worksite Triage Marking go to <a class="" href="/operations/operational-procedures/marking-and-signalling">INSARAG Marking and Signalling System</a></p>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="first-order-of-priority-triage-categories-with-victim-information">First order of priority: Triage Categories with Victim Information<a href="#first-order-of-priority-triage-categories-with-victim-information" class="hash-link" aria-label="Direct link to First order of priority: Triage Categories with Victim Information" title="Direct link to First order of priority: Triage Categories with Victim Information" translate="no">​</a></h2>
+<p>The level of prioritisation of worksites is based on victim information: number of confirmed alive
+victims, number of possibilities of live victims, and if there are only dead victims in the
+structure. All worksites with confirmed live victims are complete before the structures with
+possible live victims. The worksites with the greatest number of victims are the highest priority.
+Buildings with dead only may be assigned to <span class="term" data-tooltip="Urban Search and Rescue">USAR</span> Teams as part of <a class="term" data-tooltip="Assessment, Search and Rescue Level 5" href="/operations/operational-procedures/asr-levels#asr-level-5-total-coverage-search-and-recovery">ASR5</a>.</p>
+<p>In order to assist deciding which team goes to which site, the triage teams are requested to
+estimate how long the operations will take. The duration can only be estimated if the assessors
+have an idea of where the victim is located. Duration will depend on the structure, e.g., building
+material and size, and on equipment and expertise. The estimate should be based on general
+capability of a team and will always be a rough estimate. Duration estimates will allow the <a class="term" data-tooltip="USAR Coordination Cell" href="/coordination/international-usar-coordination/ucc">UCC</a> to
+assign the larger teams to the move difficult or larger sites that take longer to complete. The <a class="term" data-tooltip="USAR Coordination Cell" href="/coordination/international-usar-coordination/ucc">UCC</a>
+collects information on all confirmed and possible live victims. It does not collect victims on all
+deceased, only information that is deemed relevant.</p>
+<p>The above triage strategy leads to following four triage categories:</p>
+<div class="tableWrapper"><table class="usarTable"><thead><tr><th>Triage Categories</th><th>Victim Information</th><th>Expected Duration of Operation</th></tr></thead><tbody><tr><td rowspan="1" class="componentCell">A</td><td>Confirmed live victims</td><td>Less than 12 hours</td></tr><tr><td rowspan="1" class="componentCell">B</td><td>Confirmed live victims</td><td>Longer than 12 hours</td></tr><tr><td rowspan="1" class="componentCell">C</td><td>Possible live victims</td><td>Not assessed</td></tr><tr><td rowspan="1" class="componentCell">D</td><td>Deceased only</td><td>Not assessed</td></tr></tbody></table></div>
+<ul>
+<li class=""><strong>Confirmed live victims:</strong> Means that the <span class="term" data-tooltip="Urban Search and Rescue">USAR</span> assessment team knows that there are people alive
+in the collapsed structure.</li>
+<li class=""><strong>Possible live victims:</strong> Means that there is a possibility that people are alive in the structure,
+but the assessment team cannot confirm whether people are alive or even in the structure. Examples
+of possible live victims is when by-standers report missing people, or a collapse of a school that
+was in session.</li>
+<li class=""><strong>Deceased only:</strong> Means that there are not live victims, but the LEMA may want to send teams to
+the site to recover the bodies.</li>
+</ul>
+<div class="image-container"><img src="/img/img-operations/Triage-flowchart.png" alt="Worksite Triage Flowchart"></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="second-order-of-priority-building-information-and-operational-constraints">Second order of priority: Building Information and Operational Constraints<a href="#second-order-of-priority-building-information-and-operational-constraints" class="hash-link" aria-label="Direct link to Second order of priority: Building Information and Operational Constraints" title="Direct link to Second order of priority: Building Information and Operational Constraints" translate="no">​</a></h2>
+<p>In cases where the <a class="term" data-tooltip="USAR Coordination Cell" href="/coordination/international-usar-coordination/ucc">UCC</a> needs to use additional information to list the worksites in order of
+priority, building related and operations related information can be used. Examples of useful
+information is listed below. This are not placed in the triage categories to avoid the triage
+categories becoming complicated.</p>
+<p>Building related information includes:</p>
+<ul>
+<li class=""><strong>Use:</strong> For example, a home, office, school, hospital, etc. will provide an indication of
+possible trapped victims.</li>
+<li class=""><strong>Size of site (footprint and number of floors):</strong> The larger the building, the longer the
+operation will take.</li>
+<li class=""><strong>Type of construction:</strong> The heavier the construction material, the longer the operation will take.</li>
+<li class="">Building Collapse Category:<!-- -->
+<ul>
+<li class=""><strong>Inclined:</strong> One, some, or all of the columns and walls have collapsed in a way that floors
+collapse on an incline.</li>
+<li class=""><strong>Overturn:</strong> Part or all of the building has fallen to the side.</li>
+<li class=""><strong>Pancake:</strong> One, some, or all floors have collapsed completely.</li>
+<li class=""><strong>Debris heap:</strong> One, some or all of the floors, columns and walls have collapsed resulting
+in a heap of debris.</li>
+<li class=""><strong>Overhang:</strong> Lower parts of the building have collapsed, leaving the higher part of the building
+to hang over the lower part.</li>
+</ul>
+</li>
+<li class="">Void space information may also be an issue, based on information from building collapse categories:<!-- -->
+<ul>
+<li class=""><strong>Big void:</strong> When a space is big enough for a person to crawl. The chances of survival for a
+victim are greater in big voids than small voids. “Big” is a relative term, i.e. a big void for a
+child will be considerably smaller than a big void for an adult.</li>
+<li class=""><strong>Small void:</strong> When a person can hardly move and has to lie more or less still while
+waiting for help. In small voids, the chances of injury are higher as people trapped inside have
+less space to avoid falling objects and collapsing structural elements.</li>
+</ul>
+</li>
+</ul>
+<p>Factors relating to the operations include:</p>
+<ul>
+<li class=""><strong>Resource availability:</strong> The more limited resources, the longer the operation will take.</li>
+<li class=""><strong>Location of site and teams:</strong> The further from the site the team is, the longer the operation will take.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="worksite-triage-form">Worksite Triage Form<a href="#worksite-triage-form" class="hash-link" aria-label="Direct link to Worksite Triage Form" title="Direct link to Worksite Triage Form" translate="no">​</a></h2>
+<a class="downloadButton" href="/documents/vol-5/worksite-triage-form.pdf" download=""><p>⬇ Download Worksite Triage Form</p></a>
+<p><strong>Building information</strong></p>
+<ul>
+<li class=""><a class="" href="/coordination/international-usar-coordination/sectorisation-and-zones#worksite-identification"><ins>Worksite ID</ins></a>
+<ul>
+<li class="">GPS Coordinates</li>
+</ul>
+</li>
+<li class="">Address</li>
+<li class="">Worksite boundary description</li>
+<li class="">Building use</li>
+<li class="">Construction material</li>
+<li class="">Floor area<!-- -->
+<ul>
+<li class="">Number of floors</li>
+<li class="">Number of basements</li>
+</ul>
+</li>
+</ul>
+<p><strong>Victim information</strong></p>
+<ul>
+<li class="">Total number of live victims confirmed by team**</li>
+<li class="">Will the operation take less then 12 hours?</li>
+<li class="">Total reported missing (indicating possible live finds). If none put 0. If unknown leave blank</li>
+<li class="">Are there deceased? If yes, estimate on how many? If no put 0. If unknown leave blank.</li>
+<li class="">Assign a Triage Category</li>
+</ul>
+<p><strong>Describe the building collapse</strong><br>
+<!-- -->This provides information about void spaces and structural stability. If relevant, describe local damages.</p>
+<ul>
+<li class="">Examples:<!-- -->
+<ul>
+<li class="">Inclined</li>
+<li class="">Pancaked</li>
+<li class="">Debris heaps</li>
+<li class="">Overturns</li>
+<li class="">Overhang</li>
+</ul>
+</li>
+</ul>
+<p><strong>Main <span class="term" data-tooltip="Urban Search and Rescue">USAR</span> operations likely to be needed at this Worksite</strong></p>
+<ul>
+<li class="">Type:<!-- -->
+<ul>
+<li class="">Dog/Technical search</li>
+<li class="">Shoring and propping</li>
+<li class="">Breaking and breaching</li>
+<li class="">Lifting and moving</li>
+<li class="">Rope/height working</li>
+<li class="">Medical needs</li>
+</ul>
+</li>
+<li class="">Number of personnel, equipment, time required, etc.</li>
+</ul>
+<p><strong>Risks/hazards/other info</strong></p>
+<p><strong>Team information</strong></p>
+<ul>
+<li class=""><a class="" href="/coordination/international-usar-coordination/sectorisation-and-zones#usar-team-identification-code"><ins>Team ID</ins></a></li>
+<li class="">Date</li>
+<li class="">Time</li>
+<li class="">Completed by<!-- -->
+<ul>
+<li class="">Name</li>
+<li class="">Title/position</li>
+</ul>
+</li>
+</ul></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/operations/operational-procedures/asr-levels"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Assessment, Search and Rescue (ASR) Levels</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/operations/operational-procedures/worksite-report"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Worksite Report</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#first-order-of-priority-triage-categories-with-victim-information" class="table-of-contents__link toc-highlight">First order of priority: Triage Categories with Victim Information</a></li><li><a href="#second-order-of-priority-building-information-and-operational-constraints" class="table-of-contents__link toc-highlight">Second order of priority: Building Information and Operational Constraints</a></li><li><a href="#worksite-triage-form" class="table-of-contents__link toc-highlight">Worksite Triage Form</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer_xBL4"><div class="accentLine_I1vT"></div><div class="inner_gbZ8"><div class="footerContent_QbTG"><img src="/img/ocha-logo-footer.svg" alt="OCHA logo" class="logo_fYHz"><div class="rightSide_Ighv"><nav class="socialLinks_pCXT" aria-label="Social media links"><a href="https://www.facebook.com/groups/758248567689855/" target="_blank" rel="noreferrer" aria-label="Facebook"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></a><a href="https://x.com/INSARAG" target="_blank" rel="noreferrer" aria-label="X"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg></a><a href="https://www.youtube.com/@INSARAGNetwork" target="_blank" rel="noreferrer" aria-label="YouTube"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg></a></nav><nav class="legalLinks_ljQP" aria-label="Legal links"><a href="/legal/privacy-notice">Privacy Notice</a><span>•</span><a href="/legal/terms-of-use">Terms of Use</a><span>•</span><a href="/legal/disclaimer">Disclaimer</a><span>•</span><a href="/legal/copyright">Copyright</a><span>•</span><a href="/legal/contact">Contact</a></nav><p class="copyright_g70o">© <!-- -->2026<!-- --> United Nations Office for the Coordination of Humanitarian Affairs (OCHA).</p><p class="disclaimer_s4GI">The information provided on this website does not necessarily reflect the views of the United Nations, OCHA, INSARAG, or the participating organisations. Created by USAR.NL.</p></div></div></div></footer></div>
+</body>
+</html>
