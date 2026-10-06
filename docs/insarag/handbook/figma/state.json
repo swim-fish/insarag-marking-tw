@@ -89,7 +89,8 @@
     "36/Bold": "S:9b946863968de5a8a433ae29d4b146570dc7f55e,",
     "64/Bold": "S:ea4e070fb80249a14cf122ef0287f0cf5af44140,",
     "9.5/Bold": "S:2c2ac61c12d74c04ed2c48088c0b173d85cce015,",
-    "7/Bold": "S:8219792fa9ac3723b3c131b4d918e616be54234d,"
+    "7/Bold": "S:8219792fa9ac3723b3c131b4d918e616be54234d,",
+    "9/Bold": "S:5ba6f50cfde814a46fdb1399e98fb7ae804ebcca,"
   },
   "styleIds": [
     "S:99faeda0501a327fcf6c43992dc1deb4dcdcb3d3,",
@@ -122,7 +123,8 @@
     "S:9b946863968de5a8a433ae29d4b146570dc7f55e,",
     "S:ea4e070fb80249a14cf122ef0287f0cf5af44140,",
     "S:2c2ac61c12d74c04ed2c48088c0b173d85cce015,",
-    "S:8219792fa9ac3723b3c131b4d918e616be54234d,"
+    "S:8219792fa9ac3723b3c131b4d918e616be54234d,",
+    "S:5ba6f50cfde814a46fdb1399e98fb7ae804ebcca,"
   ],
   "collectionId": "VariableCollectionId:7:4",
   "variableIds": [
@@ -149,5 +151,5 @@
     ]
   },
   "pageCount": 12,
-  "updatedAt": "2026-10-05"
+  "updatedAt": "2026-10-06"
 }

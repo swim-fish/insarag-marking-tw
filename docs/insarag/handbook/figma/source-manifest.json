@@ -6,8 +6,8 @@
     210
   ],
   "source_sha256": {
-    "manual.json": "3ae3727b5e511ca14c83ea9de3a3ce50b3673c2efb82b269c42b06d474b69c7e",
-    "scenes.json": "64363cda5276f4d519c8a1679d7610f1687aec1fdd7e8758f3a97118020a4da8",
+    "manual.json": "80799de3405e9a17bea1e8088299185a4f1a78a94da326ecbe8ea00d713f312a",
+    "scenes.json": "88e6e65d14a54653b3a8fcf27f21fb87259007f73001fd148fca7ccebfbe9322",
     "terminology.csv": "efdac5d6368a007b25108f908865073f4d9418cb4847e065b5555d5b8f7f6800"
   },
   "font": "Noto Sans TC",

@@ -58,8 +58,8 @@ def strings(data, scenes):
     for i, page in enumerate(data['pages'], 1):
         for key in ('title', 'kicker', 'source'):
             result.append((f'page:{i}:{key}', page[key]))
-        for key in ('bullets', 'notes'):
-            for n, value in enumerate(page[key], 1):
+        for key in ('bullets', 'notes', 'cautions'):
+            for n, value in enumerate(page.get(key, []), 1):
                 result.append((f'page:{i}:{key}:{n}', value))
     for i, page in enumerate(scenes['pages'], 1):
         result.extend((f'svg:{i}:{n}', op['text']) for n, op in enumerate(page) if op['kind'] == 'text')

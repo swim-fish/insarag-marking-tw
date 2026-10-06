@@ -18,6 +18,8 @@ W, H = 419.53, 595.28
 INK, MUTED, ORANGE, LIGHT = '#183343', '#52636b', '#b94612', '#fff4e9'
 # 2027 changes are marked in blue so they never read as marking-paint orange.
 CHANGE, CHANGE_BG = '#0b6e99', '#e3f1f8'
+# Cautions use the ISO 7010 warning yellow, distinct from paint orange and change blue.
+CAUTION, CAUTION_BG = '#f2b705', '#fff7d6'
 S1 = 'https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20II2C20Man20B.pdf'
 S3 = 'https://insarag.org/wp-content/uploads/2021/06/INSARAG20Guidelines20Vol20III.pdf'
 S4 = 'https://insarag.org/methodology/insarag-guidelines/'
@@ -79,6 +81,38 @@ class Page:
         # Slant the line so the hyphen in "L-2" stays readable.
         self.line(x-half-3, y-size*0.55, x+half+3, y+size*0.08, color, 1.6)
 
+    def dashed(self, x1, y1, x2, y2, color=MUTED, width=0.8, dash=5, gap=4):
+        # Horizontal dashed line; marks empty space that is not painted.
+        x = x1
+        while x < x2:
+            self.line(x, y1, min(x+dash, x2), y2, color, width)
+            x += dash+gap
+
+    def warning(self, x, y, size=16):
+        # Warning triangle with "!"; (x, y) is the apex.
+        h = size*0.87
+        self.polygon([(x, y), (x+size/2, y+h), (x-size/2, y+h)], fill=CAUTION, stroke=INK, width=1.2)
+        # The "!" is drawn as shapes, so the sign carries no text to translate or check.
+        bar = size*0.065
+        self.polygon([(x-bar*1.2, y+h*0.36), (x+bar*1.2, y+h*0.36), (x+bar*0.8, y+h*0.72), (x-bar*0.8, y+h*0.72)],
+                     fill=INK, stroke='none')
+        self.rect(x-bar, y+h*0.78, bar*2, bar*2, INK, 'none')
+
+    def caution(self, y, lines):
+        # Caution block: warning triangle and label on the left, one line per item; returns the next baseline.
+        top = y - 13
+        n = len(self.ops)
+        for text in lines:
+            y = self.paragraph(76, y, text, max_width=312, size=9.5, leading=14)
+        bottom = max(y - 5, top + 38)
+        self.ops[n:n] = [
+            dict(kind='rect', x=25, y=top, w=370, h=bottom-top, fill=CAUTION_BG, stroke='none', width=0),
+            dict(kind='rect', x=25, y=top, w=3, h=bottom-top, fill=CAUTION, stroke='none', width=0)]
+        mid = top + (bottom-top)/2
+        self.warning(48, mid - 15, 17)
+        self.text(48, mid + 13, '注意', 9, INK, True, 'center')
+        return bottom + 15
+
     def badge(self, x, y, label='2027'):
         # Small blue tag; (x, y) is its top-left corner.
         width = pdfmetrics.stringWidth(label, 'JHB', 7) + 8
@@ -118,20 +152,29 @@ def diagrams(p, kind, terms):
             p.text(x, 273, label, 12, INK, True, 'center')
         p.text(210, 313, '2027 版規則｜A5 隨身圖解', 15, INK, True, 'center')
     elif kind == 'worksite':
-        p.text(210, 135, '危害：瓦斯洩漏', 15, ORANGE, True, 'center')
-        p.rect(95, 150, 230, 139, LIGHT, ORANGE, 2.5)
-        p.text(210, 204, 'AAA01-0005', 30, ORANGE, True, 'center')
-        p.badge(296, 136)
-        p.text(210, 258, 'AAA01   ASR 3   05 Oct', 13, ORANGE, True, 'center')
-        p.text(210, 314, '分流類別：B', 16, ORANGE, True, 'center')
+        p.text(210, 125, '危害：瓦斯洩漏', 15, ORANGE, True, 'center')
+        p.rect(95, 138, 230, 120, LIGHT, ORANGE, 2.5)
+        p.text(210, 176, 'AAA01-0005', 30, ORANGE, True, 'center')
+        p.badge(296, 124)
+        p.text(210, 206, 'AAA01   ASR 3   05 Oct', 13, ORANGE, True, 'center')
+        # Rotating teams append rows inside the box, so space is left below the first row.
+        for y in (229, 248):
+            p.dashed(118, y, 302, y)
+        p.text(210, 242, '預留：後續隊伍紀錄', 8.5, MUTED, False, 'center')
+        p.text(210, 281, '分流類別：B', 16, ORANGE, True, 'center')
         # Optional arrow outside the box, after S1 Figure 17.
-        p.arrow(86, 282, 50, 306)
-        p.text(52, 326, '入口方向', 9.5, ORANGE, False, 'center')
+        p.arrow(88, 242, 58, 262)
+        p.text(48, 278, '入口方向', 9.5, ORANGE, False, 'center')
         # S1 p.45: the box is drawn around the painted text, so text comes first.
-        p.text(333, 210, '先寫文字', 9.5, MUTED, True)
-        p.line(331, 206, 313, 206, MUTED, 0.8)
-        p.text(333, 292, '後畫方框', 9.5, MUTED, True)
-        p.line(331, 288, 326, 288, MUTED, 0.8)
+        p.text(333, 184, '先寫文字', 9.5, MUTED, True)
+        p.line(331, 180, 313, 180, MUTED, 0.8)
+        p.line(330, 216, 330, 250, MUTED, 0.8)
+        p.line(326, 216, 330, 216, MUTED, 0.8)
+        p.line(326, 250, 330, 250, MUTED, 0.8)
+        p.warning(344, 224, 12)
+        p.text(353, 235, '預留', 9.5, MUTED, True)
+        p.text(333, 265, '後畫方框', 9.5, MUTED, True)
+        p.line(331, 261, 326, 261, MUTED, 0.8)
     elif kind == 'completion':
         for x, label in [(25, '追加紀錄'), (226, '必要工作全部完成')]:
             p.text(x+84, 125, label, 13, INK, True, 'center')
@@ -279,13 +322,15 @@ def compose(data, terms):
         p.text(25, 64, entry['title'], 20, INK, True)
         p.paragraph(25, 91, entry['kicker'], size=10.5, leading=15)
         diagrams(p, entry['diagram'], terms)
-        y = {'triage': 480, 'terminology': 486, 'sources': 318, 'worksite': 344}.get(entry['diagram'], 356)
+        y = {'triage': 480, 'terminology': 486, 'sources': 318, 'worksite': 306}.get(entry['diagram'], 356)
         for n, text in enumerate(entry['bullets'], 1):
             start, top = len(p.ops), y
             p.text(25, y, f'{n}.', 11, ORANGE, True)
             y = p.paragraph(44, y, text, max_width=350, size=11, leading=17) + 6
             if text in changed:
                 highlight(p, start, top, y - 6, 11, 17)
+        if entry.get('cautions'):
+            y = p.caution(y + 6, entry['cautions'])
         if entry['notes']:
             y += 3
             p.line(25, y-10, 395, y-10, '#ccd6db', 0.7)
@@ -399,6 +444,8 @@ def main():
         md.extend([f'## {i:02d}｜{entry["title"]}', '', entry['kicker'], '', f'![第 {i} 頁向量圖](pages/{i:02d}.svg)', ''])
         mark = lambda s: f'【2027 異動】{s}' if s in entry.get('changes', []) else s
         md.extend(f'{n}. {mark(s)}' for n, s in enumerate(entry['bullets'], 1))
+        if entry.get('cautions'):
+            md.extend(['', '> ⚠ **注意**', '>', *(f'> - {s}' for s in entry['cautions'])])
         md.extend(['', *map(mark, entry['notes']), '', f'來源：{entry["source"]}。', ''])
     (ROOT/'manual.md').write_text('\n'.join(md), encoding='utf-8', newline='\n')
     table = ['# 中英技術名詞對照表', '', 'TN：技術名詞；TV：技術動詞。均為本專案用詞，不表示 ASD 字典已核准中文譯詞。', '',

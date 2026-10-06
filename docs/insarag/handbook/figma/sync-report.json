@@ -46,8 +46,8 @@
         595.2755737304688
       ],
       "frameA5": true,
-      "editableTextNodes": 29,
-      "vectorNodes": 11,
+      "editableTextNodes": 34,
+      "vectorNodes": 64,
       "fonts": [
         "Noto Sans TC/Bold",
         "Noto Sans TC/Regular"
@@ -65,7 +65,7 @@
       },
       "dateOnSingleRow": [
         {
-          "id": "16:155",
+          "id": "45:140",
           "characters": "AAA01   ASR 3   05 Oct"
         }
       ],
@@ -353,12 +353,12 @@
     }
   ],
   "pass": true,
-  "checkedAt": "2026-10-05",
+  "checkedAt": "2026-10-06",
   "visualReview": {
     "sectionId": "7:37",
     "reviewed": true,
     "pages": 12
   },
-  "note": "Pages rebuilt in place with update-*.js; source footer component 7:56 removed. Page 2 rebuilt again for marking order and glyph height notes. Pages 4, 5, 6 and 11: 活人 replaced with 生還者 in place (9 text layers) and audited. 2027 edition: pages 1, 2, 3, 6, 9, 10, 11 and 12 rebuilt in place with change highlights; all 12 pages audited.",
+  "note": "Pages rebuilt in place with update-*.js; source footer component 7:56 removed. Page 2 rebuilt again for marking order and glyph height notes. Pages 4, 5, 6 and 11: 活人 replaced with 生還者 in place (9 text layers) and audited. 2027 edition: pages 1, 2, 3, 6, 9, 10, 11 and 12 rebuilt in place with change highlights; all 12 pages audited. 2026-10-06: page 2 rebuilt in place for the reserved rows inside the worksite box, the caution block with a warning triangle, and the box size note (原指引 1.2 至 1.0 公尺); all 12 pages audited.",
   "edition": "INSARAG Guidelines 2027 (effective 2027-01-01)"
 }

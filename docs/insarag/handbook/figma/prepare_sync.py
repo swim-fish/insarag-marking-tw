@@ -160,7 +160,8 @@ for (const p of DATA.pages) {
   const bodyOps=[];
   for(const op of p.text) {
     if(op.y===64 || op.y===91) continue;
-    if(op.y>=p.bodyStart) bodyOps.push(op);
+    // Centred body text (the caution label) keeps its absolute position.
+    if(op.y>=p.bodyStart && op.align==='left') bodyOps.push(op);
     else { const t=nativeText(op,STATE.baseline,styles,variables); labels.appendChild(t); }
   }
   const rows=[...new Set(bodyOps.map(o=>o.y))].sort((a,b)=>a-b);
@@ -222,7 +223,7 @@ def main():
             elif tag=='rect' and child.attrib.get('x')=='25' and child.attrib.get('y')=='26':
                 xml.remove(child)
         pages.append(dict(number=i,title=entry['title'],kicker=entry['kicker'],source=entry['source'],
-                          bodyStart={'triage':480,'terminology':486,'sources':318,'worksite':344}.get(entry['diagram'],356),
+                          bodyStart={'triage':480,'terminology':486,'sources':318,'worksite':306}.get(entry['diagram'],356),
                           svg=ET.tostring(xml,encoding='unicode'),text=[op for op in ops if op['kind']=='text']))
     fonts=sorted({(op['size'],op['bold']) for pg in pages for op in pg['text']})
     data=dict(pages=pages,fonts=[dict(size=size,bold=bold) for size,bold in fonts],
