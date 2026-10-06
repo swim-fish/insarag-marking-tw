@@ -1,0 +1,6 @@
+# Local review renders and tool state
+work/
+.claude/
+__pycache__/
+*.pyc
+node_modules/
