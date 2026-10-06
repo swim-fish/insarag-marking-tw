@@ -10,6 +10,8 @@ import { describe } from "./ui/describe";
 const esc = (t: string) => t.replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`);
 const $ = <T extends HTMLElement = HTMLElement>(sel: string) => document.querySelector(sel) as T;
 
+/** The stretcher clears the breach this long before the count on the wall is updated. */
+const CARRY_LEAD = 1600;
 const TEAM_COLORS: Record<string, string> = { t1: "#f8fafc", t2: "#2563eb", t3: "#16a34a" };
 const SURFACE_LABEL: Record<string, string> = { worksite: "工作場址", V1: "V1", V2: "V2", car: "RCM" };
 
@@ -17,6 +19,7 @@ const SURFACE_LABEL: Record<string, string> = { worksite: "工作場址", V1: "V
 let edition: Edition = "2027";
 let events: SimEvent[] = [];
 let cursor = 0; // number of events applied
+let freshFrom = 0; // first event added by the latest dispatch (drives carry animations)
 let state: SimState = initialState(edition);
 let autoplay = false;
 let autoplayWait = 0;
@@ -57,6 +60,7 @@ function dispatch(evs: SimEvent[]): boolean {
   }
   const dropped = events.length - cursor;
   if (dropped > 0) toast(`已從時間軸中點接續操作，捨棄後續 ${dropped} 筆事件。`);
+  freshFrom = cursor;
   events = base;
   cursor = events.length;
   render(false);
@@ -76,14 +80,28 @@ function render(instant: boolean) {
   const startAt = world.settled || instant ? now : now + 2600;
 
   world.setCollapsed(state.collapsed, instant);
+  const fresh = instant ? [] : events.slice(freshFrom, cursor).map((e, i) => ({ e, seq: freshFrom + i }));
+  const removals = fresh.filter((f) => f.e.type === "victim-removed");
+  // Removals read as separate steps: carry out, then strike and rewrite the count.
+  const pace = removals.length ? { lead: CARRY_LEAD, beat: 2400 } : { beat: 250 };
   const ws = painters.get("worksite")!;
-  ws.set(state.worksite ? worksiteOps(state.worksite, edition, ws.measure) : [], startAt, instant);
+  ws.set(state.worksite ? worksiteOps(state.worksite, edition, ws.measure) : [], startAt, instant, { beat: 250 });
   for (const id of ["V1", "V2"] as const) {
     const p = painters.get(id)!;
     const v = state.victims[id];
-    p.set(v ? victimOps(v, SURFACES[id], p.measure) : [], startAt, instant);
+    p.set(v ? victimOps(v, SURFACES[id], p.measure) : [], startAt, instant, pace);
     world.setMarkerVisible(id, !!v);
   }
+  if (instant) world.clearCarries();
+  for (const { e, seq } of removals) {
+    if (e.type !== "victim-removed") continue;
+    const line = state.victims[e.site]?.lines.findIndex((l) => l.struckSeq === seq) ?? -1;
+    const strike = painters.get(e.site)?.startOf(`s${line}`) ?? startAt + CARRY_LEAD;
+    for (let k = 0; k < e.count; k++) world.carry(e.kind, strike - CARRY_LEAD + k * 1400);
+  }
+  const out = { L: 0, D: 0 };
+  for (const e of events.slice(0, cursor)) if (e.type === "victim-removed") out[e.kind] += e.count;
+  world.setExtracted(out.L, out.D);
   const car = painters.get("car")!;
   car.set(rcmOps(state.rcm.car ?? [], edition), startAt, instant);
   world.setMarkerVisible("car", (state.rcm.car ?? []).length > 0);

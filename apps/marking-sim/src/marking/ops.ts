@@ -10,7 +10,9 @@ const cm = (n: number) => n * PX_PER_CM;
 export type Op =
   | { kind: "text"; key: string; seq: number; x: number; y: number; text: string; size: number; align: "center" | "left" }
   | { kind: "line"; key: string; seq: number; pts: [number, number][]; width: number }
-  | { kind: "rect"; key: string; seq: number; x: number; y: number; w: number; h: number; width: number };
+  | { kind: "rect"; key: string; seq: number; x: number; y: number; w: number; h: number; width: number }
+  /** Teaching overlay, not paint: a dashed row reserved inside the box, with an optional label. */
+  | { kind: "guide"; key: string; seq: number; pts: [number, number][]; label?: string; size: number };
 
 export type Measure = (text: string, size: number) => number;
 
@@ -21,7 +23,7 @@ export interface Surface {
 }
 
 export const SURFACES = {
-  worksite: { id: "worksite", width: cm(400), height: cm(215) },
+  worksite: { id: "worksite", width: cm(400), height: cm(230) },
   V1: { id: "V1", width: cm(110), height: cm(170) },
   V2: { id: "V2", width: cm(110), height: cm(170) },
   car: { id: "car", width: cm(150), height: cm(50) },
@@ -47,9 +49,19 @@ function arrow(key: string, seq: number, x1: number, y1: number, x2: number, y2:
 }
 
 /**
+ * Rows the box holds: the first record plus one reserved row for each ASR level not yet completed
+ * (handbook p.2 caution). Later records fill the reserved rows, so the box is painted once.
+ */
+export function boxRows(w: WorksiteState): number {
+  const first = w.records[0]?.level ?? 2;
+  const planned = w.deceasedOnly ? 1 : 1 + (5 - first);
+  return Math.max(planned, w.records.length);
+}
+
+/**
  * Worksite triage marking, drawn in the order of handbook p.2:
  * ID -> team/ASR/date -> box -> hazard (top) -> triage (bottom) -> arrow.
- * Later records are appended; the completion line goes below the ID and above the ASR records (S5).
+ * Later records go into the reserved rows; the completion line goes below the ID and above the ASR records (S5).
  */
 export function worksiteOps(w: WorksiteState, edition: Edition, measure: Measure): Op[] {
   const S = SURFACES.worksite;
@@ -68,7 +80,8 @@ export function worksiteOps(w: WorksiteState, edition: Edition, measure: Measure
   const idBaseline = boxTop + pad + idSize * 0.85;
   const lineY = idBaseline + cm(11);
   const firstRec = lineY + cm(8) + recSize;
-  const boxH = firstRec - boxTop + (Math.max(records.length, 1) - 1) * recGap + pad;
+  const rows = boxRows(w);
+  const boxH = firstRec - boxTop + (rows - 1) * recGap + pad;
   const textW = Math.max(measure(id, idSize), ...records.map((r) => measure(r, recSize)));
   const boxW = Math.max(textW + pad * 2, cm(120));
   const boxX = cx - boxW / 2;
@@ -77,7 +90,7 @@ export function worksiteOps(w: WorksiteState, edition: Edition, measure: Measure
   w.records.forEach((r, i) => {
     ops.push({ kind: "text", key: `rec${i}`, seq: r.seq, x: cx, y: firstRec + i * recGap, text: records[i]!, size: recSize, align: "center" });
   });
-  // The box is drawn after the first record; it grows when later records are appended.
+  // The box is drawn after the first record and already encloses the reserved rows.
   ops.splice(2, 0, { kind: "rect", key: "box", seq: w.seq, x: boxX, y: boxTop, w: boxW, h: boxH, width: cm(1.6) });
   w.hazards.forEach((h, i) => {
     ops.push({ kind: "text", key: `hz${i}`, seq: h.seq, x: cx, y: boxTop - cm(5) - (w.hazards.length - 1 - i) * cm(16), text: h.text, size: cm(11), align: "center" });
@@ -86,6 +99,15 @@ export function worksiteOps(w: WorksiteState, edition: Edition, measure: Measure
     ops.push({ kind: "text", key: "triage", seq: w.seq, x: cx, y: boxTop + boxH + cm(24), text: w.triage, size: cm(20), align: "center" });
   }
   if (w.arrow) ops.push(...arrow("arrow", w.seq, boxX - cm(10), boxTop + boxH * 0.55, boxX - cm(60), boxTop + boxH * 0.55 + cm(30), cm(2)));
+  if (!w.closed) {
+    for (let i = records.length; i < rows; i++) {
+      const y = firstRec + i * recGap - recSize * 0.35;
+      ops.push({
+        kind: "guide", key: `g${i}`, seq: w.seq, pts: [[boxX + pad, y], [boxX + boxW - pad, y]], size: cm(5),
+        label: i === records.length ? "預留：後續 ASR 紀錄（示意，不噴漆）" : undefined,
+      });
+    }
+  }
   if (w.closed) {
     ops.push({ kind: "line", key: "closed", seq: w.closed.seq, pts: [[boxX - cm(14), lineY], [boxX + boxW + cm(14), lineY]], width: cm(2.4) });
   }

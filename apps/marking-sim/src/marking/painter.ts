@@ -4,6 +4,7 @@
 import type { Op, Surface } from "./ops";
 
 export const PAINT = "#b94612"; // handbook marking colour (teaching colour, not a mandated one)
+const GUIDE = "#52636b";
 const FONT = `"Arial Black", "Microsoft JhengHei", "Noto Sans TC", sans-serif`;
 
 interface Timing {
@@ -14,6 +15,7 @@ interface Timing {
 function duration(op: Op): number {
   if (op.kind === "text") return Math.min(1400, 260 + op.text.length * 110);
   if (op.kind === "rect") return 1100;
+  if (op.kind === "guide") return 360;
   return op.pts.length > 2 ? 520 : 420;
 }
 
@@ -70,16 +72,23 @@ export class Painter {
     return this.ctx.measureText(text).width;
   };
 
-  /** Replace the op list. Unknown keys are queued for animation unless `instant`. */
-  set(ops: Op[], now: number, instant: boolean) {
+  /**
+   * Replace the op list. Unknown keys are queued for animation unless `instant`.
+   * `lead` delays the first new stroke; `beat` is the pause between strokes of different events,
+   * so successive updates (e.g. one removal after another) read as separate steps.
+   */
+  set(ops: Op[], now: number, instant: boolean, opts: { lead?: number; beat?: number } = {}) {
     const keys = new Set(ops.map((o) => o.key));
     for (const k of [...this.timing.keys()]) if (!keys.has(k)) this.timing.delete(k);
     const fresh = ops.filter((o) => !this.timing.has(o.key)).sort((a, b) => a.seq - b.seq);
-    let t = Math.max(now, this.queueEnd);
+    let t = Math.max(now + (opts.lead ?? 0), this.queueEnd);
+    let prevSeq: number | null = null;
     for (const o of fresh) {
       const dur = duration(o);
       if (instant) this.timing.set(o.key, { start: -Infinity, dur });
       else {
+        if (prevSeq !== null && o.seq !== prevSeq) t += opts.beat ?? 0;
+        prevSeq = o.seq;
         this.timing.set(o.key, { start: t, dur });
         t += dur + 120;
       }
@@ -87,6 +96,12 @@ export class Painter {
     if (!instant && fresh.length) this.queueEnd = t;
     this.ops = ops;
     this.dirty = true;
+  }
+
+  /** Scheduled start time of an op, or null when it is not queued. */
+  startOf(key: string): number | null {
+    const t = this.timing.get(key);
+    return t && Number.isFinite(t.start) ? t.start : null;
   }
 
   /** Skip all pending animation. */
@@ -132,6 +147,23 @@ export class Painter {
         ctx.rect(left - 20, op.y - op.size * 1.2, (w + 40) * p, op.size * 1.6);
         ctx.clip();
         ctx.fillText(op.text, op.x, op.y);
+        ctx.restore();
+      } else if (op.kind === "guide") {
+        // Grey dashed annotation without overspray, so it never reads as paint.
+        ctx.save();
+        ctx.globalAlpha = p;
+        ctx.shadowBlur = 0;
+        ctx.strokeStyle = GUIDE;
+        ctx.fillStyle = GUIDE;
+        ctx.lineWidth = 4;
+        ctx.setLineDash([22, 16]);
+        strokePartial(ctx, op.pts, 1);
+        if (op.label) {
+          const [[x0, y0], [x1]] = op.pts as [[number, number], [number, number]];
+          ctx.font = `700 ${op.size}px "Microsoft JhengHei", "Noto Sans TC", sans-serif`;
+          ctx.textAlign = "center";
+          ctx.fillText(op.label, (x0 + x1) / 2, y0 - op.size * 0.5);
+        }
         ctx.restore();
       } else if (op.kind === "line") {
         ctx.lineWidth = op.width;

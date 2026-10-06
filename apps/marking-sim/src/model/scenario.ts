@@ -47,7 +47,9 @@ export const STAGES: Stage[] = [
     lead: "AAA01 完成 ASR 2 場址分流評估，確認為工作場址，在入口外側建立標記。",
     focus: "worksite",
     notes: [
-      "順序：先寫場址編號 → 同框記錄隊伍、已完成的 ASR 等級與日期 → 沿文字畫框 → 框上寫危害 → 框下寫分流類別。",
+      "順序：先寫場址編號 → 同框記錄隊伍、已完成的 ASR 等級與日期 → 畫框圍住文字與下方的預留空白 → 框上寫危害 → 框下寫分流類別。",
+      "後續 ASR 等級可能由其他隊伍接手；每完成一級追加一列，換班不追加。畫框時為尚未完成的 ASR 3、4、5 預留 3 列（虛線為示意，不噴漆）。",
+      "原指引方框約 1.2 至 1.0 公尺；編號較長時，依實際文字寬度畫框。",
       "分流 C：可能有生還者（旁人通報有人失聯），尚未確認。",
       "箭頭指出場址入口的實際位置（選用）。",
     ],
@@ -71,12 +73,13 @@ export const STAGES: Stage[] = [
   {
     id: "search-start",
     title: "開始搜索",
-    lead: "BBB01 受派執行 ASR 3 快速搜索救援。搜索發現可能的受困位置，在最接近的表面畫 V。",
+    lead: "BBB01 受派執行 ASR 3 快速搜索救援，從入口進入建物。在殘存的內牆上，於最接近受困位置的表面畫 V，箭頭指向牆後的受困空間。",
     focus: "V1",
     notes: [
       "單獨的 V 表示可能有受困者，不表示已確認生還者。",
       "V 約 50 cm 高，畫在最接近受困者實際位置的表面；需要時加箭頭。",
       "受困者不在工作場址方框處時，不在方框旁畫 V。",
+      "畫面切到建物內部：V 畫在受困空間前的內牆，不畫在倒塌的樓板頂面。",
     ],
     refs: "手冊 p.5；S5 Victim Marking",
     build: () => [
@@ -88,7 +91,7 @@ export const STAGES: Stage[] = [
   {
     id: "status-update",
     title: "更新狀態",
-    lead: "確認 V1 位置有 2 名生還者、1 名罹難者，在 V 下方記錄人數。",
+    lead: "確認 V1 位置有 3 名生還者、1 名罹難者，在 V 下方記錄人數。",
     focus: "V1",
     notes: [
       "L＝生還者，D＝罹難者；數字是仍在原位置的人數，兩種紀錄可並存。",
@@ -97,28 +100,47 @@ export const STAGES: Stage[] = [
     refs: "手冊 p.5；S5 Victim Marking、Progressive Examples",
     build: () => [
       { type: "stage", stage: "status-update" },
-      { type: "victim-found", site: "V1", kind: "L", count: 2 },
+      { type: "victim-found", site: "V1", kind: "L", count: 3 },
       { type: "victim-found", site: "V1", kind: "D", count: 1 },
     ],
   },
   {
-    id: "phase-complete",
-    title: "階段完畢",
-    lead: "BBB01 救出 1 名生還者並完成 ASR 3，在方框內追加作業紀錄。",
-    focus: "worksite",
+    id: "extraction",
+    title: "陸續移出",
+    lead: "BBB01 陸續救出生還者。每移出 1 人，就劃除舊人數，在下方寫剩餘人數。",
+    focus: "V1",
     notes: [
-      "移出受困者後，劃除舊人數，在下方寫剩餘人數。",
-      "追加隊伍編號、已完成的 ASR 等級及日期；保留先前的紀錄。",
-      "ASR 3 完成不能單獨作為結案依據。",
+      "移出受困者後，劃除舊人數，在下方更新人數；不擦除舊紀錄。",
+      "L-3 → L-2 → L-1：每一列都對應一次移出，留下可追溯的紀錄。",
+      "D-1 仍在原位置，保留不動，直到該罹難者移出。",
+      "移出的受困者送到傷患集中點；勾選「顯示受困者」可看牆後剩餘人數。",
     ],
-    refs: "手冊 p.3、p.5；S5",
+    refs: "手冊 p.5；S5 Victim Marking",
     build: (s) => {
-      const out: SimEvent[] = [{ type: "stage", stage: "phase-complete" }];
+      const out: SimEvent[] = [{ type: "stage", stage: "extraction" }];
       const v1 = s.victims.V1;
-      if (v1 && activeCount(v1, "L") > 0) out.push({ type: "victim-removed", site: "V1", kind: "L", count: 1 });
-      out.push({ type: "asr-completed", team: "t2", level: 3, date: DAY1 }, { type: "team-exit", team: "t2" });
+      // Rapid SAR reaches the lightly trapped survivors first; one stays for ASR 4.
+      const n = v1 ? Math.max(0, activeCount(v1, "L") - 1) : 0;
+      for (let i = 0; i < n; i++) out.push({ type: "victim-removed", site: "V1", kind: "L", count: 1 });
       return out;
     },
+  },
+  {
+    id: "phase-complete",
+    title: "階段完畢",
+    lead: "BBB01 完成 ASR 3，在方框內的預留列追加作業紀錄。",
+    focus: "worksite",
+    notes: [
+      "追加隊伍編號、已完成的 ASR 等級及日期；保留先前的紀錄。",
+      "新紀錄寫在 ASR 2 紀錄下方的預留空白，方框不必重畫。",
+      "ASR 3 完成不能單獨作為結案依據；V1 仍有 L-1、D-1。",
+    ],
+    refs: "手冊 p.3、p.5；S5",
+    build: () => [
+      { type: "stage", stage: "phase-complete" },
+      { type: "asr-completed", team: "t2", level: 3, date: DAY1 },
+      { type: "team-exit", team: "t2" },
+    ],
   },
   {
     id: "search-again",

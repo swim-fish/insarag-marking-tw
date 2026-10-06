@@ -29,8 +29,8 @@ describe("formats", () => {
 });
 
 describe("scenario", () => {
-  test("all seven stages apply without rule issues", () => {
-    const { state } = runStages(7);
+  test("all eight stages apply without rule issues", () => {
+    const { state } = runStages(8);
     expect(state.issues).toEqual([]);
     expect(state.stage).toBe("complete");
     expect(state.worksite?.closed).not.toBeNull();
@@ -38,20 +38,22 @@ describe("scenario", () => {
     expect(state.worksite?.triage).toBe("C"); // category from ASR 2 is not rewritten
   });
 
-  test("victim counts: L-2 D-1 -> L-1 -> all struck, V kept", () => {
-    const s4 = runStages(4).state.victims.V1!;
-    expect(s4.lines.map((l) => `${l.kind}-${l.count}${l.struck ? "x" : ""}`)).toEqual(["L-2", "D-1"]);
-    const s5 = runStages(5).state.victims.V1!;
-    expect(s5.lines.map((l) => `${l.kind}-${l.count}${l.struck ? "x" : ""}`)).toEqual(["L-2x", "D-1", "L-1"]);
-    const s6 = runStages(6).state.victims.V1!;
-    expect(s6.lines.every((l) => l.struck)).toBe(true);
-    expect(s6.lines).toHaveLength(3); // no "L-0" line is written
+  test("victim counts: L-3 D-1 -> L-2 -> L-1 one at a time -> all struck, V kept", () => {
+    const show = (n: number) => runStages(n).state.victims.V1!.lines.map((l) => `${l.kind}-${l.count}${l.struck ? "x" : ""}`);
+    expect(show(4)).toEqual(["L-3", "D-1"]);
+    expect(show(5)).toEqual(["L-3x", "D-1", "L-2x", "L-1"]);
+    const extraction = runStages(5).events.filter((e) => e.type === "victim-removed");
+    expect(extraction.map((e) => e.type === "victim-removed" && e.count)).toEqual([1, 1]);
+    expect(show(6)).toEqual(show(5)); // ASR 3 record only
+    const s7 = runStages(7).state.victims.V1!;
+    expect(s7.lines.every((l) => l.struck)).toBe(true);
+    expect(s7.lines).toHaveLength(4); // no "L-0" line is written
   });
 });
 
 describe("rules", () => {
   test("cannot close while known victims remain", () => {
-    const { state } = runStages(5);
+    const { state } = runStages(6);
     expect(check(state, { type: "worksite-closed", date: "2026-10-06" })).toContain("受困者");
   });
   test("cannot close with only the ASR 2 record", () => {
@@ -65,7 +67,7 @@ describe("rules", () => {
   test("found adds to the remaining count and strikes the old line", () => {
     const events = [...runStages(4).events, { type: "victim-found", site: "V1", kind: "L", count: 1 } as SimEvent];
     const v = replay("2027", events).victims.V1!;
-    expect(activeCount(v, "L")).toBe(3);
+    expect(activeCount(v, "L")).toBe(4);
     expect(v.lines[0]!.struck).toBe(true);
   });
   test("RCM needs LEMA, and C may follow D but not the other way", () => {
@@ -86,7 +88,7 @@ describe("rules", () => {
 
 describe("marking ops", () => {
   test("completion line sits below the ID and above the first ASR record", () => {
-    const w = runStages(7).state.worksite!;
+    const w = runStages(8).state.worksite!;
     const ops = worksiteOps(w, "2027", measure);
     const id = ops.find((o) => o.key === "id")!;
     const rec = ops.find((o) => o.key === "rec0")!;
@@ -105,9 +107,22 @@ describe("marking ops", () => {
     const w = runStages(2).state.worksite!;
     expect(worksiteOps(w, "2027", measure).map((o) => o.key).slice(0, 5)).toEqual(["id", "rec0", "box", "hz0", "triage"]);
   });
+  test("ASR 2 box reserves rows for ASR 3-5, and later records fill them without resizing", () => {
+    const box = (n: number) => {
+      const ops = worksiteOps(runStages(n).state.worksite!, "2027", measure);
+      const b = ops.find((o) => o.key === "box")!;
+      if (b.kind !== "rect") throw new Error("box");
+      return { h: b.h, guides: ops.filter((o) => o.kind === "guide").length };
+    };
+    expect(box(2)).toEqual({ h: box(2).h, guides: 3 });
+    expect(box(6).h).toBe(box(2).h); // ASR 3 record written in a reserved row
+    expect(box(6).guides).toBe(2);
+    expect(box(8).h).toBe(box(2).h);
+    expect(box(8).guides).toBe(0); // no guides once the completion line is drawn
+  });
   test("every struck victim line gets a strike op", () => {
-    const v = runStages(6).state.victims.V1!;
+    const v = runStages(7).state.victims.V1!;
     const ops = victimOps(v, { id: "V1", width: 550, height: 850 }, measure);
-    expect(ops.filter((o) => o.key.startsWith("s"))).toHaveLength(3);
+    expect(ops.filter((o) => o.key.startsWith("s"))).toHaveLength(4);
   });
 });

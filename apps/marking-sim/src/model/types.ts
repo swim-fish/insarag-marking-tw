@@ -12,6 +12,7 @@ export type StageId =
   | "discovery"
   | "search-start"
   | "status-update"
+  | "extraction"
   | "phase-complete"
   | "search-again"
   | "complete";
