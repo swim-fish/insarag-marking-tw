@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>INSARAG 標記教材</title>
+    <meta name="description" content="INSARAG 工作場址、受困者與快速清查標記的臺灣正體中文教材與 3D 模擬器。" />
+    <style>
+      :root {
+        --bg: #f2f5f9;
+        --card: #ffffff;
+        --line: #d8e1eb;
+        --ink: #17283b;
+        --muted: #4f6275;
+        --accent: #914100;
+        --head: #17283b;
+        --head-ink: #ffffff;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0f1822;
+          --card: #172433;
+          --line: #2a3b4f;
+          --ink: #e6edf4;
+          --muted: #9fb0c2;
+          --accent: #ffb26b;
+          --head: #1d2e41;
+          --head-ink: #ffffff;
+        }
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: "Microsoft JhengHei", "Noto Sans CJK TC", "PingFang TC", sans-serif;
+        line-height: 1.7;
+      }
+      main { max-width: 1040px; margin: auto; padding: 32px 16px; }
+      header { background: var(--head); color: var(--head-ink); border-radius: 16px; padding: 28px 28px; }
+      header small { letter-spacing: 0.12em; opacity: 0.8; }
+      h1 { font-size: clamp(26px, 4vw, 38px); margin: 8px 0; }
+      header p { margin: 6px 0; max-width: 760px; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin: 24px 0; }
+      .card {
+        display: block;
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 20px 22px;
+        color: inherit;
+        text-decoration: none;
+      }
+      a.card:hover { border-color: var(--accent); }
+      .card h2 { font-size: 19px; margin: 0 0 6px; color: var(--accent); }
+      .card p { margin: 0; color: var(--muted); font-size: 15px; }
+      footer { color: var(--muted); font-size: 14px; }
+      footer a { color: var(--accent); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <small>INSARAG / MARKING &amp; SIGNALLING</small>
+        <h1>INSARAG 標記教材</h1>
+        <p>工作場址、受困者與快速清查（RCM）標記的臺灣正體中文教材，依 INSARAG Guidelines 2027（2027-01-01 生效）編寫，並保留 2020 版對照。</p>
+        <p>本教材不是 INSARAG 官方產品；圖片為重繪，隊伍、人數與日期均為教學範例。</p>
+      </header>
+
+      <div class="grid">
+        <a class="card" href="sim/">
+          <h2>3D 標記模擬器</h2>
+          <p>依事件逐步畫出並更新工作場址、V/L/D 與 RCM 標記，可切換 2027／2020 版。</p>
+        </a>
+        <a class="card" href="docs/insarag/handbook/preview.html">
+          <h2>A5 速查手冊</h2>
+          <p>12 頁口袋手冊線上預覽。</p>
+        </a>
+        <a class="card" href="docs/insarag/handbook/insarag-marking-a5-zh-tw.pdf">
+          <h2>手冊 PDF</h2>
+          <p>A5 列印版下載。</p>
+        </a>
+        <a class="card" href="docs/insarag/gallery.html">
+          <h2>SVG 圖庫</h2>
+          <p>8 張可編輯 SVG 與規則解說、官方頁碼。</p>
+        </a>
+      </div>
+
+      <footer>
+        原始碼、Markdown 說明與來源索引：
+        <a href="https://github.com/swim-fish/insarag-marking-tw">github.com/swim-fish/insarag-marking-tw</a>
+      </footer>
+    </main>
+  </body>
+</html>

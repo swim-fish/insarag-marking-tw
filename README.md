@@ -11,5 +11,10 @@ This is not an official INSARAG product. Figures are redrawn; teams, counts and 
 | [`docs/insarag/`](docs/insarag/README.md) | Marking reference, SVG figures, source index and version notes |
 | [`docs/insarag/handbook/`](docs/insarag/handbook/README.md) | A5 pocket handbook (PDF, SVG pages, build and check scripts, Figma sync) |
 | [`apps/marking-sim/`](apps/marking-sim/README.md) | three.js simulator that draws and updates markings stage by stage |
+| [`site/`](site/index.html) | GitHub Pages landing page |
+
+GitHub Pages is built by [`.github/workflows/pages.yml`](.github/workflows/pages.yml) on every push to `master`:
+the landing page at `/`, the simulator at `/sim/`, and `docs/insarag/` (gallery, handbook preview, PDF) at
+`/docs/insarag/`. Pull requests run the same build and tests without deploying.
 
 Binary files (PDF, DOCX, PNG) are stored with Git LFS. Run `git lfs install` before cloning.
