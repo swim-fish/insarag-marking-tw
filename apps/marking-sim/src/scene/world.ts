@@ -1,6 +1,8 @@
 import * as THREE from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 import { CSS2DObject, CSS2DRenderer } from "three/addons/renderers/CSS2DRenderer.js";
+import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
+import { animateRescuer, batch, box, cone, cylinder, material, releaseAsset, rescueFigure, rescueTruck, rod, roofDetails, sedan, surfaceMaterial, wallDetails } from "./assets";
 import { PX_PER_CM, type Surface } from "../marking/ops";
 import type { Focus } from "../model/scenario";
 
@@ -45,20 +47,6 @@ const easeFall = (t: number) => {
   return 1 + Math.sin(k * Math.PI) * 0.03;
 };
 
-function facadeTexture(): THREE.CanvasTexture {
-  const c = document.createElement("canvas");
-  c.width = 256;
-  c.height = 64;
-  const g = c.getContext("2d")!;
-  g.fillStyle = "#c9c2b6";
-  g.fillRect(0, 0, 256, 64);
-  g.fillStyle = "#4d5b63";
-  for (let i = 0; i < 6; i++) g.fillRect(12 + i * 41, 18, 24, 26);
-  const t = new THREE.CanvasTexture(c);
-  t.colorSpace = THREE.SRGBColorSpace;
-  return t;
-}
-
 export interface TeamVisual {
   key: string;
   color: string;
@@ -66,36 +54,30 @@ export interface TeamVisual {
 
 interface Carry {
   group: THREE.Group;
+  front: THREE.Object3D;
   back: THREE.Object3D;
   kind: "L" | "D";
   start: number; // performance.now() ms
   path: THREE.Vector3[];
 }
 
-function figure(color: string, helmet: string): THREE.Group {
-  const g = new THREE.Group();
-  const body = new THREE.Mesh(new THREE.CapsuleGeometry(0.22, 0.9, 4, 8), new THREE.MeshStandardMaterial({ color }));
-  body.position.y = 0.75;
-  const hat = new THREE.Mesh(new THREE.SphereGeometry(0.2, 12, 8, 0, Math.PI * 2, 0, Math.PI / 2), new THREE.MeshStandardMaterial({ color: helmet }));
-  hat.position.y = 1.47;
-  const head = new THREE.Mesh(new THREE.SphereGeometry(0.16, 12, 8), new THREE.MeshStandardMaterial({ color: "#e0b892" }));
-  head.position.y = 1.4;
-  g.add(body, head, hat);
-  g.traverse((o) => ((o as THREE.Mesh).castShadow = true));
-  return g;
-}
-
 /** Stretcher with a lying casualty; live = green blanket, deceased = covered in grey. */
 function stretcher(kind: "L" | "D"): THREE.Group {
   const g = new THREE.Group();
-  const bed = new THREE.Mesh(new THREE.BoxGeometry(2, 0.08, 0.6), new THREE.MeshStandardMaterial({ color: "#e66a1f" }));
+  box(g, [2, 0.08, 0.6], [0, 0, 0], material("#d96a2b"), 0.035);
   const body = new THREE.Mesh(
     new THREE.CapsuleGeometry(0.2, 1.2, 4, 8),
-    new THREE.MeshStandardMaterial({ color: kind === "L" ? "#22c55e" : "#64748b" }),
+    material(kind === "L" ? "#22c55e" : "#64748b"),
   );
+  body.geometry.userData.assetOwned = true;
   body.rotation.z = Math.PI / 2;
   body.position.y = 0.2;
-  g.add(bed, body);
+  g.add(body);
+  for (const z of [-0.33, 0.33]) {
+    const rail = cylinder(g, 0.025, 2.5, [0, 0.01, z], material("#b6bdba", 0.3, 0.75));
+    rail.rotation.z = Math.PI / 2;
+  }
+  for (const x of [-0.48, 0.48]) box(g, [0.075, 0.028, 0.58], [x, 0.35, 0], material("#374c40"));
   g.traverse((o) => ((o as THREE.Mesh).castShadow = true));
   return g;
 }
@@ -137,15 +119,23 @@ export class World {
     this.renderer = new THREE.WebGLRenderer({ antialias: true });
     this.renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
     this.renderer.shadowMap.enabled = true;
-    this.renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+    this.renderer.shadowMap.type = THREE.PCFShadowMap;
+    this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    this.renderer.toneMappingExposure = 1.15;
+    const pmrem = new THREE.PMREMGenerator(this.renderer);
+    const environment = new RoomEnvironment();
+    this.scene.environment = pmrem.fromScene(environment, 0.04).texture;
+    this.scene.environmentIntensity = 0.35;
+    environment.dispose();
+    pmrem.dispose();
     host.appendChild(this.renderer.domElement);
 
     this.labels = new CSS2DRenderer();
     this.labels.domElement.className = "labels";
     host.appendChild(this.labels.domElement);
 
-    this.scene.background = new THREE.Color("#cfd8dc");
-    this.scene.fog = new THREE.Fog("#cfd8dc", 45, 120);
+    this.scene.background = new THREE.Color("#cbd7dd");
+    this.scene.fog = new THREE.Fog("#cbd7dd", 48, 130);
     this.camera.position.set(17, 13, 24);
     this.controls = new OrbitControls(this.camera, this.renderer.domElement);
     this.controls.target.set(0, 2, 0);
@@ -159,6 +149,7 @@ export class World {
     this.buildGround();
     this.buildBuilding();
     this.buildCar();
+    this.buildStreetProps();
     this.dustVel = new Float32Array(0);
     this.dust = this.buildDust();
     this.ghosts.renderOrder = 10;
@@ -185,11 +176,15 @@ export class World {
     sun.position.set(18, 30, 22);
     sun.castShadow = true;
     sun.shadow.mapSize.set(2048, 2048);
+    sun.shadow.normalBias = 0.035;
+    sun.shadow.bias = -0.00015;
     const s = sun.shadow.camera;
     s.left = -25;
     s.right = 25;
     s.top = 25;
     s.bottom = -25;
+    s.near = 0.5;
+    s.far = 80;
     this.scene.add(sun);
     // Work light inside the standing ground storey, where the V marking is painted.
     const work = new THREE.PointLight("#fff1d6", 22, 9, 2);
@@ -198,11 +193,15 @@ export class World {
   }
 
   private buildGround() {
-    const ground = new THREE.Mesh(new THREE.PlaneGeometry(200, 200), new THREE.MeshStandardMaterial({ color: "#8f8a80" }));
+    const groundMat = surfaceMaterial("#98968b", "concrete").clone();
+    groundMat.map = groundMat.map!.clone();
+    groundMat.map.repeat.set(100, 100);
+    groundMat.bumpMap = groundMat.map;
+    const ground = new THREE.Mesh(new THREE.PlaneGeometry(200, 200), groundMat);
     ground.rotation.x = -Math.PI / 2;
     ground.receiveShadow = true;
     this.scene.add(ground);
-    const road = new THREE.Mesh(new THREE.PlaneGeometry(200, 7), new THREE.MeshStandardMaterial({ color: "#4a4d50" }));
+    const road = new THREE.Mesh(new THREE.PlaneGeometry(200, 7), surfaceMaterial("#484e51", "asphalt"));
     road.rotation.x = -Math.PI / 2;
     road.position.set(0, 0.01, FRONT_Z + 6.5);
     road.receiveShadow = true;
@@ -213,6 +212,20 @@ export class World {
       dash.position.set(i * 5, 0.02, FRONT_Z + 6.5);
       this.scene.add(dash);
     }
+    const paving = new THREE.Mesh(new THREE.PlaneGeometry(38, 2.1), surfaceMaterial("#b2b4aa", "paving"));
+    paving.rotation.x = -Math.PI / 2;
+    paving.position.set(0, 0.025, FRONT_Z + 1.45);
+    paving.receiveShadow = true;
+    this.scene.add(paving);
+    const curb = new THREE.Group();
+    for (let i = -19; i < 19; i++) box(curb, [0.97, 0.15, 0.24], [i + 0.5, 0.075, FRONT_Z + 2.65], material(i % 5 === 0 ? "#aaa99e" : "#c5c5ba"));
+    // Drain covers and gutters give the street scale without obstructing the rescue route.
+    for (const x of [-14, 14]) {
+      box(curb, [0.8, 0.035, 0.4], [x, 0.03, FRONT_Z + 2.98], material("#303c3b", 0.6, 0.4));
+      for (let i = 0; i < 9; i++) box(curb, [0.025, 0.018, 0.35], [x - 0.32 + i * 0.08, 0.051, FRONT_Z + 2.98], material("#8b9894", 0.5, 0.6));
+    }
+    batch(curb);
+    this.scene.add(curb);
   }
 
   private addPiece(
@@ -245,10 +258,10 @@ export class World {
 
   private buildBuilding() {
     const r = rng(7);
-    const concrete = new THREE.MeshStandardMaterial({ color: "#b3ada3", flatShading: true });
-    const slabMat = new THREE.MeshStandardMaterial({ color: "#9e988d", flatShading: true });
-    const facade = new THREE.MeshStandardMaterial({ map: facadeTexture() });
-    const wallLight = new THREE.MeshStandardMaterial({ color: "#d4cec4" });
+    const concrete = surfaceMaterial("#aaa79b", "concrete");
+    const slabMat = surfaceMaterial("#a29f95", "concrete");
+    const facade = surfaceMaterial("#c4c0b3", "concrete");
+    const wallLight = surfaceMaterial("#d0cbc0", "concrete");
     const t = 0.25;
 
     // Ground slab and the standing part of the ground storey (left side, with the entrance).
@@ -275,6 +288,7 @@ export class World {
     const sideL = new THREE.Mesh(new THREE.BoxGeometry(t, H, D), wallLight);
     sideL.position.set(-W / 2 + t / 2, H / 2 + 0.3, 0);
     sideL.castShadow = sideL.receiveShadow = true;
+    sideL.add(wallDetails(t, H, D, true));
     this.scene.add(sideL);
     const backL = new THREE.Mesh(new THREE.BoxGeometry(7, H, t), wallLight);
     backL.position.set(-W / 2 + 3.5, H / 2 + 0.3, -FRONT_Z + t / 2);
@@ -304,6 +318,18 @@ export class World {
     this.scene.add(anchor);
     this.anchors.set("worksite", anchor);
 
+    const entrance = new THREE.Group();
+    const trim = material("#929487", 0.7);
+    for (const x of [-5.25, -3.95]) box(entrance, [0.1, 2.42, 0.09], [x, 1.5, FRONT_Z + 0.015], trim);
+    box(entrance, [1.4, 0.1, 0.09], [DOOR_X, 2.7, FRONT_Z + 0.015], trim);
+    box(entrance, [1.5, 0.12, 0.65], [DOOR_X, 0.06, FRONT_Z + 0.25], slabMat);
+    box(entrance, [1.4, 0.12, 0.45], [DOOR_X, 0.19, FRONT_Z + 0.1], slabMat);
+    cylinder(entrance, 0.045, 3.15, [-5.7, 1.83, FRONT_Z + 0.16], material("#738281", 0.6, 0.4));
+    for (const y of [0.8, 2.6]) box(entrance, [0.16, 0.04, 0.07], [-5.7, y, FRONT_Z + 0.13], trim);
+    box(entrance, [0.46, 0.26, 0.06], [-5.53, 2.52, FRONT_Z + 0.035], material("#3c655e"), 0.01);
+    batch(entrance);
+    this.scene.add(entrance);
+
     // Falling ground-storey walls (right part).
     const tilt = Math.atan2(H - 0.4, W - 1);
     this.addPiece(new THREE.BoxGeometry(5, H, t), wallLight, new THREE.Vector3(3.5, H / 2 + 0.3, FRONT_Z - t / 2), new THREE.Vector3(3.6, 0.5, FRONT_Z + 1.3), new THREE.Euler(1.35, 0.1, 0.05), 0.35);
@@ -311,7 +337,7 @@ export class World {
 
     // Upper floor slabs pancake: left edge rests on the standing wall, right edge on the ground.
     for (let i = 1; i <= 3; i++) {
-      this.addPiece(
+      const slab = this.addPiece(
         new THREE.BoxGeometry(W, 0.3, D),
         slabMat,
         new THREE.Vector3(0, i * H + 0.3, 0),
@@ -320,6 +346,12 @@ export class World {
         0.15 * (3 - i),
         1.1 + i * 0.12,
       );
+      if (i === 3) slab.add(roofDetails(W, D));
+      // Concrete edge seams remain attached to each moving floor.
+      const edges = new THREE.Group();
+      for (let x = -5; x <= 5; x += 2) box(edges, [0.025, 0.22, 0.013], [x, 0, FRONT_Z + 0.008], material("#706f66"));
+      batch(edges);
+      slab.add(edges);
     }
 
     // Upper storey walls: facades fall outward, the rest falls into the pile.
@@ -332,14 +364,17 @@ export class World {
         { size: [t, H, D], pos: [W / 2 - t / 2, y, 0], out: new THREE.Vector3(W / 2 + 2.8 + s, 0.5 + s * 0.3, -0.8), rot: new THREE.Euler(0.1, -0.2, -1.45), mat: wallLight },
       ];
       for (const w of walls) {
-        this.addPiece(new THREE.BoxGeometry(...w.size), w.mat, new THREE.Vector3(...w.pos), w.out, w.rot, 0.1 + r() * 0.3, 1.3 + s * 0.2);
+        const wall = this.addPiece(new THREE.BoxGeometry(...w.size), w.mat, new THREE.Vector3(...w.pos), w.out, w.rot, 0.1 + r() * 0.3, 1.3 + s * 0.2);
+        wall.add(wallDetails(...w.size, w.size[0] === t, w.pos[2] > 0));
       }
     }
 
     // Debris chunks appear and settle into piles around the collapse.
     for (let i = 0; i < 90; i++) {
       const s = 0.3 + r() * 0.9;
-      const geo = new THREE.BoxGeometry(s * (0.6 + r()), s * 0.6, s * (0.6 + r()));
+      const geo = i % 3 === 0
+        ? new THREE.IcosahedronGeometry(s * 0.55, 0)
+        : new THREE.BoxGeometry(s * (0.6 + r()), s * 0.6, s * (0.6 + r()));
       const from = new THREE.Vector3(-2 + r() * 8, 3 + r() * 7, -4 + r() * 8);
       const side = r();
       const to =
@@ -348,31 +383,80 @@ export class World {
           : side < 0.75
             ? new THREE.Vector3(W / 2 + 0.3 + r() * 2.5, 0.3 + r() * 1.2, -3.5 + r() * 7)
             : new THREE.Vector3(-2 + r() * 9, 0.4 + r() * 0.8, -FRONT_Z - 0.5 - r() * 2.5);
-      this.addPiece(geo, concrete, from, to, new THREE.Euler(r() * 3, r() * 3, r() * 3), 0.3 + r() * 0.8, 0.9 + r() * 0.6, true);
+      const chunk = this.addPiece(geo, i % 5 === 0 ? material("#9d6750") : concrete, from, to, new THREE.Euler(r() * 3, r() * 3, r() * 3), 0.3 + r() * 0.8, 0.9 + r() * 0.6, true);
+      if (i % 8 === 0) {
+        const steel = new THREE.Group();
+        for (const offset of [-0.12, 0.12]) {
+          rod(steel, new THREE.Vector3(offset, 0, 0), new THREE.Vector3(offset + 0.06, s * 0.8, 0.05), 0.018, material("#69544a", 0.65, 0.5));
+        }
+        batch(steel);
+        chunk.add(steel);
+      }
     }
   }
 
   private buildCar() {
-    const g = new THREE.Group();
-    const body = new THREE.Mesh(new THREE.BoxGeometry(4.2, 0.9, 1.8), new THREE.MeshStandardMaterial({ color: "#d7dde0", metalness: 0.2, roughness: 0.5 }));
-    body.position.y = 0.75;
-    const cabin = new THREE.Mesh(new THREE.BoxGeometry(2.3, 0.75, 1.62), new THREE.MeshStandardMaterial({ color: "#3e4b52" }));
-    cabin.position.set(-0.2, 1.55, 0);
-    g.add(body, cabin);
-    for (const [x, z] of [[-1.35, 0.9], [1.35, 0.9], [-1.35, -0.9], [1.35, -0.9]] as const) {
-      const w = new THREE.Mesh(new THREE.CylinderGeometry(0.36, 0.36, 0.25, 16), new THREE.MeshStandardMaterial({ color: "#222" }));
-      w.rotation.x = Math.PI / 2;
-      w.position.set(x, 0.36, z);
-      g.add(w);
-    }
-    g.traverse((o) => ((o as THREE.Mesh).castShadow = true));
+    const g = sedan();
     g.position.set(11.5, 0, FRONT_Z + 4.6);
     g.rotation.y = 0.04;
     this.scene.add(g);
     const anchor = new THREE.Object3D();
-    anchor.position.set(0.3, 0.82, 0.905);
+    anchor.position.set(0.3, 0.79, 0.926);
     g.add(anchor);
     this.anchors.set("car", anchor);
+  }
+
+  private buildStreetProps() {
+    const props = new THREE.Group();
+    const steel = material("#667574", 0.48, 0.6);
+    // Keep foreground objects outside the collapse footprint, entrance and carrying path.
+    const truck = rescueTruck();
+    truck.position.set(-13, 0, FRONT_Z + 8.9);
+    props.add(truck);
+    for (const x of [-17.5, -15.8, -8.7, -7]) {
+      const trafficCone = cone();
+      trafficCone.position.set(x, 0.02, FRONT_Z + 7.15);
+      props.add(trafficCone);
+    }
+    for (const x of [-17, 18]) {
+      cylinder(props, 0.09, 6.6, [x, 3.3, FRONT_Z + 1.7], steel);
+      box(props, [1.55, 0.08, 0.09], [x + 0.7, 6.5, FRONT_Z + 1.7], steel);
+      box(props, [0.7, 0.12, 0.3], [x + 1.25, 6.43, FRONT_Z + 1.7], material("#c2c9c6"), 0.025);
+      cylinder(props, 0.16, 0.22, [x, 0.11, FRONT_Z + 1.7], material("#8b9085"));
+    }
+    // Staged tool cases, timber cribbing and a portable floodlight beside the CCP.
+    for (const x of [-12.3, -11.35]) {
+      box(props, [0.76, 0.32, 0.46], [x, 0.18, FRONT_Z - 0.6], material("#58674d"), 0.045);
+      box(props, [0.21, 0.05, 0.045], [x, 0.37, FRONT_Z - 0.6], steel, 0.01);
+      for (const dx of [-0.25, 0.25]) box(props, [0.035, 0.1, 0.026], [x + dx, 0.26, FRONT_Z - 0.36], steel);
+    }
+    for (let layer = 0; layer < 3; layer++) {
+      for (const offset of [-0.25, 0.25]) {
+        const timber = box(props, [1.1, 0.12, 0.14], [-9.6 + (layer % 2 ? offset : 0), 0.08 + layer * 0.12, FRONT_Z - 0.6 + (layer % 2 ? 0 : offset)], material("#927049"));
+        timber.rotation.y = layer % 2 ? Math.PI / 2 : 0;
+      }
+    }
+    cylinder(props, 0.025, 2.5, [-11.9, 1.25, FRONT_Z - 1.7], steel);
+    for (let i = 0; i < 3; i++) {
+      const angle = i * Math.PI * 2 / 3;
+      rod(props, new THREE.Vector3(-11.9, 0.6, FRONT_Z - 1.7), new THREE.Vector3(-11.9 + Math.cos(angle) * 0.5, 0.02, FRONT_Z - 1.7 + Math.sin(angle) * 0.5), 0.022, steel);
+    }
+    box(props, [0.65, 0.32, 0.12], [-11.9, 2.4, FRONT_Z - 1.7], material("#d4ac3e"), 0.035);
+    box(props, [0.54, 0.23, 0.014], [-11.9, 2.4, FRONT_Z - 1.631], material("#f2ecd4", 0.2));
+    // A low urban backdrop adds context while leaving all four building sides accessible.
+    for (const [x, z, width, height] of [[-19, -19, 8, 12], [-7, -24, 9, 15], [7, -25, 8, 11], [20, -20, 9, 14]]) {
+      const building = box(props, [width!, height!, 7], [x!, height! / 2, z!], material("#aaafa8"));
+      const windows = new THREE.Group();
+      for (let y = 2; y < height!; y += 2.8) {
+        for (let dx = -width! / 2 + 1.1; dx < width! / 2 - 0.5; dx += 1.9) {
+          box(windows, [0.9, 1.35, 0.04], [dx, y - height! / 2, 3.52], material("#697f83", 0.5));
+          box(windows, [1.02, 0.08, 0.13], [dx, y - height! / 2 - 0.7, 3.54], material("#c2c4b9"));
+        }
+      }
+      building.add(windows);
+    }
+    batch(props);
+    this.scene.add(props);
   }
 
   private buildDust(): THREE.Points {
@@ -513,7 +597,7 @@ export class World {
       this.removeWalkers(t.key);
       const list: Walker[] = [];
       for (let i = 0; i < 4; i++) {
-        const g = figure("#c2410c", t.color);
+        const g = rescueFigure(t.color);
         g.position.set(-18 - i * 0.8, 0, FRONT_Z + 8 + (i % 2));
         this.scene.add(g);
         list.push({ group: g, target: new THREE.Vector3(-5.4 + i * 0.9 + ti * 0.3, 0, FRONT_Z + 1.6 + (i % 2) * 0.9 + ti * 1.1), leaving: false });
@@ -523,7 +607,10 @@ export class World {
   }
 
   private removeWalkers(key: string) {
-    for (const w of this.walkers.get(key) ?? []) this.scene.remove(w.group);
+    for (const w of this.walkers.get(key) ?? []) {
+      this.scene.remove(w.group);
+      releaseAsset(w.group);
+    }
     this.walkers.delete(key);
   }
 
@@ -575,7 +662,10 @@ export class World {
 
   /** Drop pending carries (timeline jumps). */
   clearCarries() {
-    for (const c of this.carries) this.scene.remove(c.group);
+    for (const c of this.carries) {
+      this.scene.remove(c.group);
+      releaseAsset(c.group);
+    }
     this.carries = [];
     this.renderCcp();
   }
@@ -585,10 +675,12 @@ export class World {
     const group = new THREE.Group();
     const bed = stretcher(kind);
     bed.position.y = 0.75;
-    const front = figure("#1d4ed8", "#facc15");
+    const front = rescueFigure("#f8fafc", true);
     front.position.x = 1.25;
-    const back = figure("#1d4ed8", "#facc15");
+    front.rotation.y = Math.PI / 2;
+    const back = rescueFigure("#f8fafc", true);
     back.position.x = -1.25;
+    back.rotation.y = Math.PI / 2;
     group.add(bed, front, back);
     group.visible = false;
     this.scene.add(group);
@@ -599,7 +691,7 @@ export class World {
       new THREE.Vector3(DOOR_X, 0, FRONT_Z + 1.6),
       new THREE.Vector3(CCP.x + 1.5, 0, CCP.z - 0.6),
     ];
-    this.carries.push({ group, back, kind, start, path });
+    this.carries.push({ group, front, back, kind, start, path });
     this.renderCcp();
   }
 
@@ -611,6 +703,7 @@ export class World {
     const key = `${L}/${D}`;
     if (key === this.shownCcp) return;
     this.shownCcp = key;
+    releaseAsset(this.ccp);
     this.ccp.clear();
     const place = (kind: "L" | "D", i: number, row: number) => {
       const b = stretcher(kind);
@@ -656,6 +749,7 @@ export class World {
         }
         if (i === c.path.length - 1) {
           this.scene.remove(c.group);
+          releaseAsset(c.group);
           this.carries.splice(this.carries.indexOf(c), 1);
           arrived = true;
           continue;
@@ -664,6 +758,8 @@ export class World {
       c.group.position.copy(pos);
       c.group.rotation.y = Math.atan2(-dir.z, dir.x);
       c.group.position.y += Math.abs(Math.sin(now / 140)) * 0.04;
+      animateRescuer(c.front as THREE.Group, now / 140, true, true);
+      animateRescuer(c.back as THREE.Group, now / 140 + Math.PI, true, true);
     }
     if (arrived) this.renderCcp();
   }
@@ -733,7 +829,12 @@ export class World {
           w.group.position.addScaledVector(d.normalize(), step);
           w.group.rotation.y = Math.atan2(d.x, d.z);
           w.group.position.y = Math.abs(Math.sin(performance.now() / 120)) * 0.06;
-        } else if (w.leaving) gone++;
+        } else {
+          w.group.position.y = 0;
+          if (w.leaving) gone++;
+          else w.group.rotation.y = Math.PI;
+        }
+        animateRescuer(w.group, performance.now() / 120 + w.target.x, dist > 0.05);
       }
       if (gone === list.length) this.removeWalkers(key);
     }

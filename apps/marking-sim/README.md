@@ -60,3 +60,17 @@ src/main.ts   event log as single source of truth; timeline rewinds by replaying
 ```
 
 The same canvas is used as the 3D decal texture and the 2D close-up in the side panel.
+
+### Scene assets
+
+`src/scene/assets.ts` builds local procedural models with shared materials and primitive geometry.
+Decorative meshes are merged by material to reduce draw calls, while limbs and collapse pieces remain
+separate for animation. Buildings have raised window frames, balconies, air conditioners, rooftop
+equipment and textured concrete; vehicles have sloped glazing, panel seams, lights and detailed wheels.
+The street includes a rescue truck, cones, tool cases, timber cribbing and a portable floodlight.
+
+Rescuers follow the supplied Taiwan National Fire Agency special search and rescue uniform photo:
+golden-orange suits, red shoulders, pale-yellow helmets, headlamps, eye and respiratory protection,
+reflective strips, knee pads, harnesses and black packs. Team colors appear on upper-arm bands.
+Walking and carrying use the same uniform model with separate limb poses. Generated team and carry
+geometry is released when removed; shared geometry and materials stay cached.
